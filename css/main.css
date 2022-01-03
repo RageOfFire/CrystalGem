@@ -1,0 +1,363 @@
+@-ms-viewport{
+    width:device-width
+}
+html{
+    box-sizing:border-box;
+    -ms-overflow-style:scrollbar
+}
+*,::after,::before{
+    box-sizing:inherit
+}
+
+html,body {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+hr {
+	max-width: 420px;
+	color: #718093;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.download-icon:hover {
+	transform: scale(1.2);
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.parallax {
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: coral;
+	transition: all .2s ease-in;
+}
+
+a:hover {
+	text-decoration: none;
+	color: orange;
+	transition: all .2s ease-in;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: coral;
+    color: olivedrab;
+    cursor: pointer;
+    padding: 15px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-size: 18px;
+    transition: all .2s ease-in;
+}
+
+#myBtn:hover {
+    background-color: powderblue;
+    transition: all .2s ease-in;
+}
+
+/* Navbar */
+
+.topnav {
+	list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 6px 13px -7px rgba(0,0,0,0.20);
+    transition: all .2s ease-in;
+    font-weight: 700;
+    text-transform: uppercase;
+	background-color: black;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: coral;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div .max-width {
+    max-width: 60%;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+}
+
+/* End Navbar */
+
+#head {
+	background-image: url("../img/background.png");
+	margin: 0;
+	padding: 222px 0px 222px 0px;
+	text-align: center;
+	color: blue;
+}
+
+#head h1 {
+	font-size: 55px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#head h3 {
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+#about {
+	text-align: center;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	background-color: black;
+}
+
+#about h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: white;
+}
+
+#about .features {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-top: 66px;
+}
+
+#about .feature {
+	font-size: 60px;
+	color: white;
+	margin-top: 17px;
+}
+
+#about h2 {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#about p {
+	margin-top: 3px;
+	font-size: 18px;
+	color: white;
+}
+
+#banner {
+	background-image: url("../img/banner1.png");
+	padding: 75px 0px 75px 0px;
+	text-align: center;
+}
+
+#banner2 {
+	background-image: url("../img/banner2.png");
+	padding: 75px 0px 75px 0px;
+	text-align: center;
+}
+#banner h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: darkslateblue;
+}
+
+#banner h2 {
+	margin-top: 5px;
+	font-size: 20px;
+	color: darkslateblue;
+}
+
+#banner2 h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: firebrick;
+}
+
+#banner2 h2 {
+	margin-top: 5px;
+	font-size: 20px;
+	color: firebrick;
+}
+#gamemodes {
+	/* margin: 10px; */
+	text-align: center;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	background-color: black;
+}
+
+#gamemodes h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: white;
+}
+
+#gamemodes h2 {
+	margin-top: 5px;
+	font-size: 20px;
+	color: white;
+}
+
+#gamemodes p {
+	margin-top: 3px;
+	font-size: 18px;
+	color: white;
+}
+
+#gamemodes .darkslategrey {
+	background-color: darkslategrey;
+    padding: 0;
+    margin: -10px;
+}
+
+#gamemodes .mode {
+	margin: 15px;
+	text-align: left;
+	padding: 50px;
+	max-width: 1280px;
+}
+
+#gamemodes .mode-inv {
+	margin: 15px;
+	text-align: right;
+	padding: 50px;
+	max-width: 1280px
+}
+
+@media screen and (min-width: 800px) {
+	#gamemodes .img {
+		margin: 15px;
+		padding: 50px;
+		max-width: 1280px
+	}
+}
+
+@media screen and (max-width: 799px) {
+	#gamemodes .img {
+		padding: 50px 0px 50px 0px;
+	}
+}
+
+#gamemodes .fixed-width {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+@media screen and (min-width: 800px) {
+	.res-img {
+		width: 480px;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.res-img {
+		width: 100%;	}
+}
+#down {
+	text-align: center;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	background-color: black;
+	color: white;
+}
+
+#down h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+#down h2 {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#down p {
+	margin-top: 3px;
+	font-size: 18px;
+}
+
+#down .downlist {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-top: 66px;
+	padding-bottom: 66px;
+}
+
+#down .downblock {
+	transform: none;
+	transition: all .2s ease-in;
+}
+
+.downblock a {
+	font-weight: 700;
+}
+@media screen and (min-width: 800px) {
+	.res-img-sm {
+		height: 110px;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.res-img-sm {
+		width: 100%;	}
+}
