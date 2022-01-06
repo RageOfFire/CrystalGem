@@ -351,6 +351,10 @@ a:hover {
 .downblock a {
 	font-weight: 700;
 }
+.drop-arrow {
+	margin: 10px 0px;
+	color: coral;
+}
 @media screen and (min-width: 800px) {
 	.res-img-sm {
 		height: 110px;
