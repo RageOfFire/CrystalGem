@@ -235,7 +235,7 @@ a:hover {
 	font-size: 20px;
 	color: firebrick;
 }
-#gamemodes {
+#update {
 	/* margin: 10px; */
 	text-align: center;
 	padding-top: 66px;
@@ -243,7 +243,7 @@ a:hover {
 	background-color: black;
 }
 
-#gamemodes h1 {
+#update h1 {
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -251,32 +251,32 @@ a:hover {
 	color: white;
 }
 
-#gamemodes h2 {
+#update h2 {
 	margin-top: 5px;
 	font-size: 20px;
 	color: white;
 }
 
-#gamemodes p {
+#update p {
 	margin-top: 3px;
 	font-size: 18px;
 	color: white;
 }
 
-#gamemodes .darkslategrey {
-	background-color: darkslategrey;
+#update .darkslategrey {
+	background-color: darkslategray;
     padding: 0;
     margin: -10px;
 }
 
-#gamemodes .mode {
+#update .mode {
 	margin: 15px;
 	text-align: left;
 	padding: 50px;
 	max-width: 1280px;
 }
 
-#gamemodes .mode-inv {
+#update .mode-inv {
 	margin: 15px;
 	text-align: right;
 	padding: 50px;
@@ -284,7 +284,7 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
-	#gamemodes .img {
+	#update .img {
 		margin: 15px;
 		padding: 50px;
 		max-width: 1280px
@@ -292,12 +292,12 @@ a:hover {
 }
 
 @media screen and (max-width: 799px) {
-	#gamemodes .img {
+	#update .img {
 		padding: 50px 0px 50px 0px;
 	}
 }
 
-#gamemodes .fixed-width {
+#update .fixed-width {
 	max-width: 1280px;
 	margin: 0 auto;
 }
@@ -311,7 +311,7 @@ a:hover {
 	.res-img {
 		width: 100%;	}
 }
-#down {
+#download {
 	text-align: center;
 	padding-top: 66px;
 	padding-bottom: 66px;
@@ -319,31 +319,31 @@ a:hover {
 	color: white;
 }
 
-#down h1 {
+#download h1 {
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 15px;
 }
 
-#down h2 {
+#download h2 {
 	margin-top: 5px;
 	font-size: 20px;
 }
 
-#down p {
+#download p {
 	margin-top: 3px;
 	font-size: 18px;
 }
 
-#down .downlist {
+#download .downlist {
 	max-width: 1280px;
 	margin: 0 auto;
 	padding-top: 66px;
 	padding-bottom: 66px;
 }
 
-#down .downblock {
+#download .downblock {
 	transform: none;
 	transition: all .2s ease-in;
 }
