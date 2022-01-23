@@ -35,11 +35,11 @@
 	<!-- Navbar -->
 	<div class="topnav" id="myTopnav">
 		<div class="max-width">
-			  <a href="#head">Trang chủ</a>
-			  <a href="#about">Thông tin</a>
-			  <a href="#download">Tải game</a>
-			  <a href="#update">Cập nhật</a>
-		  	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			  <a href="javascript: void(0);" onclick="goto('head')">Trang chủ</a>
+			  <a href="javascript: void(0);" onclick="goto('about')">Thông tin</a>
+			  <a href="javascript: void(0);" onclick="goto('download')">Tải game</a>
+			  <a href="javascript: void(0);" onclick="goto('update')">Cập nhật</a>
+		  	  <a href="javascript: void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
 	</div>
 	<!-- End Navbar -->
@@ -288,6 +288,10 @@
 	    document.documentElement.scrollTop = 0;
 	}
 	</script>
-
+	<script>
+		function goto(id) {
+			document.getElementById(id).scrollIntoView();
+		}
+	</script>
 </body>
 </html>
