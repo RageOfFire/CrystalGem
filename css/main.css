@@ -144,10 +144,10 @@ a:hover {
 
 #head {
 	background-image: url("../img/background.png");
+	color: coral;
 	margin: 0;
 	padding: 222px 0px 222px 0px;
 	text-align: center;
-	color: coral
 }
 
 #head h1 {
