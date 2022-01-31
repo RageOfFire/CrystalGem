@@ -229,7 +229,7 @@ a:hover {
 	font-size: 20px;
 	color: firebrick;
 }
-#update {
+.update {
 	/* margin: 10px; */
 	text-align: center;
 	padding-top: 66px;
@@ -237,39 +237,39 @@ a:hover {
 	background-color: black;
 }
 
-#update h1 {
+.update h1 {
 	font-size: 30px;
 	font-weight: 700;
 	margin-top: 15px;
 	color: white;
 }
 
-#update h2 {
+.update h2 {
 	margin-top: 5px;
 	font-size: 20px;
 	color: white;
 }
 
-#update p {
+.update p {
 	margin-top: 3px;
 	font-size: 18px;
 	color: white;
 }
 
-#update .darkslategrey {
+.update .darkslategrey {
 	background-color: darkslategray;
     padding: 0;
     margin: -10px;
 }
 
-#update .mode {
+.update .mode {
 	margin: 15px;
 	text-align: left;
 	padding: 50px;
 	max-width: 1280px;
 }
 
-#update .mode-inv {
+.update .mode-inv {
 	margin: 15px;
 	text-align: right;
 	padding: 50px;
@@ -277,7 +277,7 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
-	#update .img {
+	.update .img {
 		margin: 15px;
 		padding: 50px;
 		max-width: 1280px
@@ -285,12 +285,12 @@ a:hover {
 }
 
 @media screen and (max-width: 799px) {
-	#update .img {
+	.update .img {
 		padding: 50px 0px 50px 0px;
 	}
 }
 
-#update .fixed-width {
+.update .fixed-width {
 	max-width: 1280px;
 	margin: 0 auto;
 }
