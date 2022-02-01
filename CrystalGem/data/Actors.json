@@ -1,0 +1,13 @@
+[
+null,
+{"id":1,"battlerName":"Kora","characterIndex":0,"characterName":"Kora","classId":1,"equips":[1,0,0,3,0],"faceIndex":0,"faceName":"Kora","traits":[],"initialLevel":1,"maxLevel":30,"name":"Kora","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Valha","characterIndex":0,"characterName":"Valha","classId":2,"equips":[3,0,0,3,0],"faceIndex":0,"faceName":"Valha","traits":[],"initialLevel":1,"maxLevel":30,"name":"Valha","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"Theri","characterIndex":0,"characterName":"Theri","classId":3,"equips":[9,0,0,3,0],"faceIndex":0,"faceName":"Theri","traits":[],"initialLevel":1,"maxLevel":30,"name":"Theri","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"Actor2_1","characterIndex":0,"characterName":"Actor2","classId":4,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":30,"name":"Warrior","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"Mundo2","characterIndex":1,"characterName":"Mundo","classId":2,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Mundo","traits":[],"initialLevel":1,"maxLevel":30,"name":"Mundo","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"Actor2_5","characterIndex":4,"characterName":"Actor2","classId":2,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":30,"name":"Business","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"Actor2_2","characterIndex":1,"characterName":"Actor2","classId":4,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":30,"name":"Maha","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"Actor1_5","characterIndex":4,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":30,"name":"Tucka","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"Actor3_7","characterIndex":6,"characterName":"Actor3","classId":3,"equips":[0,0,0,0,0],"faceIndex":6,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":30,"name":"Hunter","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"Waldron","characterIndex":0,"characterName":"Waldron","classId":4,"equips":[17,0,0,17,0],"faceIndex":0,"faceName":"Waldron","traits":[],"initialLevel":1,"maxLevel":30,"name":"Waldron","nickname":"","note":"","profile":""}
+]
