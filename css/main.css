@@ -19,7 +19,7 @@ html,body {
 
 hr {
 	max-width: 420px;
-	color: coral;
+	background-color: coral;
 }
 
 p {
@@ -35,6 +35,7 @@ p {
 	-ms-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	transform: scale(1.2);
+	cursor: pointer;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'PT Sans', sans-serif;
@@ -81,7 +82,7 @@ a:hover {
 }
 
 #myBtn:hover {
-    background-color: powderblue;
+    background-color: orange;
     transition: all .2s ease-in;
 }
 
