@@ -19,7 +19,7 @@ html,body {
 
 hr {
 	max-width: 420px;
-	color: #718093;
+	color: coral;
 }
 
 p {
@@ -27,7 +27,13 @@ p {
 	margin: 0;
 	padding: 0;
 }
+.download-icon {
+	transition: transform .2s;
+	margin: 0 auto;
+}
 .download-icon:hover {
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
 	transform: scale(1.2);
 }
 h1,h2,h3,h4,h5,h6 {

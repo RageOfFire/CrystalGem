@@ -12,7 +12,6 @@
 	<meta name="og:description" content="Chào mừng tới CrystalGem" />
 	<meta name="theme-color" content="#ff9933">
 	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -21,12 +20,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 
 	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
+	<script src="./js/bootstrap/bootstrap.min.js"></script>
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+	<!-- Main css -->
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
 
@@ -39,7 +40,7 @@
 			  <a href="javascript: void(0);" onclick="goto('about')">Thông tin</a>
 			  <a href="javascript: void(0);" onclick="goto('download')">Tải game</a>
 			  <a href="javascript: void(0);" onclick="goto('update')">Cập nhật</a>
-			  <a href="./CrystalGem/">Chơi ngay! (Trực tuyến)</a>
+			  <a href="./game.html">Chơi ngay! (Trực tuyến)</a>
 		  	  <a href="javascript: void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
 	</div>
@@ -49,7 +50,7 @@
 	<header id="head" class="parallax">
 		<h1 class="mt-3 mb-3"><i class="far fa-gem"></i>CrystalGem<i class="far fa-gem"></i></h1>
 		<h3 class="mt-3 mb-3"><i class="far fa-hand-point-right"></i>A RPG game<i class="far fa-hand-point-left"></i></h3>
-		<h2 class="mt-3 mb-3"><a href="javascript: void(0);" onclick="goto('download')" style="color: darkslateblue;"><i class="fas fa-arrow-circle-down"></i>Tải game<i class="fas fa-arrow-circle-down"></i></a></h2>
+		<h2 class="mt-3 mb-3 download-icon"><a href="javascript: void(0);" onclick="goto('download')"><i class="fas fa-arrow-circle-down"></i>Tải game<i class="fas fa-arrow-circle-down"></i></a></h2>
 	</header>
 	<!-- End Header -->
 
@@ -90,23 +91,31 @@
 		<div class="row downlist">
 			<!-- First download Link -->
 			<div class="col-md downblock">
-				<h2>Phiên bản Android</h2>
-				<a href="https://drive.google.com/file/d/1pD34BNSNBBY1HCKzE7vNhmmIRZ0xCbUp/view?usp=sharing"><i class="fab fa-android fa-7x download-icon"></i>
+				<h2 class="mb-5">Phiên bản Android</h2>
+				<div class="download-icon">
+				<a href="https://drive.google.com/file/d/1pD34BNSNBBY1HCKzE7vNhmmIRZ0xCbUp/view?usp=sharing"><i class="fab fa-android fa-7x"></i>
 				<h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4></a>
+				</div>
 				<hr>
-				<a href="https://www.mediafire.com/file/732bslobw5pss3p/CrystalGem_v1.3.apk/file"><i class="fab fa-android fa-7x download-icon"></i>
+				<div class="download-icon">
+				<a href="https://www.mediafire.com/file/732bslobw5pss3p/CrystalGem_v1.3.apk/file"><i class="fab fa-android fa-7x"></i>
 				<h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4></a>
+				</div>
 			</div>
 			<!-- End First download Link -->
 
 			<!-- Second download Link -->
 			<div class="col-md downblock">
-				<h2>Phiên bản Window</h2>
-				<a href="https://drive.google.com/file/d/1enXgDbIANZp2rxjZY3FSl0M-Q-wwM8oe/view?usp=sharing"><i class="fab fa-windows fa-7x download-icon"></i>
+				<h2 class="mb-5">Phiên bản Window</h2>
+				<div class="download-icon">
+				<a href="https://drive.google.com/file/d/1enXgDbIANZp2rxjZY3FSl0M-Q-wwM8oe/view?usp=sharing"><i class="fab fa-windows fa-7x"></i>
 				<h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4></a>
-				<hr>
-				<a href="https://www.mediafire.com/file/0ivvapvug667vn9/CrystalGem_v1.3.zip/file"><i class="fab fa-windows fa-7x download-icon"></i>
+				</div>
+				<hr >
+				<div class="download-icon">
+				<a href="https://www.mediafire.com/file/0ivvapvug667vn9/CrystalGem_v1.3.zip/file"><i class="fab fa-windows fa-7x"></i>
 				<h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4></a>
+				</div>
 			</div>
 			<!-- End Second download Link -->
 		</div>
