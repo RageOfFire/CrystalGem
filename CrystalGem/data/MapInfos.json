@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Normal Town","order":29,"parentId":0,"scrollX":1018,"scrollY":831},
-{"id":2,"expanded":true,"name":"World 3","order":2,"parentId":0,"scrollX":3898,"scrollY":3331},
+{"id":1,"expanded":false,"name":"Normal Town","order":29,"parentId":0,"scrollX":986,"scrollY":815},
+{"id":2,"expanded":true,"name":"World 3","order":2,"parentId":0,"scrollX":956,"scrollY":609},
 {"id":3,"expanded":false,"name":"Begin","order":1,"parentId":0,"scrollX":918,"scrollY":625},
 {"id":4,"expanded":false,"name":"Swamp","order":3,"parentId":2,"scrollX":1004,"scrollY":763},
 {"id":5,"expanded":false,"name":"Intro","order":14,"parentId":0,"scrollX":918,"scrollY":625},
