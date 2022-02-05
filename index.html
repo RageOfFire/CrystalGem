@@ -21,11 +21,17 @@
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
-	<script src="./js/bootstrap/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 	<!-- Main css -->
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
@@ -141,34 +147,59 @@
 		<!-- First Version -->
 		<div class="row fixed-width">
 			<div class="col-md mode">
-				<h2>V1.0</h2>
-				<ul>
-					<li><p>Phiên bản đầu tiên của game</p></li>
-				</ul>
-				<h2>v1.0.1</h2>
-				<ul>
-					<li><p>Window: Sửa lỗi không thoát được cài đặt và lưu game</p></li>
-				</ul>
-				<h2>v1.0.2</h2>
-				<ul>
-					<li><p>Sửa lỗi nhiệm vụ phụ không reset tiến trình</p></li>
-					<li><p>Mở khu vực ra khỏi làng (nơi bị tường chặn)</p></li>
-				</ul>
-				<h2>v1.0.3</h2>
-				<ul>
-					<li><p>Sửa lỗi chính tả trong game</p></li>
-					<li><p>Sửa lỗi sự kiện phá vỡ pha lê</p></li>
-					<li><p>Sửa lỗi skill lv5 Valha không có mô tả</p></li>
-					<li><p>Sửa lỗi Kora lên lv5 không nhận skill mới</p></li>
-					<li><p>Sửa 1 số lỗi đồ họa</p></li>
-					<li><p>Thêm phần mở màn và thông tin phiên bản</p></li>
-				</ul>
-				<h2>v1.0.4</h2>
-				<ul>
-					<li><p>Sửa lỗi sự kiện pha lê</p></li>
-					<li><p>Sửa lỗi tỷ lệ drop vật phẩm là 100%</p></li>
-					<li><p>Thử nghiệm: Android nút quay lại sẽ mở menu game</p></li>
-				</ul>
+				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version10" aria-expanded="false" aria-controls="version10">
+					<i class="fas fa-angle-double-down"></i> V1.0 <i class="fas fa-angle-double-down"></i>
+				</button>
+				<br>
+			<div class="collapse" id="version10">
+				<div class="card card-body mb-3 bg-dark text-warning">
+					Phiên bản đầu tiên của game
+				</div>
+			</div>
+			<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version101" aria-expanded="false" aria-controls="version101">
+				<i class="fas fa-angle-double-down"></i> V1.0.1 <i class="fas fa-angle-double-down"></i>
+			</button>
+			<br>
+			<div class="collapse" id="version101">
+				<div class="card card-body mb-3 bg-dark text-warning">
+					Window: Sửa lỗi không thoát được cài đặt và lưu game
+				</div>
+			</div>
+			<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version102" aria-expanded="false" aria-controls="version102">
+				<i class="fas fa-angle-double-down"></i> V1.0.2 <i class="fas fa-angle-double-down"></i>
+			</button>
+			<br>
+			<div class="collapse" id="version102">
+				<div class="card card-body mb-3 bg-dark text-warning">
+					Sửa lỗi nhiệm vụ phụ không reset tiến trình<br>
+					Mở khu vực ra khỏi làng (nơi bị tường chặn)
+				</div>
+			</div>
+			<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version103" aria-expanded="false" aria-controls="version103">
+				<i class="fas fa-angle-double-down"></i> V1.0.3 <i class="fas fa-angle-double-down"></i>
+			</button>
+			<br>
+			<div class="collapse" id="version103">
+				<div class="card card-body mb-3 bg-dark text-warning">
+					Sửa lỗi chính tả trong game<br>
+					Sửa lỗi sự kiện phá vỡ pha lê<br>
+					Sửa lỗi skill lv5 Valha không có mô tả<br>
+					Sửa lỗi Kora lên lv5 không nhận skill mới<br>
+					Sửa 1 số lỗi đồ họa<br>
+					Thêm phần mở màn và thông tin phiên bản
+				</div>
+			</div>
+			<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version104" aria-expanded="false" aria-controls="version104">
+				<i class="fas fa-angle-double-down"></i> V1.0.4 <i class="fas fa-angle-double-down"></i>
+			</button>
+			<br>
+			<div class="collapse" id="version104">
+				<div class="card card-body mb-3 bg-dark text-warning">
+					Sửa lỗi sự kiện pha lê<br>
+					Sửa lỗi tỷ lệ drop vật phẩm là 100%<br>
+					Thử nghiệm: Android nút quay lại sẽ mở menu game
+				</div>
+			</div>
 			</div>
 			<!-- Version Image -->
 			<div class="col-md img">
@@ -183,32 +214,47 @@
 						<img class="res-img" src="./img/CrystalGem v1.1 update.png">
 					</div>
 				<div class="col-md mode">
-					<h2>v1.1</h2>
-					<ul>
-						<li><p>Thêm vũ khí,giáp,vật phẩm,kỹ năng mới</p></li>
-						<li><p>Xóa bỏ các hiệu ứng đặc biệt trên vũ khí,giáp.</p></li>
-						<li><p>Cập nhật cốt truyện mới</p></li>
-						<li><p>Nhân vật mới</p></li>
-						<li><p>Kẻ thủ mới</p></li>
-						<li><p>Thêm nút thoát trong game và cả ngoài game.</p></li>
-						<li><p>Sửa lỗi: Sự kiện Valha biến mất khi vào inn lần đầu chơi game</p></li>
-					</ul>
-					<h2>v1.1.1</h2>
-					<ul>
-						<li><p>Sửa 1 số lỗi chính tả</p></li>
-						<li><p>Xóa bỏ các viên đá ở khu vực dịch chuyển từ hang tới chợ đen</p></li>
-						<li><p>Sửa lỗi Inn ở khu làng 2 di chuyển về làng khởi đầu</p></li>
-						<li><p>Sửa lỗi shop bán Item làng 2 không vào được</p></li>
-						<li><p>Sửa 1 số lỗi liên quan đến vật phẩm</p></li>
-						<li><p>Thông báo: Hiện tại bản 1.1.1 đang có sự cố với Android nên tạm thời chỉ có bản cho window</p></li>
-					</ul>
-					<h2>v1.1.2</h2>
-					<ul>
-						<li><p>Sửa 1 số lỗi chính tả</p></li>
-						<li><p>Sửa lỗi trong quá trình giải cứu người chơi rời khỏi khu vực</p></li>
-						<li><p>Sửa lỗi hang động không xuất hiện kẻ thù</p></li>
-						<li><p>Nerf Boss Warrior</p></li>
-					</ul>
+					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version11" aria-expanded="false" aria-controls="version11">
+						<i class="fas fa-angle-double-down"></i> V1.1 <i class="fas fa-angle-double-down"></i>
+					</button>
+					<br>
+					<div class="collapse" id="version11">
+						<div class="card card-body mb-3 bg-dark text-warning">
+							Thêm vũ khí,giáp,vật phẩm,kỹ năng mới<br>
+							Xóa bỏ các hiệu ứng đặc biệt trên vũ khí,giáp<br>
+							Cập nhật cốt truyện mới<br>
+							Nhân vật mới<br>
+							Kẻ thủ mới<br>
+							Thêm nút thoát trong game và cả ngoài game<br>
+							Sửa lỗi: Sự kiện Valha biến mất khi vào inn lần đầu chơi game
+						</div>
+					</div>
+					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version111" aria-expanded="false" aria-controls="version111">
+						<i class="fas fa-angle-double-down"></i> V1.1.1 <i class="fas fa-angle-double-down"></i>
+					</button>
+					<br>
+					<div class="collapse" id="version111">
+						<div class="card card-body mb-3 bg-dark text-warning">
+							Sửa 1 số lỗi chính tả<br>
+							Xóa bỏ các viên đá ở khu vực dịch chuyển từ hang tới chợ đen<br>
+							Sửa lỗi Inn ở khu làng 2 di chuyển về làng khởi đầu<br>
+							Sửa lỗi shop bán Item làng 2 không vào được<br>
+							Sửa 1 số lỗi liên quan đến vật phẩm<br>
+							Thông báo: Hiện tại bản 1.1.1 đang có sự cố với Android nên tạm thời chỉ có bản cho window
+						</div>
+					</div>
+					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version112" aria-expanded="false" aria-controls="version112">
+						<i class="fas fa-angle-double-down"></i> V1.1.2 <i class="fas fa-angle-double-down"></i>
+					</button>
+					<br>
+					<div class="collapse" id="version112">
+						<div class="card card-body mb-3 bg-dark text-warning">
+							Sửa 1 số lỗi chính tả<br>
+							Sửa lỗi trong quá trình giải cứu người chơi rời khỏi khu vực<br>
+							Sửa lỗi hang động không xuất hiện kẻ thù<br>
+							Nerf Boss Warrior
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- End Second Version -->
@@ -216,30 +262,45 @@
 		<section class="update">
 		<div class="row fixed-width">
 			<div class="col-md mode">
-				<h2>V1.2</h2>
-				<ul>
-					<li><p>Cập nhật cốt truyện tiếp theo</p></li>
-					<li><p>Kẻ thù mới</p></li>
-					<li><p>Vũ khí,giáp mới</p></li>
-					<li><p>Kỹ năng mới</p></li>
-					<li><p>Sửa lỗi người chơi không vào được nhiệm vụ phụ làng 2.</p></li>
-					<li><p>Xóa bỏ mô tả cho vũ khí và giáp (trừ khi có hiệu ứng đặc biệt)</p></li>
-				</ul>
-				<h2>V1.2.1</h2>
-				<ul>
-					<li><p>Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)</p></li>
-					<li><p>Sửa 1 số lỗi đồ họa</p></li>
-					<li><p>Thay đổi 1 số đồ họa để tránh hiểu nhầm</p></li>
-				</ul>
-				<h2>V1.2.2</h2>
-				<ul>
-					<li><p>Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)</p></li>
-					<li><p>Sửa lỗi đồ họa</p></li>
-					<li><p>Sửa lỗi Theri(MultiShot) không cộng tp</p></li>
-					<li><p>Mundo(DoomsDay) sẽ hiển thị rõ khi sử dụng</p></li>
-					<li><p>Cải thiện EXP khi đánh quái,nhiệm vụ chính,nhiệm vụ phụ</p></li>
-					<li><p>Thử nghiệm: Khi nhận nhiệm vụ phụ mỗi khi tiêu diệt 1 đối thủ sẽ tính điểm luôn</p></li>
-				</ul>
+				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version12" aria-expanded="false" aria-controls="version12">
+					<i class="fas fa-angle-double-down"></i> V1.2 <i class="fas fa-angle-double-down"></i>
+				</button>
+				<br>
+				<div class="collapse" id="version12">
+					<div class="card card-body mb-3 bg-dark text-warning">
+						Cập nhật cốt truyện tiếp theo<br>
+						Kẻ thù mới<br>
+						Vũ khí,giáp mới<br>
+						Kỹ năng mới<br>
+						Sửa lỗi người chơi không vào được nhiệm vụ phụ làng 2<br>
+						Xóa bỏ mô tả cho vũ khí và giáp (trừ khi có hiệu ứng đặc biệt)
+					</div>
+				</div>
+				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version121" aria-expanded="false" aria-controls="version121">
+					<i class="fas fa-angle-double-down"></i> V1.2.1 <i class="fas fa-angle-double-down"></i>
+				</button>
+				<br>
+				<div class="collapse" id="version121">
+					<div class="card card-body mb-3 bg-dark text-warning">
+						Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)<br>
+						Sửa 1 số lỗi đồ họa<br>
+						Thay đổi 1 số đồ họa để tránh hiểu nhầm
+					</div>
+				</div>
+				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version122" aria-expanded="false" aria-controls="version122">
+					<i class="fas fa-angle-double-down"></i> V1.2.2 <i class="fas fa-angle-double-down"></i>
+				</button>
+				<br>
+				<div class="collapse" id="version122">
+					<div class="card card-body mb-3 bg-dark text-warning">
+						Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)<br>
+						Sửa lỗi đồ họa<br>
+						Sửa lỗi Theri(MultiShot) không cộng tp<br>
+						Mundo(DoomsDay) sẽ hiển thị rõ khi sử dụng<br>
+						Cải thiện EXP khi đánh quái,nhiệm vụ chính,nhiệm vụ phụ<br>
+						Thử nghiệm: Khi nhận nhiệm vụ phụ mỗi khi tiêu diệt 1 đối thủ sẽ tính điểm luôn
+					</div>
+				</div>
 			</div>
 			<!-- Version Image -->
 			<div class="col-md img">
@@ -254,34 +315,37 @@
 						<img class="res-img" src="./img/CrystalGem v1.3 update.png">
 					</div>
 				<div class="col-md mode">
-					<h2>v1.3</h2>
-					<ul>
-						<li><p>Cốt truyện mới</p></li>
-						<li><p>Vật phẩm mới</p></li>
-						<li><p>Kẻ thù mới</p></li>
-						<li><p>Nhân vật mới</p></li>
-						<li><p>Thế giới mới!</p></li>
-						<li><p>Thêm 1 sự kiện đặc biệt ở thế giới chính</p></li>
-						<li><p>Sửa lỗi nhiệm vụ phụ Scorpion vẫn được + điểm khi đấu với những kẻ thù khác scorpion</p></li>
-						<li><p>Sửa lỗi nhiệm vụ phụ Scorpion khi hoàn thành không xóa vật phẩm</p></li>
-						<li><p>Valha (Fire) Giảm sức tấn công của đối thủ trong 3 lượt -> 2 lượt</p></li>
-						<li><p>Theri (Ice) Đóng băng đối thủ với 50% cơ hội -> 30% cơ hội</p></li>
-						<li><p>Kora (Dancing Crititcal) gây độc với 5% cơ hội -> 10% cơ hội</p></li>
-						<li><p>Theri (FrozenArea) Đóng băng với 100% cơ hội -> 60% cơ hội</p></li>
-						<li><p>Valha (Recovery) Cải thiện khả năng hồi phục</p></li>
-						<li><p>Kora (LoveRefuse) Thôi miên với 60% cơ hội -> 40% cơ hội</p></li>
-						<li><p>Sửa lỗi chưa xong nhiệm vụ giải cứu Theri vẫn vào được khu tháp nước</p></li>
-						<li><p>Nhiệm vụ phụ sẽ tính điểm luôn khi từng đối thủ bị hạ (Thử nghiệm)</p></li>
-						<li><p>Nút tiếp tục(Load game) sẽ có thể sử dụng khi dừng game (Thử nghiệm)</p></li>
-					</ul>
+					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version13" aria-expanded="false" aria-controls="version13">
+						<i class="fas fa-angle-double-down"></i> V1.3 <i class="fas fa-angle-double-down"></i>
+					</button>
+					<br>
+					<div class="collapse" id="version13">
+						<div class="card card-body mb-3 bg-dark text-warning">
+							Cốt truyện mới<br>
+							Vật phẩm mới<br>
+							Kẻ thù mới<br>
+							Nhân vật mới<br>
+							Thế giới mới!<br>
+							Thêm 1 sự kiện đặc biệt ở thế giới chính<br>
+							Sửa lỗi nhiệm vụ phụ Scorpion vẫn được + điểm khi đấu với những kẻ thù khác scorpion<br>
+							Sửa lỗi nhiệm vụ phụ Scorpion khi hoàn thành không xóa vật phẩm<br>
+							Valha (Fire) Giảm sức tấn công của đối thủ trong 3 lượt -> 2 lượt<br>
+							Theri (Ice) Đóng băng đối thủ với 50% cơ hội -> 30% cơ hội<br>
+							Kora (Dancing Crititcal) gây độc với 5% cơ hội -> 10% cơ hội<br>
+							Theri (FrozenArea) Đóng băng với 100% cơ hội -> 60% cơ hội<br>
+							Valha (Recovery) Cải thiện khả năng hồi phục<br>
+							Kora (LoveRefuse) Thôi miên với 60% cơ hội -> 40% cơ hội<br>
+							Sửa lỗi chưa xong nhiệm vụ giải cứu Theri vẫn vào được khu tháp nước<br>
+							Nhiệm vụ phụ sẽ tính điểm luôn khi từng đối thủ bị hạ (Thử nghiệm)<br>
+							Nút tiếp tục(Load game) sẽ có thể sử dụng khi dừng game (Thử nghiệm)<br>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- End Second Version -->
 		</section>
 	</section>
 	<!-- End Version Section -->
-	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
 		  // Add smooth scrolling to all links
