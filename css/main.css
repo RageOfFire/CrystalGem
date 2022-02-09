@@ -179,10 +179,9 @@ a:hover {
 	color: firebrick;
 }
 .update {
-	/* margin: 10px; */
 	text-align: center;
-	padding-top: 66px;
-	padding-bottom: 66px;
+	padding-top: 33px;
+	padding-bottom: 33px;
 	background-color: black;
 }
 
@@ -208,7 +207,6 @@ a:hover {
 .update .darkslategrey {
 	background-color: darkslategray;
     padding: 0;
-    margin: -10px;
 }
 
 .update .mode {
