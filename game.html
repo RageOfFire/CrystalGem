@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrystalGem</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CrystalGem</title>
 	<meta name="description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
 	game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website">
 	<meta name="author" content="RageOfFire">
@@ -22,32 +23,45 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
-    <script src="./js/bootstrap/bootstrap.min.js"></script>
+	<script src="./js/bootstrap/bootstrap.min.js"></script>
 
-	<!-- AD -->
-	
+	<!-- Google -->
+
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4590490397371826"
-     crossorigin="anonymous"></script>
-	
+		crossorigin="anonymous"></script>
 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EVXLB9CWR2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-EVXLB9CWR2');
+	</script>
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body style="background-color: darkgrey;">
-    <div class="container rounded bg-dark mt-3 mb-3">
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe id="gameFrame" allowfullscreen="true" scrolling="no" sandbox="allow-same-origin allow-scripts" src=""></iframe>
-        </div>
-    </div>
-    <div class="d-flex container rounded bg-info justify-content-center">
-		<button class="btn btn-secondary m-3" onclick="location.href='./';" type="button">Quay lại</button> 
-        <button class="btn btn-success m-3" onclick="gameFrame.src='./CrystalGem/'; gameFrame.focus();" type="button">Chơi game</button> 
-        <button class="btn btn-danger m-3" onclick="gameFrame.src='';" type="button">Dừng</button>
-    </div>
+	<div class="container rounded bg-dark mt-3 mb-3">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe id="gameFrame" allowfullscreen="true" scrolling="no" sandbox="allow-same-origin allow-scripts"
+				src=""></iframe>
+		</div>
+	</div>
+	<div class="d-flex container rounded bg-info justify-content-center">
+		<button class="btn btn-secondary m-3" onclick="location.href='./';" type="button">Quay lại</button>
+		<button class="btn btn-success m-3" onclick="gameFrame.src='./CrystalGem/'; gameFrame.focus();"
+			type="button">Chơi game</button>
+		<button class="btn btn-danger m-3" onclick="gameFrame.src='';" type="button">Dừng</button>
+	</div>
 </body>
+
 </html>
