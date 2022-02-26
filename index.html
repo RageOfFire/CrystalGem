@@ -2,595 +2,493 @@
 <html lang="en">
 
 <head>
-	<title>CrystalGem</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<meta name="description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
+    <title>CrystalGem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
 	game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website">
-	<meta name="author" content="RageOfFire">
-	<meta name="og:title" content="CrystalGem" />
-	<meta name="og:url" content="https://www.crystalgem.cf" />
-	<meta name="og:image" content="https://raw.githubusercontent.com/RageOfFire/CrystalGem/main/img/background.png" />
-	<meta name="og:image:width" content="1280" />
-	<meta name="og:image:height" content="720" />
-	<meta name="og:description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
+    <meta name="author" content="RageOfFire">
+    <meta name="og:title" content="CrystalGem" />
+    <meta name="og:url" content="https://www.crystalgem.cf" />
+    <meta name="og:image" content="https://raw.githubusercontent.com/RageOfFire/CrystalGem/main/img/background.png" />
+    <meta name="og:image:width" content="1280" />
+    <meta name="og:image:height" content="720" />
+    <meta name="og:description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
 	game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website" />
-	<meta name="theme-color" content="#ff9933">
-	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#ff9933">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 
-	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
-	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<!-- Google -->
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4590490397371826"
-		crossorigin="anonymous"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EVXLB9CWR2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <!-- Google -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4590490397371826" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVXLB9CWR2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-		gtag('config', 'G-EVXLB9CWR2');
-	</script>
-	<!-- Main css -->
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EVXLB9CWR2');
+    </script>
+    <!-- Main css -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 
 <body>
 
-	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
-	<!-- Navbar -->
-	<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-		<div class="navbar-brand">CrystalGem</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcrystalgem"
-			aria-controls="navbarcrystalgem" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="navbar-brand">CrystalGem</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcrystalgem" aria-controls="navbarcrystalgem" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarcrystalgem">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item mr-3">
-					<a href="javascript: void(0);" onclick="goto('head')">Trang chủ</a>
-				</li>
-				<li class="nav-item mr-3">
-					<a href="javascript: void(0);" onclick="goto('about')">Thông tin</a>
-				</li>
-				<li class="nav-item mr-3">
-					<a href="javascript: void(0);" onclick="goto('download')">Tải game</a>
-				</li>
-				<li class="nav-item dropdown mr-3">
-					<a class="dropdown-toggle" href="javascript: void(0);" onclick="goto('update')" id="narbarupdate"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="collapse navbar-collapse" id="navbarcrystalgem">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-3">
+                    <a href="javascript: void(0);" onclick="goto('head')">Trang chủ</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a href="javascript: void(0);" onclick="goto('about')">Thông tin</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a href="javascript: void(0);" onclick="goto('download')">Tải game</a>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                    <a class="dropdown-toggle" href="javascript: void(0);" onclick="goto('update')" id="narbarupdate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Cập nhật
 					</a>
-					<div class="dropdown-menu bg-dark" aria-labelledby="narbarupdate">
-						<a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-							onclick="goto('v1.0.x')">v1.0.x</a>
-						<a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-							onclick="goto('v1.1.x')">v1.1.x</a>
-						<a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-							onclick="goto('v1.2.x')">v.1.2.x</a>
-						<a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-							onclick="goto('v1.3.x')">v.1.3.x</a>
-						<a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-							onclick="goto('v1.4.x')">v.1.4.x</a>
-					</div>
-				</li>
-			</ul>
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a href="./game.html"><i class="fas fa-gamepad"></i> Chơi trực tuyến! <i
+                    <div class="dropdown-menu bg-dark" aria-labelledby="narbarupdate">
+                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);" onclick="goto('v1.0.x')">v1.0.x</a>
+                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);" onclick="goto('v1.1.x')">v1.1.x</a>
+                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);" onclick="goto('v1.2.x')">v.1.2.x</a>
+                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);" onclick="goto('v1.3.x')">v.1.3.x</a>
+                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);" onclick="goto('v1.4.x')">v.1.4.x</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./game.html"><i class="fas fa-gamepad"></i> Chơi trực tuyến! <i
 							class="fas fa-gamepad"></i></a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- End Navbar -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
 
-	<!-- Header (Banner) -->
-	<header id="head" class="parallax">
-		<h1 class="mt-3 mb-3"><i class="far fa-gem"></i>CrystalGem<i class="far fa-gem"></i></h1>
-	</header>
-	<!-- End Header -->
+    <!-- Header (Banner) -->
+    <header id="head" class="parallax">
+        <h1 class="mt-3 mb-3"><i class="far fa-gem"></i>CrystalGem<i class="far fa-gem"></i></h1>
+    </header>
+    <!-- End Header -->
 
-	<!-- About Section -->
-	<section id="about">
-		<h1>Thông tin</h1>
-		<hr>
-		<!-- First row of features -->
-		<div class="row features">
-			<div class="col download-icon">
-				<i class="fas fa-bolt feature"></i>
-				<p>Hệ thống chiến đấu và kỹ năng đa dạng</p>
-			</div>
-			<div class="col download-icon">
-				<i class="fas fa-comments feature"></i>
-				<p>Cốt truyện phong phú</p>
-			</div>
-			<div class="col download-icon">
-				<i class="fas fa-dungeon feature"></i>
-				<p>Thế giới rộng lớn đang chờ bạn khám phá</p>
-			</div>
-		</div>
-		<!-- End first row -->
-	</section>
-	<!-- End about section -->
-	<!-- Banner 1 -->
-	<section id="banner" class="parallax">
-		<div class="container">
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe src="https://discord.com/widget?id=752171524919918672&theme=dark" allowtransparency="true"
-					frameborder="0"
-					sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-			</div>
-		</div>
-	</section>
-	<!-- End Banner 1 -->
-	<!-- Download Section -->
-	<section id="download">
-		<h1>Tải CrystalGem ngay</h1>
-		<h1>v1.4.1</h1>
-		<hr>
-		<div class="row downlist">
-			<!-- First download Link -->
-			<div class="col-md downblock">
-				<h1 class="mb-5">Phiên bản Android</h1>
-				<a href="https://drive.google.com/file/d/1CTjpzhDeaSLR9OS9JYD4bQ5YdS3nqXjh/view?usp=sharing"
-					target="_blank">
-					<div class="download-icon">
-						<i class="fab fa-android fa-7x"></i>
-						<h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4>
-					</div>
-				</a>
-				<hr class="mb-5 mt-5">
-				<a href="https://www.mediafire.com/file/jtsvcegpo2ml8nc/CrystalGem_v1.4.1.apk/file" target="_blank">
-					<div class="download-icon">
-						<i class="fab fa-android fa-7x"></i>
-						<h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
-					</div>
-				</a>
-			</div>
-			<!-- End First download Link -->
+    <!-- About Section -->
+    <section id="about">
+        <h1>Thông tin</h1>
+        <hr>
+        <!-- First row of features -->
+        <div class="row features">
+            <div class="col download-icon">
+                <i class="fas fa-bolt feature"></i>
+                <p>Hệ thống chiến đấu và kỹ năng đa dạng</p>
+            </div>
+            <div class="col download-icon">
+                <i class="fas fa-comments feature"></i>
+                <p>Cốt truyện phong phú</p>
+            </div>
+            <div class="col download-icon">
+                <i class="fas fa-dungeon feature"></i>
+                <p>Thế giới rộng lớn đang chờ bạn khám phá</p>
+            </div>
+        </div>
+        <!-- End first row -->
+    </section>
+    <!-- End about section -->
+    <!-- Banner 1 -->
+    <section id="banner" class="parallax">
+        <div class="container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://discord.com/widget?id=752171524919918672&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner 1 -->
+    <!-- Download Section -->
+    <section id="download">
+        <h1>Tải CrystalGem ngay</h1>
+        <h1>v1.4.1</h1>
+        <hr>
+        <div class="row downlist">
+            <!-- First download Link -->
+            <div class="col-md downblock">
+                <h1 class="mb-5">Phiên bản Android</h1>
+                <a href="https://drive.google.com/file/d/1CTjpzhDeaSLR9OS9JYD4bQ5YdS3nqXjh/view?usp=sharing" target="_blank">
+                    <div class="download-icon">
+                        <i class="fab fa-android fa-7x"></i>
+                        <h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4>
+                    </div>
+                </a>
+                <hr class="mb-5 mt-5">
+                <a href="https://www.mediafire.com/file/jtsvcegpo2ml8nc/CrystalGem_v1.4.1.apk/file" target="_blank">
+                    <div class="download-icon">
+                        <i class="fab fa-android fa-7x"></i>
+                        <h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
+                    </div>
+                </a>
+            </div>
+            <!-- End First download Link -->
 
-			<!-- Second download Link -->
-			<div class="col-md downblock">
-				<h1 class="mb-5">Phiên bản Window</h1>
-				<a href="https://drive.google.com/file/d/1JDIFgVE9q_meBh_cp82L-FGACt3PGi4q/view?usp=sharing"
-					target="_blank">
-					<div class="download-icon">
-						<i class="fab fa-windows fa-7x"></i>
-						<h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4>
-					</div>
-				</a>
-				<hr class="mb-5 mt-5">
-				<a href="https://www.mediafire.com/file/fmembwx4n2gdvdy/CrystalGem_v1.4.1.zip/file" target="_blank">
-					<div class="download-icon">
-						<i class="fab fa-windows fa-7x"></i>
-						<h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
-					</div>
-				</a>
-			</div>
-			<!-- End Second download Link -->
-		</div>
-	</section>
-	<!-- End download Section -->
-	<!-- Start Second Banner -->
-	<section id="banner" class="parallax">
-		<div class="container">
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe src="https://discord.com/widget?id=752171524919918672&theme=dark" allowtransparency="true"
-					frameborder="0"
-					sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-			</div>
-		</div>
-	</section>
-	<!-- Versions Section -->
-	<div class="update" id="update">
-		<h1 class="update">Các phiên bản</h1>
-		<hr>
-	</div>
-	<section class="update">
-		<!-- First Version -->
-		<div class="row fixed-width" id="v1.0.x">
-			<div class="col-md mode">
-				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version10"
-					aria-expanded="false" aria-controls="version10">
+            <!-- Second download Link -->
+            <div class="col-md downblock">
+                <h1 class="mb-5">Phiên bản Window</h1>
+                <a href="https://drive.google.com/file/d/1JDIFgVE9q_meBh_cp82L-FGACt3PGi4q/view?usp=sharing" target="_blank">
+                    <div class="download-icon">
+                        <i class="fab fa-windows fa-7x"></i>
+                        <h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4>
+                    </div>
+                </a>
+                <hr class="mb-5 mt-5">
+                <a href="https://www.mediafire.com/file/fmembwx4n2gdvdy/CrystalGem_v1.4.1.zip/file" target="_blank">
+                    <div class="download-icon">
+                        <i class="fab fa-windows fa-7x"></i>
+                        <h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
+                    </div>
+                </a>
+            </div>
+            <!-- End Second download Link -->
+        </div>
+    </section>
+    <!-- End download Section -->
+    <!-- Start Second Banner -->
+    <section id="banner" class="parallax">
+        <div class="container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://discord.com/widget?id=752171524919918672&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Versions Section -->
+    <div class="update" id="update">
+        <h1 class="update">Các phiên bản</h1>
+        <hr>
+    </div>
+    <section class="update">
+        <!-- First Version -->
+        <div class="row fixed-width" id="v1.0.x">
+            <div class="col-md mode">
+                <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version10" aria-expanded="false" aria-controls="version10">
 					<i class="fas fa-angle-double-down"></i> V1.0 <i class="fas fa-angle-double-down"></i>
 				</button>
-				<br>
-				<div class="collapse" id="version10">
-					<div class="card card-body mb-3 bg-dark text-warning">
-						Phiên bản đầu tiên của game
-					</div>
-				</div>
-				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version101"
-					aria-expanded="false" aria-controls="version101">
+                <br>
+                <div class="collapse" id="version10">
+                    <div class="card card-body mb-3 bg-dark text-warning">
+                        Phiên bản đầu tiên của game
+                    </div>
+                </div>
+                <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version101" aria-expanded="false" aria-controls="version101">
 					<i class="fas fa-angle-double-down"></i> V1.0.1 <i class="fas fa-angle-double-down"></i>
 				</button>
-				<br>
-				<div class="collapse" id="version101">
-					<div class="card card-body mb-3 bg-dark text-warning">
-						Window: Sửa lỗi không thoát được cài đặt và lưu game
-					</div>
-				</div>
-				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version102"
-					aria-expanded="false" aria-controls="version102">
+                <br>
+                <div class="collapse" id="version101">
+                    <div class="card card-body mb-3 bg-dark text-warning">
+                        Window: Sửa lỗi không thoát được cài đặt và lưu game
+                    </div>
+                </div>
+                <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version102" aria-expanded="false" aria-controls="version102">
 					<i class="fas fa-angle-double-down"></i> V1.0.2 <i class="fas fa-angle-double-down"></i>
 				</button>
-				<br>
-				<div class="collapse" id="version102">
-					<div class="card card-body mb-3 bg-dark text-warning">
-						Sửa lỗi nhiệm vụ phụ không reset tiến trình<br>
-						Mở khu vực ra khỏi làng (nơi bị tường chặn)
-					</div>
-				</div>
-				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version103"
-					aria-expanded="false" aria-controls="version103">
+                <br>
+                <div class="collapse" id="version102">
+                    <div class="card card-body mb-3 bg-dark text-warning">
+                        Sửa lỗi nhiệm vụ phụ không reset tiến trình<br> Mở khu vực ra khỏi làng (nơi bị tường chặn)
+                    </div>
+                </div>
+                <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version103" aria-expanded="false" aria-controls="version103">
 					<i class="fas fa-angle-double-down"></i> V1.0.3 <i class="fas fa-angle-double-down"></i>
 				</button>
-				<br>
-				<div class="collapse" id="version103">
-					<div class="card card-body mb-3 bg-dark text-warning">
-						Sửa lỗi chính tả trong game<br>
-						Sửa lỗi sự kiện phá vỡ pha lê<br>
-						Sửa lỗi skill lv5 Valha không có mô tả<br>
-						Sửa lỗi Kora lên lv5 không nhận skill mới<br>
-						Sửa 1 số lỗi đồ họa<br>
-						Thêm phần mở màn và thông tin phiên bản
-					</div>
-				</div>
-				<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version104"
-					aria-expanded="false" aria-controls="version104">
+                <br>
+                <div class="collapse" id="version103">
+                    <div class="card card-body mb-3 bg-dark text-warning">
+                        Sửa lỗi chính tả trong game<br> Sửa lỗi sự kiện phá vỡ pha lê<br> Sửa lỗi skill lv5 Valha không có mô tả<br> Sửa lỗi Kora lên lv5 không nhận skill mới<br> Sửa 1 số lỗi đồ họa<br> Thêm phần mở màn và thông tin phiên bản
+                    </div>
+                </div>
+                <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version104" aria-expanded="false" aria-controls="version104">
 					<i class="fas fa-angle-double-down"></i> V1.0.4 <i class="fas fa-angle-double-down"></i>
 				</button>
-				<br>
-				<div class="collapse" id="version104">
-					<div class="card card-body mb-3 bg-dark text-warning">
-						Sửa lỗi sự kiện pha lê<br>
-						Sửa lỗi tỷ lệ drop vật phẩm là 100%<br>
-						Thử nghiệm: Android nút quay lại sẽ mở menu game
-					</div>
-				</div>
-			</div>
-			<!-- Version Image -->
-			<div class="col-md img">
-				<img class="res-img" src="./img/background.png">
-			</div>
-			<!-- End Version Image -->
-		</div>
-		<!-- End First Version -->
-		<!-- Second Version -->
-		<div class="darkslategrey" id="v1.1.x">
-			<div class="row fixed-width">
-				<div class="col-md img">
-					<img class="res-img" src="./img/CrystalGem v1.1 update.png">
-				</div>
-				<div class="col-md mode">
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version11"
-						aria-expanded="false" aria-controls="version11">
+                <br>
+                <div class="collapse" id="version104">
+                    <div class="card card-body mb-3 bg-dark text-warning">
+                        Sửa lỗi sự kiện pha lê<br> Sửa lỗi tỷ lệ drop vật phẩm là 100%<br> Thử nghiệm: Android nút quay lại sẽ mở menu game
+                    </div>
+                </div>
+            </div>
+            <!-- Version Image -->
+            <div class="col-md img">
+                <img class="res-img" src="./img/background.png">
+            </div>
+            <!-- End Version Image -->
+        </div>
+        <!-- End First Version -->
+        <!-- Second Version -->
+        <div class="darkslategrey" id="v1.1.x">
+            <div class="row fixed-width">
+                <div class="col-md img">
+                    <img class="res-img" src="./img/CrystalGem v1.1 update.png">
+                </div>
+                <div class="col-md mode">
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version11" aria-expanded="false" aria-controls="version11">
 						<i class="fas fa-angle-double-down"></i> V1.1 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version11">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Thêm vũ khí,giáp,vật phẩm,kỹ năng mới<br>
-							Xóa bỏ các hiệu ứng đặc biệt trên vũ khí,giáp<br>
-							Cập nhật cốt truyện mới<br>
-							Nhân vật mới<br>
-							Kẻ thủ mới<br>
-							Thêm nút thoát trong game và cả ngoài game<br>
-							Sửa lỗi: Sự kiện Valha biến mất khi vào inn lần đầu chơi game
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version111"
-						aria-expanded="false" aria-controls="version111">
+                    <br>
+                    <div class="collapse" id="version11">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Thêm vũ khí,giáp,vật phẩm,kỹ năng mới<br> Xóa bỏ các hiệu ứng đặc biệt trên vũ khí,giáp<br> Cập nhật cốt truyện mới<br> Nhân vật mới<br> Kẻ thủ mới<br> Thêm nút thoát trong game và cả ngoài game<br> Sửa lỗi: Sự kiện Valha biến
+                            mất khi vào inn lần đầu chơi game
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version111" aria-expanded="false" aria-controls="version111">
 						<i class="fas fa-angle-double-down"></i> V1.1.1 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version111">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa 1 số lỗi chính tả<br>
-							Xóa bỏ các viên đá ở khu vực dịch chuyển từ hang tới chợ đen<br>
-							Sửa lỗi Inn ở khu làng 2 di chuyển về làng khởi đầu<br>
-							Sửa lỗi shop bán Item làng 2 không vào được<br>
-							Sửa 1 số lỗi liên quan đến vật phẩm<br>
-							Thông báo: Hiện tại bản 1.1.1 đang có sự cố với Android nên tạm thời chỉ có bản cho window
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version112"
-						aria-expanded="false" aria-controls="version112">
+                    <br>
+                    <div class="collapse" id="version111">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa 1 số lỗi chính tả<br> Xóa bỏ các viên đá ở khu vực dịch chuyển từ hang tới chợ đen<br> Sửa lỗi Inn ở khu làng 2 di chuyển về làng khởi đầu<br> Sửa lỗi shop bán Item làng 2 không vào được<br> Sửa 1 số lỗi liên quan đến vật
+                            phẩm<br> Thông báo: Hiện tại bản 1.1.1 đang có sự cố với Android nên tạm thời chỉ có bản cho window
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version112" aria-expanded="false" aria-controls="version112">
 						<i class="fas fa-angle-double-down"></i> V1.1.2 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version112">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa 1 số lỗi chính tả<br>
-							Sửa lỗi trong quá trình giải cứu người chơi rời khỏi khu vực<br>
-							Sửa lỗi hang động không xuất hiện kẻ thù<br>
-							Nerf Boss Warrior
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Second Version -->
-		<!-- 3 Version -->
-		<div class="update" id="v1.2.x">
-			<div class="row fixed-width">
-				<div class="col-md mode">
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version12"
-						aria-expanded="false" aria-controls="version12">
+                    <br>
+                    <div class="collapse" id="version112">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa 1 số lỗi chính tả<br> Sửa lỗi trong quá trình giải cứu người chơi rời khỏi khu vực<br> Sửa lỗi hang động không xuất hiện kẻ thù<br> Nerf Boss Warrior
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Second Version -->
+        <!-- 3 Version -->
+        <div class="update" id="v1.2.x">
+            <div class="row fixed-width">
+                <div class="col-md mode">
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version12" aria-expanded="false" aria-controls="version12">
 						<i class="fas fa-angle-double-down"></i> V1.2 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version12">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Cập nhật cốt truyện tiếp theo<br>
-							Kẻ thù mới<br>
-							Vũ khí,giáp mới<br>
-							Kỹ năng mới<br>
-							Sửa lỗi người chơi không vào được nhiệm vụ phụ làng 2<br>
-							Xóa bỏ mô tả cho vũ khí và giáp (trừ khi có hiệu ứng đặc biệt)
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version121"
-						aria-expanded="false" aria-controls="version121">
+                    <br>
+                    <div class="collapse" id="version12">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Cập nhật cốt truyện tiếp theo<br> Kẻ thù mới<br> Vũ khí,giáp mới<br> Kỹ năng mới<br> Sửa lỗi người chơi không vào được nhiệm vụ phụ làng 2<br> Xóa bỏ mô tả cho vũ khí và giáp (trừ khi có hiệu ứng đặc biệt)
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version121" aria-expanded="false" aria-controls="version121">
 						<i class="fas fa-angle-double-down"></i> V1.2.1 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version121">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)<br>
-							Sửa 1 số lỗi đồ họa<br>
-							Thay đổi 1 số đồ họa để tránh hiểu nhầm
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version122"
-						aria-expanded="false" aria-controls="version122">
+                    <br>
+                    <div class="collapse" id="version121">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)<br> Sửa 1 số lỗi đồ họa<br> Thay đổi 1 số đồ họa để tránh hiểu nhầm
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version122" aria-expanded="false" aria-controls="version122">
 						<i class="fas fa-angle-double-down"></i> V1.2.2 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version122">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)<br>
-							Sửa lỗi đồ họa<br>
-							Sửa lỗi Theri(MultiShot) không cộng tp<br>
-							Mundo(DoomsDay) sẽ hiển thị rõ khi sử dụng<br>
-							Cải thiện EXP khi đánh quái,nhiệm vụ chính,nhiệm vụ phụ<br>
-							Thử nghiệm: Khi nhận nhiệm vụ phụ mỗi khi tiêu diệt 1 đối thủ sẽ tính điểm luôn
-						</div>
-					</div>
-				</div>
-				<!-- Version Image -->
-				<div class="col-md img">
-					<img class="res-img" src="./img/CrystalGem v1.2 update.png">
-				</div>
-				<!-- End Version Image -->
-			</div>
-		</div>
-		<!-- End 3 Version -->
-		<!-- 4 Version -->
-		<div class="darkslategrey" id="v1.3.x">
-			<div class="row fixed-width">
-				<div class="col-md img">
-					<img class="res-img" src="./img/CrystalGem v1.3 update.png">
-				</div>
-				<div class="col-md mode">
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version13"
-						aria-expanded="false" aria-controls="version13">
+                    <br>
+                    <div class="collapse" id="version122">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa 1 số lỗi chính tả (luôn luôn có lỗi đoạn này)<br> Sửa lỗi đồ họa<br> Sửa lỗi Theri(MultiShot) không cộng tp<br> Mundo(DoomsDay) sẽ hiển thị rõ khi sử dụng<br> Cải thiện EXP khi đánh quái,nhiệm vụ chính,nhiệm vụ phụ<br>                            Thử nghiệm: Khi nhận nhiệm vụ phụ mỗi khi tiêu diệt 1 đối thủ sẽ tính điểm luôn
+                        </div>
+                    </div>
+                </div>
+                <!-- Version Image -->
+                <div class="col-md img">
+                    <img class="res-img" src="./img/CrystalGem v1.2 update.png">
+                </div>
+                <!-- End Version Image -->
+            </div>
+        </div>
+        <!-- End 3 Version -->
+        <!-- 4 Version -->
+        <div class="darkslategrey" id="v1.3.x">
+            <div class="row fixed-width">
+                <div class="col-md img">
+                    <img class="res-img" src="./img/CrystalGem v1.3 update.png">
+                </div>
+                <div class="col-md mode">
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version13" aria-expanded="false" aria-controls="version13">
 						<i class="fas fa-angle-double-down"></i> V1.3 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version13">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Cốt truyện mới<br>
-							Vật phẩm mới<br>
-							Kẻ thù mới<br>
-							Nhân vật mới<br>
-							Thế giới mới!<br>
-							Thêm 1 sự kiện đặc biệt ở thế giới chính<br>
-							Sửa lỗi nhiệm vụ phụ Scorpion vẫn được + điểm khi đấu với những kẻ thù khác scorpion<br>
-							Sửa lỗi nhiệm vụ phụ Scorpion khi hoàn thành không xóa vật phẩm<br>
-							Valha (Fire) Giảm sức tấn công của đối thủ trong 3 lượt -> 2 lượt<br>
-							Theri (Ice) Đóng băng đối thủ với 50% cơ hội -> 30% cơ hội<br>
-							Kora (Dancing Crititcal) gây độc với 5% cơ hội -> 10% cơ hội<br>
-							Theri (FrozenArea) Đóng băng với 100% cơ hội -> 60% cơ hội<br>
-							Valha (Recovery) Cải thiện khả năng hồi phục<br>
-							Kora (LoveRefuse) Thôi miên với 60% cơ hội -> 40% cơ hội<br>
-							Sửa lỗi chưa xong nhiệm vụ giải cứu Theri vẫn vào được khu tháp nước<br>
-							Nhiệm vụ phụ sẽ tính điểm luôn khi từng đối thủ bị hạ (Thử nghiệm)<br>
-							Nút tiếp tục(Load game) sẽ có thể sử dụng khi dừng game (Thử nghiệm)<br>
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version131"
-						aria-expanded="false" aria-controls="version131">
+                    <br>
+                    <div class="collapse" id="version13">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Cốt truyện mới<br> Vật phẩm mới<br> Kẻ thù mới<br> Nhân vật mới<br> Thế giới mới!<br> Thêm 1 sự kiện đặc biệt ở thế giới chính<br> Sửa lỗi nhiệm vụ phụ Scorpion vẫn được + điểm khi đấu với những kẻ thù khác scorpion<br> Sửa
+                            lỗi nhiệm vụ phụ Scorpion khi hoàn thành không xóa vật phẩm<br> Valha (Fire) Giảm sức tấn công của đối thủ trong 3 lượt -> 2 lượt<br> Theri (Ice) Đóng băng đối thủ với 50% cơ hội -> 30% cơ hội<br> Kora (Dancing Crititcal) gây
+                            độc với 5% cơ hội -> 10% cơ hội<br> Theri (FrozenArea) Đóng băng với 100% cơ hội -> 60% cơ hội<br> Valha (Recovery) Cải thiện khả năng hồi phục<br> Kora (LoveRefuse) Thôi miên với 60% cơ hội -> 40% cơ hội<br> Sửa lỗi chưa xong
+                            nhiệm vụ giải cứu Theri vẫn vào được khu tháp nước<br> Nhiệm vụ phụ sẽ tính điểm luôn khi từng đối thủ bị hạ (Thử nghiệm)<br> Nút tiếp tục(Load game) sẽ có thể sử dụng khi dừng game (Thử nghiệm)<br>
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version131" aria-expanded="false" aria-controls="version131">
 						<i class="fas fa-angle-double-down"></i> V1.3.1 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version131">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa lỗi đánh bại Waldron không tiếp tục cốt truyện tiếp theo
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version132"
-						aria-expanded="false" aria-controls="version132">
+                    <br>
+                    <div class="collapse" id="version131">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa lỗi đánh bại Waldron không tiếp tục cốt truyện tiếp theo
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version132" aria-expanded="false" aria-controls="version132">
 						<i class="fas fa-angle-double-down"></i> V1.3.2 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version132">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa lỗi sự kiện Gelena không tự động chạy
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version133"
-						aria-expanded="false" aria-controls="version133">
+                    <br>
+                    <div class="collapse" id="version132">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa lỗi sự kiện Gelena không tự động chạy
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version133" aria-expanded="false" aria-controls="version133">
 						<i class="fas fa-angle-double-down"></i> V1.3.3 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version133">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa lỗi sau sự kiện Gelena nhận vật tàng hình<br>
-							Sửa lỗi chính tả<br>
-							Sửa lỗi sau sự kiện Gelena đội chỉ còn 1 nhân vật<br>
-							Chỉnh sửa 1 số đồ họa
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version134"
-						aria-expanded="false" aria-controls="version134">
+                    <br>
+                    <div class="collapse" id="version133">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa lỗi sau sự kiện Gelena nhận vật tàng hình<br> Sửa lỗi chính tả<br> Sửa lỗi sau sự kiện Gelena đội chỉ còn 1 nhân vật<br> Chỉnh sửa 1 số đồ họa
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version134" aria-expanded="false" aria-controls="version134">
 						<i class="fas fa-angle-double-down"></i> V1.3.4 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version134">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa 1 số lỗi đồ họa<br>
-							Sửa lỗi dịch chuyển sai địa điểm<br>
-							Sửa lỗi chính tả<br>
-							Sửa lỗi không ra được khỏi làng ở sa mạc<br>
-							Sửa lỗi sự kiện tìm thấy Valha làm nhân vật biến mất khi nói chuyện<br>
-							Sự kiện đặc biệt (Willowisp) giảm từ 1000 EXP/Gem -> 500 EXP/Gem<br>
-							Thử nghiệm: Waldron(Protect) Đưa đồng minh vào trạng thái bất tử bằng cách né đòn tấn
-							công<br>
-							Làm lại mô tả M.tấn công, M.phòng thủ, Vật phẩm N.V
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version135"
-						aria-expanded="false" aria-controls="version135">
+                    <br>
+                    <div class="collapse" id="version134">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa 1 số lỗi đồ họa<br> Sửa lỗi dịch chuyển sai địa điểm<br> Sửa lỗi chính tả<br> Sửa lỗi không ra được khỏi làng ở sa mạc<br> Sửa lỗi sự kiện tìm thấy Valha làm nhân vật biến mất khi nói chuyện<br> Sự kiện đặc biệt (Willowisp)
+                            giảm từ 1000 EXP/Gem -> 500 EXP/Gem<br> Thử nghiệm: Waldron(Protect) Đưa đồng minh vào trạng thái bất tử bằng cách né đòn tấn công
+                            <br> Làm lại mô tả M.tấn công, M.phòng thủ, Vật phẩm N.V
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version135" aria-expanded="false" aria-controls="version135">
 						<i class="fas fa-angle-double-down"></i> V1.3.5 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version135">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa 1 số lỗi chính tả<br>
-							Sửa lỗi không ra khỏi hang động băng được
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End 4 Version -->
-		<!-- 5 Version -->
-		<div class="update" id="v1.4.x">
-			<div class="row fixed-width">
-				<div class="col-md mode">
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version14"
-						aria-expanded="false" aria-controls="version14">
+                    <br>
+                    <div class="collapse" id="version135">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa 1 số lỗi chính tả<br> Sửa lỗi không ra khỏi hang động băng được
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End 4 Version -->
+        <!-- 5 Version -->
+        <div class="update" id="v1.4.x">
+            <div class="row fixed-width">
+                <div class="col-md mode">
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version14" aria-expanded="false" aria-controls="version14">
 						<i class="fas fa-angle-double-down"></i> V1.4 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version14">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Sửa lỗi bị chặn ở khu vực mới<br>
-							Cốt truyện mới<br>
-							Thay đổi hình dáng của nhân vật Gelena<br>
-							Đổi tên Warrior -> Kudo<br>
-							Waldron(Protect) đưa 1 đồng minh vào trạng thái bất tử -> tăng khả năng phòng thủ cho tất cả
-							đồng minh trong 5 lượt<br>
-							Thêm link đi tới trang web ngay ngoài nền game<br>
-							Thay đổi toàn bộ cơ chế chiến đấu trong game<br>
-							Thay đổi giao diện lưu/tải game<br>
-							Cải thiện hoạt ảnh của kẻ thù<br>
-							Thay đổi giao diện
-						</div>
-					</div>
-					<button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version141"
-						aria-expanded="false" aria-controls="version141">
+                    <br>
+                    <div class="collapse" id="version14">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Sửa lỗi bị chặn ở khu vực mới<br> Cốt truyện mới<br> Thay đổi hình dáng của nhân vật Gelena<br> Đổi tên Warrior -> Kudo<br> Waldron(Protect) đưa 1 đồng minh vào trạng thái bất tử -> tăng khả năng phòng thủ cho tất cả đồng minh
+                            trong 5 lượt<br> Thêm link đi tới trang web ngay ngoài nền game<br> Thay đổi toàn bộ cơ chế chiến đấu trong game<br> Thay đổi giao diện lưu/tải game<br> Cải thiện hoạt ảnh của kẻ thù<br> Thay đổi giao diện
+                        </div>
+                    </div>
+                    <button class="btn btn-info mb-3" type="button" data-toggle="collapse" data-target="#version141" aria-expanded="false" aria-controls="version141">
 						<i class="fas fa-angle-double-down"></i> V1.4.1 <i class="fas fa-angle-double-down"></i>
 					</button>
-					<br>
-					<div class="collapse" id="version141">
-						<div class="card card-body mb-3 bg-dark text-warning">
-							Thêm chức năng đồng bộ hóa FPS<br>
-							Thêm chức năng hoạt ảnh động<br>
-							Thêm nút di chuyển cho điện thoại
-						</div>
-					</div>
-				</div>
-				<!-- Version Image -->
-				<div class="col-md img">
-					<img class="res-img" src="./img/CrystalGem v1.4 update.png">
-				</div>
-				<!-- End Version Image -->
-			</div>
-		</div>
-		<!-- End 5 Version -->
-	</section>
-	<!-- End Version Section -->
-	<script>
-		$(document).ready(function () {
-			// Add smooth scrolling to all links
-			$("a").on('click', function (event) {
+                    <br>
+                    <div class="collapse" id="version141">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                            Thêm chức năng đồng bộ hóa FPS<br> Thêm chức năng hoạt ảnh động<br> Thêm nút di chuyển cho điện thoại
+                        </div>
+                    </div>
+                </div>
+                <!-- Version Image -->
+                <div class="col-md img">
+                    <img class="res-img" src="./img/CrystalGem v1.4 update.png">
+                </div>
+                <!-- End Version Image -->
+            </div>
+        </div>
+        <!-- End 5 Version -->
+    </section>
+    <!-- End Version Section -->
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-				// Make sure this.hash has a value before overriding default behavior
-				if (this.hash !== "") {
-					// Prevent default anchor click behavior
-					event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-					// Store hash
-					var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-					// Using jQuery's animate() method to add smooth page scroll
-					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 100, function () {
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 100, function() {
 
-						// Add hash (#) to URL when done scrolling (default click behavior)
-						window.location.hash = hash;
-					});
-				} // End if
-			});
-		});
-	</script>
-	<!-- End Smooth Scrolling Script -->
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <!-- End Smooth Scrolling Script -->
 
-	<script>
-		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function () { scrollFunction() };
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				document.getElementById("myBtn").style.display = "block";
-			} else {
-				document.getElementById("myBtn").style.display = "none";
-			}
-		}
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
 
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-		}
-	</script>
-	<script>
-		function goto(id) {
-			document.getElementById(id).scrollIntoView();
-		}
-	</script>
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script>
+        function goto(id) {
+            document.getElementById(id).scrollIntoView();
+        }
+    </script>
 </body>
 
 </html>
