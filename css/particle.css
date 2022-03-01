@@ -18,8 +18,7 @@ canvas {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #d7664d;
-    background-image: url("");
+    background-image: linear-gradient(coral, white);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
