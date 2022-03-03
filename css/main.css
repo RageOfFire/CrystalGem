@@ -1,54 +1,67 @@
-@-ms-viewport{
-    width:device-width
+@-ms-viewport {
+    width: device-width
 }
-html{
-    box-sizing:border-box;
-    -ms-overflow-style:scrollbar;
-	scroll-behavior: smooth;
+
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    scroll-behavior: smooth;
 }
-*,::after,::before{
-    box-sizing:inherit
+
+*,
+::after,
+::before {
+    box-sizing: inherit
 }
 
 .dropdown:hover .dropdown-menu {
-	display: block;
+    display: block;
 }
 
-html,body {
-	font-family: 'PT Sans', sans-serif;
-	margin: 0;
-	padding: 0;
-	scroll-behavior: smooth;
+html,
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 hr {
-	max-width: 420px;
-	background-color: coral;
+    max-width: 420px;
+    background-color: coral;
 }
 
 p {
-	font-family: 'Lato', sans-serif;
-	margin: 0;
-	padding: 0;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .download-icon {
-	transition: transform .2s;
-	margin: 0 auto;
+    transition: transform .2s;
+    margin: 0 auto;
 }
+
 .download-icon:hover {
-	-ms-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	transform: scale(1.2);
-	cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+    cursor: pointer;
 }
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'PT Sans', sans-serif;
-	margin: 0;
-	padding: 0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .parallax {
-    height: 100%; 
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,15 +69,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-	text-decoration: none;
-	color: coral;
-	transition: all .2s ease-in;
+    text-decoration: none;
+    color: coral;
+    transition: all .2s ease-in;
 }
 
 a:hover {
-	text-decoration: none;
-	color: orange;
-	transition: all .2s ease-in;
+    text-decoration: none;
+    color: orange;
+    transition: all .2s ease-in;
 }
 
 #myBtn {
@@ -91,216 +104,224 @@ a:hover {
 }
 
 #head {
-	background-image: url("../img/background.png");
-	color: darkslateblue;
-	margin: 0;
-	padding: 222px 0px 222px 0px;
-	text-align: center;
+    background-image: url("../img/background.png");
+    color: darkslateblue;
+    margin: 0;
+    padding: 222px 0px 222px 0px;
+    text-align: center;
 }
 
 #head h1 {
-	font-size: 55px;
-	font-weight: 700;
+    font-size: 55px;
+    font-weight: 700;
 }
 
 #head h3 {
-	font-size: 22px;
+    font-size: 22px;
 }
 
 #about {
-	text-align: center;
-	padding-top: 66px;
-	padding-bottom: 66px;
-	background-color: black;
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    background-color: black;
 }
 
 #about h1 {
-	font-size: 30px;
-	font-weight: 700;
-	margin-top: 15px;
-	color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: white;
 }
 
 #about .features {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding-top: 66px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 66px;
 }
 
 #about .feature {
-	font-size: 60px;
-	color: white;
-	margin-top: 17px;
+    font-size: 60px;
+    color: white;
+    margin-top: 17px;
 }
 
 #about h2 {
-	margin-top: 5px;
-	font-size: 20px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 #about p {
-	margin-top: 3px;
-	font-size: 18px;
-	color: white;
+    margin-top: 3px;
+    font-size: 18px;
+    color: white;
 }
 
 #banner {
-	background-image: url("../img/banner1.png");
-	padding: 75px 0px 75px 0px;
-	text-align: center;
+    background-image: url("../img/banner1.png");
+    padding: 75px 0px 75px 0px;
+    text-align: center;
 }
 
 #banner2 {
-	background-image: url("../img/banner2.png");
-	padding: 75px 0px 75px 0px;
-	text-align: center;
+    background-image: url("../img/banner2.png");
+    padding: 75px 0px 75px 0px;
+    text-align: center;
 }
+
 #banner h1 {
-	font-size: 30px;
-	font-weight: 700;
-	color: darkslateblue;
+    font-size: 30px;
+    font-weight: 700;
+    color: darkslateblue;
 }
 
 #banner h2 {
-	margin-top: 5px;
-	font-size: 20px;
-	color: darkslateblue;
+    margin-top: 5px;
+    font-size: 20px;
+    color: darkslateblue;
 }
 
 #banner2 h1 {
-	font-size: 30px;
-	font-weight: 700;
-	color: firebrick;
+    font-size: 30px;
+    font-weight: 700;
+    color: firebrick;
 }
 
 #banner2 h2 {
-	margin-top: 5px;
-	font-size: 20px;
-	color: firebrick;
+    margin-top: 5px;
+    font-size: 20px;
+    color: firebrick;
 }
+
 .update {
-	text-align: center;
-	padding-top: 33px;
-	padding-bottom: 33px;
-	background-color: black;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-color: black;
 }
 
 .update h1 {
-	font-size: 30px;
-	font-weight: 700;
-	margin-top: 15px;
-	color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: white;
 }
 
 .update h2 {
-	margin-top: 5px;
-	font-size: 20px;
-	color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
 }
 
 .update p {
-	margin-top: 3px;
-	font-size: 18px;
-	color: white;
+    margin-top: 3px;
+    font-size: 18px;
+    color: white;
 }
 
-.update .darkslategrey {
-	background-color: darkslategray;
+.update .second-color {
+    background-color: darkslateblue;
     padding: 0;
 }
 
 .update .mode {
-	margin: 15px;
-	text-align: left;
-	padding: 50px;
-	max-width: 1280px;
+    margin: 15px;
+    text-align: left;
+    padding: 50px;
+    max-width: 1280px;
 }
 
 .update .mode-inv {
-	margin: 15px;
-	text-align: right;
-	padding: 50px;
-	max-width: 1280px
+    margin: 15px;
+    text-align: right;
+    padding: 50px;
+    max-width: 1280px
 }
 
 @media screen and (min-width: 800px) {
-	.update .img {
-		margin: 15px;
-		padding: 50px;
-		max-width: 1280px
-	}
+    .update .img {
+        margin: 15px;
+        padding: 50px;
+        max-width: 1280px
+    }
 }
 
 @media screen and (max-width: 799px) {
-	.update .img {
-		padding: 50px 0px 50px 0px;
-	}
+    .update .img {
+        padding: 50px 0px 50px 0px;
+    }
 }
 
 .update .fixed-width {
-	max-width: 1280px;
-	margin: 0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
+
 @media screen and (min-width: 800px) {
-	.res-img {
-		width: 480px;
-	}
+    .res-img {
+        width: 480px;
+    }
 }
 
 @media screen and (max-width: 799px) {
-	.res-img {
-		width: 100%;	}
+    .res-img {
+        width: 100%;
+    }
 }
+
 #download {
-	text-align: center;
-	padding-top: 66px;
-	padding-bottom: 66px;
-	background-color: black;
-	color: white;
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    background-color: black;
+    color: white;
 }
 
 #download h1 {
-	font-size: 30px;
-	font-weight: 700;
-	margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
 }
 
 #download h2 {
-	margin-top: 5px;
-	font-size: 20px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 #download p {
-	margin-top: 3px;
-	font-size: 18px;
+    margin-top: 3px;
+    font-size: 18px;
 }
 
 #download .downlist {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding-top: 66px;
-	padding-bottom: 66px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 66px;
+    padding-bottom: 66px;
 }
 
 #download .downblock {
-	transform: none;
-	transition: all .2s ease-in;
+    transform: none;
+    transition: all .2s ease-in;
 }
 
 .downblock a {
-	font-weight: 700;
+    font-weight: 700;
 }
+
 .drop-arrow {
-	margin: 10px 0px;
-	color: coral;
+    margin: 10px 0px;
+    color: coral;
 }
+
 @media screen and (min-width: 800px) {
-	.res-img-sm {
-		height: 110px;
-	}
+    .res-img-sm {
+        height: 110px;
+    }
 }
 
 @media screen and (max-width: 799px) {
-	.res-img-sm {
-		width: 100%;	}
+    .res-img-sm {
+        width: 100%;
+    }
 }
