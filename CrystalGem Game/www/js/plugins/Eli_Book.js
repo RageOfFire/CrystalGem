@@ -5,7 +5,7 @@
 /* ------------------------------ HELP ENGLISH ------------------------------ */
 {
 /*:
-@plugindesc ♦5.0.2♦ Essential plugin for all Eli plugins.
+@plugindesc ♦5.0.8♦ Essential plugin for all Eli plugins.
 @author Hakuen Studio
 
 @help 
@@ -169,8 +169,9 @@ Eli.String = {
         return str.replace(this.regRemoveSpace, "")
     },
 
-    replaceAll(str, replacer){
-        return str.replace(new RegExp(str, "g"), replacer)
+    replaceAll(str, replaceThis, withThat, flags = "g"){
+        const reg = new RegExp(replaceThis, flags)
+        return str.replace(reg, withThat)
     },
 }
 
@@ -193,6 +194,23 @@ Eli.Array = {
         return Array.from({length: max+1 - min}, (_, i) => i + min)
     },
 
+    insertElement(array, index, element){
+        array.splice(index, 0, element)
+    },
+
+    removeElement(array, index, deleteCount){
+        array.splice(index, deleteCount)
+    },
+
+    replaceElement(array, oldElement, newElement){
+        const index = array.indexOf(oldElement)
+        array.splice(index, 1, newElement)
+    },
+
+    removeAndInsertElement(array, index, element){
+        array.splice(index, 1, element)
+    },
+
 }
 
 Eli.Number = {
@@ -209,7 +227,7 @@ Eli.Number = {
 // Date Eli. Nice to meet me. ;)
 Eli.Date = {
 
-    miliSecondsToFrames(ms){
+    milliSecondsToFrames(ms){
         return Math.floor( ms / 1000 * 60)
     },
 
@@ -225,7 +243,12 @@ Eli.Date = {
         return Math.floor( hours * Math.pow(60, 3) )
     },
 
+    // will be removed when all plugins have changed to "miLLiseconds"...
     framesToMiliSeconds(frames){
+        return Math.floor( frames * 1000 / 60)
+    },
+
+    framesToMilliSeconds(frames){
         return Math.floor( frames * 1000 / 60)
     },
 
@@ -250,6 +273,7 @@ Eli.Utils = {
     regVariable2: /\x1bV\[(\d+)\]/gi,
     windowMargin: 4,
     bump: new Bump(PIXI),
+    spriteCharacters: {},
 
     processEval(str, scope = window){
         scope["funcName"] = new Function(`return ${str}`)
@@ -466,29 +490,19 @@ Eli.Utils = {
 
     getTextWidth(rawText, allLines, winClass = Window_Base){
         const tempWin = new winClass(0, 0, 1000, 1000)
-        const tempText = rawText.substring(0)
 
-        if(allLines){
-            var width = Math.max(...tempText.split("\n").map(text => tempWin.drawTextEx(text, 0, 0)))
-        }else{
-            var width = tempWin.drawTextEx(tempText, 0, 0)
-        }
-
-        return width
+        return tempWin.getTextWidth(rawText, allLines)
     },
 
     getTextHeight(text, allLines){
         const tempWin = new Window_Base(0, 0, 1000, 1000)
-        const textState = {text: text.substr(0), index: 0}
 
-        return tempWin.calcTextHeight(textState, allLines)
+        return tempWin.getTextHeight(text, allLines)
     },
 
     getTextSettings(text, allLines){
-        return {
-            width: this.getTextWidth(text, allLines),
-            height: this.getTextHeight(text, allLines),
-        }
+        const tempWin = new Window_Base(0, 0, 500, 500)
+        return tempWin.getTextSize(text, allLines)
     },
 
     getMapCharacter(id){
@@ -508,6 +522,11 @@ Eli.Utils = {
         }
     },
 
+    getSpriteCharacter(id){
+        const character = this.getMapCharacter(id)
+        return character.getMapSprite()
+    },
+
     getCharacterId(id){
         const rawCharId = this.needEval(id)
         const charId = isNaN(rawCharId) ? rawCharId : Number(rawCharId)
@@ -524,8 +543,14 @@ Eli.Utils = {
         if(!Decrypter._ignoreList.includes(image)) {
             Decrypter._ignoreList.push(image)
         }
-    }
+    },
 
+    getFaceSize(){
+        return {
+            width: Window_Base._faceWidth,
+            height: Window_Base._faceHeight
+        }
+    },
 
 }
 
@@ -566,6 +591,7 @@ Eli.KeyCodes = {
     isDefaultGamepad(keyCode){
         return this.defaultGamepad.includes(keyCode)
     },
+    
 }
 
 Eli.PluginManager = {
@@ -635,10 +661,15 @@ Eli.PluginManager = {
 
         for(let i = 0; i < ids.length; i++){
             const id = ids[i]
+
             if(id.includes("--")){
                 const [min, max] = id.split("--").map(item => Number(item))
                 const rangeOfIds = Eli.Array.createProgressiveNumbers(min, max)
                 rangeIds.push(...rangeOfIds)
+
+            }else if(isNaN(id)){
+                rangeIds.push(id)
+
             }else{
                 rangeIds.push(Number(id))
             }
@@ -787,6 +818,8 @@ Eli.ColorManager = {
         return this.getRgb(color, 0)
     },
 
+
+
 }
 
 Eli.PixiEventManager = {
@@ -800,7 +833,7 @@ Eli.PixiEventManager = {
 
 Eli.Book = {
 
-    version: 5.02,
+    version: 5.08,
     url: "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz",
     parameters: {
         engine: {
@@ -924,14 +957,17 @@ Graphics._createCanvas = function() {
     Alias.Graphics_createCanvas.call(this)
     if(Eli.Book.isPixelPerfect()){
         document.body.style.imageRendering = "pixelated"
-        document.getElementById("gameCanvas").style.imageRendering = "pixelated"
+        this._canvas.style.imageRendering = "pixelated"
+        PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
     }
 }
 
-Alias.Graphics_setupPixi = Graphics._setupPixi
-Graphics._setupPixi = function() {
-    Alias.Graphics_setupPixi.call(this)
+Alias.Graphics_updateCanvas = Graphics._updateCanvas
+Graphics._updateCanvas = function() {
+    Alias.Graphics_updateCanvas.call(this)
     if(Eli.Book.isPixelPerfect()){
+        document.body.style.imageRendering = "pixelated"
+        this._canvas.style.imageRendering = "pixelated"
         PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
     }
 }
@@ -944,26 +980,13 @@ Graphics._setupPixi = function() {
 Alias.Bitmap_initialize = Bitmap.prototype.initialize
 Bitmap.prototype.initialize = function(width, height) {
     Alias.Bitmap_initialize.call(this, width, height)
+    this._smooth = !Eli.Book.isPixelPerfect()
     this.fontBold = false
-}
-
-Alias.Bitmap_updateScaleMode = Bitmap.prototype._updateScaleMode
-Bitmap.prototype._updateScaleMode = function() {
-    if(this._baseTexture && Eli.Book.isPixelPerfect()){
-        this._baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST
-    }else{
-        Alias.Bitmap_updateScaleMode.call(this)
-    }
 }
 
 Alias.Bitmap_createBaseTexture = Bitmap.prototype._createBaseTexture
 Bitmap.prototype._createBaseTexture = function(source) {
-    if(this.context && Eli.Book.isPixelPerfect()) {
-        this.context.imageSmoothingEnabled = false
-        this.context.lineCap = "square"
-        this.context.lineJoin = "miter"
-    }
-    
+    this._smooth = !Eli.Book.isPixelPerfect()
     Alias.Bitmap_createBaseTexture.call(this, source)
 }
 
@@ -1001,6 +1024,15 @@ Alias.Window_initialize = Window.prototype.initialize
 Window.prototype.initialize = function() {
     Alias.Window_initialize.call(this)
     Eli.Utils.windowMargin = this._margin
+}
+
+Window.prototype.addInnerChild = function(child) {
+    this._windowContentsSprite.addChild(child)
+}
+
+Window.prototype.destroy = function() {
+    const options = { children: true, texture: true }
+    PIXI.Container.prototype.destroy.call(this, options)
 }
 
 }
@@ -1283,11 +1315,128 @@ DataManager.extractSaveContents = function(contents) {
 //     }
 // }
 
+Alias.SceneManager_goto = SceneManager.goto
+SceneManager.goto = function(sceneClass){
+    while(anime.running.length > 0){
+        anime.running[0].pause()
+        anime.running.shift()
+    }
+    Alias.SceneManager_goto.call(this, sceneClass)
+}
+
 }
 
 /* ========================================================================== */
 /*                                   OBJECTS                                  */
 /* ========================================================================== */
+
+/* --------------------------- GAME CHARACTER BASE -------------------------- */
+{
+
+Game_CharacterBase.prototype.hasMapSprite = function(){
+    return this.getMapSprite()
+}
+
+Game_CharacterBase.prototype.getSpriteId = function() {}
+
+Game_CharacterBase.prototype.getMapSprite = function() {}
+
+}
+
+/* ------------------------------- GAME PLAYER ------------------------------ */
+{
+
+Game_Player.prototype.getSpriteId = function() {
+    return -1
+}
+
+Game_Player.prototype.getMapSprite = function() {
+    return Eli.Utils.spriteCharacters[this.getSpriteId()]
+}
+
+}
+
+/* ----------------------------- GAME FOLLOWERS ----------------------------- */
+{
+
+Game_Follower.prototype.getSpriteId = function() {
+    const index = $gamePlayer.followers()._data.indexOf(this)
+    const id = index + 2
+
+    return -id
+}
+
+Game_Follower.prototype.getMapSprite = function() {
+    const sprites = SceneManager._scene._spriteset._characterSprites
+    const followerSprite = sprites.find(item => item._character && item._character._memberIndex === this._memberIndex)
+    return followerSprite
+}
+
+}
+
+/* ------------------------------- GAME EVENT ------------------------------- */
+{
+
+Alias.Game_Event_initialize = Game_Event.prototype.initialize
+Game_Event.prototype.initialize = function(mapId, eventId){
+    Alias.Game_Event_initialize.call(this, mapId, eventId)
+    this.needIterateList = false
+}
+
+Alias.Game_Event_setupPageSettings = Game_Event.prototype.setupPageSettings
+Game_Event.prototype.setupPageSettings = function(){
+    this.beforeSetupPage()
+    Alias.Game_Event_setupPageSettings.call(this)
+    this.afterSetupPage()
+    if(this.canIterateList()){
+        this.startIterateList()
+    }
+    this.afterListIteration()
+}
+
+Game_Event.prototype.beforeSetupPage = function(){}
+
+Game_Event.prototype.afterSetupPage = function(){}
+
+Game_Event.prototype.canIterateList = function(){
+    return this.needIterateList
+}
+
+Game_Event.prototype.startIterateList = function(){
+    for(let i = 0; i < this.list().length; i++){
+        i = this.onListIteration(i)
+    }
+    this.needIterateList = false
+}
+
+Game_Event.prototype.onListIteration = function(index){
+    return index
+}
+
+Game_Event.prototype.afterListIteration = function(){}
+
+Game_Event.prototype.getSpriteId = function() {
+    return this.eventId()
+}
+
+Game_Event.prototype.getMapSprite = function() {
+    return Eli.Utils.spriteCharacters[this.getSpriteId()]
+}
+
+}
+
+/* ------------------------------ GAME VEHICLE ------------------------------ */
+{
+
+Game_Vehicle.prototype.getSpriteId = function() {
+    return this._type.toLowerCase()
+}
+
+Game_Vehicle.prototype.getMapSprite = function() {
+    return Eli.Utils.spriteCharacters[this.getSpriteId()]
+}
+
+}
 
 /* ---------------------------- GAME INTERPRETER ---------------------------- */
 {
@@ -1313,7 +1462,7 @@ Game_Interpreter.prototype.setup = function(list, eventId) {
 
 Alias.Game_Interpreter_character = Game_Interpreter.prototype.character
 Game_Interpreter.prototype.character = function(param) {
-    if(typeof param === "string"){
+    if(isNaN(param) && typeof param === "string"){
         return this.getVehicleCharacter(param)
 
     }else if(param < -1){
@@ -1352,6 +1501,203 @@ Game_Interpreter.prototype.getVehicleCharacter = function(vehicleType){
 Game_Interpreter.prototype.getFollowerCharacter = function(followerId){
     const index = followerId < 0 ? Math.abs(followerId) - 2 : followerId
     return $gamePlayer.followers().data()[index]
+}
+
+}
+
+/* ========================================================================== */
+/*                                   SPRITES                                  */
+/* ========================================================================== */
+
+/* ------------------------------ SPRITESET MAP ----------------------------- */
+{
+
+Alias.Spriteset_Map_createCharacters = Spriteset_Map.prototype.createCharacters
+Spriteset_Map.prototype.createCharacters = function() {
+    Eli.Utils.spriteCharacters = {}
+    Alias.Spriteset_Map_createCharacters.call(this)
+}
+
+}
+
+/* ---------------------------- SPRITE CHARACTER ---------------------------- */
+{
+
+Alias.Sprite_Character_initialize = Sprite_Character.prototype.initialize
+Sprite_Character.prototype.initialize = function(character) {
+    Alias.Sprite_Character_initialize.call(this, character)
+    if(!Eli.Utils.isFollower(character)){
+        this.setMapSprite(character)
+    }
+}
+
+Alias.Sprite_Character_setTileBitmap = Sprite_Character.prototype.setTileBitmap
+Sprite_Character.prototype.setTileBitmap = function() {
+    Alias.Sprite_Character_setTileBitmap.call(this)
+    this.bitmap.addLoadListener(() => {
+        this.onTileBitmapLoad()
+    })
+}
+
+Alias.Sprite_Character_setCharacterBitmap = Sprite_Character.prototype.setCharacterBitmap
+Sprite_Character.prototype.setCharacterBitmap = function() {
+    Alias.Sprite_Character_setCharacterBitmap.call(this)
+    this.bitmap.addLoadListener(() => {
+        this.onCharacterBitmapLoad()
+    })
+}
+
+Sprite_Character.prototype.setMapSprite = function(character){
+    const spriteId = character.getSpriteId()
+    Eli.Utils.spriteCharacters[spriteId] = this
+}
+
+Sprite_Character.prototype.onTileBitmapLoad = function(){}
+
+Sprite_Character.prototype.onCharacterBitmapLoad = function(){}
+
+}
+
+/* ------------------------------ SPRITE ENEMY ------------------------------ */
+{
+
+Alias.Sprite_Enemy_loadBitmap = Sprite_Enemy.prototype.loadBitmap
+Sprite_Enemy.prototype.loadBitmap = function(name, hue){
+    Alias.Sprite_Enemy_loadBitmap.call(this, name, hue)
+    this.bitmap.addLoadListener(() => {
+        this.onBitmapLoad(name, hue)
+    })
+}
+
+Sprite_Enemy.prototype.onBitmapLoad = function(name, hue){}
+
+}
+
+/* ========================================================================== */
+/*                                   WINDOW                                   */
+/* ========================================================================== */
+
+/* ------------------------------- WINDOW BASE ------------------------------ */
+{
+
+Alias.Window_Base_setBackgroundType = Window_Base.prototype.setBackgroundType
+Window_Base.prototype.setBackgroundType = function(type){
+    if(type >= 3){
+        this.opacity = 0
+        this.showExtraBackgroundDimmer(type)
+    }else{
+        Alias.Window_Base_setBackgroundType.call(this, type)
+    }
+}
+
+Window_Base.prototype.createDimmerSprite = function(){
+    this._dimmerSprite = new Sprite()
+    this._dimmerSprite.bitmap = new Bitmap(0, 0)
+    this.addChildToBack(this._dimmerSprite)
+}
+
+Window_Base.prototype.getTextSize = function(rawText, allLines){
+    return {
+        width: this.getTextWidth(rawText, allLines),
+        height: this.getTextHeight(rawText, allLines),
+    }
+}
+
+Window_Base.prototype.getTextWidth = function(rawText, allLines){
+    const tempText = rawText.substring(0)
+
+    if(allLines){
+        var width = Math.max(...tempText.split("\n").map(text => this.drawTextEx(text, -2000, -2000)))
+    }else{
+        var width = this.drawTextEx(tempText, -2000, -2000)
+    }
+
+    return width
+}
+
+Window_Base.prototype.getTextHeight = function(rawText, allLines){
+    const textState = {text: rawText.substr(0), index: 0}
+    const height = this.calcTextHeight(textState, allLines)
+
+    return height
+}
+
+Window_Base.prototype.showExtraBackgroundDimmer = function(type) {
+    if (!this._dimmerSprite) {
+        this.createDimmerSprite()
+    }
+    const bitmap = this._dimmerSprite.bitmap
+    if (bitmap.width !== this.width || bitmap.height !== this.height) {
+        this.refreshExtraBackgroundDimmer(type)
+    }
+    this._dimmerSprite.visible = true
+    this.updateBackgroundDimmer()
+}
+
+Window_Base.prototype.refreshExtraBackgroundDimmer = function(type) {
+    const options = {
+        3: "createStrongBackground",
+        4: "createLightGradientVerticalBackground",
+        5: "createFadedHorizontalBackground",
+    }
+    const func = options[type]
+
+    if(this[func]){
+        this[func]()
+    }else{
+        this.hideBackgroundDimmer()
+    }
+
+}
+
+Window_Base.prototype.createStrongBackground = function(){
+    const bitmap = this._dimmerSprite.bitmap
+    const width = this.width > 0 ? this.width + 8 : 0
+    const height = this.height
+    const margin = this.padding
+    const color1 = this.dimColor1()
+    const color2 = this.dimColor2()
+
+    bitmap.resize(width, height)
+    bitmap.fillRect(0, margin, width, height - margin * 2, color1)
+    this._dimmerSprite.setFrame(0, 0, width, height)
+}
+
+Window_Base.prototype.createLightGradientVerticalBackground = function(){
+    const bitmap = this._dimmerSprite.bitmap
+    const margin = this.padding
+    const width = this.width > 0 ? this.width + 8 : 0
+    const height = this.height
+    const color1 = "rgba(0, 0, 0, 0.7)"
+    const color2 = this.dimColor2()
+    const gradHeight = (height - margin * 2)/2
+    
+    bitmap.resize(width, height)
+    bitmap.gradientFillRect(0, margin, width, gradHeight, color1, color2, true)
+    //bitmap.fillRect(0, margin, width, height - margin * 2, color1)
+    bitmap.gradientFillRect(0, margin + gradHeight, width, gradHeight, color2, color1, true)
+    this._dimmerSprite.setFrame(0, 0, width, height)
+}
+
+Window_Base.prototype.createFadedHorizontalBackground = function(){
+    const bitmap = this._dimmerSprite.bitmap
+    const width = this.width > 0 ? this.width + 8 : 0
+    const height = this.height
+    const margin = this.padding
+    const color1 = this.dimColor1()
+    const color2 = this.dimColor2()
+
+    bitmap.resize(width, height)
+    bitmap.gradientFillRect(0, margin, width + width/2, height - margin * 2, color1, color2, false)
+    this._dimmerSprite.setFrame(0, 0, width, height)
+}
+
+Window_Base.prototype.getItemPadding = function(){
+    return this.textPadding()
+}
+
+Window_Base.prototype.getTextLineRect = function(index){
+    return this.itemRectForText(index)
 }
 
 }

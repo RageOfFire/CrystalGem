@@ -3,7 +3,7 @@
 //==========================================================================
 
 /*:
-@plugindesc ♦5.0.3♦ Add responsive on screen controls to mobile games!
+@plugindesc ♦5.0.5♦ Add responsive on screen controls to mobile games!
 @author Hakuen Studio
 
 @help
@@ -496,7 +496,7 @@ Imported.Eli_MobileControls = true
 /* ========================================================================== */
 {
 
-const controlsPath = "img/screen_controls/"
+const CONTROLS_PATH = "img/screen_controls/"
 
 /* ------------------------------- BUTTON BASE ------------------------------ */
 class BaseButton {
@@ -506,11 +506,17 @@ class BaseButton {
     }
 
     initMembers(){
+        this.area = new Rectangle(0, 0, 0, 0)
         this.isOffScreen = false
         this.active = false
         this.touchId = null
         this.divs = [document.createElement("div")]
         this.imgs = [document.createElement("img")]
+    }
+
+    createArea(){
+        const mainRect = this.divs[0].getBoundingClientRect()
+        this.area = new Rectangle(mainRect.x, mainRect.y, mainRect.width, mainRect.height)
     }
 
     initialize(parameters){
@@ -576,9 +582,8 @@ class BaseButton {
     }
 
     handleMove(event){
-        if(this.active || event.changedTouches && this.trackChangedTouches(event)){
-            this.operateHandleMove(event)
-        }
+        if(!this.active || event.changedTouches && !this.trackChangedTouches(event)) return
+        this.operateHandleMove(event)
     }
 
     operateHandleMove(event){}
@@ -674,7 +679,6 @@ class RegularButton extends BaseButton{
 
     initMembers(){
         super.initMembers()
-        this.area = new Rectangle(0, 0, 0, 0)
         this.keyboardKey = ""
     }
 
@@ -696,8 +700,8 @@ class RegularButton extends BaseButton{
     }
 
     createImage(){
-        const coldFrame = `${controlsPath}${this.parameters.img}.png`
-        const hotFrame = `${controlsPath}${this.parameters.img}_hot.png`
+        const coldFrame = `${CONTROLS_PATH}${this.parameters.img}.png`
+        const hotFrame = `${CONTROLS_PATH}${this.parameters.img}_hot.png`
         const img = document.createElement("img")
 
         img.id = "buttonImg"
@@ -880,7 +884,7 @@ class DpadController extends BaseButton{
 
     initMembers(){
         super.initMembers()
-        this.area = new Array(10).fill(new Rectangle(0, 0, 0, 0))
+        this.directionAreas = new Array(10).fill(new Rectangle(0, 0, 0, 0))
     }
 
     createDiv(){
@@ -892,8 +896,8 @@ class DpadController extends BaseButton{
     }
 
     createImage(){
-        const coldFrame = `${controlsPath}${this.parameters.img}.png`
-        const hotFrame = `${controlsPath}${this.parameters.img}_hot.png`
+        const coldFrame = `${CONTROLS_PATH}${this.parameters.img}.png`
+        const hotFrame = `${CONTROLS_PATH}${this.parameters.img}_hot.png`
         const img = document.createElement("img")
         img.id = "dpadImg"
         img.src = coldFrame
@@ -926,7 +930,7 @@ class DpadController extends BaseButton{
         imgStyle.height = `auto`
 
         divStyle.width = this.imgs[0].width
-
+        this.createArea()
         this.createDirectionArea()
     }
 
@@ -948,7 +952,7 @@ class DpadController extends BaseButton{
         const down = new Rectangle(downLeft.right, left.bottom, width, height)
         const downRight = new Rectangle(down.right, left.bottom, width, height)
 
-        this.area = [
+        this.directionAreas = [
             rect0, downLeft, down, downRight, left, center, right, upLeft, up,upRight
         ]
     }
@@ -997,7 +1001,7 @@ class DpadController extends BaseButton{
 
     getDirection(coordinates){
         const {x, y} = coordinates
-        return this.area.findIndex(rect => rect.contains(x, y))
+        return this.directionAreas.findIndex(rect => rect.contains(x, y))
     }
 
     handleDown(event){
@@ -1090,8 +1094,8 @@ class JoystickController extends BaseButton{
     }
 
     createBaseImg(){
-        const coldFrame = `${controlsPath}${this.parameters.baseImg}.png`
-        const hotFrame = `${controlsPath}${this.parameters.baseImg}_hot.png`
+        const coldFrame = `${CONTROLS_PATH}${this.parameters.baseImg}.png`
+        const hotFrame = `${CONTROLS_PATH}${this.parameters.baseImg}_hot.png`
         const img = document.createElement("img")
         img.id = "joystickBaseImg"
         img.src = coldFrame
@@ -1110,8 +1114,8 @@ class JoystickController extends BaseButton{
     }
 
     createStickImg(){
-        const coldFrame = `${controlsPath}${this.parameters.ballImg}.png`
-        const hotFrame = `${controlsPath}${this.parameters.ballImg}_hot.png`
+        const coldFrame = `${CONTROLS_PATH}${this.parameters.ballImg}.png`
+        const hotFrame = `${CONTROLS_PATH}${this.parameters.ballImg}_hot.png`
         const img = document.createElement("img")
         img.id = "joystickBallImg"
         img.src = coldFrame
@@ -1164,6 +1168,7 @@ class JoystickController extends BaseButton{
         divStyle.top = `${yPos()}px`
         divStyle.left = `${xPos()}px`
         this.maxDistance = Math.abs(this.divs[0].clientWidth/2 - this.divs[1].clientWidth/2) + this.parameters.extraDistance
+        this.createArea()
     }
 
     setStyleToElements(){
@@ -1331,7 +1336,7 @@ class JoystickController extends BaseButton{
 /* ------------------------------ PLUGIN OBJECT ----------------------------- */
 Eli.MobileControls = {
 
-    version: 5.03,
+    version: 5.05,
     url: "https://hakuenstudio.itch.io/eli-mobile-controls-for-rpg-maker",
     parameters: {
         disableDoubleTouchMenu: true,
@@ -1399,6 +1404,16 @@ Eli.MobileControls = {
     controlButton: new ControlButton(),
     buttonList: [],
     
+    anyButtonAreaContains(x, y){
+        const allAreas = this.buttonList.map(item => item.area)
+
+        return allAreas.some(item => item.contains(x, y))
+    },
+
+    isMovingWithButtons(){
+        return this.joystick.active || this.dpad.active
+    },
+
     param(){
         return this.parameters
     },
@@ -1634,13 +1649,19 @@ Graphics._updateErrorPrinter = function() {
 
 Alias.Game_Temp_setDestination = Game_Temp.prototype.setDestination
 Game_Temp.prototype.setDestination = function(x, y) {
-    if(Plugin.isControlButtonDisablingMovementByScreenTouch()){
+    if(Plugin.isMovingWithButtons()){
+        x = null
+        y = null
+    }else if(Plugin.isControlButtonDisablingMovementByScreenTouch()){
         x = null
         y = null
     }else if(Plugin.isMovementDisabledByScreenTouch()){
         x = null
         y = null
-    } 
+    } else if(Plugin.anyButtonAreaContains(TouchInput._x, TouchInput._y)){
+        x = null
+        y = null
+    }
 
     Alias.Game_Temp_setDestination.call(this, x, y)
 }
@@ -1667,6 +1688,7 @@ Scene_Base.prototype.start = function(){
     if(Plugin.canRefreshButtonsForScene()){
         Plugin.refreshButtonsForScene()
     }
+    
 }
 
 }
