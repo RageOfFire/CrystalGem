@@ -52,7 +52,7 @@
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        new WOW().init();
+        new WOW({ mobile: false }).init();
     </script>
 
     <!-- Google -->
@@ -182,7 +182,8 @@
                     </div>
                 </a>
                 <hr class="mb-5 mt-5">
-                <a href="https://download1518.mediafire.com/ypl3hpzcyxng/z466smtt19czfn9/CrystalGem+v1.5.1.apk" target="_blank">
+                <a href="https://download1518.mediafire.com/ypl3hpzcyxng/z466smtt19czfn9/CrystalGem+v1.5.1.apk"
+                    target="_blank">
                     <div class="download-icon">
                         <i class="fab fa-android fa-7x"></i>
                         <h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
@@ -202,7 +203,8 @@
                     </div>
                 </a>
                 <hr class="mb-5 mt-5">
-                <a href="https://download947.mediafire.com/utlcv7bbuxxg/cntim56hv8sat0d/CrystalGem+v1.5.1+Setup.exe" target="_blank">
+                <a href="https://download947.mediafire.com/utlcv7bbuxxg/cntim56hv8sat0d/CrystalGem+v1.5.1+Setup.exe"
+                    target="_blank">
                     <div class="download-icon">
                         <i class="fab fa-windows fa-7x"></i>
                         <h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
@@ -233,8 +235,8 @@
         <div class="row fixed-width">
             <div class="col-md mode" id="v1.0.x">
                 <script>
-                    document.getElementById("v1.0.x").innerHTML = update10x.map(update10s =>                
-                    `
+                    document.getElementById("v1.0.x").innerHTML = update10x.map(update10s =>
+                        `
                     <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
                     data-toggle="collapse" data-target="#${update10s.id}" aria-expanded="false" aria-controls="${update10s.id}">
                     <i class="fas fa-angle-double-down"></i> ${update10s.version} <i class="fas fa-angle-double-down"></i>
@@ -265,7 +267,7 @@
                 <div class="col-md mode" id="v1.1.x">
                     <script>
                         document.getElementById("v1.1.x").innerHTML = update11x.map(update11s =>
-                        `
+                            `
                         <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
                         data-toggle="collapse" data-target="#${update11s.id}" aria-expanded="false" aria-controls="${update11s.id}">
                         <i class="fas fa-angle-double-down"></i> ${update11s.version} <i class="fas fa-angle-double-down"></i>
@@ -287,8 +289,8 @@
         <div class="row fixed-width">
             <div class="col-md mode" id="v1.2.x">
                 <script>
-                    document.getElementById("v1.2.x").innerHTML = update12x.map(update12s =>                
-                    `
+                    document.getElementById("v1.2.x").innerHTML = update12x.map(update12s =>
+                        `
                     <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
                     data-toggle="collapse" data-target="#${update12s.id}" aria-expanded="false" aria-controls="${update12s.id}">
                     <i class="fas fa-angle-double-down"></i> ${update12s.version} <i class="fas fa-angle-double-down"></i>
@@ -319,7 +321,7 @@
                 <div class="col-md mode" id="v1.3.x">
                     <script>
                         document.getElementById("v1.3.x").innerHTML = update13x.map(update13s =>
-                        `
+                            `
                         <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
                         data-toggle="collapse" data-target="#${update13s.id}" aria-expanded="false" aria-controls="${update13s.id}">
                         <i class="fas fa-angle-double-down"></i> ${update13s.version} <i class="fas fa-angle-double-down"></i>
@@ -341,8 +343,8 @@
         <div class="row fixed-width">
             <div class="col-md mode" id="v1.4.x">
                 <script>
-                    document.getElementById("v1.4.x").innerHTML = update14x.map(update14s =>                
-                    `
+                    document.getElementById("v1.4.x").innerHTML = update14x.map(update14s =>
+                        `
                     <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
                     data-toggle="collapse" data-target="#${update14s.id}" aria-expanded="false" aria-controls="${update14s.id}">
                     <i class="fas fa-angle-double-down"></i> ${update14s.version} <i class="fas fa-angle-double-down"></i>
@@ -373,7 +375,7 @@
                 <div class="col-md mode" id="v1.5.x">
                     <script>
                         document.getElementById("v1.5.x").innerHTML = update15x.map(update15s =>
-                        `
+                            `
                         <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
                         data-toggle="collapse" data-target="#${update15s.id}" aria-expanded="false" aria-controls="${update15s.id}">
                         <i class="fas fa-angle-double-down"></i> ${update15s.version} <i class="fas fa-angle-double-down"></i>
@@ -393,36 +395,26 @@
         <!-- End 6 Version -->
     </section>
     <!-- End Version Section -->
+    <!-- Add smooth scrolling to all links --> 
     <script>
         $(document).ready(function () {
-            // Add smooth scrolling to all links
             $("a").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
-                    // Prevent default anchor click behavior
                     event.preventDefault();
-
-                    // Store hash
                     var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 100, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
                         window.location.hash = hash;
                     });
-                } // End if
+                }
             });
         });
     </script>
     <!-- End Smooth Scrolling Script -->
 
+    <!-- Show the "GoOnTop button when user scroll down" -->
     <script>
-        // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
             scrollFunction()
         };
@@ -435,12 +427,14 @@
             }
         }
 
-        // When the user clicks on the button, scroll to the top of the document
+        // Click button go ontop of website
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
     </script>
+
+    <!-- Scroll to id for navbar -->
     <script>
         function goto(id) {
             document.getElementById(id).scrollIntoView();
