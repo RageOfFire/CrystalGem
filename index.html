@@ -26,34 +26,20 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
+    <script src="./js/popper/popper.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/Jquery/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/Jquery/jquery.min.js"></script>
 
     <!-- Animation css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        new WOW({ mobile: false }).init();
-    </script>
+    <link rel="stylesheet" type="text/css" href="./css/animate/animate.min.css" />
+    <script src="./js/animate/wow.min.js"></script>
 
     <!-- Google -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4590490397371826"
@@ -395,7 +381,7 @@
         <!-- End 6 Version -->
     </section>
     <!-- End Version Section -->
-    <!-- Add smooth scrolling to all links --> 
+    <!-- Add smooth scrolling to all links -->
     <script>
         $(document).ready(function () {
             $("a").on('click', function (event) {
@@ -439,6 +425,10 @@
         function goto(id) {
             document.getElementById(id).scrollIntoView();
         }
+    </script>
+    <!-- Wow setup -->
+    <script>
+        new WOW().init();
     </script>
 </body>
 
