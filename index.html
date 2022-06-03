@@ -2,20 +2,37 @@
 <html lang="en">
 
 <head>
-    <title>CrystalGem</title>
+    <!-- Something else -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
-	game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website">
-    <meta name="author" content="RageOfFire">
-    <meta name="og:title" content="CrystalGem" />
-    <meta name="og:url" content="https://www.crystalgem.cf" />
-    <meta name="og:image" content="https://raw.githubusercontent.com/RageOfFire/CrystalGem/main/img/background.png" />
-    <meta name="og:image:width" content="1280" />
-    <meta name="og:image:height" content="720" />
-    <meta name="og:description" content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, 
-	game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website" />
+
+    <!-- Primary Meta Tags -->
+    <title>CrystalGem</title>
+    <meta name="title" content="CrystalGem">
     <meta name="theme-color" content="#ff9933">
+    <meta name="description"
+        content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.crystalgem.cf">
+    <meta property="og:title" content="CrystalGem">
+    <meta property="og:description"
+        content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/RageOfFire/CrystalGem/main/img/background.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://www.crystalgem.cf">
+    <meta property="twitter:title" content="CrystalGem">
+    <meta property="twitter:description"
+        content="CrystalGem là 1 game nhập vai cực hay và hoàn toàn miễn phí, cơ chế game là dạng cày cuốc offline, game được phát triển trên 3 nền tảng Window/Android và đặc biệt nhất là chơi trực tuyến ngay trên website">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/RageOfFire/CrystalGem/main/img/background.png">
+
+    <!-- Icon -->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 
     <!-- Font -->
@@ -24,21 +41,27 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+    <!-- Jquery -->
+
+    <script src="./js/Jquery/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/Jquery/jquery.min.js"></script>
+
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
-    <script src="./js/popper/popper.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
     <script src="./js/bootstrap/bootstrap.min.js"></script>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Jquery -->
-    <script type="text/javascript" src="./js/Jquery/jquery-3.2.1.slim.min.js"></script>
-    <script src="./js/Jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Animation css -->
-    <link rel="stylesheet" type="text/css" href="./css/animate/animate.min.css" />
+    <link rel="stylesheet" href="./css/animate/animate.min.css">
     <script src="./js/animate/wow.min.js"></script>
 
     <!-- Google -->
@@ -84,19 +107,7 @@
                         aria-haspopup="true" aria-expanded="false">
                         Cập nhật
                     </a>
-                    <div class="dropdown-menu bg-dark" aria-labelledby="narbarupdate">
-                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-                            onclick="goto('v1.0.x')">v1.0.x</a>
-                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-                            onclick="goto('v1.1.x')">v1.1.x</a>
-                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-                            onclick="goto('v1.2.x')">v.1.2.x</a>
-                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-                            onclick="goto('v1.3.x')">v.1.3.x</a>
-                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-                            onclick="goto('v1.4.x')">v.1.4.x</a>
-                        <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
-                            onclick="goto('v1.5.x')">v.1.5.x</a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="narbarupdate" id="navbar-update">
                     </div>
                 </li>
             </ul>
@@ -160,19 +171,19 @@
             <!-- First download Link -->
             <div class="col-md downblock wow animate__animated animate__bounceInUp">
                 <h1 class="mb-5">Phiên bản Android</h1>
-                <a href="https://drive.google.com/uc?export=download&id=1wKxbbr2L2qFKGrNuqzr5-URh_FkRJU5n"
+                <a href="https://drive.google.com/uc?export=download&id=1wKxbbr2L2qFKGrNuqzr5-URh_FkRJU5n&confirm=t"
                     target="_blank">
                     <div class="download-icon">
                         <i class="fab fa-android fa-7x"></i>
-                        <h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4>
+                        <h4><i class="fas fa-download"></i> Tải ngay <i class="fas fa-download"></i></h4>
                     </div>
                 </a>
                 <hr class="mb-5 mt-5">
-                <a href="https://download1518.mediafire.com/ypl3hpzcyxng/z466smtt19czfn9/CrystalGem+v1.5.1.apk"
+                <a href="https://download1518.mediafire.com/7bd1us2o2ssg/z466smtt19czfn9/CrystalGem+v1.5.1.apk"
                     target="_blank">
                     <div class="download-icon">
                         <i class="fab fa-android fa-7x"></i>
-                        <h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
+                        <h4><i class="fas fa-link"></i> Link dự phòng <i class="fas fa-link"></i></h4>
                     </div>
                 </a>
             </div>
@@ -181,19 +192,19 @@
             <!-- Second download Link -->
             <div class="col-md downblock wow animate__animated animate__bounceInUp">
                 <h1 class="mb-5">Phiên bản Window</h1>
-                <a href="https://drive.google.com/uc?export=download&id=1N6Ow71F-0GzoYt0ACbZSFJGBCokgd0t2"
+                <a href="https://drive.google.com/uc?export=download&id=1N6Ow71F-0GzoYt0ACbZSFJGBCokgd0t2&confirm=t"
                     target="_blank">
                     <div class="download-icon">
                         <i class="fab fa-windows fa-7x"></i>
-                        <h4><i class="fas fa-download"></i> Tải ngay (Google Drive) <i class="fas fa-download"></i></h4>
+                        <h4><i class="fas fa-download"></i> Tải ngay <i class="fas fa-download"></i></h4>
                     </div>
                 </a>
                 <hr class="mb-5 mt-5">
-                <a href="https://download947.mediafire.com/utlcv7bbuxxg/cntim56hv8sat0d/CrystalGem+v1.5.1+Setup.exe"
+                <a href="https://download947.mediafire.com/7tq0vcf875eg/cntim56hv8sat0d/CrystalGem+v1.5.1+Setup.exe"
                     target="_blank">
                     <div class="download-icon">
                         <i class="fab fa-windows fa-7x"></i>
-                        <h4><i class="fas fa-link"></i> Link dự phòng (Mediafire) <i class="fas fa-link"></i></h4>
+                        <h4><i class="fas fa-link"></i> Link dự phòng <i class="fas fa-link"></i></h4>
                     </div>
                 </a>
             </div>
@@ -217,168 +228,8 @@
         <hr>
     </div>
     <section class="update">
-        <!-- First Version -->
-        <div class="row fixed-width">
-            <div class="col-md mode" id="v1.0.x">
-                <script>
-                    document.getElementById("v1.0.x").innerHTML = update10x.map(update10s =>
-                        `
-                    <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
-                    data-toggle="collapse" data-target="#${update10s.id}" aria-expanded="false" aria-controls="${update10s.id}">
-                    <i class="fas fa-angle-double-down"></i> ${update10s.version} <i class="fas fa-angle-double-down"></i>
-                    </button>
-                    <br>
-                    <div class="collapse" id="${update10s.id}">
-                    <div class="card card-body mb-3 bg-dark text-warning">
-                    ${update10s.description}
-                    </div>
-                    </div>
-                    `
-                    ).join('')
-                </script>
-            </div>
-            <!-- Version Image -->
-            <div class="col-md img wow animate__animated animate__bounceInRight">
-                <img class="res-img" src="./img/background.png">
-            </div>
-            <!-- End Version Image -->
+        <div id="main-update">
         </div>
-        <!-- End First Version -->
-        <!-- Second Version -->
-        <div class="second-color">
-            <div class="row fixed-width">
-                <div class="col-md img wow animate__animated animate__bounceInLeft">
-                    <img class="res-img" src="./img/CrystalGem v1.1 update.png">
-                </div>
-                <div class="col-md mode" id="v1.1.x">
-                    <script>
-                        document.getElementById("v1.1.x").innerHTML = update11x.map(update11s =>
-                            `
-                        <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
-                        data-toggle="collapse" data-target="#${update11s.id}" aria-expanded="false" aria-controls="${update11s.id}">
-                        <i class="fas fa-angle-double-down"></i> ${update11s.version} <i class="fas fa-angle-double-down"></i>
-                        </button>
-                        <br>
-                        <div class="collapse" id="${update11s.id}">
-                            <div class="card card-body mb-3 bg-dark text-warning">
-                                ${update11s.description}
-                            </div>
-                        </div>
-                        `
-                        ).join('')
-                    </script>
-                </div>
-            </div>
-        </div>
-        <!-- End Second Version -->
-        <!-- 3 Version -->
-        <div class="row fixed-width">
-            <div class="col-md mode" id="v1.2.x">
-                <script>
-                    document.getElementById("v1.2.x").innerHTML = update12x.map(update12s =>
-                        `
-                    <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
-                    data-toggle="collapse" data-target="#${update12s.id}" aria-expanded="false" aria-controls="${update12s.id}">
-                    <i class="fas fa-angle-double-down"></i> ${update12s.version} <i class="fas fa-angle-double-down"></i>
-                    </button>
-                    <br>
-                    <div class="collapse" id="${update12s.id}">
-                    <div class="card card-body mb-3 bg-dark text-warning">
-                    ${update12s.description}
-                    </div>
-                    </div>
-                    `
-                    ).join('')
-                </script>
-            </div>
-            <!-- Version Image -->
-            <div class="col-md img wow animate__animated animate__bounceInRight">
-                <img class="res-img" src="./img/CrystalGem v1.2 update.png">
-            </div>
-            <!-- End Version Image -->
-        </div>
-        <!-- End 3 Version -->
-        <!-- 4 Version -->
-        <div class="second-color">
-            <div class="row fixed-width">
-                <div class="col-md img wow animate__animated animate__bounceInLeft">
-                    <img class="res-img" src="./img/CrystalGem v1.3 update.png">
-                </div>
-                <div class="col-md mode" id="v1.3.x">
-                    <script>
-                        document.getElementById("v1.3.x").innerHTML = update13x.map(update13s =>
-                            `
-                        <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
-                        data-toggle="collapse" data-target="#${update13s.id}" aria-expanded="false" aria-controls="${update13s.id}">
-                        <i class="fas fa-angle-double-down"></i> ${update13s.version} <i class="fas fa-angle-double-down"></i>
-                        </button>
-                        <br>
-                        <div class="collapse" id="${update13s.id}">
-                            <div class="card card-body mb-3 bg-dark text-warning">
-                                ${update13s.description}
-                            </div>
-                        </div>
-                        `
-                        ).join('')
-                    </script>
-                </div>
-            </div>
-        </div>
-        <!-- End 4 Version -->
-        <!-- 5 Version -->
-        <div class="row fixed-width">
-            <div class="col-md mode" id="v1.4.x">
-                <script>
-                    document.getElementById("v1.4.x").innerHTML = update14x.map(update14s =>
-                        `
-                    <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
-                    data-toggle="collapse" data-target="#${update14s.id}" aria-expanded="false" aria-controls="${update14s.id}">
-                    <i class="fas fa-angle-double-down"></i> ${update14s.version} <i class="fas fa-angle-double-down"></i>
-                    </button>
-                    <br>
-                    <div class="collapse" id="${update14s.id}">
-                    <div class="card card-body mb-3 bg-dark text-warning">
-                    ${update14s.description}
-                    </div>
-                    </div>
-                    `
-                    ).join('')
-                </script>
-            </div>
-            <!-- Version Image -->
-            <div class="col-md img wow animate__animated animate__bounceInRight">
-                <img class="res-img" src="./img/CrystalGem v1.4 update.png">
-            </div>
-            <!-- End Version Image -->
-        </div>
-        <!-- End 5 Version -->
-        <!-- 6 Version -->
-        <div class="second-color">
-            <div class="row fixed-width">
-                <div class="col-md img wow animate__animated animate__bounceInLeft">
-                    <img class="res-img" src="./img/CrystalGem v1.5 update.png">
-                </div>
-                <div class="col-md mode" id="v1.5.x">
-                    <script>
-                        document.getElementById("v1.5.x").innerHTML = update15x.map(update15s =>
-                            `
-                        <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
-                        data-toggle="collapse" data-target="#${update15s.id}" aria-expanded="false" aria-controls="${update15s.id}">
-                        <i class="fas fa-angle-double-down"></i> ${update15s.version} <i class="fas fa-angle-double-down"></i>
-                        </button>
-                        <br>
-                        <div class="collapse" id="${update15s.id}">
-                            <div class="card card-body mb-3 bg-dark text-warning">
-                                ${update15s.description}
-                            </div>
-                        </div>
-                        `
-                        ).join('')
-                    </script>
-                </div>
-            </div>
-        </div>
-        <!-- End 6 Version -->
     </section>
     <!-- End Version Section -->
     <!-- Add smooth scrolling to all links -->
@@ -429,6 +280,86 @@
     <!-- Wow setup -->
     <script>
         new WOW().init();
+    </script>
+    <!-- Cập nhật -->
+    <script>
+        for (var i = 0; i < update.length; i++) {
+            var content = "";
+            if (i % 2 === 0 || i === 0) {
+                content +=
+                    `
+                        <div class="row fixed-width">
+                        <div class="col-md mode" id="${update[i].versionName}">
+                    `
+                update[i].details.map(u => {
+                    content +=
+                        `
+                        <button class="btn btn-info mb-3 wow animate__animated animate__bounceInLeft" type="button"
+                        data-toggle="collapse" data-target="#${u.id}" aria-expanded="false" aria-controls="${u.id}">
+                        <i class="fas fa-angle-double-down"></i> ${u.version} <i class="fas fa-angle-double-down"></i>
+                        </button>
+                        <br>
+                        <div class="collapse" id="${u.id}">
+                        <div class="card card-body mb-3 bg-dark text-warning">
+                        ${u.description}
+                        </div>
+                        </div>
+                        `
+                }).join('')
+                content +=
+                    `
+                        </div>
+                        <div class="col-md img wow animate__animated animate__bounceInRight">
+                        <img class="res-img" src="${update[i].imageURL}">
+                        </div>
+                        </div>
+                        `
+                document.getElementById('main-update').innerHTML += content;
+            }
+            else {
+                content +=
+                    `
+                        <div class="second-color">
+                        <div class="row fixed-width">
+                        <div class="col-md img wow animate__animated animate__bounceInLeft">
+                        <img class="res-img" src="${update[i].imageURL}">
+                        </div>
+                        <div class="col-md mode" id="${update[i].versionName}">
+                        `
+                update[i].details.map(u => {
+                    content +=
+                        `
+                        <button class="btn btn-info mb-3 wow animate__animated animate__bounceInRight" type="button"
+                        data-toggle="collapse" data-target="#${u.id}" aria-expanded="false" aria-controls="${u.id}">
+                        <i class="fas fa-angle-double-down"></i> ${u.version} <i class="fas fa-angle-double-down"></i>
+                        </button>
+                        <br>
+                        <div class="collapse" id="${u.id}">
+                            <div class="card card-body mb-3 bg-dark text-warning">
+                                ${u.description}
+                            </div>
+                        </div>
+                        `
+                }).join('')
+                content +=
+                    `
+                        </div>
+                        </div>
+                        </div>
+                        `
+                document.getElementById('main-update').innerHTML += content;
+            }
+        }
+    </script>
+    <!-- Cập nhật trên thanh navbar -->
+    <script>
+        for (var x = 0; x < update.length; x++) {
+            document.getElementById('navbar-update').innerHTML +=
+                `
+            <a class="dropdown-item bg-dark text-warning" href="javascript: void(0);"
+                                onclick="goto('${update[x].versionName}')">${update[x].versionName}</a>
+            `;
+        }
     </script>
 </body>
 
