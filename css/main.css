@@ -89,13 +89,14 @@ a:hover {
     border: none;
     outline: none;
     background-color: coral;
-    color: olivedrab;
+    color: white;
     cursor: pointer;
     padding: 15px;
     padding-right: 19px;
     padding-left: 19px;
     font-size: 18px;
     transition: all .2s ease-in;
+    border-radius: 50%;
 }
 
 #myBtn:hover {
