@@ -250,5 +250,24 @@ const update = [
             }
         ],
         imageURL: "./img/CrystalGem v1.5 update.png"
+    },
+
+    {
+        versionName: "v1.6.x",
+        details: [
+            {
+                id: 'version16',
+                version: 'v1.6',
+                description: 
+                `Cập nhật cốt truyện cuối cùng game tới hồi kết<br>
+                Waldron(Protect): Tăng khả năng phòng thủ của tất cả đồng minh trong 5 lượt và hồi 20% HP -> Tăng khả năng phòng thủ của tất cả đồng minh trong 3 lượt và gỡ bỏ tất cả hiệu ứng có hại<br>
+                Waldron(Protect): Chuyển thành kỹ năng "Đặc biệt"<br>
+                Waldron(Provoke): Chuyển thành kỹ năng "Phép thuật"<br>
+                Sửa lỗi trạng thái đóng băng không bao giờ kết thúc<br>
+                Valha(FireReduce): Tấn công đối thủ và hồi phục HP,sát thương gây ra tương đương MP hiện có,gỡ bỏ hiệu ứng tăng sát thương của đối thủ. -> Tấn công đối thủ và hồi phục HP,sát thương gây ra tương đương MP hiện có,gỡ bỏ mọi hiệu ứng có lợi của đối thủ.<br>
+                Kora(FullCounter): Tối ưu hóa chiêu thức`
+            }
+        ],
+        imageURL: "./img/CrystalGem v1.6 update.png"
     }
 ]
