@@ -266,6 +266,12 @@ const update = [
                 Sửa lỗi trạng thái đóng băng không bao giờ kết thúc<br>
                 Valha(FireReduce): Tấn công đối thủ và hồi phục HP,sát thương gây ra tương đương MP hiện có,gỡ bỏ hiệu ứng tăng sát thương của đối thủ. -> Tấn công đối thủ và hồi phục HP,sát thương gây ra tương đương MP hiện có,gỡ bỏ mọi hiệu ứng có lợi của đối thủ.<br>
                 Kora(FullCounter): Tối ưu hóa chiêu thức`
+            },
+            {
+                id: 'version161',
+                version: 'v1.6.1',
+                description: 
+                `Cập nhật chế độ chơi nhiều người chơi mới`
             }
         ],
         imageURL: "./img/CrystalGem v1.6 update.png"
