@@ -272,6 +272,19 @@ const update = [
                 version: 'v1.6.1',
                 description: 
                 `Cập nhật chế độ chơi nhiều người chơi mới`
+            },
+            {
+                id: 'version162',
+                version: 'v1.6.2',
+                description: 
+                `Sửa lỗi server không hoạt động<br>
+                Thêm cài đặt đồng bộ hóa FPS khuyên bật khi muốn chơi game trên 60 fps<br>
+                Thêm cài đặt hoạt ảnh động<br>
+                Gỡ bỏ nút "Trang chủ" trong game<br>
+                Thêm chức năng load trước để mượt game hơn<br>
+                Sửa lỗi mất nút "Thoát game" trên máy tính<br>
+                Xóa bỏ 1 số file không dùng<br>
+                Thêm chế độ tự động lưu game (Để chức năng này hoạt động bạn cần phải lưu game 1 lần)`
             }
         ],
         imageURL: "./img/CrystalGem v1.6 update.png"
