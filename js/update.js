@@ -285,6 +285,15 @@ const update = [
                 Sửa lỗi mất nút "Thoát game" trên máy tính<br>
                 Xóa bỏ 1 số file không dùng<br>
                 Thêm chế độ tự động lưu game (Để chức năng này hoạt động bạn cần phải lưu game 1 lần)`
+            },
+            {
+                id: 'version163',
+                version: 'v1.6.3',
+                description: 
+                `Sửa lỗi chơi online trên android (Do thiếu quyền)<br>
+                Giờ người chơi sẽ được tự chọn cộng chỉ số nào mỗi khi lên cấp<br>
+                Thêm hiệu ứng animation ngoài màn hình khi bắt đầu vào chơi<br>
+                thêm trỏ chuột ở mỗi nơi người chơi chọn chức năng trong game`
             }
         ],
         imageURL: "./img/CrystalGem v1.6 update.png"
