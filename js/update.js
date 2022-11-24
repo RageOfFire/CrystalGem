@@ -297,5 +297,25 @@ const update = [
             }
         ],
         imageURL: "./img/CrystalGem v1.6 update.png"
+    },
+    {
+        versionName: 'v1.7.x',
+        details: [
+            {
+                id: 'version170',
+                version: 'v1.7.0',
+                description: 
+                `Hoàn chỉnh chế độ đa người chơi<br>
+                Giảm hiệu ứng ảnh động ở phần title game<br>
+                Thay đổi lại cơ chế tự cộng điểm nâng cấp nhân vật<br>
+                Thay đổi giao diện cài đặt<br>
+                Thêm 1 vài cài đặt mới (Tua nhanh cốt truyện, hiệu ứng trong chiến đấu)<br>
+                Giờ bạn có thể tua nhanh cốt truyện bắn cách giữ shift<br>
+                Thêm trỏ chuột vào đối thủ và đồng minh<br>
+                Thêm nút mạng xã hội cho discord<br>
+                Thêm lại bộ cài game cho PC<br>`
+            }
+        ],
+        imageURL: "./img/CrystalGem v1.7 update.png"
     }
 ]

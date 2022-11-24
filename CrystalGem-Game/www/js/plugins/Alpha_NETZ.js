@@ -1,5 +1,5 @@
 /*:
- * @plugindesc (v.0.8)[BASIC] Multiplayer for RPG Maker
+ * @plugindesc (v.0.8)[PRO] Multiplayer for RPG Maker
  * @author Pheonix KageDesu
  * @target MZ MV
  * @url https://kdworkshop.net/plugins/alpha-net-z/
@@ -508,7 +508,7 @@
  * 
  */
  /*:ru
- * @plugindesc (v.0.8)[BASIC] Мультиплеер для RPG Maker
+ * @plugindesc (v.0.8)[PRO] Мультиплеер для RPG Maker
  * @author Pheonix KageDesu
  * @target MZ MV
  * @url https://kdworkshop.net/plugins/alpha-net-z/
@@ -8304,7 +8304,7 @@ if (KDCore._requireLoadLibrary === true) {
 })();
 
 ANET.isPro = function() {
-    return false;
+    return true;
 };
 
 var Notyf = function () {
@@ -8630,346 +8630,242 @@ console.log(text, 'background: #3b3b3b; color: #22ab3b');
 //---------------------------------------------------------------------------
 
 
-function _0x21d2(_0x2d5ff8, _0x1a0a22) {
-    var _0x2baf35 = _0x2baf();
-    return _0x21d2 = function (_0x21d2ac, _0x3e9f94) {
-        _0x21d2ac = _0x21d2ac - 0x18d;
-        var _0xe2e8e8 = _0x2baf35[_0x21d2ac];
-        return _0xe2e8e8;
-    }, _0x21d2(_0x2d5ff8, _0x1a0a22);
-}
-var _0x472fd9 = _0x21d2;
-function _0x2baf() {
-    var _0x2587ef = [
-        '\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72',
-        '\x55\x73\x69\x6e\x67\x20\x48\x54\x54\x50\x53\x20\x73\x65\x63\x75\x72\x65\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e',
-        '\x72\x65\x71\x75\x65\x73\x74\x52\x6f\x6f\x6d\x52\x65\x66\x72\x65\x73\x68',
-        '\x54\x69\x6d\x65\x6f\x75\x74\x20\x66\x6f\x72\x3a\x20',
-        '\x77\x68\x6d\x74\x64',
-        '\x33\x30\x33\x34',
-        '\x41\x75\x4e\x53\x6a',
-        '\x76\x71\x73\x5a\x57',
-        '\x69\x73\x48\x54\x54\x50\x53\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e',
-        '\x6d\x61\x78\x50\x6c\x61\x79\x65\x72\x73\x49\x6e\x52\x6f\x6f\x6d',
-        '\x67\x65\x74',
-        '\x42\x4c\x41\x43\x4b',
-        '\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64',
-        '\x74\x72\x61\x63\x65',
-        '\x69\x73\x4d\x61\x73\x74\x65\x72\x43\x6c\x69\x65\x6e\x74',
-        '\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73',
-        '\x4e\x45\x54',
-        '\x44\x4a\x62\x47\x6a',
-        '\x31\x33\x31\x39\x39\x35\x36\x51\x74\x4e\x55\x59\x69',
-        '\x4c\x6f\x62\x62\x79',
-        '\x6f\x6e\x4c\x65\x61\x76\x65\x52\x6f\x6f\x6d',
-        '\x35\x37\x32\x37\x35\x35\x4a\x51\x6f\x70\x56\x4d',
-        '\x72\x65\x73\x65\x74',
-        '\x50\x4d\x6d\x71\x4b',
-        '\x4d\x50\x6c\x73\x55',
-        '\x73\x6f\x63\x6b\x65\x74',
-        '\x73\x65\x6e\x64',
-        '\x72\x65\x73\x65\x74\x57\x61\x69\x74',
-        '\x73\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x54\x6f\x4d\x61\x73\x74\x65\x72\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x72\x6f\x6f\x6d',
-        '\x61\x70\x70\x6c\x79',
-        '\x65\x6b\x6e\x72\x72',
-        '\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x73\x65\x74\x57\x61\x69\x74',
-        '\x4f\x4e\x44\x62\x66',
-        '\x73\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e',
-        '\x5f\x69\x73\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72',
-        '\x72\x48\x63\x54\x4b',
-        '\x31\x39\x34\x37\x34\x37\x34\x50\x50\x76\x43\x64\x41',
-        '\x5a\x41\x4b\x43\x79',
-        '\x39\x38\x39\x31\x43\x6b\x73\x6d\x59\x78',
-        '\x69\x6e\x69\x74\x53\x79\x73\x74\x65\x6d',
-        '\x4f\x67\x62\x71\x63',
-        '\x47\x52\x45\x45\x4e',
-        '\x32\x38\x37\x34\x73\x72\x67\x66\x74\x45',
-        '\x32\x39\x32\x32\x38\x31\x31\x30\x4f\x4e\x62\x6f\x55\x5a',
-        '\x6c\x65\x61\x76\x65\x52\x6f\x6f\x6d',
-        '\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74',
-        '\x63\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x68\x6f\x66\x4e\x42',
-        '\x31\x39\x35\x2e\x31\x36\x31\x2e\x34\x31\x2e\x32\x30',
-        '\x73\x74\x61\x72\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e',
-        '\x73\x65\x74\x52\x6f\x6f\x6d\x4d\x61\x73\x74\x65\x72',
-        '\x41\x62\x59\x79\x75',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x32\x34\x30\x31\x32\x32\x37\x4e\x62\x44\x6d\x55\x47',
-        '\x53\x65\x6e\x64\x2c\x20\x63\x61\x6c\x6c\x62\x61\x63\x6b\x3a\x20',
-        '\x53\x65\x6e\x64\x3a\x20',
-        '\x6f\x6e\x52\x6f\x6f\x6d\x43\x6c\x6f\x73\x65\x64',
-        '\x74\x6b\x4e\x41\x58',
-        '\x58\x66\x6b\x70\x5a',
-        '\x59\x6f\x75\x20\x74\x72\x79\x20\x73\x65\x6e\x64\x20\x63\x61\x6c\x6c\x62\x61\x63\x6b\x20\x6d\x65\x73\x73\x61\x67\x65\x2c\x20\x62\x75\x74\x20\x4e\x4f\x54\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x21',
-        '\x50\x6f\x72\x74\x20\x63\x68\x61\x6e\x67\x65\x64\x20\x74\x6f\x20\x33\x30\x33\x35\x2e\x20\x43\x68\x65\x63\x6b\x20\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x20\x70\x6c\x75\x67\x69\x6e\x20\x70\x61\x72\x61\x6d\x65\x74\x65\x72',
-        '\x75\x4f\x61\x67\x66',
-        '\x66\x76\x65\x73\x64',
-        '\x41\x4e\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x61\x6e\x65\x74\x7a\x67\x6c\x6f\x62\x61\x6c\x2e\x72\x75',
-        '\x67\x65\x74\x52\x6f\x6f\x6d\x44\x61\x74\x61',
-        '\x59\x6f\x75\x20\x61\x72\x65\x20\x4d\x61\x73\x74\x65\x72\x20\x28\x68\x6f\x73\x74\x29\x20\x6f\x66\x20\x72\x6f\x6f\x6d\x3a\x20',
-        '\x77\x61\x72\x6e',
-        '\x6f\x6e\x52\x6f\x6f\x6d\x44\x61\x74\x61\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x32\x30\x36\x33\x36\x39\x35\x53\x5a\x58\x74\x68\x7a',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x46\x4e\x52\x4a\x54',
-        '\x69\x73\x53\x61\x6d\x65\x4d\x61\x70\x4d\x6f\x64\x65',
-        '\x73\x65\x72\x76\x65\x72\x49\x70',
-        '\x52\x65\x73\x70\x6f\x6e\x73\x65\x20\x28\x67\x65\x74\x29\x20\x66\x6f\x72\x3a\x20',
-        '\x67\x65\x74\x47\x61\x6d\x65\x56\x65\x72\x73\x69\x6f\x6e',
-        '\x43\x61\x6c\x6c\x62\x61\x63\x6b\x20\x66\x6f\x72\x3a\x20',
-        '\x69\x73\x4d\x5a',
-        '\x6e\x61\x6d\x65',
-        '\x68\x74\x74\x70\x3a\x2f\x2f',
-        '\x4b\x74\x54\x5a\x58',
-        '\x69\x73\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72',
-        '\x73\x65\x74\x46\x72\x6f\x6d',
-        '\x6d\x79\x49\x64',
-        '\x69\x73\x53\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72',
-        '\x44\x41\x51\x78\x57',
-        '\x38\x73\x4e\x6f\x56\x4c\x73',
-        '\x66\x75\x6c\x6c\x4e\x61\x6d\x65',
-        '\x59\x6f\x75\x20\x74\x72\x79\x20\x73\x65\x6e\x64\x20\x6d\x65\x73\x73\x61\x67\x65\x2c\x20\x62\x75\x74\x20\x4e\x4f\x54\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x21',
-        '\x79\x4a\x6f\x6b\x50',
-        '\x63\x6c\x6f\x73\x65\x52\x6f\x6f\x6d',
-        '\x6c\x79\x46\x67\x52',
-        '\x6c\x6f\x67',
-        '\x73\x65\x74\x52\x6f\x6f\x6d\x4a\x6f\x69\x6e',
-        '\x59\x6f\x75\x20\x74\x72\x79\x20\x67\x65\x74\x20\x64\x61\x74\x61\x20\x66\x72\x6f\x6d\x20\x53\x65\x72\x76\x65\x72\x2c\x20\x62\x75\x74\x20\x4e\x4f\x54\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x21',
-        '\x5f\x69\x73\x48\x6f\x73\x74',
-        '\x68\x69\x64\x65\x4c\x6f\x61\x64\x65\x72',
-        '\x74\x69\x74\x53\x5a',
-        '\x63\x6c\x69\x65\x6e\x74',
-        '\x73\x65\x72\x76\x65\x72\x50\x6f\x72\x74',
-        '\x34\x50\x4d\x77\x73\x5a\x61',
-        '\x4e\x64\x59\x65\x56',
-        '\x69\x73\x42\x75\x73\x79'
-    ];
-    _0x2baf = function () {
-        return _0x2587ef;
+// Generated by CoffeeScript 2.6.1
+// * Данный класс отвечает за подключение и хранит общие методы отправки и обработки команд
+
+//$[ENCODE]
+
+//@[GLOBAL]
+window.ANNetwork = function() {};
+
+//@[EXTEND]
+window.NET = window.ANNetwork;
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("Network");
+  LOG.setColors(KDCore.Color.GREEN, KDCore.Color.BLACK.getLightestColor(35));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANNetwork;
+  _.isConnected = function() {
+    return this.socket != null;
+  };
+  _.myId = function() {
+    var ref;
+    return (ref = this.socket) != null ? ref.id : void 0;
+  };
+  _.isMasterClient = function() {
+    return this._isHost === true;
+  };
+  // * Игроки могу находится на одной карте
+  _.isSameMapMode = function() {
+    return ANET.PP.isOnlySameMapMode();
+  };
+  // * Надо ждать сеть
+  _.isBusy = function() {
+    return this.isConnected() && (this.isWaitServer() || ANGameManager.isShouldWaitServer());
+  };
+  // * Ждёт ответ от сервера
+  _.isWaitServer = function() {
+    return this.isConnected() && this._isWaitServer === true;
+  };
+  // * Включить вручную ожидание сервера
+  _.setWait = function() {
+    return this._isWaitServer = true;
+  };
+  // * Отключть вручную ожидание сервера
+  _.resetWait = function() {
+    return this._isWaitServer = false;
+  };
+  (function() {    // * MAIN NETWORK ====================================================
+    _.initSystem = function() {
+      this.socket = null;
+      this.client = null;
+      this.resetWait();
+      this._isHost = false; // * Мастер клиент?
+      "Network inited".p();
     };
-    return _0x2baf();
-}
-(function (_0xd2b6b, _0x319c2b) {
-    var _0x36344 = _0x21d2, _0x668c6a = _0xd2b6b();
-    while (!![]) {
-        try {
-            var _0x2c776f = -parseInt(_0x36344(0x194)) / 0x1 + -parseInt(_0x36344(0x191)) / 0x2 + -parseInt(_0x36344(0x1a5)) / 0x3 + -parseInt(_0x36344(0x1e5)) / 0x4 * (-parseInt(_0x36344(0x1c6)) / 0x5) + -parseInt(_0x36344(0x1ab)) / 0x6 * (parseInt(_0x36344(0x1a7)) / 0x7) + parseInt(_0x36344(0x1d7)) / 0x8 * (-parseInt(_0x36344(0x1b6)) / 0x9) + parseInt(_0x36344(0x1ac)) / 0xa;
-            if (_0x2c776f === _0x319c2b)
-                break;
-            else
-                _0x668c6a['push'](_0x668c6a['shift']());
-        } catch (_0x13fdca) {
-            _0x668c6a['push'](_0x668c6a['shift']());
-        }
-    }
-}(_0x2baf, 0x7c84d), window[_0x472fd9(0x1c0)] = function () {
-}, window[_0x472fd9(0x18f)] = window['\x41\x4e\x4e\x65\x74\x77\x6f\x72\x6b'], (function () {
-    var _0x79c5a9 = _0x472fd9, _0x1133d8, _0x324592;
-    _0x1133d8 = new KDCore[(_0x79c5a9(0x1b5))](_0x79c5a9(0x19f)), _0x1133d8[_0x79c5a9(0x18e)](KDCore[_0x79c5a9(0x1c7)][_0x79c5a9(0x1aa)], KDCore[_0x79c5a9(0x1c7)][_0x79c5a9(0x1f3)][_0x79c5a9(0x1e8)](0x23)), _0x1133d8['\x6f\x6e'](), _0x324592 = window[_0x79c5a9(0x1c0)], _0x324592['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64'] = function () {
-        var _0x253df2 = _0x79c5a9;
-        if (_0x253df2(0x1dc) === _0x253df2(0x1a9))
-            !this[_0x253df2(0x1f4)]() ? _0x200ebb['\x70'](_0x253df2(0x1d9)) : (!_0x56b2fd && _0x86d0e3['\x70'](_0x253df2(0x1b8) + _0x138081[_0x253df2(0x1d8)]()), _0x39e7c5[_0x253df2(0x1d3)](this[_0x253df2(0x198)]['\x69\x64'])[_0x253df2(0x199)]());
-        else
-            return this[_0x253df2(0x198)] != null;
-    }, _0x324592[_0x79c5a9(0x1d4)] = function () {
-        var _0x1ccc75 = _0x79c5a9, _0x3ff144;
-        return (_0x3ff144 = this[_0x1ccc75(0x198)]) != null ? _0x3ff144['\x69\x64'] : void 0x0;
-    }, _0x324592['\x69\x73\x4d\x61\x73\x74\x65\x72\x43\x6c\x69\x65\x6e\x74'] = function () {
-        var _0x277701 = _0x79c5a9;
-        return this[_0x277701(0x1e0)] === !![];
-    }, _0x324592[_0x79c5a9(0x1c9)] = function () {
-        return ANET['\x50\x50']['\x69\x73\x4f\x6e\x6c\x79\x53\x61\x6d\x65\x4d\x61\x70\x4d\x6f\x64\x65']();
-    }, _0x324592[_0x79c5a9(0x1e7)] = function () {
-        var _0x1efcee = _0x79c5a9;
-        return this[_0x1efcee(0x1f4)]() && (this[_0x1efcee(0x1d2)]() || ANGameManager[_0x1efcee(0x1d5)]());
-    }, _0x324592[_0x79c5a9(0x1d2)] = function () {
-        var _0x43913c = _0x79c5a9;
-        return this['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']() && this[_0x43913c(0x1a3)] === !![];
-    }, _0x324592['\x73\x65\x74\x57\x61\x69\x74'] = function () {
-        return this['\x5f\x69\x73\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72'] = !![];
-    }, _0x324592[_0x79c5a9(0x19a)] = function () {
-        var _0x8a9c1a = _0x79c5a9;
-        if ('\x4e\x48\x6b\x51\x4a' !== '\x4e\x48\x6b\x51\x4a') {
-            var _0x14a945;
-            _0xf21b95[_0x8a9c1a(0x19b)](null), (_0x14a945 = this[_0x8a9c1a(0x1e3)]) != null && _0x14a945['\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74'](), this[_0x8a9c1a(0x19a)](), this[_0x8a9c1a(0x198)] = null, _0x30fc71[_0x8a9c1a(0x195)]();
-        } else
-            return this['\x5f\x69\x73\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72'] = ![];
-    }, (function () {
-        var _0x3b4e39 = _0x79c5a9;
-        if ('\x46\x4e\x52\x4a\x54' !== _0x3b4e39(0x1c8))
-            _0x20d186[_0x3b4e39(0x19d)](this, _0x3b74a4);
-        else
-            return _0x324592[_0x3b4e39(0x1a8)] = function () {
-                var _0x56625c = _0x3b4e39;
-                if (_0x56625c(0x1d1) === _0x56625c(0x197))
-                    return this[_0x56625c(0x1e0)] === !![];
-                else
-                    this['\x73\x6f\x63\x6b\x65\x74'] = null, this[_0x56625c(0x1e3)] = null, this[_0x56625c(0x19a)](), this[_0x56625c(0x1e0)] = ![], '\x4e\x65\x74\x77\x6f\x72\x6b\x20\x69\x6e\x69\x74\x65\x64'['\x70']();
-            }, _0x324592['\x73\x74\x6f\x70'] = function () {
-                var _0x286f2e = _0x3b4e39;
-                if (_0x286f2e(0x1a4) === '\x6f\x55\x4d\x66\x46')
-                    return this[_0x286f2e(0x1a3)] = !![];
-                else {
-                    var _0x446c64;
-                    NetClientMethodsManager[_0x286f2e(0x19b)](null), (_0x446c64 = this[_0x286f2e(0x1e3)]) != null && (_0x286f2e(0x1da) !== _0x286f2e(0x1da) ? (_0x520784[_0x286f2e(0x1dd)](_0x286f2e(0x1e9)), _0x207f91 = '\x68\x74\x74\x70\x73\x3a\x2f\x2f', _0x518ad6 = {
-                        '\x73\x65\x63\x75\x72\x65': !![],
-                        '\x72\x65\x63\x6f\x6e\x6e\x65\x63\x74': !![],
-                        '\x72\x65\x6a\x65\x63\x74\x55\x6e\x61\x75\x74\x68\x6f\x72\x69\x7a\x65\x64': ![]
-                    }, _0x5d9b1 === _0x286f2e(0x1ed) && (_0x4907f8 === _0x286f2e(0x1c1) || _0x286f2e(0x1b1)) && (_0x591e86[_0x286f2e(0x1c4)]('\x59\x6f\x75\x20\x74\x72\x79\x20\x63\x6f\x6e\x6e\x65\x63\x74\x20\x76\x69\x61\x20\x48\x54\x54\x50\x53\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x20\x77\x69\x74\x68\x20\x70\x6f\x72\x74\x20\x33\x30\x33\x34\x20\x28\x68\x74\x74\x70\x29'), _0xba2a00[_0x286f2e(0x1c4)](_0x286f2e(0x1bd)), _0x276846 = 0xbdb)) : _0x446c64[_0x286f2e(0x1ae)]()), this[_0x286f2e(0x19a)](), this[_0x286f2e(0x198)] = null, ANGameManager[_0x286f2e(0x195)]();
-                }
-            }, _0x324592['\x73\x74\x61\x72\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e'] = function () {
-                var _0x5d3b75 = _0x3b4e39, _0x4140d7, _0xece29d, _0x2bc9de, _0x2b2f62, _0x5005fc;
-                _0xece29d = ANET['\x50\x50'][_0x5d3b75(0x1ca)](), _0x2b2f62 = ANET['\x50\x50'][_0x5d3b75(0x1e4)]();
-                if (ANET['\x50\x50'][_0x5d3b75(0x1f0)]() === !![]) {
-                    if (_0x5d3b75(0x1ef) === '\x62\x52\x54\x43\x6b')
-                        return;
-                    else
-                        console[_0x5d3b75(0x1dd)](_0x5d3b75(0x1e9)), _0x5005fc = '\x68\x74\x74\x70\x73\x3a\x2f\x2f', _0x2bc9de = {
-                            '\x73\x65\x63\x75\x72\x65': !![],
-                            '\x72\x65\x63\x6f\x6e\x6e\x65\x63\x74': !![],
-                            '\x72\x65\x6a\x65\x63\x74\x55\x6e\x61\x75\x74\x68\x6f\x72\x69\x7a\x65\x64': ![]
-                        }, _0x2b2f62 === _0x5d3b75(0x1ed) && (_0xece29d === '\x61\x6e\x65\x74\x7a\x67\x6c\x6f\x62\x61\x6c\x2e\x72\x75' || _0x5d3b75(0x1b1)) && ('\x44\x4a\x62\x47\x6a' !== _0x5d3b75(0x190) ? (_0x20971d['\x73\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x54\x6f\x4d\x61\x73\x74\x65\x72\x43\x61\x6c\x6c\x62\x61\x63\x6b'](_0x5dbebe), this[_0x5d3b75(0x1b2)]()) : (console[_0x5d3b75(0x1c4)]('\x59\x6f\x75\x20\x74\x72\x79\x20\x63\x6f\x6e\x6e\x65\x63\x74\x20\x76\x69\x61\x20\x48\x54\x54\x50\x53\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x20\x77\x69\x74\x68\x20\x70\x6f\x72\x74\x20\x33\x30\x33\x34\x20\x28\x68\x74\x74\x70\x29'), console['\x77\x61\x72\x6e'](_0x5d3b75(0x1bd)), _0x2b2f62 = 0xbdb));
-                } else
-                    _0x5005fc = _0x5d3b75(0x1d0), _0x2bc9de = {};
-                _0x4140d7 = _0x5005fc + _0xece29d + '\x3a' + _0x2b2f62, console[_0x5d3b75(0x1dd)]('\x43\x6f\x6e\x6e\x65\x63\x74\x20\x74\x6f\x20' + _0x4140d7), this['\x73\x6f\x63\x6b\x65\x74'] = io(_0x4140d7, _0x2bc9de), this[_0x5d3b75(0x1e3)] = new NetworkClientHandler(this['\x73\x6f\x63\x6b\x65\x74']);
-            }, _0x324592[_0x3b4e39(0x1a2)] = function (_0x4f221e) {
-                var _0x179a08 = _0x3b4e39;
-                if (_0x179a08(0x1bb) === '\x58\x66\x6b\x70\x5a')
-                    NetClientMethodsManager['\x73\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x54\x6f\x4d\x61\x73\x74\x65\x72\x43\x61\x6c\x6c\x62\x61\x63\x6b'](_0x4f221e), this['\x73\x74\x61\x72\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e']();
-                else {
-                    var _0xb83e2c, _0x1520f4;
-                    !this['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']() ? _0x24f3ee['\x70'](_0x179a08(0x1bc)) : (_0x1520f4 = _0x3f411a[_0x179a08(0x1d8)](), _0xb83e2c = function (..._0x1743b4) {
-                        var _0x48ba50 = _0x179a08;
-                        return _0x353074['\x70'](_0x48ba50(0x1cd) + _0x1520f4), _0x2d0187['\x61\x70\x70\x6c\x79'](this, _0x1743b4);
-                    }, _0x358b7c['\x70']('\x53\x65\x6e\x64\x2c\x20\x63\x61\x6c\x6c\x62\x61\x63\x6b\x3a\x20' + _0x1520f4), _0x257946[_0x179a08(0x1d3)](this['\x73\x6f\x63\x6b\x65\x74']['\x69\x64'])[_0x179a08(0x1af)](_0xb83e2c));
-                }
-            }, _0x324592[_0x3b4e39(0x199)] = function (_0x4d2235, _0x56d0f0 = ![]) {
-                var _0x4fdd64 = _0x3b4e39;
-                if (_0x4fdd64(0x1b4) === _0x4fdd64(0x1b4)) {
-                    if (!this['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']()) {
-                        if (_0x4fdd64(0x1ee) !== _0x4fdd64(0x1ee))
-                            return {
-                                '\x69\x64': _0x1351cf['\x56\x44'][_0x4fdd64(0x1cc)](),
-                                '\x74\x69\x74\x6c\x65': _0x54bde5['\x67\x61\x6d\x65\x54\x69\x74\x6c\x65'],
-                                '\x76\x65\x72\x73\x69\x6f\x6e': _0x53696e[_0x4fdd64(0x1ce)]() ? 0x0 : 0x1,
-                                '\x6d\x61\x78\x50\x6c\x61\x79\x65\x72\x73': _0x23f102['\x50\x50'][_0x4fdd64(0x1f1)](),
-                                '\x6d\x6f\x64\x65': 0x0
-                            };
-                        else
-                            _0x1133d8['\x70']('\x59\x6f\x75\x20\x74\x72\x79\x20\x73\x65\x6e\x64\x20\x6d\x65\x73\x73\x61\x67\x65\x2c\x20\x62\x75\x74\x20\x4e\x4f\x54\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x21');
-                    } else
-                        !_0x56d0f0 && _0x1133d8['\x70'](_0x4fdd64(0x1b8) + _0x4d2235[_0x4fdd64(0x1d8)]()), _0x4d2235[_0x4fdd64(0x1d3)](this[_0x4fdd64(0x198)]['\x69\x64'])['\x73\x65\x6e\x64']();
-                } else {
-                    if (!this[_0x4fdd64(0x1f4)]())
-                        return;
-                    this['\x73\x65\x6e\x64'](_0x33fc56[_0x4fdd64(0x192)](_0x4fdd64(0x1c2)));
-                }
-            }, _0x324592[_0x3b4e39(0x1f2)] = function (_0x4f26bd, _0x13286f, _0x2ac5d3, _0x995820 = 0x7d0) {
-                var _0x1b32a0 = _0x3b4e39, _0x435e19, _0x15d5b7, _0x539751;
-                if (!this['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']())
-                    '\x65\x6b\x6e\x72\x72' !== _0x1b32a0(0x19e) ? _0x338091['\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74']() : _0x1133d8['\x70'](_0x1b32a0(0x1df));
-                else {
-                    if (_0x1b32a0(0x1ec) !== '\x77\x68\x6d\x74\x64')
-                        return;
-                    else
-                        _0x539751 = _0x4f26bd[_0x1b32a0(0x1d8)](), this[_0x1b32a0(0x1a0)](), HUIManager['\x73\x68\x6f\x77\x4c\x6f\x61\x64\x65\x72'](), _0x15d5b7 = function (..._0x19b6d9) {
-                            var _0x1d3b17 = _0x1b32a0;
-                            return _0x1133d8['\x70'](_0x1d3b17(0x1eb) + _0x539751), _0x2ac5d3 != null && _0x2ac5d3['\x61\x70\x70\x6c\x79'](this, _0x19b6d9), ANNetwork[_0x1d3b17(0x19a)](), HUIManager['\x68\x69\x64\x65\x4c\x6f\x61\x64\x65\x72']();
-                        }, _0x435e19 = function (..._0xd45394) {
-                            var _0x1c468e = _0x1b32a0;
-                            return _0x1133d8['\x70'](_0x1c468e(0x1cb) + _0x539751), _0x13286f != null && _0x13286f['\x61\x70\x70\x6c\x79'](this, _0xd45394), ANNetwork['\x72\x65\x73\x65\x74\x57\x61\x69\x74'](), HUIManager[_0x1c468e(0x1e1)]();
-                        }, _0x1133d8['\x70']('\x53\x65\x6e\x64\x2c\x20\x67\x65\x74\x21\x3a\x20' + _0x539751), _0x4f26bd[_0x1b32a0(0x1d3)](this[_0x1b32a0(0x198)]['\x69\x64'])['\x67\x65\x74'](_0x435e19, _0x15d5b7, _0x995820);
-                }
-            }, _0x324592[_0x3b4e39(0x1af)] = function (_0x2fb992, _0x501348) {
-                var _0x342a49 = _0x3b4e39, _0x36a5a4, _0x193164;
-                if (!this[_0x342a49(0x1f4)]()) {
-                    if (_0x342a49(0x1ba) === _0x342a49(0x1ba))
-                        _0x1133d8['\x70'](_0x342a49(0x1bc));
-                    else
-                        return;
-                } else
-                    _0x193164 = _0x2fb992['\x66\x75\x6c\x6c\x4e\x61\x6d\x65'](), _0x36a5a4 = function (..._0x189546) {
-                        var _0x23ea41 = _0x342a49;
-                        return '\x74\x69\x74\x53\x5a' === _0x23ea41(0x1e2) ? (_0x1133d8['\x70']('\x43\x61\x6c\x6c\x62\x61\x63\x6b\x20\x66\x6f\x72\x3a\x20' + _0x193164), _0x501348['\x61\x70\x70\x6c\x79'](this, _0x189546)) : this['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']() && this['\x5f\x69\x73\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72'] === !![];
-                    }, _0x1133d8['\x70'](_0x342a49(0x1b7) + _0x193164), _0x2fb992[_0x342a49(0x1d3)](this['\x73\x6f\x63\x6b\x65\x74']['\x69\x64'])[_0x342a49(0x1af)](_0x36a5a4);
-            }, _0x324592[_0x3b4e39(0x1f5)] = function (_0x47de57) {
-                var _0x4a4b12 = _0x3b4e39;
-                return this[_0x4a4b12(0x199)](NMS['\x54\x72\x61\x63\x65'](_0x47de57));
-            };
-    }()), (function () {
-        var _0x49c979 = _0x79c5a9;
-        if ('\x6a\x55\x64\x69\x65' === _0x49c979(0x1bf)) {
-            if (this['\x72\x6f\x6f\x6d'] == null)
-                return;
-            _0x3ec804[_0x49c979(0x193)](), this[_0x49c979(0x199)](_0x3d331c[_0x49c979(0x192)](_0x49c979(0x1ad), this['\x72\x6f\x6f\x6d']['\x6e\x61\x6d\x65']));
-        } else
-            return _0x324592[_0x49c979(0x1b3)] = function (_0x58143b) {
-                var _0x31a38c = _0x49c979;
-                return this[_0x31a38c(0x19c)] = _0x58143b, this[_0x31a38c(0x1e0)] = !![], _0x1133d8['\x70'](_0x31a38c(0x1c3) + this[_0x31a38c(0x19c)][_0x31a38c(0x1cf)]);
-            }, _0x324592[_0x49c979(0x1de)] = function (_0x4d9537) {
-                var _0x22b7cc = _0x49c979;
-                return this[_0x22b7cc(0x19c)] = _0x4d9537, this['\x5f\x69\x73\x48\x6f\x73\x74'] = ![], _0x1133d8['\x70']('\x59\x6f\x75\x20\x61\x72\x65\x20\x6a\x6f\x69\x6e\x65\x64\x20\x74\x6f\x20\x72\x6f\x6f\x6d\x3a\x20' + this['\x72\x6f\x6f\x6d']['\x6e\x61\x6d\x65']);
-            }, _0x324592[_0x49c979(0x1c5)] = function (_0x36275d) {
-                this['\x72\x6f\x6f\x6d'] = _0x36275d;
-            }, _0x324592[_0x49c979(0x1b9)] = function () {
-                var _0x189076 = _0x49c979;
-                if ('\x74\x4d\x45\x55\x42' === _0x189076(0x1be))
-                    return;
-                else {
-                    if (!this['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']()) {
-                        if (_0x189076(0x1a6) === _0x189076(0x1b0))
-                            _0x33a4c8['\x70'](_0x189076(0x1df));
-                        else
-                            return;
-                    }
-                    if (this[_0x189076(0x19c)] == null)
-                        return;
-                    this[_0x189076(0x1ad)](), this[_0x189076(0x1e0)] = ![], this[_0x189076(0x19c)] = null;
-                }
-            }, _0x324592[_0x49c979(0x1db)] = function () {
-                var _0xe87ebf = _0x49c979;
-                if (_0xe87ebf(0x196) === _0xe87ebf(0x1a1))
-                    _0x22c086['\x70'](_0xe87ebf(0x1bc));
-                else {
-                    if (!this[_0xe87ebf(0x18d)]()) {
-                        if ('\x4e\x64\x59\x65\x56' !== _0xe87ebf(0x1e6))
-                            return _0x2f7ee8['\x70']('\x52\x65\x73\x70\x6f\x6e\x73\x65\x20\x28\x67\x65\x74\x29\x20\x66\x6f\x72\x3a\x20' + _0x279f80), _0x2c1972 != null && _0x39db99[_0xe87ebf(0x19d)](this, _0x1f632d), _0x4904c7[_0xe87ebf(0x19a)](), _0x580d94['\x68\x69\x64\x65\x4c\x6f\x61\x64\x65\x72']();
-                        else
-                            return;
-                    }
-                    if (this[_0xe87ebf(0x19c)] == null)
-                        return;
-                    this[_0xe87ebf(0x199)](NMS[_0xe87ebf(0x192)](_0xe87ebf(0x1db)));
-                }
-            }, _0x324592['\x6c\x65\x61\x76\x65\x52\x6f\x6f\x6d'] = function () {
-                var _0x4d2dcf = _0x49c979;
-                if (_0x4d2dcf(0x1d6) === '\x68\x41\x61\x61\x53')
-                    _0x34199e['\x70'](_0x4d2dcf(0x1b8) + _0x13a284[_0x4d2dcf(0x1d8)]());
-                else {
-                    if (this[_0x4d2dcf(0x19c)] == null)
-                        return;
-                    ANGameManager['\x6f\x6e\x4c\x65\x61\x76\x65\x52\x6f\x6f\x6d'](), this[_0x4d2dcf(0x199)](NMS['\x4c\x6f\x62\x62\x79']('\x6c\x65\x61\x76\x65\x52\x6f\x6f\x6d', this[_0x4d2dcf(0x19c)][_0x4d2dcf(0x1cf)]));
-                }
-            }, _0x324592[_0x49c979(0x1ea)] = function () {
-                var _0x41bad8 = _0x49c979;
-                if (!this[_0x41bad8(0x1f4)]())
-                    return;
-                this['\x73\x65\x6e\x64'](NMS[_0x41bad8(0x192)](_0x41bad8(0x1c2)));
-            };
-    }()), _0x324592['\x67\x65\x74\x4e\x65\x74\x77\x6f\x72\x6b\x47\x61\x6d\x65\x49\x6e\x66\x6f\x44\x61\x74\x61'] = function () {
-        var _0x52c73f = _0x79c5a9;
-        return {
-            '\x69\x64': ANET['\x56\x44'][_0x52c73f(0x1cc)](),
-            '\x74\x69\x74\x6c\x65': $dataSystem['\x67\x61\x6d\x65\x54\x69\x74\x6c\x65'],
-            '\x76\x65\x72\x73\x69\x6f\x6e': KDCore[_0x52c73f(0x1ce)]() ? 0x0 : 0x1,
-            '\x6d\x61\x78\x50\x6c\x61\x79\x65\x72\x73': ANET['\x50\x50'][_0x52c73f(0x1f1)](),
-            '\x6d\x6f\x64\x65': 0x0
+    _.stop = function() {
+      var ref;
+      NetClientMethodsManager.setConnectionToMasterCallback(null);
+      if ((ref = this.client) != null) {
+        ref.disconnect();
+      }
+      this.resetWait();
+      this.socket = null;
+      ANGameManager.reset();
+    };
+    _.startConnection = function() {
+      var adr, ip, options, port, protocol;
+      ip = ANET.PP.serverIp();
+      port = ANET.PP.serverPort();
+      // * SSL (https) connection
+      if (ANET.PP.isHTTPSConnection() === true) {
+        console.log("Using HTTPS secure connection");
+        protocol = "https://";
+        options = {
+          secure: true,
+          reconnect: true,
+          rejectUnauthorized: false
         };
+        // * Возможно пользователь не внимателен и не указал порт 3035 при HTTP опции
+        if (port === "3034" && (ip === "anetzglobal.ru" || "195.161.41.20")) {
+          console.warn("You try connect via HTTPS connection with port 3034 (http)");
+          console.warn("Port changed to 3035. Check Connection plugin parameter");
+          port = 3035;
+        }
+      } else {
+        protocol = "http://";
+        options = {};
+      }
+      adr = protocol + ip + ":" + port;
+      console.log("Connect to " + adr);
+      this.socket = io(adr, options);
+      this.client = new NetworkClientHandler(this.socket);
     };
-}()));
+    _.setConnection = function(callback) {
+      NetClientMethodsManager.setConnectionToMasterCallback(callback);
+      this.startConnection();
+    };
+    // * Просто отправить данные на сервер
+    _.send = function(msg, noLog = false) {
+      if (!this.isConnected()) {
+        LOG.p("You try send message, but NOT connection!");
+      } else {
+        if (!noLog) {
+          LOG.p("Send: " + msg.fullName());
+        }
+        msg.setFrom(this.socket.id).send();
+      }
+    };
+    // * Отправить сообщение и ждать! результат (есть Timeout)
+    // * (тут данные должен обратно отправить именно сам сервер)
+    _.get = function(msg, onData, onTimeout, timeoutTime = 2000) {
+      var _onData, _onTimeout, msgName;
+      if (!this.isConnected()) {
+        LOG.p("You try get data from Server, but NOT connection!");
+      } else {
+        msgName = msg.fullName();
+        // * Ставим игру на паузу
+        this.setWait();
+        HUIManager.showLoader();
+        // * Дополняем callbacks, чтобы снять игру автоматически с паузы
+        _onTimeout = function(...args) {
+          LOG.p("Timeout for: " + msgName);
+          if (onTimeout != null) {
+            onTimeout.apply(this, args);
+          }
+          ANNetwork.resetWait();
+          return HUIManager.hideLoader();
+        };
+        _onData = function(...args) {
+          LOG.p("Response (get) for: " + msgName);
+          if (onData != null) {
+            onData.apply(this, args);
+          }
+          ANNetwork.resetWait();
+          return HUIManager.hideLoader();
+        };
+        LOG.p("Send, get!: " + msgName);
+        msg.setFrom(this.socket.id).get(_onData, _onTimeout, timeoutTime);
+      }
+    };
+    // * Отправить сообщение и вызвать callback, когда прийдёт ответ
+    _.callback = function(msg, method) {
+      var _method, msgName;
+      if (!this.isConnected()) {
+        LOG.p("You try send callback message, but NOT connection!");
+      } else {
+        msgName = msg.fullName();
+        _method = function(...args) {
+          LOG.p("Callback for: " + msgName);
+          return method.apply(this, args);
+        };
+        LOG.p("Send, callback: " + msgName);
+        msg.setFrom(this.socket.id).callback(_method);
+      }
+    };
+    return _.trace = function(text) {
+      return this.send(NMS.Trace(text));
+    };
+  })();
+  (function() {    // * ROOMS ======================================================
+    // * Этот метод вызывается когда создаём комнату
+    _.setRoomMaster = function(room) {
+      this.room = room;
+      this._isHost = true;
+      return LOG.p("You are Master (host) of room: " + this.room.name);
+    };
+    //TODO: установить флаг в NetMessage? что типо теперь send.to
+
+    // * Когда подключаемся к комнате
+    _.setRoomJoin = function(room) {
+      this.room = room;
+      this._isHost = false;
+      return LOG.p("You are joined to room: " + this.room.name);
+    };
+    //TODO: установить флаг в NetMessage? что типо теперь send.to
+
+    // * Обновить данные команты (к которой подключён)
+    _.onRoomDataFromServer = function(room) {
+      this.room = room;
+    };
+    // * Комната была закрыта
+    _.onRoomClosed = function() {
+      if (!this.isConnected()) {
+        return;
+      }
+      if (this.room == null) {
+        return;
+      }
+      this.leaveRoom();
+      this._isHost = false;
+      this.room = null;
+    };
+    // * Закрыть комнату (созданную этим клиентом)
+    _.closeRoom = function() {
+      if (!this.isMasterClient()) {
+        return;
+      }
+      if (this.room == null) {
+        return;
+      }
+      this.send(NMS.Lobby("closeRoom"));
+    };
+    // * Покинуть комнату (к которой этот клиент подключился)
+    _.leaveRoom = function() {
+      if (this.room == null) {
+        return;
+      }
+      ANGameManager.onLeaveRoom();
+      this.send(NMS.Lobby("leaveRoom", this.room.name));
+    };
+    
+    // * Запросить данные о игроках в комнате
+    return _.requestRoomRefresh = function() {
+      if (!this.isConnected()) {
+        return;
+      }
+      this.send(NMS.Lobby("getRoomData"));
+    };
+  })();
+  // * HELPERS ====================================================
+
+  // * Получить общие данные о игре для сети (комнаты)
+  // * (используется при создании комнаты)
+  _.getNetworkGameInfoData = function() {
+    return {
+      id: ANET.VD.getGameVersion(),
+      title: $dataSystem.gameTitle,
+      version: KDCore.isMZ() ? 0 : 1,
+      maxPlayers: ANET.PP.maxPlayersInRoom(),
+      mode: 0 //TODO: Deprecated
+    };
+  };
+})();
+
 
 // Generated by CoffeeScript 2.6.1
 // * Глабольный менеджер с основными методами системы
@@ -9134,565 +9030,435 @@ ANET.VD = function() {};
 //---------------------------------------------------------------------------
 
 
-function _0x36f1(_0x520dab, _0x12176a) {
-    var _0x274820 = _0x2748();
-    return _0x36f1 = function (_0x36f10c, _0x4767e5) {
-        _0x36f10c = _0x36f10c - 0xad;
-        var _0xb65126 = _0x274820[_0x36f10c];
-        return _0xb65126;
-    }, _0x36f1(_0x520dab, _0x12176a);
-}
-(function (_0xc5fa57, _0x541924) {
-    var _0x5265c2 = _0x36f1, _0x325b07 = _0xc5fa57();
-    while (!![]) {
-        try {
-            var _0x17a0b4 = -parseInt(_0x5265c2(0xed)) / 0x1 * (parseInt(_0x5265c2(0x104)) / 0x2) + -parseInt(_0x5265c2(0x138)) / 0x3 + -parseInt(_0x5265c2(0xc7)) / 0x4 + parseInt(_0x5265c2(0x12c)) / 0x5 + parseInt(_0x5265c2(0xaf)) / 0x6 + parseInt(_0x5265c2(0x106)) / 0x7 * (-parseInt(_0x5265c2(0xfd)) / 0x8) + parseInt(_0x5265c2(0x130)) / 0x9 * (parseInt(_0x5265c2(0xe9)) / 0xa);
-            if (_0x17a0b4 === _0x541924)
-                break;
-            else
-                _0x325b07['push'](_0x325b07['shift']());
-        } catch (_0x25a1cd) {
-            _0x325b07['push'](_0x325b07['shift']());
+// Generated by CoffeeScript 2.6.1
+// * Данный класс отвечает за HTML элементы пользовательского интерфейса на сценах
+
+//https://github.com/caroso1222/notyf
+
+//TODO: load material icons? make more notifies (info, warning?)
+
+//<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+//$[ENCODE]
+window.HUIManager = function() {};
+
+(function() {
+  var _;
+  //@[DEFINES]
+  _ = window.HUIManager;
+  _.init = function() {
+    this._isMouseHoverHtmlElement = false;
+    this._loadCSS();
+    this._createRelativeParent();
+    this._createLoadSpinner();
+    this._createNotify();
+    // * Отключаем контекстное меню у новых элементов
+    Graphics._disableContextMenu();
+  };
+  _.isUnderMouse = function() {
+    return this._isMouseHoverHtmlElement === true;
+  };
+  // * Когда происходит смена сцены в игре
+  // * (надо убирать лишние элементы, которые не могут переходить на другую сцену)
+  _.onGameSceneChanged = function() {
+    return this.hideWaitingInfo();
+  };
+  _.showLoader = function(delay = 200) {
+    var e;
+    try {
+      if (this.isLoaderActive()) {
+        return;
+      }
+      this._loaderThread = setTimeout((function() {
+        if (!document.getElementById("anetLoader")) {
+          return document.body.appendChild(HUIManager._loader);
         }
+      }), delay);
+    } catch (error) {
+      e = error;
+      console.warn(e);
     }
-}(_0x2748, 0x6fb3e), window['\x48\x55\x49\x4d\x61\x6e\x61\x67\x65\x72'] = function () {
-}, (function () {
-    var _0x5634f9 = _0x36f1, _0x114e35;
-    _0x114e35 = window[_0x5634f9(0x117)], _0x114e35[_0x5634f9(0xf3)] = function () {
-        var _0x125986 = _0x5634f9;
-        if (_0x125986(0x13f) !== _0x125986(0xd9))
-            this['\x5f\x69\x73\x4d\x6f\x75\x73\x65\x48\x6f\x76\x65\x72\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74'] = ![], this[_0x125986(0xe4)](), this[_0x125986(0x10c)](), this[_0x125986(0x135)](), this[_0x125986(0xb3)](), Graphics[_0x125986(0xd5)]();
-        else
-            return;
-    }, _0x114e35[_0x5634f9(0x11b)] = function () {
-        var _0x24e4cd = _0x5634f9;
-        return _0x24e4cd(0x133) !== _0x24e4cd(0x118) ? this[_0x24e4cd(0x13a)] === !![] : (_0x1de9e2 = _0x54a289, _0x154116['\x77'](_0x24fc78));
-    }, _0x114e35['\x6f\x6e\x47\x61\x6d\x65\x53\x63\x65\x6e\x65\x43\x68\x61\x6e\x67\x65\x64'] = function () {
-        var _0x158430 = _0x5634f9;
-        if (_0x158430(0x129) === _0x158430(0xc3))
-            _0xec5bbe = _0x1f6883, _0x18211c[_0x158430(0xc0)](_0x25f4f6);
-        else
-            return this['\x68\x69\x64\x65\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f']();
-    }, _0x114e35[_0x5634f9(0x127)] = function (_0x1e7e66 = 0xc8) {
-        var _0x4d8861 = _0x5634f9, _0x2cac15;
-        try {
-            if (this[_0x4d8861(0xe5)]()) {
-                if (_0x4d8861(0xc6) !== _0x4d8861(0xc6)) {
-                    if (this['\x5f\x72\x43\x68\x61\x74'] == null)
-                        return;
-                    return (_0x506f7b = this[_0x4d8861(0x10a)]) != null ? _0x14cbd8[_0x4d8861(0x121)]() : void 0x0;
-                } else
-                    return;
-            }
-            this[_0x4d8861(0xbb)] = setTimeout(function () {
-                var _0x199427 = _0x4d8861;
-                if (!document[_0x199427(0xb9)](_0x199427(0xb5)))
-                    return document['\x62\x6f\x64\x79'][_0x199427(0xd4)](HUIManager['\x5f\x6c\x6f\x61\x64\x65\x72']);
-            }, _0x1e7e66);
-        } catch (_0x30aaee) {
-            if (_0x4d8861(0x110) !== _0x4d8861(0x145))
-                _0x2cac15 = _0x30aaee, console['\x77\x61\x72\x6e'](_0x2cac15);
-            else {
-                if (_0x56aa0b['\x6b\x65\x79\x43\x6f\x64\x65'] === 0x5a || _0x3d8ee6[_0x4d8861(0x141)] === 0x58 || _0x322973[_0x4d8861(0x141)] === 0x20) {
-                    this[_0x4d8861(0xfe)]();
-                    return;
-                }
-            }
-        }
-    }, _0x114e35[_0x5634f9(0xe6)] = function () {
-        var _0x5e9c20 = _0x5634f9, _0xff39e7;
-        try {
-            if (_0x5e9c20(0xe1) !== _0x5e9c20(0xc2)) {
-                if (!this[_0x5e9c20(0xe5)]())
-                    return;
-                clearTimeout(this['\x5f\x6c\x6f\x61\x64\x65\x72\x54\x68\x72\x65\x61\x64']), this[_0x5e9c20(0xbb)] = null, document[_0x5e9c20(0xb9)](_0x5e9c20(0xb5)) && document[_0x5e9c20(0xe7)][_0x5e9c20(0xf7)](this[_0x5e9c20(0x134)]);
-            } else
-                _0x2b85df['\x66\x6f\x63\x75\x73']();
-        } catch (_0x37cc27) {
-            _0xff39e7 = _0x37cc27, console[_0x5e9c20(0x113)](_0xff39e7);
-        }
-    }, _0x114e35[_0x5634f9(0xe5)] = function () {
-        return this['\x5f\x6c\x6f\x61\x64\x65\x72\x54\x68\x72\x65\x61\x64'] != null;
-    }, _0x114e35['\x73\x68\x6f\x77\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f'] = function (_0x22d551, _0x2963b3, _0x1155e7 = 0xc8) {
-        var _0x29baac = _0x5634f9, _0x2d0f97;
-        try {
-            if (this[_0x29baac(0xd1)]()) {
-                if (_0x29baac(0xad) === _0x29baac(0xcf))
-                    return _0x2019f5[_0x29baac(0x13a)] = !![];
-                else
-                    return;
-            }
-            this[_0x29baac(0xbc)] = setTimeout(function () {
-                return HUIManager['\x5f\x63\x72\x65\x61\x74\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x41\x6c\x65\x72\x74'](_0x22d551, _0x2963b3);
-            }, _0x1155e7);
-        } catch (_0x50e2bc) {
-            if ('\x45\x4c\x74\x47\x4b' !== _0x29baac(0x12b)) {
-                var _0x1981ed;
-                if (this[_0x29baac(0x122)] == null)
-                    return;
-                (_0x1981ed = _0x128155[_0x29baac(0xb9)](_0x29baac(0x12a))) != null && _0x1981ed['\x66\x6f\x63\x75\x73']();
-            } else
-                _0x2d0f97 = _0x50e2bc, console[_0x29baac(0xc0)](_0x2d0f97);
-        }
-    }, _0x114e35[_0x5634f9(0xb6)] = function () {
-        var _0x571485 = _0x5634f9, _0x4860b0;
-        try {
-            if (!this[_0x571485(0xd1)]()) {
-                if (_0x571485(0xbd) === _0x571485(0xbd))
-                    return;
-                else
-                    return _0x598431[_0x571485(0xe7)]['\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64'](_0x90ae04[_0x571485(0x134)]);
-            }
-            clearTimeout(this[_0x571485(0xbc)]), this[_0x571485(0xbc)] = null, this[_0x571485(0x120)] != null && (document[_0x571485(0xb9)]('\x61\x6e\x65\x74\x43\x61\x6e\x76\x61\x73\x45\x6c\x65\x6d\x65\x6e\x74\x73')[_0x571485(0xf7)](this[_0x571485(0x120)]), this['\x5f\x77\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73'] = null);
-        } catch (_0x218701) {
-            if ('\x62\x79\x4e\x43\x4c' !== _0x571485(0x13c))
-                return this[_0x571485(0xf5)][_0x571485(0x111)](_0x25ef42);
-            else
-                _0x4860b0 = _0x218701, console[_0x571485(0xc0)](_0x4860b0);
-        }
-    }, _0x114e35[_0x5634f9(0xd1)] = function () {
-        var _0x348dd2 = _0x5634f9;
-        return this[_0x348dd2(0xbc)] != null;
-    }, _0x114e35[_0x5634f9(0xf2)] = function (_0x1550db) {
-        var _0x16aa8c = _0x5634f9, _0x11a23a;
-        try {
-            return this[_0x16aa8c(0xf5)][_0x16aa8c(0x111)](_0x1550db);
-        } catch (_0x2b6372) {
-            return _0x11a23a = _0x2b6372, console['\x77\x61\x72\x6e'](_0x11a23a);
-        }
-    }, _0x114e35['\x6e\x6f\x74\x69\x66\x79\x53\x75\x63\x65\x73\x73'] = function (_0x475a60) {
-        var _0x4e56d2 = _0x5634f9, _0x10b126;
-        try {
-            return this['\x5f\x6e\x6f\x74\x69\x66\x79'][_0x4e56d2(0x108)](_0x475a60);
-        } catch (_0xbf1f79) {
-            return _0x10b126 = _0xbf1f79, console[_0x4e56d2(0xc0)](_0x10b126);
-        }
-    }, _0x114e35[_0x5634f9(0x116)] = function () {
-        return this['\x5f\x69\x6e\x70\x75\x74'] != null;
-    }, _0x114e35[_0x5634f9(0xcd)] = function (_0xae80de, _0x125fed) {
-        var _0xfe1704 = _0x5634f9;
-        if (this['\x5f\x69\x6e\x70\x75\x74'] != null) {
-            if (_0xfe1704(0x13d) !== '\x4f\x7a\x78\x77\x6d')
-                this[_0xfe1704(0x112)]();
-            else {
-                var _0x255af5;
-                _0x255af5 = _0xfe1704(0x12f), this[_0xfe1704(0x128)] = _0xa31378[_0xfe1704(0x10e)](_0xfe1704(0x103)), this[_0xfe1704(0x128)]['\x69\x64'] = '\x61\x6e\x65\x74\x52\x6f\x6f\x6d\x43\x68\x61\x74', this[_0xfe1704(0x128)]['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74'][_0xfe1704(0xde)](_0xfe1704(0xd2)), this['\x5f\x72\x43\x68\x61\x74'][_0xfe1704(0x10d)](_0xfe1704(0xb4), function () {
-                    return _0x2dfe5c['\x5f\x69\x73\x4d\x6f\x75\x73\x65\x48\x6f\x76\x65\x72\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74'] = !![];
-                }), this['\x5f\x72\x43\x68\x61\x74'][_0xfe1704(0x10d)]('\x6d\x6f\x75\x73\x65\x6c\x65\x61\x76\x65', function () {
-                    return _0xe0c9f1['\x5f\x69\x73\x4d\x6f\x75\x73\x65\x48\x6f\x76\x65\x72\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74'] = ![];
-                }), this[_0xfe1704(0x128)][_0xfe1704(0xee)](_0xfe1704(0x115), _0x255af5), this[_0xfe1704(0x128)][_0xfe1704(0x13b)] = ![], this[_0xfe1704(0xd7)][_0xfe1704(0xd4)](this[_0xfe1704(0x128)]);
-            }
-        }
-        this['\x5f\x63\x72\x65\x61\x74\x65\x49\x6e\x70\x75\x74\x46\x69\x65\x6c\x64'](_0xae80de, _0x125fed);
-    }, _0x114e35[_0x5634f9(0x112)] = function () {
-        var _0x3c85c8 = _0x5634f9;
-        if (_0x3c85c8(0x114) !== _0x3c85c8(0x144)) {
-            var _0x28811a, _0x230f78;
-            if (this[_0x3c85c8(0x122)] == null)
-                return;
-            HUIManager[_0x3c85c8(0x13a)] = ![];
-            try {
-                if (_0x3c85c8(0xc4) !== _0x3c85c8(0xc4))
-                    return _0x397935[_0x3c85c8(0xda)](_0x2eeefa, _0x373d7f);
-                else
-                    _0x230f78 = document[_0x3c85c8(0xb9)](_0x3c85c8(0xdc)), this[_0x3c85c8(0x122)][_0x3c85c8(0x102)][_0x3c85c8(0x123)] = _0x3c85c8(0x119), this[_0x3c85c8(0x122)]['\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65'] != null && this[_0x3c85c8(0x122)]['\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65'][_0x3c85c8(0xf7)](this['\x5f\x69\x6e\x70\x75\x74']);
-            } catch (_0x5d6703) {
-                '\x69\x76\x58\x50\x4a' !== _0x3c85c8(0xef) ? (_0x4db122 = _0x494da5, _0x4b416b[_0x3c85c8(0xc0)](_0xcfc44c)) : (_0x28811a = _0x5d6703, ANET['\x77'](_0x28811a));
-            }
-            this[_0x3c85c8(0x122)] = null;
-        } else {
-            var _0x3cdd9b;
-            if (this[_0x3c85c8(0x122)] == null)
-                return;
-            (_0x3cdd9b = _0x2eb5ce[_0x3c85c8(0xb9)]('\x61\x6e\x65\x74\x49\x6e\x70\x75\x74\x4e\x61\x6d\x65')) != null && (_0x3cdd9b['\x76\x61\x6c\x75\x65'] = _0x31f95a);
-        }
-    }, _0x114e35[_0x5634f9(0xdf)] = function () {
-        var _0x170346 = _0x5634f9, _0x3e49ae;
-        if (this[_0x170346(0x122)] == null)
-            return;
-        if ((_0x3e49ae = document[_0x170346(0xb9)](_0x170346(0x12a))) != null) {
-            if ('\x50\x47\x50\x63\x6e' !== _0x170346(0xc8))
-                return this[_0x170346(0xbb)] != null;
-            else
-                _0x3e49ae[_0x170346(0xec)]();
-        }
-    }, _0x114e35[_0x5634f9(0xf6)] = function () {
-        var _0x53e5e4 = _0x5634f9;
-        if (_0x53e5e4(0xae) !== _0x53e5e4(0x10b)) {
-            var _0x304850;
-            if (this[_0x53e5e4(0x122)] == null) {
-                if (_0x53e5e4(0x12e) === _0x53e5e4(0x12e))
-                    return '';
-                else {
-                    if (!this[_0x53e5e4(0xe5)]())
-                        return;
-                    _0x265d4b(this[_0x53e5e4(0xbb)]), this[_0x53e5e4(0xbb)] = null, _0x290162['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](_0x53e5e4(0xb5)) && _0x3f361e['\x62\x6f\x64\x79'][_0x53e5e4(0xf7)](this[_0x53e5e4(0x134)]);
-                }
-            }
-            return (_0x304850 = document[_0x53e5e4(0xb9)](_0x53e5e4(0x12a))) != null ? _0x304850['\x76\x61\x6c\x75\x65'] : void 0x0;
-        } else
-            return '';
-    }, _0x114e35['\x73\x65\x74\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65'] = function (_0x783f3) {
-        var _0x247165 = _0x5634f9;
-        if (_0x247165(0xbf) !== _0x247165(0xbf))
-            _0x1f165c = _0x5c1de8, _0x31a38d['\x77\x61\x72\x6e'](_0x15acb5);
-        else {
-            var _0x3e2d3a;
-            if (this['\x5f\x69\x6e\x70\x75\x74'] == null) {
-                if (_0x247165(0xd8) !== _0x247165(0xd8))
-                    this[_0x247165(0xe2)](), this[_0x247165(0x10a)] = new _0x1681d5();
-                else
-                    return;
-            }
-            (_0x3e2d3a = document[_0x247165(0xb9)](_0x247165(0x12a))) != null && (_0x3e2d3a['\x76\x61\x6c\x75\x65'] = _0x783f3);
-        }
-    }, _0x114e35[_0x5634f9(0xc9)] = function () {
-        var _0x879d75 = _0x5634f9;
-        if (this[_0x879d75(0xd7)] == null) {
-            if (_0x879d75(0xc5) !== '\x75\x58\x49\x62\x58')
-                return _0x3e6114[_0x879d75(0x13a)] = ![];
-            else
-                return;
-        }
-        Graphics[_0x879d75(0xba)](this[_0x879d75(0xd7)]), this[_0x879d75(0xd7)][_0x879d75(0x102)]['\x7a\x49\x6e\x64\x65\x78'] = 0x4, this[_0x879d75(0xd7)][_0x879d75(0x102)][_0x879d75(0x126)] = Graphics['\x5f\x63\x61\x6e\x76\x61\x73'][_0x879d75(0x102)][_0x879d75(0x126)], this['\x5f\x63\x61\x6e\x76\x61\x73\x52\x65\x6c\x61\x74\x69\x76\x65\x45\x6c\x65\x6d\x65\x6e\x74\x73'][_0x879d75(0x102)][_0x879d75(0x11c)] = Graphics[_0x879d75(0x124)]['\x73\x74\x79\x6c\x65'][_0x879d75(0x11c)];
-    }, _0x114e35[_0x5634f9(0x143)] = function (_0x5b4403) {
-        var _0x402712 = _0x5634f9, _0x1f360b;
-        try {
-            if (!ANET['\x50\x50'][_0x402712(0xdb)]()) {
-                if ('\x6e\x43\x50\x51\x73' !== _0x402712(0x149)) {
-                    if (_0x35845a['\x69\x73\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x76\x65']()) {
-                        if (_0x105671['\x6b\x65\x79\x43\x6f\x64\x65'] === 0x5a || _0x5a8934['\x6b\x65\x79\x43\x6f\x64\x65'] === 0x58 || _0x4868fd[_0x402712(0x141)] === 0x20) {
-                            this[_0x402712(0xfe)]();
-                            return;
-                        }
-                    }
-                    return _0x5c2089[_0x402712(0x11a)](this, _0x294a21);
-                } else
-                    return;
-            }
-            return this['\x5f\x63\x68\x61\x74'] != null ? this[_0x402712(0x10a)][_0x402712(0xea)](_0x5b4403) : _0x402712(0x140) !== '\x65\x58\x47\x6f\x50' ? (_0x1c4cd9 = _0x5500ab, _0x1dceda['\x77'](_0x2a2548)) : NETLobbyChat[_0x402712(0x109)](_0x5b4403);
-        } catch (_0x487e3a) {
-            return _0x1f360b = _0x487e3a, ANET['\x77'](_0x1f360b);
-        }
-    }, _0x114e35['\x6c\x6f\x62\x62\x79\x43\x68\x61\x74\x53\x65\x6e\x64\x4d\x65\x73\x73\x61\x67\x65\x42\x75\x74\x74\x6f\x6e\x43\x6c\x69\x63\x6b'] = function () {
-        var _0x8cbfc9 = _0x5634f9, _0x1cafdb, _0x1ed7ac;
-        try {
-            if (_0x8cbfc9(0x105) !== '\x65\x74\x4e\x63\x71')
-                return _0x45c06a[_0x8cbfc9(0x11a)](this);
-            else {
-                if (this[_0x8cbfc9(0x128)] == null) {
-                    if (_0x8cbfc9(0xc1) === '\x68\x4b\x64\x72\x48')
-                        return;
-                    else
-                        return this[_0x8cbfc9(0xbc)] != null;
-                }
-                return (_0x1ed7ac = this[_0x8cbfc9(0x10a)]) != null ? _0x1ed7ac[_0x8cbfc9(0x121)]() : void 0x0;
-            }
-        } catch (_0x7dbf30) {
-            return _0x1cafdb = _0x7dbf30, ANET['\x77'](_0x1cafdb);
-        }
-    }, _0x114e35[_0x5634f9(0x132)] = function () {
-        var _0x34ce92 = _0x5634f9;
-        this[_0x34ce92(0xe2)](), this[_0x34ce92(0x10a)] = new NETLobbyChat();
-    }, _0x114e35['\x72\x65\x6d\x6f\x76\x65\x4c\x6f\x62\x62\x79\x43\x68\x61\x74'] = function () {
-        var _0x586250 = _0x5634f9;
-        if (_0x586250(0x125) === _0x586250(0x125)) {
-            var _0x1e40b7, _0x7e8e26;
-            try {
-                if (this[_0x586250(0x128)] == null)
-                    return;
-                return _0x7e8e26 = document[_0x586250(0xb9)](_0x586250(0xdc)), this['\x5f\x72\x43\x68\x61\x74']['\x73\x74\x79\x6c\x65']['\x64\x69\x73\x70\x6c\x61\x79'] = _0x586250(0x119), this[_0x586250(0x128)][_0x586250(0xe8)] != null && this[_0x586250(0x128)]['\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65'][_0x586250(0xf7)](this[_0x586250(0x128)]), this[_0x586250(0x128)] = null, this[_0x586250(0x10a)] = null;
-            } catch (_0x2dde9f) {
-                return _0x1e40b7 = _0x2dde9f, ANET['\x77'](_0x1e40b7);
-            }
-        } else
-            _0x50539b = _0x136f3b, _0x3e295c['\x77'](_0x2746f9);
-    }, _0x114e35[_0x5634f9(0xe4)] = function () {
-        var _0x9e8787 = _0x5634f9, _0x373ee4;
-        _0x373ee4 = document[_0x9e8787(0x148)](_0x9e8787(0xe3))[0x0], _0x373ee4[_0x9e8787(0xee)]('\x62\x65\x66\x6f\x72\x65\x65\x6e\x64', _0x9e8787(0x139)), _0x373ee4[_0x9e8787(0xee)](_0x9e8787(0x115), _0x9e8787(0xfb));
-    }, _0x114e35['\x5f\x63\x72\x65\x61\x74\x65\x4c\x6f\x61\x64\x53\x70\x69\x6e\x6e\x65\x72'] = function () {
-        var _0x365456 = _0x5634f9;
-        this[_0x365456(0x134)] = document[_0x365456(0x10e)](_0x365456(0x103)), this[_0x365456(0x134)]['\x69\x64'] = _0x365456(0xb5), this[_0x365456(0xbb)] = null;
-    }, _0x114e35['\x5f\x63\x72\x65\x61\x74\x65\x4e\x6f\x74\x69\x66\x79'] = function () {
-        var _0x1015de = _0x5634f9;
-        if (_0x1015de(0xce) !== '\x52\x55\x50\x78\x4a')
-            this['\x5f\x6e\x6f\x74\x69\x66\x79'] = new Notyf({
-                '\x64\x75\x72\x61\x74\x69\x6f\x6e': 0x578,
-                '\x70\x6f\x73\x69\x74\x69\x6f\x6e': {
-                    '\x78': '\x63\x65\x6e\x74\x65\x72',
-                    '\x79': _0x1015de(0xb7)
-                },
-                '\x72\x69\x70\x70\x6c\x65': ![]
-            });
-        else {
-            this[_0x1015de(0xfe)]();
-            return;
-        }
-    }, _0x114e35['\x5f\x63\x72\x65\x61\x74\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x41\x6c\x65\x72\x74'] = function (_0x500bae, _0x3fa26b) {
-        var _0x5be41d = _0x5634f9;
-        if ('\x62\x6d\x4c\x77\x42' !== _0x5be41d(0x10f))
-            return this[_0x5be41d(0x13a)] === !![];
-        else {
-            var _0x1110e6;
-            this['\x5f\x77\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73'] = document[_0x5be41d(0x10e)](_0x5be41d(0xcb)), this[_0x5be41d(0x120)]['\x69\x64'] = _0x5be41d(0xb0), this[_0x5be41d(0x120)]['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74'][_0x5be41d(0xde)]('\x73\x70\x65\x65\x63\x68\x2d\x62\x75\x62\x62\x6c\x65'), _0x1110e6 = _0x5be41d(0xd3) + _0x500bae + _0x5be41d(0x11f) + _0x5be41d(0xcc) + _0x3fa26b + _0x5be41d(0x147), this[_0x5be41d(0x120)][_0x5be41d(0xee)](_0x5be41d(0x115), _0x1110e6), this[_0x5be41d(0xd7)][_0x5be41d(0xd4)](this[_0x5be41d(0x120)]);
-        }
-    }, _0x114e35[_0x5634f9(0x10c)] = function () {
-        var _0x1d95ec = _0x5634f9;
-        this[_0x1d95ec(0xd7)] = document['\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74'](_0x1d95ec(0x103)), this['\x5f\x63\x61\x6e\x76\x61\x73\x52\x65\x6c\x61\x74\x69\x76\x65\x45\x6c\x65\x6d\x65\x6e\x74\x73']['\x69\x64'] = '\x61\x6e\x65\x74\x43\x61\x6e\x76\x61\x73\x45\x6c\x65\x6d\x65\x6e\x74\x73', this[_0x1d95ec(0xd7)][_0x1d95ec(0x102)][_0x1d95ec(0xf1)] = 0x4, this['\x75\x70\x64\x61\x74\x65\x43\x61\x6e\x76\x61\x73\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74\x73'](), document[_0x1d95ec(0xe7)]['\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64'](this['\x5f\x63\x61\x6e\x76\x61\x73\x52\x65\x6c\x61\x74\x69\x76\x65\x45\x6c\x65\x6d\x65\x6e\x74\x73']);
-    }, _0x114e35[_0x5634f9(0xdd)] = function (_0x2dbdba, _0x5dd054) {
-        var _0x197e06 = _0x5634f9;
-        if (_0x197e06(0xff) !== '\x77\x45\x6c\x4e\x58') {
-            if (!_0x5e0dc8['\x50\x50'][_0x197e06(0xdb)]())
-                return;
-            return this[_0x197e06(0x10a)] != null ? this[_0x197e06(0x10a)]['\x6f\x6e\x4d\x65\x73\x73\x61\x67\x65\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'](_0xb956cf) : _0x468d4b[_0x197e06(0x109)](_0x589c87);
-        } else {
-            var _0x411695;
-            this[_0x197e06(0x122)] = document['\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74'](_0x197e06(0x103)), this['\x5f\x69\x6e\x70\x75\x74']['\x69\x64'] = _0x197e06(0x136), this['\x5f\x69\x6e\x70\x75\x74']['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']('\x6d\x6f\x75\x73\x65\x65\x6e\x74\x65\x72', function () {
-                var _0x273997 = _0x197e06;
-                if (_0x273997(0x11d) === _0x273997(0xb1))
-                    return;
-                else
-                    return HUIManager[_0x273997(0x13a)] = !![];
-            }), this[_0x197e06(0x122)][_0x197e06(0x10d)](_0x197e06(0xe0), function () {
-                return HUIManager['\x5f\x69\x73\x4d\x6f\x75\x73\x65\x48\x6f\x76\x65\x72\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74'] = ![];
-            }), this[_0x197e06(0x122)]['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74'][_0x197e06(0xde)]('\x66\x6f\x72\x6d\x5f\x5f\x67\x72\x6f\x75\x70'), this[_0x197e06(0x122)][_0x197e06(0xca)][_0x197e06(0xde)](_0x197e06(0x107)), _0x5dd054 == null && (_0x5dd054 = ANET['\x50\x50']['\x67\x65\x74\x54\x65\x78\x74\x49\x6e\x70\x75\x74\x4d\x61\x78\x4c\x65\x6e\x67\x74\x68']()), _0x411695 = '\x3c\x69\x6e\x70\x75\x74\x20\x74\x79\x70\x65\x3d\x22\x69\x6e\x70\x75\x74\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x66\x6f\x72\x6d\x5f\x5f\x66\x69\x65\x6c\x64\x22\x20\x70\x6c\x61\x63\x65\x68\x6f\x6c\x64\x65\x72\x3d\x22' + _0x2dbdba + _0x197e06(0x11e) + _0x5dd054 + '\x22\x20\x6e\x61\x6d\x65\x3d\x22\x61\x6e\x65\x74\x49\x6e\x70\x75\x74\x4e\x61\x6d\x65\x22\x20\x69\x64\x3d\x27\x61\x6e\x65\x74\x49\x6e\x70\x75\x74\x4e\x61\x6d\x65\x27\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x2f\x3e\x20\x3c\x6c\x61\x62\x65\x6c\x20\x66\x6f\x72\x3d\x22\x61\x6e\x65\x74\x49\x6e\x70\x75\x74\x4e\x61\x6d\x65\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x66\x6f\x72\x6d\x5f\x5f\x6c\x61\x62\x65\x6c\x22\x3e' + _0x2dbdba + '\x3c\x2f\x6c\x61\x62\x65\x6c\x3e', this[_0x197e06(0x122)][_0x197e06(0xee)](_0x197e06(0x115), _0x411695), this[_0x197e06(0xd7)][_0x197e06(0xd4)](this['\x5f\x69\x6e\x70\x75\x74']);
-        }
-    }, _0x114e35['\x5f\x63\x72\x65\x61\x74\x65\x4c\x6f\x62\x62\x79\x43\x68\x61\x74'] = function () {
-        var _0x2510e3 = _0x5634f9;
-        if (_0x2510e3(0xf9) === _0x2510e3(0xd6)) {
-            if (this['\x69\x73\x4c\x6f\x61\x64\x65\x72\x41\x63\x74\x69\x76\x65']())
-                return;
-            this['\x5f\x6c\x6f\x61\x64\x65\x72\x54\x68\x72\x65\x61\x64'] = _0x385fbe(function () {
-                var _0x528acf = _0x2510e3;
-                if (!_0x41d0a7['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](_0x528acf(0xb5)))
-                    return _0x302187[_0x528acf(0xe7)]['\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64'](_0xa03220[_0x528acf(0x134)]);
-            }, _0x580add);
-        } else {
-            var _0x5acfc9;
-            _0x5acfc9 = _0x2510e3(0x12f), this[_0x2510e3(0x128)] = document[_0x2510e3(0x10e)]('\x64\x69\x76'), this[_0x2510e3(0x128)]['\x69\x64'] = _0x2510e3(0xf4), this[_0x2510e3(0x128)][_0x2510e3(0xca)][_0x2510e3(0xde)]('\x6d\x73\x67\x2d\x63\x6f\x6e\x74\x61\x69\x6e\x65\x72'), this[_0x2510e3(0x128)]['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72'](_0x2510e3(0xb4), function () {
-                var _0xe564ef = _0x2510e3;
-                return _0xe564ef(0xf0) !== '\x55\x47\x62\x66\x74' ? _0x2e4e9e[_0xe564ef(0x13a)] = ![] : HUIManager[_0xe564ef(0x13a)] = !![];
-            }), this[_0x2510e3(0x128)][_0x2510e3(0x10d)](_0x2510e3(0xe0), function () {
-                var _0x4cca2b = _0x2510e3;
-                return HUIManager[_0x4cca2b(0x13a)] = ![];
-            }), this[_0x2510e3(0x128)][_0x2510e3(0xee)]('\x62\x65\x66\x6f\x72\x65\x65\x6e\x64', _0x5acfc9), this[_0x2510e3(0x128)][_0x2510e3(0x13b)] = ![], this[_0x2510e3(0xd7)]['\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64'](this[_0x2510e3(0x128)]);
-        }
-    }, _0x114e35['\x5f\x73\x77\x69\x74\x63\x68\x43\x68\x61\x74\x53\x74\x61\x74\x65'] = function () {
-        var _0x55812e = _0x5634f9, _0x4e2fd3, _0x1cf828, _0x3a4832, _0x46b6a7;
-        if (this[_0x55812e(0x128)] == null)
-            return;
-        try {
-            _0x1cf828 = SceneManager['\x5f\x73\x63\x65\x6e\x65'], _0x3a4832 = document[_0x55812e(0xb9)](_0x55812e(0xeb)), _0x46b6a7 = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](_0x55812e(0xf8));
-            if (this[_0x55812e(0x128)][_0x55812e(0x13b)] === !![])
-                _0x3a4832['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74'][_0x55812e(0xfc)]('\x6d\x73\x67\x65\x72\x2d\x6e\x6f\x6e\x65'), _0x46b6a7[_0x55812e(0xca)][_0x55812e(0xde)](_0x55812e(0xb2)), this[_0x55812e(0x128)]['\x5f\x5f\x69\x73\x56\x69\x73\x69\x62\x6c\x65'] = ![], this[_0x55812e(0xcd)]('\x52\x6f\x6f\x6d\x20\x4e\x61\x6d\x65\x2e\x2e\x2e'), this[_0x55812e(0xd0)]($gameTemp[_0x55812e(0x13e)]);
-            else {
-                if (_0x55812e(0x137) !== _0x55812e(0x137))
-                    return this[_0x55812e(0x10a)][_0x55812e(0xea)](_0xaf4a0e);
-                else
-                    _0x3a4832[_0x55812e(0xca)][_0x55812e(0xde)]('\x6d\x73\x67\x65\x72\x2d\x6e\x6f\x6e\x65'), _0x46b6a7['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65'](_0x55812e(0xb2)), $gameTemp[_0x55812e(0x13e)] = this['\x67\x65\x74\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65'](), this[_0x55812e(0x112)](), this[_0x55812e(0x128)][_0x55812e(0x13b)] = !![];
-            }
-            _0x1cf828[_0x55812e(0x142)] != null && ('\x4f\x6f\x6a\x52\x61' !== _0x55812e(0x100) ? (this[_0x55812e(0x134)] = _0x316037[_0x55812e(0x10e)](_0x55812e(0x103)), this[_0x55812e(0x134)]['\x69\x64'] = _0x55812e(0xb5), this[_0x55812e(0xbb)] = null) : _0x1cf828[_0x55812e(0x142)](!this['\x5f\x72\x43\x68\x61\x74'][_0x55812e(0x13b)]));
-        } catch (_0x393647) {
-            _0x4e2fd3 = _0x393647, ANET['\x77'](_0x4e2fd3);
-        }
-    };
-}()), (function () {
-    var _0x50167c = _0x36f1, _0x11a049;
-    _0x11a049 = Scene_Map[_0x50167c(0xfa)];
-}()), (function () {
-    var _0x5c5f76 = _0x36f1, _0x33b1cd, _0x5d8dd6, _0x4416b5;
-    _0x4416b5 = Input, _0x5d8dd6 = _0x4416b5[_0x5c5f76(0x131)], _0x4416b5[_0x5c5f76(0x131)] = function () {
-        var _0x593747 = _0x5c5f76;
-        return HUIManager['\x69\x73\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x76\x65']() ? ![] : _0x5d8dd6[_0x593747(0x11a)](this);
-    }, _0x33b1cd = _0x4416b5[_0x5c5f76(0x101)], _0x4416b5[_0x5c5f76(0x101)] = function (_0x13037f) {
-        var _0x4a53cf = _0x5c5f76;
-        if (HUIManager[_0x4a53cf(0x116)]()) {
-            if (_0x13037f[_0x4a53cf(0x141)] === 0x5a || _0x13037f['\x6b\x65\x79\x43\x6f\x64\x65'] === 0x58 || _0x13037f['\x6b\x65\x79\x43\x6f\x64\x65'] === 0x20) {
-                if (_0x4a53cf(0x146) === _0x4a53cf(0xb8))
-                    _0x162883[_0x4a53cf(0xe7)][_0x4a53cf(0xf7)](this[_0x4a53cf(0x134)]);
-                else {
-                    this['\x63\x6c\x65\x61\x72']();
-                    return;
-                }
-            }
-        }
-        return _0x33b1cd[_0x4a53cf(0x11a)](this, _0x13037f);
-    };
-}()), (function () {
-    var _0x4caeb8 = _0x36f1, _0x171ee0, _0x3772c3;
-    _0x3772c3 = Graphics, _0x171ee0 = _0x3772c3[_0x4caeb8(0xbe)], _0x3772c3['\x5f\x75\x70\x64\x61\x74\x65\x43\x61\x6e\x76\x61\x73'] = function () {
-        var _0x37de10 = _0x4caeb8;
-        if (_0x37de10(0x12d) === '\x67\x53\x49\x41\x6e')
-            return _0x171ee0[_0x37de10(0x11a)](this), HUIManager[_0x37de10(0xc9)]();
-        else
-            return;
-    };
-}()));
-function _0x2748() {
-    var _0x4de269 = [
-        '\x7a\x49\x6e\x64\x65\x78',
-        '\x6e\x6f\x74\x69\x66\x79\x45\x72\x72\x6f\x72',
-        '\x69\x6e\x69\x74',
-        '\x61\x6e\x65\x74\x52\x6f\x6f\x6d\x43\x68\x61\x74',
-        '\x5f\x6e\x6f\x74\x69\x66\x79',
-        '\x67\x65\x74\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65',
-        '\x72\x65\x6d\x6f\x76\x65\x43\x68\x69\x6c\x64',
-        '\x61\x6e\x65\x74\x2d\x63\x68\x61\x74\x2d\x73\x65\x63\x74\x69\x6f\x6e\x42',
-        '\x72\x6d\x68\x65\x77',
-        '\x70\x72\x6f\x74\x6f\x74\x79\x70\x65',
-        '\x3c\x6c\x69\x6e\x6b\x20\x72\x65\x6c\x3d\x22\x73\x74\x79\x6c\x65\x73\x68\x65\x65\x74\x22\x20\x68\x72\x65\x66\x3d\x22\x63\x73\x73\x2f\x61\x6e\x65\x74\x2e\x63\x73\x73\x22\x20\x2f\x3e\x20\x3c\x6c\x69\x6e\x6b\x20\x72\x65\x6c\x3d\x22\x73\x74\x79\x6c\x65\x73\x68\x65\x65\x74\x22\x20\x68\x72\x65\x66\x3d\x22\x63\x73\x73\x2f\x61\x6e\x65\x74\x5f\x63\x68\x61\x74\x2e\x63\x73\x73\x22\x20\x2f\x3e',
-        '\x72\x65\x6d\x6f\x76\x65',
-        '\x31\x31\x31\x30\x34\x36\x34\x41\x6d\x6b\x50\x76\x70',
-        '\x63\x6c\x65\x61\x72',
-        '\x77\x45\x6c\x4e\x58',
-        '\x4f\x6f\x6a\x52\x61',
-        '\x5f\x6f\x6e\x4b\x65\x79\x44\x6f\x77\x6e',
-        '\x73\x74\x79\x6c\x65',
-        '\x64\x69\x76',
-        '\x31\x32\x32\x35\x34\x74\x58\x74\x6c\x63\x4f',
-        '\x65\x74\x4e\x63\x71',
-        '\x32\x31\x4d\x6d\x4c\x63\x52\x4e',
-        '\x66\x69\x65\x6c\x64',
-        '\x73\x75\x63\x63\x65\x73\x73',
-        '\x41\x64\x64\x54\x6f\x48\x69\x73\x74\x6f\x72\x79',
-        '\x5f\x63\x68\x61\x74',
-        '\x56\x55\x4a\x67\x6f',
-        '\x5f\x63\x72\x65\x61\x74\x65\x52\x65\x6c\x61\x74\x69\x76\x65\x50\x61\x72\x65\x6e\x74',
-        '\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72',
-        '\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74',
-        '\x62\x6d\x4c\x77\x42',
-        '\x4b\x76\x76\x4b\x56',
-        '\x65\x72\x72\x6f\x72',
-        '\x72\x65\x6d\x6f\x76\x65\x49\x6e\x70\x75\x74',
-        '\x6c\x6f\x67',
-        '\x74\x75\x45\x69\x55',
-        '\x62\x65\x66\x6f\x72\x65\x65\x6e\x64',
-        '\x69\x73\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x76\x65',
-        '\x48\x55\x49\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x62\x4d\x63\x79\x55',
-        '\x6e\x6f\x6e\x65',
-        '\x63\x61\x6c\x6c',
-        '\x69\x73\x55\x6e\x64\x65\x72\x4d\x6f\x75\x73\x65',
-        '\x68\x65\x69\x67\x68\x74',
-        '\x4b\x46\x55\x50\x41',
-        '\x22\x20\x61\x75\x74\x6f\x63\x6f\x6d\x70\x6c\x65\x74\x65\x3d\x22\x6f\x66\x66\x22\x20\x6d\x61\x78\x6c\x65\x6e\x67\x74\x68\x3d\x22',
-        '\x3c\x2f\x70\x3e',
-        '\x5f\x77\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73',
-        '\x73\x65\x6e\x64\x4d\x65\x73\x73\x61\x67\x65',
-        '\x5f\x69\x6e\x70\x75\x74',
-        '\x64\x69\x73\x70\x6c\x61\x79',
-        '\x5f\x63\x61\x6e\x76\x61\x73',
-        '\x53\x61\x6d\x41\x50',
-        '\x77\x69\x64\x74\x68',
-        '\x73\x68\x6f\x77\x4c\x6f\x61\x64\x65\x72',
-        '\x5f\x72\x43\x68\x61\x74',
-        '\x45\x6a\x6a\x77\x43',
-        '\x61\x6e\x65\x74\x49\x6e\x70\x75\x74\x4e\x61\x6d\x65',
-        '\x45\x4c\x74\x47\x4b',
-        '\x33\x34\x30\x38\x31\x32\x35\x65\x71\x4c\x74\x6a\x76',
-        '\x67\x53\x49\x41\x6e',
-        '\x74\x70\x43\x54\x77',
-        '\x3c\x73\x65\x63\x74\x69\x6f\x6e\x20\x69\x64\x3d\x22\x61\x6e\x65\x74\x2d\x63\x68\x61\x74\x2d\x73\x65\x63\x74\x69\x6f\x6e\x41\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x63\x6c\x6f\x73\x65\x64\x22\x3e\x20\x3c\x68\x65\x61\x64\x65\x72\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x68\x65\x61\x64\x65\x72\x22\x20\x6f\x6e\x43\x6c\x69\x63\x6b\x3d\x22\x48\x55\x49\x4d\x61\x6e\x61\x67\x65\x72\x2e\x5f\x73\x77\x69\x74\x63\x68\x43\x68\x61\x74\x53\x74\x61\x74\x65\x28\x29\x22\x3e\x20\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x68\x65\x61\x64\x65\x72\x2d\x74\x69\x74\x6c\x65\x22\x3e\x20\x3c\x73\x74\x72\x6f\x6e\x67\x3e\x43\x48\x41\x54\x3c\x2f\x73\x74\x72\x6f\x6e\x67\x3e\x20\x3c\x2f\x64\x69\x76\x3e\x20\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x68\x65\x61\x64\x65\x72\x2d\x6f\x70\x74\x69\x6f\x6e\x73\x22\x3e\x20\x3c\x73\x70\x61\x6e\x3e\x3c\x69\x20\x63\x6c\x61\x73\x73\x3d\x22\x66\x61\x73\x20\x66\x61\x2d\x63\x61\x72\x65\x74\x2d\x73\x71\x75\x61\x72\x65\x2d\x75\x70\x22\x3e\x3c\x2f\x69\x3e\x3c\x2f\x73\x70\x61\x6e\x3e\x20\x3c\x2f\x64\x69\x76\x3e\x20\x3c\x2f\x68\x65\x61\x64\x65\x72\x3e\x20\x3c\x2f\x73\x65\x63\x74\x69\x6f\x6e\x3e\x20\x3c\x73\x65\x63\x74\x69\x6f\x6e\x20\x69\x64\x3d\x22\x61\x6e\x65\x74\x2d\x63\x68\x61\x74\x2d\x73\x65\x63\x74\x69\x6f\x6e\x42\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x20\x6d\x73\x67\x65\x72\x2d\x6e\x6f\x6e\x65\x22\x3e\x20\x3c\x68\x65\x61\x64\x65\x72\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x68\x65\x61\x64\x65\x72\x22\x20\x6f\x6e\x43\x6c\x69\x63\x6b\x3d\x22\x48\x55\x49\x4d\x61\x6e\x61\x67\x65\x72\x2e\x5f\x73\x77\x69\x74\x63\x68\x43\x68\x61\x74\x53\x74\x61\x74\x65\x28\x29\x22\x3e\x20\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x68\x65\x61\x64\x65\x72\x2d\x74\x69\x74\x6c\x65\x22\x3e\x20\x3c\x73\x74\x72\x6f\x6e\x67\x3e\x43\x48\x41\x54\x3c\x2f\x73\x74\x72\x6f\x6e\x67\x3e\x20\x3c\x2f\x64\x69\x76\x3e\x20\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x68\x65\x61\x64\x65\x72\x2d\x6f\x70\x74\x69\x6f\x6e\x73\x22\x3e\x20\x3c\x73\x70\x61\x6e\x3e\x3c\x69\x20\x63\x6c\x61\x73\x73\x3d\x22\x66\x61\x73\x20\x66\x61\x2d\x63\x61\x72\x65\x74\x2d\x73\x71\x75\x61\x72\x65\x2d\x64\x6f\x77\x6e\x22\x3e\x3c\x2f\x69\x3e\x3c\x2f\x73\x70\x61\x6e\x3e\x20\x3c\x2f\x64\x69\x76\x3e\x20\x3c\x2f\x68\x65\x61\x64\x65\x72\x3e\x20\x3c\x6d\x61\x69\x6e\x20\x69\x64\x3d\x22\x61\x6e\x65\x74\x2d\x63\x68\x61\x74\x2d\x6d\x61\x69\x6e\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x63\x68\x61\x74\x22\x3e\x20\x3c\x2f\x6d\x61\x69\x6e\x3e\x20\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x69\x6e\x70\x75\x74\x61\x72\x65\x61\x22\x3e\x20\x3c\x69\x6e\x70\x75\x74\x20\x69\x64\x3d\x22\x61\x6e\x65\x74\x2d\x63\x68\x61\x74\x2d\x69\x6e\x70\x75\x74\x22\x20\x74\x79\x70\x65\x3d\x22\x74\x65\x78\x74\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x69\x6e\x70\x75\x74\x22\x20\x70\x6c\x61\x63\x65\x68\x6f\x6c\x64\x65\x72\x3d\x22\x45\x6e\x74\x65\x72\x20\x79\x6f\x75\x72\x20\x6d\x65\x73\x73\x61\x67\x65\x2e\x2e\x2e\x22\x3e\x20\x3c\x62\x75\x74\x74\x6f\x6e\x20\x6f\x6e\x43\x6c\x69\x63\x6b\x3d\x22\x48\x55\x49\x4d\x61\x6e\x61\x67\x65\x72\x2e\x6c\x6f\x62\x62\x79\x43\x68\x61\x74\x53\x65\x6e\x64\x4d\x65\x73\x73\x61\x67\x65\x42\x75\x74\x74\x6f\x6e\x43\x6c\x69\x63\x6b\x28\x29\x22\x20\x63\x6c\x61\x73\x73\x3d\x22\x6d\x73\x67\x65\x72\x2d\x73\x65\x6e\x64\x2d\x62\x74\x6e\x22\x3e\x53\x65\x6e\x64\x3c\x2f\x62\x75\x74\x74\x6f\x6e\x3e\x20\x3c\x2f\x64\x69\x76\x3e\x20\x3c\x2f\x73\x65\x63\x74\x69\x6f\x6e\x3e',
-        '\x39\x63\x6a\x53\x46\x44\x6e',
-        '\x5f\x73\x68\x6f\x75\x6c\x64\x50\x72\x65\x76\x65\x6e\x74\x44\x65\x66\x61\x75\x6c\x74',
-        '\x73\x68\x6f\x77\x4c\x6f\x62\x62\x79\x43\x68\x61\x74',
-        '\x77\x62\x77\x79\x7a',
-        '\x5f\x6c\x6f\x61\x64\x65\x72',
-        '\x5f\x63\x72\x65\x61\x74\x65\x4c\x6f\x61\x64\x53\x70\x69\x6e\x6e\x65\x72',
-        '\x61\x6e\x65\x74\x49\x6e\x70\x75\x74',
-        '\x75\x59\x65\x4c\x50',
-        '\x38\x35\x35\x37\x38\x39\x48\x70\x49\x4b\x6c\x61',
-        '\x3c\x6c\x69\x6e\x6b\x20\x72\x65\x6c\x3d\x22\x73\x74\x79\x6c\x65\x73\x68\x65\x65\x74\x22\x20\x68\x72\x65\x66\x3d\x22\x68\x74\x74\x70\x73\x3a\x2f\x2f\x75\x73\x65\x2e\x66\x6f\x6e\x74\x61\x77\x65\x73\x6f\x6d\x65\x2e\x63\x6f\x6d\x2f\x72\x65\x6c\x65\x61\x73\x65\x73\x2f\x76\x35\x2e\x31\x35\x2e\x34\x2f\x63\x73\x73\x2f\x61\x6c\x6c\x2e\x63\x73\x73\x22\x20\x69\x6e\x74\x65\x67\x72\x69\x74\x79\x3d\x22\x73\x68\x61\x33\x38\x34\x2d\x44\x79\x5a\x38\x38\x6d\x43\x36\x55\x70\x32\x75\x71\x53\x34\x68\x2f\x4b\x52\x67\x48\x75\x6f\x65\x47\x77\x42\x63\x44\x34\x4e\x67\x39\x53\x69\x50\x34\x64\x49\x52\x79\x30\x45\x58\x54\x6c\x6e\x75\x7a\x34\x37\x76\x41\x77\x6d\x65\x47\x77\x56\x43\x68\x69\x67\x6d\x22\x20\x63\x72\x6f\x73\x73\x6f\x72\x69\x67\x69\x6e\x3d\x22\x61\x6e\x6f\x6e\x79\x6d\x6f\x75\x73\x22\x2f\x3e',
-        '\x5f\x69\x73\x4d\x6f\x75\x73\x65\x48\x6f\x76\x65\x72\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74',
-        '\x5f\x5f\x69\x73\x56\x69\x73\x69\x62\x6c\x65',
-        '\x62\x79\x4e\x43\x4c',
-        '\x68\x53\x62\x65\x4a',
-        '\x6e\x4c\x61\x73\x74\x4e\x65\x74\x77\x6f\x72\x6b\x53\x63\x65\x6e\x65\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65',
-        '\x42\x70\x4e\x51\x54',
-        '\x65\x58\x47\x6f\x50',
-        '\x6b\x65\x79\x43\x6f\x64\x65',
-        '\x73\x65\x74\x49\x6e\x70\x75\x74\x41\x6c\x6c\x6f\x77\x65\x64',
-        '\x6f\x6e\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x64\x46\x77\x4c\x56',
-        '\x76\x78\x6a\x59\x6f',
-        '\x6d\x52\x42\x48\x72',
-        '\x3c\x2f\x63\x69\x74\x65\x3e',
-        '\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x73\x42\x79\x54\x61\x67\x4e\x61\x6d\x65',
-        '\x6e\x43\x50\x51\x73',
-        '\x55\x6a\x6d\x75\x74',
-        '\x58\x72\x77\x47\x6e',
-        '\x34\x37\x35\x30\x31\x34\x36\x71\x65\x43\x6a\x41\x44',
-        '\x61\x6e\x65\x74\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x41\x6c\x65\x72\x74',
-        '\x6e\x44\x65\x53\x6f',
-        '\x6d\x73\x67\x65\x72\x2d\x6e\x6f\x6e\x65',
-        '\x5f\x63\x72\x65\x61\x74\x65\x4e\x6f\x74\x69\x66\x79',
-        '\x6d\x6f\x75\x73\x65\x65\x6e\x74\x65\x72',
-        '\x61\x6e\x65\x74\x4c\x6f\x61\x64\x65\x72',
-        '\x68\x69\x64\x65\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f',
-        '\x62\x6f\x74\x74\x6f\x6d',
-        '\x57\x69\x4f\x4d\x63',
-        '\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64',
-        '\x5f\x63\x65\x6e\x74\x65\x72\x45\x6c\x65\x6d\x65\x6e\x74',
-        '\x5f\x6c\x6f\x61\x64\x65\x72\x54\x68\x72\x65\x61\x64',
-        '\x5f\x77\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f\x54\x68\x72\x65\x61\x64',
-        '\x73\x79\x4f\x6c\x49',
-        '\x5f\x75\x70\x64\x61\x74\x65\x43\x61\x6e\x76\x61\x73',
-        '\x6c\x52\x74\x58\x75',
-        '\x77\x61\x72\x6e',
-        '\x68\x4b\x64\x72\x48',
-        '\x4e\x6b\x6c\x66\x53',
-        '\x79\x72\x51\x55\x57',
-        '\x7a\x4b\x67\x46\x52',
-        '\x75\x58\x49\x62\x58',
-        '\x62\x48\x56\x63\x53',
-        '\x31\x31\x35\x38\x30\x6a\x62\x6d\x6a\x67\x6d',
-        '\x50\x47\x50\x63\x6e',
-        '\x75\x70\x64\x61\x74\x65\x43\x61\x6e\x76\x61\x73\x48\x74\x6d\x6c\x45\x6c\x65\x6d\x65\x6e\x74\x73',
-        '\x63\x6c\x61\x73\x73\x4c\x69\x73\x74',
-        '\x62\x6c\x6f\x63\x6b\x71\x75\x6f\x74\x65',
-        '\x3c\x63\x69\x74\x65\x3e',
-        '\x73\x68\x6f\x77\x49\x6e\x70\x75\x74',
-        '\x50\x70\x4d\x4a\x57',
-        '\x45\x4a\x50\x46\x58',
-        '\x73\x65\x74\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65',
-        '\x69\x73\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f\x41\x63\x74\x69\x76\x65',
-        '\x6d\x73\x67\x2d\x63\x6f\x6e\x74\x61\x69\x6e\x65\x72',
-        '\x3c\x70\x3e',
-        '\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64',
-        '\x5f\x64\x69\x73\x61\x62\x6c\x65\x43\x6f\x6e\x74\x65\x78\x74\x4d\x65\x6e\x75',
-        '\x56\x64\x72\x61\x51',
-        '\x5f\x63\x61\x6e\x76\x61\x73\x52\x65\x6c\x61\x74\x69\x76\x65\x45\x6c\x65\x6d\x65\x6e\x74\x73',
-        '\x51\x63\x6b\x58\x51',
-        '\x62\x57\x6d\x66\x7a',
-        '\x5f\x63\x72\x65\x61\x74\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x41\x6c\x65\x72\x74',
-        '\x69\x73\x53\x68\x6f\x77\x4c\x6f\x62\x62\x79\x43\x68\x61\x74',
-        '\x61\x6e\x65\x74\x43\x61\x6e\x76\x61\x73\x45\x6c\x65\x6d\x65\x6e\x74\x73',
-        '\x5f\x63\x72\x65\x61\x74\x65\x49\x6e\x70\x75\x74\x46\x69\x65\x6c\x64',
-        '\x61\x64\x64',
-        '\x66\x6f\x63\x75\x73\x49\x6e\x70\x75\x74',
-        '\x6d\x6f\x75\x73\x65\x6c\x65\x61\x76\x65',
-        '\x47\x53\x47\x5a\x57',
-        '\x5f\x63\x72\x65\x61\x74\x65\x4c\x6f\x62\x62\x79\x43\x68\x61\x74',
-        '\x68\x65\x61\x64',
-        '\x5f\x6c\x6f\x61\x64\x43\x53\x53',
-        '\x69\x73\x4c\x6f\x61\x64\x65\x72\x41\x63\x74\x69\x76\x65',
-        '\x68\x69\x64\x65\x4c\x6f\x61\x64\x65\x72',
-        '\x62\x6f\x64\x79',
-        '\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65',
-        '\x32\x30\x39\x35\x39\x35\x30\x65\x56\x46\x4f\x50\x43',
-        '\x6f\x6e\x4d\x65\x73\x73\x61\x67\x65\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x61\x6e\x65\x74\x2d\x63\x68\x61\x74\x2d\x73\x65\x63\x74\x69\x6f\x6e\x41',
-        '\x66\x6f\x63\x75\x73',
-        '\x38\x35\x4d\x68\x76\x79\x6b\x67',
-        '\x69\x6e\x73\x65\x72\x74\x41\x64\x6a\x61\x63\x65\x6e\x74\x48\x54\x4d\x4c',
-        '\x69\x76\x58\x50\x4a',
-        '\x55\x47\x62\x66\x74'
-    ];
-    _0x2748 = function () {
-        return _0x4de269;
-    };
-    return _0x2748();
-}
+  };
+  _.hideLoader = function() {
+    var e;
+    try {
+      if (!this.isLoaderActive()) {
+        return;
+      }
+      clearTimeout(this._loaderThread);
+      this._loaderThread = null;
+      if (document.getElementById("anetLoader")) {
+        document.body.removeChild(this._loader);
+      }
+    } catch (error) {
+      e = error;
+      console.log(e);
+    }
+  };
+  _.isLoaderActive = function() {
+    return this._loaderThread != null;
+  };
+  _.showWaitingInfo = function(text, text2, delay = 200) {
+    var e;
+    try {
+      if (this.isWaitingInfoActive()) {
+        return;
+      }
+      this._waitingInfoThread = setTimeout((function() {
+        return HUIManager._createWaitPlayersAlert(text, text2);
+      }), delay);
+    } catch (error) {
+      e = error;
+      console.warn(e);
+    }
+  };
+  _.hideWaitingInfo = function() {
+    var e;
+    try {
+      if (!this.isWaitingInfoActive()) {
+        return;
+      }
+      clearTimeout(this._waitingInfoThread);
+      this._waitingInfoThread = null;
+      if (this._waitPlayers != null) {
+        document.getElementById("anetCanvasElements").removeChild(this._waitPlayers);
+        this._waitPlayers = null;
+      }
+    } catch (error) {
+      e = error;
+      console.warn(e);
+    }
+  };
+  _.isWaitingInfoActive = function() {
+    return this._waitingInfoThread != null;
+  };
+  _.notifyError = function(msg) {
+    var e;
+    try {
+      return this._notify.error(msg);
+    } catch (error) {
+      e = error;
+      return console.warn(e);
+    }
+  };
+  _.notifySucess = function(msg) {
+    var e;
+    try {
+      return this._notify.success(msg);
+    } catch (error) {
+      e = error;
+      return console.warn(e);
+    }
+  };
+  _.isInputActive = function() {
+    return this._input != null;
+  };
+  _.showInput = function(placeholder, maxlength) {
+    if (this._input != null) {
+      this.removeInput();
+    }
+    this._createInputField(placeholder, maxlength);
+  };
+  _.removeInput = function() {
+    var e, root;
+    if (this._input == null) {
+      return;
+    }
+    // * Не всегда автоматически выключается, поэтому надо выключить флаг вручную
+    HUIManager._isMouseHoverHtmlElement = false;
+    try {
+      root = document.getElementById("anetCanvasElements");
+      this._input.style.display = 'none';
+      //root?.removeChild(@_input)
+      if (this._input.parentNode != null) {
+        this._input.parentNode.removeChild(this._input);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+    this._input = null;
+  };
+  _.focusInput = function() {
+    var ref;
+    if (this._input == null) {
+      return;
+    }
+    if ((ref = document.getElementById("anetInputName")) != null) {
+      ref.focus();
+    }
+  };
+  _.getInputValue = function() {
+    var ref;
+    if (this._input == null) {
+      return "";
+    }
+    return (ref = document.getElementById("anetInputName")) != null ? ref.value : void 0;
+  };
+  _.setInputValue = function(value) {
+    var ref;
+    if (this._input == null) {
+      return;
+    }
+    if ((ref = document.getElementById("anetInputName")) != null) {
+      ref.value = value;
+    }
+  };
+  _.updateCanvasHtmlElements = function() {
+    if (this._canvasRelativeElements == null) {
+      return;
+    }
+    Graphics._centerElement(this._canvasRelativeElements);
+    this._canvasRelativeElements.style.zIndex = 4;
+    this._canvasRelativeElements.style.width = Graphics._canvas.style.width;
+    this._canvasRelativeElements.style.height = Graphics._canvas.style.height;
+  };
+  // * Когда пришло сообщение чата от сервера
+  _.onChatMessageFromServer = function(message) {
+    var e;
+    try {
+      if (!ANET.PP.isShowLobbyChat()) {
+        return;
+      }
+      if (this._chat != null) {
+        return this._chat.onMessageFromServer(message);
+      } else {
+        return NETLobbyChat.AddToHistory(message);
+      }
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  // * Отправить сообщение из чата на сервер (написать всем, добавить в чат)
+  _.lobbyChatSendMessageButtonClick = function() {
+    var e, ref;
+    try {
+      if (this._rChat == null) {
+        return;
+      }
+      return (ref = this._chat) != null ? ref.sendMessage() : void 0;
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _.showLobbyChat = function() {
+    this._createLobbyChat();
+    this._chat = new NETLobbyChat();
+  };
+  _.removeLobbyChat = function() {
+    var e, root;
+    try {
+      if (this._rChat == null) {
+        return;
+      }
+      root = document.getElementById("anetCanvasElements");
+      //root?.removeChild(@_rChat) if @_rChat?
+      this._rChat.style.display = 'none';
+      if (this._rChat.parentNode != null) {
+        this._rChat.parentNode.removeChild(this._rChat);
+      }
+      this._rChat = null;
+      return this._chat = null;
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  // * PRIVATE  ======================================================
+  _._loadCSS = function() {
+    var head;
+    // * Подгружаем CSS стили
+    head = document.getElementsByTagName("head")[0];
+    // * Fontawesome
+    head.insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.15.4/css/all.css\" integrity=\"sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm\" crossorigin=\"anonymous\"/>");
+    head.insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"css/anet.css\" /> <link rel=\"stylesheet\" href=\"css/anet_chat.css\" />");
+  };
+  _._createLoadSpinner = function() {
+    this._loader = document.createElement("div");
+    this._loader.id = "anetLoader";
+    this._loaderThread = null;
+  };
+  _._createNotify = function() {
+    this._notify = new Notyf({
+      duration: 1400,
+      position: {
+        x: 'center',
+        y: 'bottom'
+      },
+      ripple: false
+    });
+  };
+  // * Информация при ожидании других игроков (или другая информация, ожидание сервера)
+  _._createWaitPlayersAlert = function(text, extraText) {
+    var htmlCode;
+    this._waitPlayers = document.createElement("blockquote");
+    this._waitPlayers.id = "anetWaitPlayersAlert";
+    this._waitPlayers.classList.add("speech-bubble");
+    htmlCode = "<p>" + text + "</p>" + "<cite>" + extraText + "</cite>";
+    this._waitPlayers.insertAdjacentHTML('beforeend', htmlCode);
+    this._canvasRelativeElements.appendChild(this._waitPlayers);
+  };
+  // * Элемент родитель, который будет изменяться вместе с размерами Canvas
+  // * Это позволит сохранять фиксированные позиции HTML элементов не зависимо от размера окна игры
+  _._createRelativeParent = function() {
+    this._canvasRelativeElements = document.createElement("div");
+    this._canvasRelativeElements.id = "anetCanvasElements";
+    this._canvasRelativeElements.style.zIndex = 4;
+    this.updateCanvasHtmlElements();
+    document.body.appendChild(this._canvasRelativeElements);
+  };
+  _._createInputField = function(placeholder, maxlength) {
+    var htmlCode;
+    this._input = document.createElement("div");
+    this._input.id = "anetInput";
+    this._input.addEventListener("mouseenter", function() {
+      return HUIManager._isMouseHoverHtmlElement = true;
+    });
+    this._input.addEventListener("mouseleave", function() {
+      return HUIManager._isMouseHoverHtmlElement = false;
+    });
+    this._input.classList.add("form__group");
+    this._input.classList.add("field");
+    if (maxlength == null) {
+      maxlength = ANET.PP.getTextInputMaxLength();
+    }
+    htmlCode = "<input type=\"input\" class=\"form__field\" placeholder=\"" + placeholder + "\" autocomplete=\"off\" maxlength=\"" + maxlength + "\" name=\"anetInputName\" id='anetInputName' required /> <label for=\"anetInputName\" class=\"form__label\">" + placeholder + "</label>";
+    this._input.insertAdjacentHTML('beforeend', htmlCode);
+    this._canvasRelativeElements.appendChild(this._input);
+  };
+  _._createLobbyChat = function() {
+    var htmlCode;
+    htmlCode = "<section id=\"anet-chat-sectionA\" class=\"msger-closed\"> <header class=\"msger-header\" onClick=\"HUIManager._switchChatState()\"> <div class=\"msger-header-title\"> <strong>CHAT</strong> </div> <div class=\"msger-header-options\"> <span><i class=\"fas fa-caret-square-up\"></i></span> </div> </header> </section> <section id=\"anet-chat-sectionB\" class=\"msger msger-none\"> <header class=\"msger-header\" onClick=\"HUIManager._switchChatState()\"> <div class=\"msger-header-title\"> <strong>CHAT</strong> </div> <div class=\"msger-header-options\"> <span><i class=\"fas fa-caret-square-down\"></i></span> </div> </header> <main id=\"anet-chat-main\" class=\"msger-chat\"> </main> <div class=\"msger-inputarea\"> <input id=\"anet-chat-input\" type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\"> <button onClick=\"HUIManager.lobbyChatSendMessageButtonClick()\" class=\"msger-send-btn\">Send</button> </div> </section>";
+    //https://codepen.io/sajadhsm/pen/odaBdd
+    //TODO: Методы отправки сообщений (через сервер тоже)
+    this._rChat = document.createElement("div");
+    this._rChat.id = "anetRoomChat";
+    this._rChat.classList.add('msg-container');
+    this._rChat.addEventListener("mouseenter", function() {
+      return HUIManager._isMouseHoverHtmlElement = true;
+    });
+    this._rChat.addEventListener("mouseleave", function() {
+      return HUIManager._isMouseHoverHtmlElement = false;
+    });
+    this._rChat.insertAdjacentHTML('beforeend', htmlCode);
+    this._rChat.__isVisible = false;
+    this._canvasRelativeElements.appendChild(this._rChat);
+  };
+  _._switchChatState = function() {
+    var e, s, sectionA, sectionB;
+    if (this._rChat == null) {
+      return;
+    }
+    try {
+      s = SceneManager._scene;
+      sectionA = document.getElementById("anet-chat-sectionA");
+      sectionB = document.getElementById("anet-chat-sectionB");
+      if (this._rChat.__isVisible === true) {
+        sectionA.classList.remove("msger-none");
+        sectionB.classList.add("msger-none");
+        this._rChat.__isVisible = false;
+        this.showInput("Room Name...");
+        this.setInputValue($gameTemp.nLastNetworkSceneInputValue);
+      } else {
+        sectionA.classList.add("msger-none");
+        sectionB.classList.remove("msger-none");
+        $gameTemp.nLastNetworkSceneInputValue = this.getInputValue();
+        this.removeInput();
+        this._rChat.__isVisible = true;
+      }
+      if (s.setInputAllowed != null) {
+        s.setInputAllowed(!this._rChat.__isVisible);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+})();
+
+(function() {  //╒═════════════════════════════════════════════════════════════════════════╛
+  // ■ Scene_Map.coffee
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  //---------------------------------------------------------------------------
+  var _;
+  //@[DEFINES]
+  _ = Scene_Map.prototype;
+})();
+
+(function() {  // ■ END Scene_Map.coffee
+  //---------------------------------------------------------------------------
+
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  // ■ Input.coffee
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  //---------------------------------------------------------------------------
+
+  //TODO: Временно отключил, так как пока нет HUI элементов на карте
+  /*if KDCore.isMV()
+      #@[ALIAS]
+      ALIAS__processMapTouch = _.processMapTouch
+      _.processMapTouch = ->
+          return if HUIManager.isUnderMouse()
+          ALIAS__processMapTouch.call(@)
+          return
+  else
+      #@[ALIAS]
+      ALIAS__onMapTouch = _.onMapTouch
+      _.onMapTouch = ->
+          return if HUIManager.isUnderMouse()
+          ALIAS__onMapTouch.call(@)
+          return */
+  var ALIAS___onKeyDown, ALIAS___shouldPreventDefault, _;
+  //@[DEFINES]
+  _ = Input;
+  //@[ALIAS]
+  ALIAS___shouldPreventDefault = _._shouldPreventDefault;
+  _._shouldPreventDefault = function() {
+    // * Чтобы backspace и стрелки работали в поле ввода текста
+    if (HUIManager.isInputActive()) {
+      return false;
+    } else {
+      return ALIAS___shouldPreventDefault.call(this);
+    }
+  };
+  
+  //@[ALIAS]
+  ALIAS___onKeyDown = _._onKeyDown;
+  _._onKeyDown = function(event) {
+    // * Чтобы игнорировать стандартные кнопки Z, X, space во время ввода
+    if (HUIManager.isInputActive()) {
+      if (event.keyCode === 90 || event.keyCode === 88 || event.keyCode === 32) {
+        this.clear();
+        return;
+      }
+    }
+    return ALIAS___onKeyDown.call(this, event);
+  };
+})();
+
+(function() {  // ■ END Input.coffee
+  //---------------------------------------------------------------------------
+
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  // ■ Graphics.coffee
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  //---------------------------------------------------------------------------
+  var ALIAS___updateCanvas, _;
+  //@[DEFINES]
+  _ = Graphics;
+  //@[ALIAS]
+  ALIAS___updateCanvas = _._updateCanvas;
+  _._updateCanvas = function() {
+    ALIAS___updateCanvas.call(this);
+    return HUIManager.updateCanvasHtmlElements();
+  };
+})();
+
+// ■ END Graphics.coffee
+//---------------------------------------------------------------------------
+
 
 // Generated by CoffeeScript 2.6.1
 // * Дополнительные расширения для KDCore
@@ -9713,183 +9479,172 @@ function _0x2748() {
 // * NOTHING
 
 
-var _0x1d61ae = _0x13c3;
-function _0x4d53() {
-    var _0x42a042 = [
-        '\x57\x69\x74\x68\x54\x69\x6d\x65\x6f\x75\x74',
-        '\x32\x39\x30\x36\x30\x6b\x53\x4a\x47\x67\x76',
-        '\x45\x6d\x70\x74\x79\x4d\x65\x73\x73\x61\x67\x65',
-        '\x63\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x65\x6d\x69\x74',
-        '\x77\x61\x69\x74\x65\x64',
-        '\x36\x51\x52\x6d\x50\x69\x4f',
-        '\x33\x32\x5a\x50\x49\x4f\x52\x63',
-        '\x73\x65\x74\x46\x72\x6f\x6d',
-        '\x61\x70\x70\x6c\x79',
-        '\x54\x48\x52\x54\x4c',
-        '\x4f\x74\x4d\x6a\x74',
-        '\x73\x65\x74\x44\x61\x74\x61',
-        '\x36\x31\x37\x30\x35\x36\x32\x42\x45\x6e\x77\x44\x4a',
-        '\x41\x52\x44\x4d\x65',
-        '\x5f\x6d\x61\x6b\x65\x44\x61\x74\x61',
-        '\x31\x30\x39\x35\x37\x32\x4e\x48\x4f\x6d\x65\x50',
-        '\x38\x37\x36\x32\x31\x39\x52\x53\x55\x74\x62\x77',
-        '\x33\x33\x30\x30\x36\x31\x30\x6e\x4c\x62\x6c\x6c\x48',
-        '\x50\x72\x62\x50\x78',
-        '\x73\x65\x6e\x64',
-        '\x45\x6d\x70\x74\x79\x4d\x65\x73\x73\x61\x67\x65\x57\x69\x74\x68\x46\x6c\x61\x67',
-        '\x37\x44\x7a\x44\x56\x41\x6d',
-        '\x70\x76\x65\x52\x45',
-        '\x53\x6f\x63\x6b\x65\x74',
-        '\x73\x65\x74\x54\x6f',
-        '\x53\x65\x74\x4f\x77\x6e\x53\x6f\x63\x6b\x65\x74',
-        '\x54\x72\x61\x63\x65',
-        '\x33\x37\x34\x6a\x49\x74\x5a\x76\x67',
-        '\x63\x61\x6c\x6c',
-        '\x73\x65\x74\x4e\x61\x6d\x65',
-        '\x73\x6f\x63\x6b\x65\x74',
-        '\x32\x6d\x77\x57\x70\x53\x4f',
-        '\x4f\x53\x78\x76\x45',
-        '\x71\x49\x79\x44\x51',
-        '\x66\x75\x6c\x6c\x4e\x61\x6d\x65',
-        '\x34\x37\x33\x38\x35\x34\x38\x4c\x76\x54\x79\x74\x6f',
-        '\x62\x72\x6f\x61\x64\x63\x61\x73\x74',
-        '\x36\x30\x32\x32\x32\x31\x36\x68\x69\x6c\x4f\x41\x48',
-        '\x4e\x4d\x53',
-        '\x4b\x58\x52\x70\x44',
-        '\x73\x55\x51\x5a\x58',
-        '\x4c\x74\x47\x57\x6a',
-        '\x6e\x61\x6d\x65',
-        '\x64\x61\x74\x61',
-        '\x66\x72\x6f\x6d'
-    ];
-    _0x4d53 = function () {
-        return _0x42a042;
-    };
-    return _0x4d53();
-}
-function _0x13c3(_0x5240d3, _0x2581d7) {
-    var _0x4d5309 = _0x4d53();
-    return _0x13c3 = function (_0x13c32c, _0x21b9c6) {
-        _0x13c32c = _0x13c32c - 0x1e0;
-        var _0x532c4b = _0x4d5309[_0x13c32c];
-        return _0x532c4b;
-    }, _0x13c3(_0x5240d3, _0x2581d7);
-}
-(function (_0x241ae1, _0x2dbe1d) {
-    var _0x157bbf = _0x13c3, _0x124957 = _0x241ae1();
-    while (!![]) {
-        try {
-            var _0x381c7b = -parseInt(_0x157bbf(0x209)) / 0x1 * (-parseInt(_0x157bbf(0x1ea)) / 0x2) + -parseInt(_0x157bbf(0x208)) / 0x3 * (parseInt(_0x157bbf(0x1ff)) / 0x4) + parseInt(_0x157bbf(0x20a)) / 0x5 * (-parseInt(_0x157bbf(0x1fe)) / 0x6) + parseInt(_0x157bbf(0x1e0)) / 0x7 * (parseInt(_0x157bbf(0x1f0)) / 0x8) + -parseInt(_0x157bbf(0x205)) / 0x9 + -parseInt(_0x157bbf(0x1f9)) / 0xa * (-parseInt(_0x157bbf(0x1e6)) / 0xb) + parseInt(_0x157bbf(0x1ee)) / 0xc;
-            if (_0x381c7b === _0x2dbe1d)
-                break;
-            else
-                _0x124957['push'](_0x124957['shift']());
-        } catch (_0x3771b5) {
-            _0x124957['push'](_0x124957['shift']());
-        }
-    }
-}(_0x4d53, 0x7658b));
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ NetMessage.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+//$[ENCODE]
+//@[GLOBAL]
 var NetMessage;
-NetMessage = function () {
-    var _0x2b0e1b = _0x13c3;
-    class _0x5dac58 {
-        constructor(_0x21364e) {
-            var _0x37908d = _0x13c3;
-            if (_0x37908d(0x1ec) !== _0x37908d(0x1eb))
-                this[_0x37908d(0x1e9)] = _0x21364e, this[_0x37908d(0x1f5)] = '\x74\x72\x61\x63\x65', this[_0x37908d(0x1f7)] = '', this['\x74\x6f'] = '', this[_0x37908d(0x1f6)] = '', this[_0x37908d(0x1fd)] = ![];
-            else
-                return this[_0x37908d(0x1fa)](_0x1528d8)[_0x37908d(0x1e8)]('\x74\x72\x61\x63\x65')[_0x37908d(0x204)](_0x520267);
-        }
-        ['\x73\x65\x74\x4e\x61\x6d\x65'](_0x445b18) {
-            var _0x35a3d7 = _0x13c3;
-            return this[_0x35a3d7(0x1f5)] = _0x445b18, this;
-        }
-        [_0x2b0e1b(0x1e3)](_0x44260d) {
-            return this['\x74\x6f'] = _0x44260d, this;
-        }
-        [_0x2b0e1b(0x200)](_0x2a6f40) {
-            var _0x272025 = _0x2b0e1b;
-            return _0x272025(0x1f4) !== _0x272025(0x1f3) ? (this['\x66\x72\x6f\x6d'] = _0x2a6f40, this) : this[_0x272025(0x1f5)] + '\x5f' + this[_0x272025(0x1f6)]['\x69\x64'];
-        }
-        [_0x2b0e1b(0x204)](_0x225cb3) {
-            var _0x76decf = _0x2b0e1b;
-            return this[_0x76decf(0x1f6)] = _0x225cb3, this;
-        }
-        [_0x2b0e1b(0x1ed)]() {
-            var _0x5e6823 = _0x2b0e1b;
-            return _0x5e6823(0x1f2) === _0x5e6823(0x1e1) ? this[_0x5e6823(0x1f6)] != null && this[_0x5e6823(0x1f6)]['\x69\x64'] ? this[_0x5e6823(0x1f5)] + '\x5f' + this['\x64\x61\x74\x61']['\x69\x64'] : this[_0x5e6823(0x1f5)] : this[_0x5e6823(0x1f6)] != null && this[_0x5e6823(0x1f6)]['\x69\x64'] ? this[_0x5e6823(0x1f5)] + '\x5f' + this[_0x5e6823(0x1f6)]['\x69\x64'] : this[_0x5e6823(0x1f5)];
-        }
-        [_0x2b0e1b(0x20c)](_0x4bc181) {
-            var _0x4112e0 = _0x2b0e1b;
-            return this['\x73\x6f\x63\x6b\x65\x74']['\x65\x6d\x69\x74'](this['\x6e\x61\x6d\x65'], this[_0x4112e0(0x207)](_0x4bc181)), this;
-        }
-        [_0x2b0e1b(0x1fb)](_0x21509d, _0x474cfc) {
-            var _0x1bb4cf = _0x2b0e1b;
-            return this[_0x1bb4cf(0x1e9)]['\x65\x6d\x69\x74'](this[_0x1bb4cf(0x1f5)], this[_0x1bb4cf(0x207)](_0x474cfc), _0x21509d), this;
-        }
-        ['\x67\x65\x74'](_0x24beb6, _0x71420, _0x4bd554, _0x471b15) {
-            var _0x4ef006 = _0x2b0e1b;
-            if (_0x4ef006(0x206) === _0x4ef006(0x206)) {
-                var _0x261b2e;
-                return _0x261b2e = _0x5dac58['\x57\x69\x74\x68\x54\x69\x6d\x65\x6f\x75\x74'], this[_0x4ef006(0x1e9)][_0x4ef006(0x1fc)](this['\x6e\x61\x6d\x65'], this['\x5f\x6d\x61\x6b\x65\x44\x61\x74\x61'](_0x471b15), _0x261b2e(_0x24beb6, _0x71420, _0x4bd554)), this;
-            } else {
-                var _0x15de57;
-                return _0x15de57 = _0x5ee59e['\x57\x69\x74\x68\x54\x69\x6d\x65\x6f\x75\x74'], this[_0x4ef006(0x1e9)]['\x65\x6d\x69\x74'](this['\x6e\x61\x6d\x65'], this[_0x4ef006(0x207)](_0x420e4a), _0x15de57(_0x4ff98a, _0x43d11f, _0x1aeac7)), this;
-            }
-        }
-        [_0x2b0e1b(0x1ef)](_0x410f74) {
-            var _0x39d3ce = _0x2b0e1b;
-            if (_0x39d3ce(0x20b) === _0x39d3ce(0x203)) {
-                if (_0x4940ad)
-                    return;
-                return _0x40580e = !![], _0x509bbb(_0x6ce5f4), _0x652311[_0x39d3ce(0x201)](this, _0x1897d1);
-            } else
-                return this[_0x39d3ce(0x1e9)]['\x62\x72\x6f\x61\x64\x63\x61\x73\x74'][_0x39d3ce(0x1fc)](this[_0x39d3ce(0x1f5)], this[_0x39d3ce(0x207)](_0x410f74));
-        }
-        [_0x2b0e1b(0x207)](_0x7d30c2 = null) {
-            var _0x54c182 = _0x2b0e1b, _0x45a4e9;
-            return _0x45a4e9 = {}, _0x7d30c2 == null ? _0x7d30c2 = this[_0x54c182(0x1f6)] : this[_0x54c182(0x1f6)] = _0x7d30c2, _0x45a4e9[_0x54c182(0x1f6)] = _0x7d30c2, _0x45a4e9[_0x54c182(0x1f7)] = this[_0x54c182(0x1f7)], _0x45a4e9['\x74\x6f'] = this['\x74\x6f'], _0x45a4e9[_0x54c182(0x1fd)] = this[_0x54c182(0x1fd)], _0x45a4e9;
-        }
-        static [_0x2b0e1b(0x1e4)](_0x5df53d) {
-            return _0x5dac58['\x53\x6f\x63\x6b\x65\x74'] = _0x5df53d;
-        }
-        static [_0x2b0e1b(0x1e5)](_0x3eb61b, _0x457ef5) {
-            var _0xa68b92 = _0x2b0e1b;
-            return this[_0xa68b92(0x1fa)](_0x457ef5)[_0xa68b92(0x1e8)]('\x74\x72\x61\x63\x65')[_0xa68b92(0x204)](_0x3eb61b);
-        }
-        static ['\x45\x6d\x70\x74\x79\x4d\x65\x73\x73\x61\x67\x65'](_0x92f50e = null) {
-            var _0x3c4c47 = _0x2b0e1b, _0xd6e023, _0x44c2c0;
-            return _0x44c2c0 = _0x92f50e, _0x92f50e == null && (_0x44c2c0 = this[_0x3c4c47(0x1e2)]), _0xd6e023 = new _0x5dac58(_0x44c2c0), _0x44c2c0 != null && _0xd6e023['\x73\x65\x74\x46\x72\x6f\x6d'](_0x44c2c0['\x69\x64']), _0xd6e023;
-        }
-        static [_0x2b0e1b(0x20d)](_0x4d7dc0, _0xe5284, _0x3db304 = null) {
-            var _0x52e7f1 = _0x2b0e1b, _0x2f6f8e;
-            return _0x2f6f8e = this['\x45\x6d\x70\x74\x79\x4d\x65\x73\x73\x61\x67\x65'](_0x3db304), _0x2f6f8e[_0x52e7f1(0x204)]({
-                '\x69\x64': _0x4d7dc0,
-                '\x63\x6f\x6e\x74\x65\x6e\x74': _0xe5284
-            }), _0x2f6f8e;
-        }
-        static [_0x2b0e1b(0x1f8)](_0x392ee5, _0x4309ed, _0x4e949e) {
-            var _0x4dd21d = _0x2b0e1b;
-            if (_0x4dd21d(0x202) === _0x4dd21d(0x202)) {
-                var _0x24055e, _0x3f7062;
-                return _0x24055e = ![], _0x3f7062 = setTimeout(function () {
-                    if (_0x24055e)
-                        return;
-                    return _0x24055e = !![], _0x4309ed();
-                }, _0x4e949e), function (..._0x153e7a) {
-                    var _0x588548 = _0x4dd21d;
-                    if (_0x24055e)
-                        return;
-                    return _0x24055e = !![], clearTimeout(_0x3f7062), _0x392ee5[_0x588548(0x201)](this, _0x153e7a);
-                };
-            } else
-                _0x138b56[_0x4dd21d(0x200)](_0x4c2c5d['\x69\x64']);
-        }
+
+NetMessage = (function() {
+  class NetMessage {
+    constructor(socket1) {
+      this.socket = socket1;
+      this.name = "trace";
+      this.from = "";
+      this.to = "";
+      this.data = "";
+      //@myMapId = 0
+      //@myPlayerIndex = -1 # * -1 = server
+      this.waited = false;
     }
-    ;
-    return _0x5dac58['\x53\x6f\x63\x6b\x65\x74'] = null, _0x5dac58;
-}[_0x1d61ae(0x1e7)](this), window[_0x1d61ae(0x1f1)] = NetMessage, window['\x4e\x65\x74\x4d\x65\x73\x73\x61\x67\x65'] = NetMessage;
+
+    setName(name) {
+      this.name = name;
+      return this;
+    }
+
+    setTo(socketId) {
+      this.to = socketId;
+      return this;
+    }
+
+    setFrom(socketId) {
+      this.from = socketId;
+      return this;
+    }
+
+    setData(data) {
+      this.data = data;
+      return this;
+    }
+
+    fullName() {
+      if ((this.data != null) && this.data.id) {
+        return this.name + "_" + this.data.id;
+      } else {
+        return this.name;
+      }
+    }
+
+    //setWait: (symbol) ->
+    //    @waited = true
+    //    Network.waitServerResponse @, symbol
+    //    @
+
+      //setRepeat: (symbol) ->
+    //    @waited = true
+    //    Network.waitServerResponseRepeated @, symbol
+    //    @
+
+      //TODO: @socket.to.emit? комната?
+    send(data) {
+      this.socket.emit(this.name, this._makeData(data));
+      return this;
+    }
+
+    callback(method, data) {
+      this.socket.emit(this.name, this._makeData(data), method);
+      return this;
+    }
+
+    get(methodA, methodB, timeout, data) {
+      var timeoutFunc;
+      timeoutFunc = NetMessage.WithTimeout;
+      this.socket.emit(this.name, this._makeData(data), timeoutFunc(methodA, methodB, timeout));
+      return this;
+    }
+
+    //TODO: наверное тут не надо
+    broadcast(data) {
+      return this.socket.broadcast.emit(this.name, this._makeData(data));
+    }
+
+    _makeData(data = null) {
+      var netData;
+      netData = {};
+      if (data == null) {
+        data = this.data;
+      } else {
+        this.data = data;
+      }
+      netData.data = data;
+      netData.from = this.from;
+      netData.to = this.to;
+      netData.waited = this.waited;
+      return netData;
+    }
+
+    static SetOwnSocket(socket) {
+      return NetMessage.Socket = socket;
+    }
+
+    static Trace(text, socket) {
+      return this.EmptyMessage(socket).setName("trace").setData(text);
+    }
+
+    static EmptyMessage(socket = null) {
+      var msg, targetSocket;
+      targetSocket = socket;
+      if (socket == null) {
+        targetSocket = this.Socket;
+      }
+      msg = new NetMessage(targetSocket);
+      if (targetSocket != null) {
+        msg.setFrom(targetSocket.id);
+      }
+      return msg;
+    }
+
+    static EmptyMessageWithFlag(flagName, data, socket = null) {
+      var msg;
+      msg = this.EmptyMessage(socket);
+      msg.setData({
+        id: flagName,
+        content: data
+      });
+      return msg;
+    }
+
+    static WithTimeout(onSuccess, onTimeout, timeout) {
+      var called, timer;
+      called = false;
+      timer = setTimeout(function() {
+        if (called) {
+          return;
+        }
+        called = true;
+        return onTimeout();
+      }, timeout);
+      return function(...args) {
+        if (called) {
+          return;
+        }
+        called = true;
+        clearTimeout(timer);
+        return onSuccess.apply(this, args);
+      };
+    }
+
+  };
+
+  // * Сокет текущего клиента (по умолчанию)
+  NetMessage.Socket = null;
+
+  return NetMessage;
+
+}).call(this);
+
+//@[EXTENDD]
+window.NMS = NetMessage;
+
+window.NetMessage = NetMessage;
+
+// ■ END NetMessage.coffee
+//---------------------------------------------------------------------------
+
 
 // Generated by CoffeeScript 2.6.1
 //@[GLOBAL]
@@ -10185,917 +9940,627 @@ NetworkClientHandler = class NetworkClientHandler {
 //---------------------------------------------------------------------------
 
 
-var _0x363259 = _0x59c4;
-function _0x59c4(_0x5c4c95, _0x4fdbfa) {
-    var _0x3f62e1 = _0x3f62();
-    return _0x59c4 = function (_0x59c42f, _0x3ee90e) {
-        _0x59c42f = _0x59c42f - 0xb2;
-        var _0x50df23 = _0x3f62e1[_0x59c42f];
-        return _0x50df23;
-    }, _0x59c4(_0x5c4c95, _0x4fdbfa);
-}
-(function (_0x126efe, _0x5be257) {
-    var _0x3334e2 = _0x59c4, _0x2c99b4 = _0x126efe();
-    while (!![]) {
-        try {
-            var _0xd3e28f = -parseInt(_0x3334e2(0xd1)) / 0x1 + -parseInt(_0x3334e2(0xb7)) / 0x2 * (-parseInt(_0x3334e2(0xb9)) / 0x3) + -parseInt(_0x3334e2(0xb5)) / 0x4 * (parseInt(_0x3334e2(0xca)) / 0x5) + -parseInt(_0x3334e2(0xd3)) / 0x6 * (-parseInt(_0x3334e2(0xbe)) / 0x7) + parseInt(_0x3334e2(0xcb)) / 0x8 + -parseInt(_0x3334e2(0xcc)) / 0x9 * (parseInt(_0x3334e2(0xc7)) / 0xa) + parseInt(_0x3334e2(0xc0)) / 0xb;
-            if (_0xd3e28f === _0x5be257)
-                break;
-            else
-                _0x2c99b4['push'](_0x2c99b4['shift']());
-        } catch (_0x4a49be) {
-            _0x2c99b4['push'](_0x2c99b4['shift']());
-        }
-    }
-}(_0x3f62, 0xbf183), window[_0x363259(0xcf)] = function () {
-}, (function () {
-    var _0xdbbb0 = _0x363259, _0x1563b8, _0x474613;
-    _0x1563b8 = new KDCore[(_0xdbbb0(0xd2))](_0xdbbb0(0xb8)), _0x1563b8[_0xdbbb0(0xc3)](KDCore[_0xdbbb0(0xb3)]['\x42\x4c\x55\x45'][_0xdbbb0(0xc1)](0x41), KDCore[_0xdbbb0(0xb3)]['\x42\x4c\x41\x43\x4b'][_0xdbbb0(0xc1)](0x41)), _0x1563b8['\x6f\x6e'](), _0x474613 = window[_0xdbbb0(0xcf)], _0x474613[_0xdbbb0(0xc8)] = function (_0x1cce21, _0x5bddde, _0x4bf762, _0x596ead, _0x906e04) {
-        var _0x512996 = _0xdbbb0;
-        if (_0x512996(0xce) === _0x512996(0xce)) {
-            var _0x20cdf1;
-            try {
-                if (!ANNetwork[_0x512996(0xb2)]()) {
-                    if ('\x67\x43\x61\x64\x52' === _0x512996(0xc5))
-                        _0x2818c1(function () {
-                            var _0xaec190 = _0x512996;
-                            if (_0x21809e['\x63\x75\x72\x72\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65'] != null)
-                                return _0x56ce17[_0xaec190(0xbc)](_0xc6a504);
-                        }, 0x190);
-                    else
-                        return;
-                }
-                return ANNetwork['\x73\x65\x74\x57\x61\x69\x74'](), String['\x61\x6e\x79'](_0x906e04) && setTimeout(function () {
-                    var _0x15189a = _0x512996;
-                    if ('\x62\x75\x49\x71\x6c' !== _0x15189a(0xb6)) {
-                        if (ANClientResponceManager['\x63\x75\x72\x72\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65'] != null)
-                            return nAPI[_0x15189a(0xbc)](_0x906e04);
-                    } else
-                        return _0x150f13 = _0x5776c3, _0x42da68['\x77'](_0x124945);
-                }, 0x190), ANClientResponceManager['\x63\x75\x72\x72\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65'] = {
-                    '\x69\x64': _0x1cce21[_0x512996(0xc2)](),
-                    '\x74\x69\x6d\x65\x6f\x75\x74': setTimeout(function () {
-                        var _0x21dd63 = _0x512996;
-                        return ANClientResponceManager[_0x21dd63(0xbb)](), _0x4bf762();
-                    }, _0x596ead),
-                    '\x63\x61\x6c\x6c\x62\x61\x63\x6b': _0x5bddde
-                }, console[_0x512996(0xcd)](ANClientResponceManager[_0x512996(0xb4)]['\x69\x64']), ANNetwork[_0x512996(0xc6)](_0x1cce21);
-            } catch (_0x5a1fa4) {
-                return _0x20cdf1 = _0x5a1fa4, ANET['\x77'](_0x20cdf1);
-            }
-        } else {
-            if (_0x175292[_0x512996(0xb4)] == null)
-                return;
-            _0x2cad2f['\x72\x65\x73\x65\x74\x57\x61\x69\x74'](), _0x547459['\x68\x69\x64\x65\x49\x6e\x66\x6f\x4d\x65\x73\x73\x61\x67\x65'](), _0x10c5f1(_0x1fcfe7[_0x512996(0xb4)]['\x74\x69\x6d\x65\x6f\x75\x74']), _0x1b918a[_0x512996(0xb4)] = null;
-        }
-    }, _0x474613[_0xdbbb0(0xba)] = function (_0x1246f3, _0x50f98a) {
-        var _0x24d299 = _0xdbbb0;
-        if (_0x24d299(0xd0) === _0x24d299(0xbf))
-            return;
-        else {
-            var _0x36360c;
-            if (ANClientResponceManager['\x63\x75\x72\x72\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65'] == null)
-                return;
-            _0x36360c = ANClientResponceManager[_0x24d299(0xb4)], _0x36360c['\x69\x64'] === _0x1246f3 && ('\x4a\x5a\x6b\x79\x52' === '\x44\x72\x61\x6e\x6f' ? (this['\x5f\x63\x6f\x6e\x74\x69\x6e\x75\x65\x47\x61\x6d\x65\x50\x72\x6f\x63\x65\x73\x73'](), _0x276881[_0x24d299(0xd4)](_0x286453)) : (this[_0x24d299(0xbb)](), _0x36360c[_0x24d299(0xd4)](_0x50f98a)));
-        }
-    }, _0x474613[_0xdbbb0(0xbb)] = function () {
-        var _0x22bf93 = _0xdbbb0;
-        if ('\x61\x6d\x56\x6f\x61' !== _0x22bf93(0xbd)) {
-            if (ANClientResponceManager[_0x22bf93(0xb4)] == null)
-                return;
-            ANNetwork[_0x22bf93(0xd5)](), nAPI[_0x22bf93(0xc4)](), clearTimeout(ANClientResponceManager['\x63\x75\x72\x72\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65'][_0x22bf93(0xc9)]), ANClientResponceManager[_0x22bf93(0xb4)] = null;
-        } else
-            return _0x5b3f64['\x5f\x63\x6f\x6e\x74\x69\x6e\x75\x65\x47\x61\x6d\x65\x50\x72\x6f\x63\x65\x73\x73'](), _0x793368();
-    };
-}()));
-function _0x3f62() {
-    var _0x16533b = [
-        '\x41\x4e\x43\x6c\x69\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x48\x55\x7a\x46\x78',
-        '\x31\x32\x30\x35\x33\x35\x39\x7a\x72\x6d\x73\x4c\x4e',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x31\x33\x38\x6d\x77\x5a\x4e\x48\x48',
-        '\x63\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x72\x65\x73\x65\x74\x57\x61\x69\x74',
-        '\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x63\x75\x72\x72\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x63\x65',
-        '\x34\x31\x30\x38\x38\x32\x38\x48\x7a\x6c\x79\x4b\x56',
-        '\x57\x73\x6c\x68\x67',
-        '\x36\x35\x32\x30\x72\x6e\x50\x72\x4e\x49',
-        '\x43\x6c\x69\x65\x6e\x74\x52\x65\x73\x70',
-        '\x36\x39\x49\x48\x68\x4a\x67\x61',
-        '\x6f\x6e\x52\x65\x73\x70\x6f\x6e\x63\x65\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x5f\x63\x6f\x6e\x74\x69\x6e\x75\x65\x47\x61\x6d\x65\x50\x72\x6f\x63\x65\x73\x73',
-        '\x73\x68\x6f\x77\x49\x6e\x66\x6f\x4d\x65\x73\x73\x61\x67\x65',
-        '\x69\x4a\x58\x51\x66',
-        '\x32\x32\x36\x36\x34\x36\x74\x66\x73\x63\x51\x71',
-        '\x4f\x6e\x72\x62\x42',
-        '\x32\x31\x38\x38\x39\x39\x38\x39\x43\x59\x65\x7a\x58\x74',
-        '\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72',
-        '\x66\x75\x6c\x6c\x4e\x61\x6d\x65',
-        '\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73',
-        '\x68\x69\x64\x65\x49\x6e\x66\x6f\x4d\x65\x73\x73\x61\x67\x65',
-        '\x74\x59\x58\x65\x48',
-        '\x73\x65\x6e\x64',
-        '\x36\x37\x31\x30\x43\x6a\x51\x47\x67\x69',
-        '\x73\x65\x6e\x64\x52\x65\x73\x70\x6f\x6e\x63\x65',
-        '\x74\x69\x6d\x65\x6f\x75\x74',
-        '\x35\x45\x50\x6f\x64\x65\x64',
-        '\x38\x38\x31\x31\x32\x30\x38\x56\x6b\x6d\x47\x70\x69',
-        '\x31\x32\x30\x31\x35\x61\x73\x61\x5a\x58\x57',
-        '\x6c\x6f\x67',
-        '\x62\x79\x57\x50\x42'
-    ];
-    _0x3f62 = function () {
-        return _0x16533b;
-    };
-    return _0x3f62();
-}
+// Generated by CoffeeScript 2.6.1
+// * Данный оперирует запросами данных и ответами от игрока к игроку
 
-var _0x257403 = _0x25c5;
-function _0x25c5(_0x50553d, _0x2b67ff) {
-    var _0x36e26c = _0x36e2();
-    return _0x25c5 = function (_0x25c54d, _0x81d81e) {
-        _0x25c54d = _0x25c54d - 0x139;
-        var _0x350dbc = _0x36e26c[_0x25c54d];
-        return _0x350dbc;
-    }, _0x25c5(_0x50553d, _0x2b67ff);
-}
-(function (_0x9f7f02, _0x532111) {
-    var _0x1575e7 = _0x25c5, _0x3aa9f1 = _0x9f7f02();
-    while (!![]) {
-        try {
-            var _0x345fdf = parseInt(_0x1575e7(0x190)) / 0x1 + -parseInt(_0x1575e7(0x1b5)) / 0x2 * (parseInt(_0x1575e7(0x1c2)) / 0x3) + -parseInt(_0x1575e7(0x159)) / 0x4 + parseInt(_0x1575e7(0x18d)) / 0x5 + parseInt(_0x1575e7(0x1bb)) / 0x6 * (parseInt(_0x1575e7(0x18b)) / 0x7) + parseInt(_0x1575e7(0x19b)) / 0x8 * (-parseInt(_0x1575e7(0x1e5)) / 0x9) + parseInt(_0x1575e7(0x15b)) / 0xa;
-            if (_0x345fdf === _0x532111)
-                break;
-            else
-                _0x3aa9f1['push'](_0x3aa9f1['shift']());
-        } catch (_0x3e57d6) {
-            _0x3aa9f1['push'](_0x3aa9f1['shift']());
-        }
+//$[ENCODE]
+
+//@[GLOBAL]
+window.ANClientResponceManager = function() {};
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("ClientResp");
+  LOG.setColors(KDCore.Color.BLUE.getLightestColor(65), KDCore.Color.BLACK.getLightestColor(65));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANClientResponceManager;
+  // * Отправить сообщение и ждать результат
+  // * Тут результат должен прийти от другого клиента
+  //? Этот метод тормозит всю игру
+  //%[Главный метод отправки запроса данных]
+  _.sendResponce = function(msg, onResponce, onTimeout, timeoutTime, infoMessage) {
+    var e;
+    try {
+      if (!ANNetwork.isConnected()) {
+        return;
+      }
+      ANNetwork.setWait();
+      // * Показывам с задержкой, чтобы не было мелькания, если данные пришли сразу
+      if (String.any(infoMessage)) {
+        setTimeout((function() {
+          if (ANClientResponceManager.currentResponce != null) {
+            return nAPI.showInfoMessage(infoMessage);
+          }
+        }), 400);
+      }
+      ANClientResponceManager.currentResponce = {
+        id: msg.fullName(),
+        timeout: setTimeout((function() {
+          ANClientResponceManager._continueGameProcess();
+          return onTimeout();
+        }), timeoutTime),
+        callback: onResponce
+      };
+      console.log(ANClientResponceManager.currentResponce.id);
+      return ANNetwork.send(msg);
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
     }
-}(_0x36e2, 0xa1e03), window[_0x257403(0x179)] = function () {
-}, (function () {
-    var _0x32552d = _0x257403, _0x16df94, _0x3c147a;
-    _0x16df94 = new KDCore[(_0x32552d(0x1cf))](_0x32552d(0x19e)), _0x16df94['\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73'](KDCore[_0x32552d(0x172)]['\x41\x51\x55\x41'], KDCore[_0x32552d(0x172)][_0x32552d(0x165)][_0x32552d(0x1e4)](0x23)), _0x16df94['\x6f\x6e'](), _0x3c147a = window[_0x32552d(0x179)], _0x3c147a[_0x32552d(0x1ff)] = function () {
-        var _0xc938ce = _0x32552d;
-        return this[_0xc938ce(0x1e3)] != null;
-    }, _0x3c147a[_0x32552d(0x1ab)] = function () {
-        var _0x9a68c4 = _0x32552d;
-        return this['\x72\x65\x73\x65\x74'](), this[_0x9a68c4(0x16d)](), ANPlayersManager[_0x9a68c4(0x181)]();
-    }, _0x3c147a[_0x32552d(0x13c)] = function () {
-        var _0x2568da = _0x32552d;
-        this[_0x2568da(0x1cd)] = ![], this[_0x2568da(0x1e3)] = null, this['\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61'] = null, ANBattleManager[_0x2568da(0x206)] = null;
-    }, _0x3c147a[_0x32552d(0x16d)] = function () {
-        var _0x5613f7 = _0x32552d;
-        this['\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61'] = [], this[_0x5613f7(0x205)][_0x5613f7(0x161)](NetPlayerDataWrapper[_0x5613f7(0x1ef)]());
-    }, _0x3c147a['\x69\x73\x49\x6e\x69\x74\x65\x64'] = function () {
-        var _0x50c807 = _0x32552d;
-        return this[_0x50c807(0x205)] != null;
-    }, _0x3c147a[_0x32552d(0x1a3)] = function () {
-        var _0x319061 = _0x32552d;
-        return _0x319061(0x17c) === '\x49\x66\x6d\x6c\x75' ? this[_0x319061(0x1f2)](ANNetwork['\x6d\x79\x49\x64']()) : _0x2acb71['\x73\x61\x76\x65\x4f\x62\x6a\x65\x63\x74\x46\x6f\x72\x4e\x65\x74'](_0x195a50)[_0x319061(0x180)](function () {
-            var _0x18860a = _0x319061;
-            return _0x82a4e1[_0x18860a(0x17d)](_0x21271f['\x47\x61\x6d\x65'](_0x18860a(0x204), {
-                '\x77\x68\x6f\x52\x65\x71\x75\x65\x73\x74\x49\x64': _0x35c43c,
-                '\x67\x61\x6d\x65\x44\x61\x74\x61': _0x48abf8[_0x18860a(0x1c6)]
-            })), _0x5c2bc7[_0x18860a(0x1c6)] = null;
-        });
-    }, _0x3c147a['\x6d\x79\x41\x63\x74\x6f\x72\x49\x64'] = function () {
-        var _0xad6335 = _0x32552d;
-        if ('\x46\x51\x4b\x7a\x73' === '\x6a\x6a\x45\x57\x56')
-            _0x58ed3f = _0xad6335(0x1f3);
-        else
-            return this['\x6d\x79\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61']()[_0xad6335(0x1b7)];
-    }, _0x3c147a['\x6d\x79\x49\x6e\x64\x65\x78'] = function () {
-        var _0x18d7de = _0x32552d;
-        if (_0x18d7de(0x191) !== _0x18d7de(0x191))
-            _0x59dab5['\x5f\x61\x63\x74\x6f\x72\x73'][_0x18d7de(0x161)](_0xa04279[_0x18d7de(0x1b7)]);
-        else
-            return this[_0x18d7de(0x1a3)]()[_0x18d7de(0x1e2)];
-    }, _0x3c147a['\x69\x73\x4d\x61\x70\x4d\x61\x73\x74\x65\x72'] = function () {
-        var _0x186dd1 = _0x32552d;
-        return this[_0x186dd1(0x1a3)]()[_0x186dd1(0x1fb)] === !![];
-    }, _0x3c147a[_0x32552d(0x1f5)] = function () {
-        var _0x21353b = _0x32552d;
-        if (_0x21353b(0x19a) === _0x21353b(0x18a)) {
-            var _0x4013bd;
-            return _0x4013bd = this[_0x21353b(0x1f6)](), this[_0x21353b(0x205)][_0x21353b(0x1e1)](function (_0x1745f9) {
-                var _0x23d7ea = _0x21353b;
-                return _0x1745f9[_0x23d7ea(0x1e2)] !== _0x4013bd;
-            });
-        } else
-            return ANBattleManager['\x69\x73\x42\x61\x74\x74\x6c\x65\x4d\x61\x73\x74\x65\x72']();
-    }, _0x3c147a[_0x32552d(0x139)] = function (_0x1bec28) {
-        var _0x4f4b7a = _0x32552d, _0xfdb1dc;
-        return _0xfdb1dc = this[_0x4f4b7a(0x205)][_0x4f4b7a(0x156)](function (_0x230d5e) {
-            return _0x230d5e['\x69\x64'] === _0x1bec28;
-        }), _0xfdb1dc != null;
-    }, _0x3c147a['\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x49\x64'] = function (_0x267613) {
-        var _0xa609cd = _0x32552d, _0x442480;
-        _0x442480 = this[_0xa609cd(0x205)][_0xa609cd(0x156)](function (_0x3ffc0d) {
-            return _0x3ffc0d['\x69\x64'] === _0x267613;
-        });
-        if (_0x442480 != null)
-            return _0x442480;
-        else
-            ANET['\x77'](_0xa609cd(0x1d7) + _0x267613 + '\x20\x6e\x6f\x74\x20\x66\x6f\x75\x6e\x64\x21');
+  };
+  // * Данный метод вызывается когда приходит ответ от сервера
+  // * (когда приходят данные от другого клиента)
+  _.onResponceReceived = function(responceName, data) {
+    var r;
+    if (ANClientResponceManager.currentResponce == null) {
+      return;
+    }
+    r = ANClientResponceManager.currentResponce;
+    // * Надо проверить что этот ответ именно я жду
+    if (r.id === responceName) {
+      this._continueGameProcess();
+      r.callback(data);
+    }
+  };
+  // * Продолжить игровую логику (скрыть сообщение, убрать Timeout)
+  _._continueGameProcess = function() {
+    if (ANClientResponceManager.currentResponce == null) {
+      return;
+    }
+    ANNetwork.resetWait();
+    nAPI.hideInfoMessage();
+    clearTimeout(ANClientResponceManager.currentResponce.timeout);
+    ANClientResponceManager.currentResponce = null;
+  };
+})();
+
+
+// Generated by CoffeeScript 2.6.1
+// * Данный класс хранит сетевые методы игры
+
+//$[ENCODE]
+
+//@[GLOBAL]
+window.ANGameManager = function() {};
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("NetGame");
+  LOG.setColors(KDCore.Color.AQUA, KDCore.Color.BLACK.getLightestColor(35));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANGameManager;
+  _.isShouldWaitServer = function() {
+    return this._waitMode != null;
+  };
+  // * Инициализация начальных данных (при подключении надо вызывать)
+  _.init = function() {
+    this.reset();
+    this.createMyPlayerData();
+    return ANPlayersManager.sendPlayerName();
+  };
+  // * Когда происходит отключение от сервера
+  _.reset = function() {
+    // * Флаг что игра только началась и надо установить персонажа когда карта загрузится
+    this.networkGameStarted = false;
+    this._waitMode = null;
+    this.playersData = null;
+    ANBattleManager.battleData = null;
+  };
+  _.createMyPlayerData = function() {
+    // * Данные всех игроков в игре
+    this.playersData = [];
+    // * Сразу добавляем себя
+    this.playersData.push(NetPlayerDataWrapper.createLocal());
+  };
+  _.isInited = function() {
+    return this.playersData != null;
+  };
+  _.myPlayerData = function() {
+    return this.getPlayerDataById(ANNetwork.myId());
+  };
+  _.myActorId = function() {
+    return this.myPlayerData().actorId;
+  };
+  _.myIndex = function() {
+    return this.myPlayerData().index;
+  };
+  _.isMapMaster = function() {
+    return this.myPlayerData().isMapMaster === true;
+  };
+  // * Дублируется для удобства
+  _.isBattleMaster = function() {
+    return ANBattleManager.isBattleMaster();
+  };
+  _.isPlayerDataExists = function(id) {
+    var data;
+    data = this.playersData.find(function(p) {
+      return p.id === id;
+    });
+    return data != null;
+  };
+  _.getPlayerDataById = function(id) {
+    var data;
+    data = this.playersData.find(function(p) {
+      return p.id === id;
+    });
+    if (data != null) {
+      return data;
+    } else {
+      ANET.w("Player data for " + id + " not found!");
+    }
+    return null;
+  };
+  _.getPlayerDataByActorId = function(actorId) {
+    var data;
+    data = this.playersData.find(function(p) {
+      return p.actorId === actorId;
+    });
+    if (data != null) {
+      return data;
+    } else {
+      ANET.w("Player data for Actor with ID " + actorId + " not found!");
+    }
+    return null;
+  };
+  // * Получить данные об игроке
+  //? what && byWhat: actor, actorId, netId, actorName, playerName, playerIndex, info
+  _.getPlayerInfo = function(what, byWhat, value) {
+    var actorWithName, actors, e, playerData;
+    if (what === byWhat) {
+      return value;
+    }
+    if (value == null) {
+      return null;
+    }
+    playerData = null;
+    try {
+      switch (byWhat) {
+        case "actorId":
+          playerData = this.getPlayerDataByActorId(value);
+          break;
+        case "netId":
+          playerData = this.getPlayerDataById(value);
+          break;
+        case "actor":
+          playerData = this.getPlayerDataByActorId(value.actorId());
+          break;
+        case "actorName":
+          actors = this.playersData.map(function(d) {
+            return $gameActors.actor(d.actorId);
+          });
+          actorWithName = actors.find(function(a) {
+            return a.name() === value;
+          });
+          if (actorWithName != null) {
+            playerData = this.getPlayerDataByActorId(actorWithName.actorId());
+          }
+          break;
+        case "playerName":
+          playerData = this.playersData.getByField("name", value);
+          break;
+        case "playerIndex":
+          playerData = this.playersData.getByField("index", value);
+          break;
+        case "info":
+          playerData = value;
+          break;
+        default:
+          ANET.w("Unknown field: " + byWhat + ", info not finded");
+      }
+      if (playerData == null) {
         return null;
-    }, _0x3c147a[_0x32552d(0x13e)] = function (_0x1b0743) {
-        var _0x559175 = _0x32552d;
-        if (_0x559175(0x1cb) !== '\x66\x63\x73\x54\x69')
-            this['\x73\x74\x61\x74\x69\x63\x41\x63\x74\x6f\x72\x42\x69\x6e\x67\x69\x6e\x67']();
-        else {
-            var _0x1de374;
-            _0x1de374 = this[_0x559175(0x205)]['\x66\x69\x6e\x64'](function (_0xcf125b) {
-                var _0x21c191 = _0x559175;
-                return _0xcf125b[_0x21c191(0x1b7)] === _0x1b0743;
-            });
-            if (_0x1de374 != null)
-                return _0x1de374;
-            else
-                _0x559175(0x169) === _0x559175(0x169) ? ANET['\x77']('\x50\x6c\x61\x79\x65\x72\x20\x64\x61\x74\x61\x20\x66\x6f\x72\x20\x41\x63\x74\x6f\x72\x20\x77\x69\x74\x68\x20\x49\x44\x20' + _0x1b0743 + _0x559175(0x194)) : (this['\x6f\x6e\x52\x6f\x6f\x6d\x50\x6c\x61\x79\x65\x72\x73'](_0x149f92), this['\x72\x65\x66\x72\x65\x73\x68\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x74\x65\x73'](), _0x42b50c[_0x559175(0x14b)]());
-            return null;
+      }
+      switch (what) {
+        case "actorId":
+          return playerData.actorId;
+        case "netId":
+          return playerData.id;
+        case "actorName":
+          // * Можно рекурсией, через Actor, но для производительности пусть будет так
+          actorWithName = $gameActors.actor(playerData.actorId);
+          if (actorWithName != null) {
+            return actorWithName.name();
+          } else {
+            return "";
+          }
+          break;
+        case "playerName":
+          return playerData.name;
+        case "playerIndex":
+          return playerData.index;
+        case "actor":
+          return $gameActors.actor(playerData.actorId); // * info
+        default:
+          return playerData;
+      }
+      return null;
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+      return null;
+    }
+  };
+  _.setupNewNetworkGame = function() {
+    this.networkGameStarted = true;
+    return $gameParty.setupNetworkGame();
+  };
+  // * Когда клиент переходит на новую (другую) карту (а не на туже самую)
+  _.onNewGameMapSetup = function() {
+    // * На всякий случай и тут отключу
+    $gameTemp._nLocalActorMode = false;
+    this._shouldWaitPlayerOnSameMap = ANNetwork.isSameMapMode();
+  };
+  // * Когда на клиенте загрузилась карта
+  _.onMapLoaded = function() {
+    // * Отправляем что мы на карте (загрузились)
+    ANMapManager.sendMapLoaded();
+    // * Отправляем начальные данные (позиция игрока)
+    ANMapManager.sendInitialMapData();
+    // * Сбрасываем торговлю
+    ANTradeManager.onTradeSceneEnd();
+    // * Если загрузка
+    if (ANET.Utils.isLoadGameRoom()) {
+      // * Ждём игроков (Только при параметре)
+      if (this._shouldWaitPlayerOnSameMap === true) {
+        this.setWait('playersOnMap');
+      } else {
+        this.bindingActors(); // * Присвоение персонажей
+      }
+    } else {
+      // * Ждём игроков (при параметре и если новая игра (чтобы начать события например))
+      if (this._shouldWaitPlayerOnSameMap === true || this.networkGameStarted === true) {
+        this.setWait('playersOnMap');
+      } else {
+        this.onRefreshGameParty();
+      }
+    }
+  };
+  _.setWait = function(_waitMode) {
+    this._waitMode = _waitMode;
+    return HUIManager.showLoader(500);
+  };
+  _.resetWait = function() {
+    this.setWait(null);
+    return HUIManager.hideLoader();
+  };
+  //  * Все ли игроки на данной карте (и сцене)
+  _.isAllPlayerOnSameMap = function() {
+    //TODO: проверка что на сцене отдельно
+    return this.playersData.every(function(p) {
+      return p.mapId === $gameMap.mapId();
+    });
+  };
+  // * Другие игроки (кроме этого клиента)
+  _.anotherPlayers = function() {
+    var myIndex;
+    myIndex = this.myIndex();
+    return this.playersData.filter(function(p) {
+      return p.index !== myIndex;
+    });
+  };
+  // * Все игроки (кроме клиента) на текущей карте (именно на карте, не обязательно на Сцене карты)
+  _.anotherPlayersOnMap = function() {
+    return this.anotherPlayers().filter(function(p) {
+      return NetPlayerDataWrapper.isCharOnMap(p);
+    });
+  };
+  // * Все ли игроки настроили персонажей
+  _.isAllPlayersActorsReady = function() {
+    return this.playersData.every(function(p) {
+      return p.characterReady === true;
+    });
+  };
+  // * Обновить иконку состояния игроков
+  _.refreshNetworkStates = function() {
+    var char, i, len, p, players, stateId;
+    if (!ANET.PP.isShowNetworkIcons()) {
+      return;
+    }
+    // * Используется _, так как метод вызывается в отдельном потоке тоже
+    players = this.anotherPlayersOnMap();
+    for (i = 0, len = players.length; i < len; i++) {
+      p = players[i];
+      stateId = NetPlayerDataWrapper.getRequestedNetworkState(p);
+      char = NetPlayerDataWrapper.getNetCharacterForPlayer(p);
+      if (char != null) {
+        char.requestNetworkStateIcon(stateId);
+      }
+    }
+  };
+  // * Задаём игрового персонажа
+  _.bindingActors = function() {
+    "START BINDING ACTORS".p();
+    this.networkGameStarted = false;
+    if (ANET.PP.isActorSelectionAllowed() || ANET.Utils.isLoadGameRoom()) {
+      this.actorBingingFromSelection();
+    } else {
+      this.staticActorBinging();
+    }
+  };
+  // * Персонаж, выбранный из списка
+  _.actorBingingFromSelection = function() {
+    // * Так как персонаж уже был выбран в лобби, то сразу отправляем готовнотсть
+    ANPlayersManager.sendActorReady();
+  };
+  // * Статический режимм присвоения персонажа
+  _.staticActorBinging = function() {
+    var actorId;
+    // * -1, так как myIndex начинается с 1, а массив с 0
+    actorId = ANET.PP.actorsForNetwork()[this.myIndex() - 1];
+    //  * Пытаемся зарезервировать персонажа
+    ANPlayersManager.sendBindActorFromGame(actorId);
+  };
+  // * Ожидание данных (игроков) от сервера
+  _.updateWaiting = function() {
+    if (!this.isShouldWaitServer()) {
+      return;
+    }
+    switch (this._waitMode) {
+      case 'playersOnMap':
+        if (this.isAllPlayerOnSameMap()) {
+          this.resetWait();
+          this._shouldWaitPlayerOnSameMap = false;
+          if (this.networkGameStarted === true) {
+            this.bindingActors();
+          }
         }
-    }, _0x3c147a[_0x32552d(0x210)] = function (_0x2d6310, _0x90b503, _0x474242) {
-        var _0x13cbf2 = _0x32552d;
-        if (_0x13cbf2(0x199) === _0x13cbf2(0x1d6))
-            this[_0x13cbf2(0x1e8)]();
-        else {
-            var _0x35ec2b, _0x2f9e95, _0x3d2630, _0x2f3fda;
-            if (_0x2d6310 === _0x90b503)
-                return _0x474242;
-            if (_0x474242 == null) {
-                if (_0x13cbf2(0x171) !== '\x69\x44\x68\x63\x4c')
-                    _0x43e0df[_0x13cbf2(0x184)](_0x32178d);
-                else
-                    return null;
-            }
-            _0x2f3fda = null;
-            try {
-                if (_0x13cbf2(0x1d3) === _0x13cbf2(0x158))
-                    return this[_0x13cbf2(0x205)][_0x13cbf2(0x1df)](function (_0x3e7987) {
-                        return _0x3e7987['\x63\x68\x61\x72\x61\x63\x74\x65\x72\x52\x65\x61\x64\x79'] === !![];
-                    });
-                else {
-                    switch (_0x90b503) {
-                    case _0x13cbf2(0x1b7):
-                        _0x2f3fda = this['\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x41\x63\x74\x6f\x72\x49\x64'](_0x474242);
-                        break;
-                    case _0x13cbf2(0x182):
-                        _0x2f3fda = this[_0x13cbf2(0x1f2)](_0x474242);
-                        break;
-                    case _0x13cbf2(0x16c):
-                        _0x2f3fda = this[_0x13cbf2(0x13e)](_0x474242[_0x13cbf2(0x1b7)]());
-                        break;
-                    case _0x13cbf2(0x1c0):
-                        _0x2f9e95 = this[_0x13cbf2(0x205)][_0x13cbf2(0x13b)](function (_0x110005) {
-                            var _0x29a728 = _0x13cbf2;
-                            return $gameActors[_0x29a728(0x16c)](_0x110005[_0x29a728(0x1b7)]);
-                        }), _0x35ec2b = _0x2f9e95[_0x13cbf2(0x156)](function (_0x461b7b) {
-                            return _0x461b7b['\x6e\x61\x6d\x65']() === _0x474242;
-                        });
-                        _0x35ec2b != null && (_0x2f3fda = this['\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x41\x63\x74\x6f\x72\x49\x64'](_0x35ec2b[_0x13cbf2(0x1b7)]()));
-                        break;
-                    case _0x13cbf2(0x145):
-                        _0x2f3fda = this[_0x13cbf2(0x205)][_0x13cbf2(0x173)](_0x13cbf2(0x1b3), _0x474242);
-                        break;
-                    case _0x13cbf2(0x19f):
-                        _0x2f3fda = this[_0x13cbf2(0x205)]['\x67\x65\x74\x42\x79\x46\x69\x65\x6c\x64'](_0x13cbf2(0x1e2), _0x474242);
-                        break;
-                    case _0x13cbf2(0x1f7):
-                        _0x2f3fda = _0x474242;
-                        break;
-                    default:
-                        ANET['\x77']('\x55\x6e\x6b\x6e\x6f\x77\x6e\x20\x66\x69\x65\x6c\x64\x3a\x20' + _0x90b503 + _0x13cbf2(0x193));
-                    }
-                    if (_0x2f3fda == null)
-                        return null;
-                    switch (_0x2d6310) {
-                    case '\x61\x63\x74\x6f\x72\x49\x64':
-                        return _0x2f3fda[_0x13cbf2(0x1b7)];
-                    case _0x13cbf2(0x182):
-                        return _0x2f3fda['\x69\x64'];
-                    case _0x13cbf2(0x1c0):
-                        _0x35ec2b = $gameActors[_0x13cbf2(0x16c)](_0x2f3fda['\x61\x63\x74\x6f\x72\x49\x64']);
-                        return _0x35ec2b != null ? _0x13cbf2(0x186) === _0x13cbf2(0x186) ? _0x35ec2b['\x6e\x61\x6d\x65']() : (_0x4d2f78 = _0x19cbc1[_0x13cbf2(0x198)](), _0x1ab716[_0x13cbf2(0x1b1)]() ? _0x48b7c1[_0x13cbf2(0x20e)](_0x14be87)['\x74\x68\x65\x6e'](function () {
-                            var _0x31f93d = _0x13cbf2;
-                            return _0x32729d[_0x31f93d(0x17d)](_0x18a19e['\x47\x61\x6d\x65'](_0x31f93d(0x204), {
-                                '\x77\x68\x6f\x52\x65\x71\x75\x65\x73\x74\x49\x64': _0xc4d7cf,
-                                '\x67\x61\x6d\x65\x44\x61\x74\x61': _0x3136b4[_0x31f93d(0x1c6)]
-                            })), _0x24445a['\x5f\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x73\x70\x6f\x6e\x73\x65'] = null;
-                        }) : (_0x36e025 = _0xdb5b5a['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](_0x599ee8[_0x13cbf2(0x198)]()), _0x3c082b[_0x13cbf2(0x17d)](_0x5d8dee['\x47\x61\x6d\x65']('\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61', {
-                            '\x77\x68\x6f\x52\x65\x71\x75\x65\x73\x74\x49\x64': _0x4e54b5,
-                            '\x67\x61\x6d\x65\x44\x61\x74\x61': _0x485b2a
-                        })))) : '';
-                        break;
-                    case '\x70\x6c\x61\x79\x65\x72\x4e\x61\x6d\x65':
-                        return _0x2f3fda[_0x13cbf2(0x1b3)];
-                    case _0x13cbf2(0x19f):
-                        return _0x2f3fda[_0x13cbf2(0x1e2)];
-                    case _0x13cbf2(0x16c):
-                        return $gameActors[_0x13cbf2(0x16c)](_0x2f3fda[_0x13cbf2(0x1b7)]);
-                    default:
-                        return _0x2f3fda;
-                    }
-                    return null;
-                }
-            } catch (_0x30ae9a) {
-                if ('\x78\x73\x46\x68\x6f' === _0x13cbf2(0x1de))
-                    this[_0x13cbf2(0x1e8)]();
-                else
-                    return _0x3d2630 = _0x30ae9a, ANET['\x77'](_0x3d2630), null;
-            }
+        break;
+      case 'playersActors':
+        if (this.isAllPlayersActorsReady()) {
+          this.resetWait();
+          this.startGame();
         }
-    }, _0x3c147a[_0x32552d(0x170)] = function () {
-        var _0xa75f9a = _0x32552d;
-        if ('\x59\x48\x45\x50\x6a' !== '\x59\x48\x45\x50\x6a')
-            this[_0xa75f9a(0x1d1)]();
-        else
-            return this[_0xa75f9a(0x1cd)] = !![], $gameParty['\x73\x65\x74\x75\x70\x4e\x65\x74\x77\x6f\x72\x6b\x47\x61\x6d\x65']();
-    }, _0x3c147a['\x6f\x6e\x4e\x65\x77\x47\x61\x6d\x65\x4d\x61\x70\x53\x65\x74\x75\x70'] = function () {
-        var _0x29bf9c = _0x32552d;
-        '\x44\x59\x4b\x7a\x6c' === _0x29bf9c(0x14d) ? ($gameTemp[_0x29bf9c(0x148)] = ![], this[_0x29bf9c(0x163)] = ANNetwork[_0x29bf9c(0x17b)]()) : this[_0x29bf9c(0x1ba)](_0x52de9c, this['\x6d\x79\x41\x63\x74\x6f\x72\x49\x64'](), _0x35efea);
-    }, _0x3c147a[_0x32552d(0x13d)] = function () {
-        var _0x48f1b4 = _0x32552d;
-        if (_0x48f1b4(0x14f) === _0x48f1b4(0x167))
-            return this[_0x48f1b4(0x1cd)] = !![], _0x2f3765[_0x48f1b4(0x146)]();
-        else {
-            ANMapManager['\x73\x65\x6e\x64\x4d\x61\x70\x4c\x6f\x61\x64\x65\x64'](), ANMapManager[_0x48f1b4(0x1c5)](), ANTradeManager[_0x48f1b4(0x1a4)]();
-            if (ANET[_0x48f1b4(0x1fc)][_0x48f1b4(0x155)]()) {
-                if ('\x6e\x72\x4b\x62\x65' === _0x48f1b4(0x16e))
-                    this[_0x48f1b4(0x1c7)](_0x48f1b4(0x1e9));
-                else {
-                    if (this['\x5f\x73\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x4f\x6e\x53\x61\x6d\x65\x4d\x61\x70'] === !![])
-                        this[_0x48f1b4(0x1c7)]('\x70\x6c\x61\x79\x65\x72\x73\x4f\x6e\x4d\x61\x70');
-                    else {
-                        if (_0x48f1b4(0x200) === _0x48f1b4(0x200))
-                            this[_0x48f1b4(0x1e8)]();
-                        else {
-                            var _0x8b5bb0;
-                            _0x8b5bb0 = this[_0x48f1b4(0x1a3)](), this[_0x48f1b4(0x205)] = _0x448856, !this[_0x48f1b4(0x1f2)](_0xd2a65b['\x6d\x79\x49\x64']()) && this[_0x48f1b4(0x205)][_0x48f1b4(0x161)](_0x8b5bb0);
-                        }
-                    }
-                }
-            } else {
-                if (this[_0x48f1b4(0x163)] === !![] || this[_0x48f1b4(0x1cd)] === !![]) {
-                    if ('\x62\x72\x51\x58\x5a' === _0x48f1b4(0x176))
-                        this[_0x48f1b4(0x1c7)](_0x48f1b4(0x1e9));
-                    else
-                        return _0x5a9b6d[_0x48f1b4(0x1f5)]();
-                } else {
-                    if (_0x48f1b4(0x14e) !== _0x48f1b4(0x17e))
-                        this[_0x48f1b4(0x1e7)]();
-                    else
-                        return _0x4950c2['\x55\x49'][_0x48f1b4(0x175)](_0x597664), _0x5040c9['\x55\x49'][_0x48f1b4(0x162)](_0x445b6b);
-                }
-            }
+        break;
+    }
+  };
+  // * Начать игру (когда все уже определились с персонажами)
+  // * just wait manul reset
+  // * Ждёт когда ожидание будет сброшено вручную
+  _.startGame = function() {
+    "READY TO START GAME".p();
+    ANMapManager.sendInitialMapData();
+    if (!ANET.Utils.isLoadGameRoom()) {
+      this.showStartGameChatMessage();
+    }
+  };
+  // * Приветственное сообщение (системное) в чат
+  _.showStartGameChatMessage = function() {
+    var message;
+    if (!ANET.PP.isGameChatAllowed()) {
+      return;
+    }
+    message = ANET.PP.getChatStartMessage();
+    if (!String.any(message)) {
+      return;
+    }
+    ANET.UI.addMessageToChat(ANET.Utils.buildChatMessage(0, 0, message));
+  };
+  // * Когда игрок покидает игру (disconnect)
+  _.anotherPlayerLeaveGame = function(actorId) {
+    var ceId;
+    LOG.p("Player leave game");
+    ceId = ANET.PP.getPlayerLeaveGameCommonEventId();
+    if (ceId > 0) {
+      $gameTemp.reserveCommonEvent(ceId);
+    }
+  };
+  // * После подключения к уже запущенной игре, надо произвести
+  // * корректировки данных
+  _.applyJoinedDataCorrects = function() {
+    var e, ev, i, len, ref, results;
+    try {
+      // * Убираем любое запущенное событие
+      $gameMap._interpreter = new Game_Interpreter();
+      // * Чистим золото и вещи
+      //TODO: Может опцию сделать?
+      $gameParty._gold = 0;
+      $gameParty._weapons = {};
+      $gameParty._armors = {};
+      $gameParty._items = {};
+      $gameParty._inBattle = false;
+      ref = $gameMap._events;
+      // * Отключаем запущенные события
+      results = [];
+      for (i = 0, len = ref.length; i < len; i++) {
+        ev = ref[i];
+        if (ev == null) {
+          continue;
         }
-    }, _0x3c147a[_0x32552d(0x1c7)] = function (_0x38e7cc) {
-        var _0x246971 = _0x32552d;
-        return this[_0x246971(0x1e3)] = _0x38e7cc, HUIManager['\x73\x68\x6f\x77\x4c\x6f\x61\x64\x65\x72'](0x1f4);
-    }, _0x3c147a[_0x32552d(0x1f4)] = function () {
-        var _0x607742 = _0x32552d;
-        return '\x48\x49\x6d\x69\x51' === _0x607742(0x13f) ? (this['\x73\x65\x74\x57\x61\x69\x74'](null), HUIManager[_0x607742(0x1a6)]()) : null;
-    }, _0x3c147a[_0x32552d(0x1eb)] = function () {
-        var _0x71224b = _0x32552d;
-        return this[_0x71224b(0x205)][_0x71224b(0x1df)](function (_0x4545d2) {
-            var _0x4bf99 = _0x71224b;
-            return _0x4545d2['\x6d\x61\x70\x49\x64'] === $gameMap[_0x4bf99(0x1dc)]();
-        });
-    }, _0x3c147a[_0x32552d(0x1fe)] = function () {
-        var _0x34d183 = _0x32552d, _0x5d37cb;
-        return _0x5d37cb = this['\x6d\x79\x49\x6e\x64\x65\x78'](), this['\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61'][_0x34d183(0x1e1)](function (_0x3964de) {
-            var _0x1b5593 = _0x34d183;
-            return _0x1b5593(0x20a) === _0x1b5593(0x20a) ? _0x3964de['\x69\x6e\x64\x65\x78'] !== _0x5d37cb : this[_0x1b5593(0x16d)]();
-        });
-    }, _0x3c147a[_0x32552d(0x1ec)] = function () {
-        var _0x384485 = _0x32552d;
-        return this['\x61\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x73']()[_0x384485(0x1e1)](function (_0x378305) {
-            var _0x486399 = _0x384485;
-            if ('\x57\x64\x77\x54\x41' !== _0x486399(0x1b9))
-                return NetPlayerDataWrapper[_0x486399(0x20c)](_0x378305);
-            else
-                _0x1aeca9 = _0x486399(0x1b2);
-        });
-    }, _0x3c147a[_0x32552d(0x197)] = function () {
-        var _0x289c6e = _0x32552d;
-        return this[_0x289c6e(0x205)][_0x289c6e(0x1df)](function (_0x1e22d3) {
-            return _0x1e22d3['\x63\x68\x61\x72\x61\x63\x74\x65\x72\x52\x65\x61\x64\x79'] === !![];
-        });
-    }, _0x3c147a[_0x32552d(0x1ca)] = function () {
-        var _0x4cefd6 = _0x32552d, _0x5624b9, _0x3f90ed, _0x43f01, _0x5e862d, _0x2104f6, _0x2a9b95;
-        if (!ANET['\x50\x50'][_0x4cefd6(0x1d2)]()) {
-            if ('\x70\x6f\x66\x58\x6e' !== '\x70\x6f\x66\x58\x6e')
-                _0x3548bb['\x5f\x6e\x4c\x6f\x63\x61\x6c\x41\x63\x74\x6f\x72\x4d\x6f\x64\x65'] = ![], this[_0x4cefd6(0x163)] = _0x377993[_0x4cefd6(0x17b)]();
-            else
-                return;
-        }
-        _0x2104f6 = this[_0x4cefd6(0x1ec)]();
-        for (_0x3f90ed = 0x0, _0x43f01 = _0x2104f6[_0x4cefd6(0x201)]; _0x3f90ed < _0x43f01; _0x3f90ed++) {
-            if ('\x6e\x64\x53\x43\x71' !== '\x6e\x64\x53\x43\x71')
-                this[_0x4cefd6(0x1cd)] = ![], this[_0x4cefd6(0x1e3)] = null, this[_0x4cefd6(0x205)] = null, _0x55fdcc[_0x4cefd6(0x206)] = null;
-            else {
-                _0x5e862d = _0x2104f6[_0x3f90ed], _0x2a9b95 = NetPlayerDataWrapper[_0x4cefd6(0x1e0)](_0x5e862d), _0x5624b9 = NetPlayerDataWrapper[_0x4cefd6(0x150)](_0x5e862d);
-                if (_0x5624b9 != null) {
-                    if (_0x4cefd6(0x1d8) === '\x75\x68\x6c\x67\x43')
-                        return _0x47f88c = _0x2fcca4, _0x215280['\x77'](_0x578cdb), null;
-                    else
-                        _0x5624b9[_0x4cefd6(0x184)](_0x2a9b95);
-                }
-            }
-        }
-    }, _0x3c147a[_0x32552d(0x1e8)] = function () {
-        var _0x80ca44 = _0x32552d;
-        if (_0x80ca44(0x18f) === _0x80ca44(0x15a))
-            return _0x2a3ead[_0x80ca44(0x20c)](_0x45d0f3);
-        else {
-            '\x53\x54\x41\x52\x54\x20\x42\x49\x4e\x44\x49\x4e\x47\x20\x41\x43\x54\x4f\x52\x53'['\x70'](), this[_0x80ca44(0x1cd)] = ![];
-            if (ANET['\x50\x50'][_0x80ca44(0x1b8)]() || ANET[_0x80ca44(0x1fc)][_0x80ca44(0x155)]()) {
-                if ('\x62\x6c\x65\x6a\x6e' !== '\x44\x4f\x56\x77\x4e')
-                    this['\x61\x63\x74\x6f\x72\x42\x69\x6e\x67\x69\x6e\x67\x46\x72\x6f\x6d\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e']();
-                else {
-                    var _0x3018d6;
-                    return _0x3018d6 = this[_0x80ca44(0x205)][_0x80ca44(0x156)](function (_0x5a8267) {
-                        return _0x5a8267['\x69\x64'] === _0x448b9e;
-                    }), _0x3018d6 != null;
-                }
-            } else
-                this['\x73\x74\x61\x74\x69\x63\x41\x63\x74\x6f\x72\x42\x69\x6e\x67\x69\x6e\x67']();
-        }
-    }, _0x3c147a[_0x32552d(0x1d1)] = function () {
-        var _0x115990 = _0x32552d;
-        if (_0x115990(0x1ac) === _0x115990(0x1ac))
-            ANPlayersManager[_0x115990(0x185)]();
-        else
-            return _0x37dca7[_0x115990(0x1b3)]() === _0x2468cc;
-    }, _0x3c147a[_0x32552d(0x140)] = function () {
-        var _0x3828b4 = _0x32552d;
-        if (_0x3828b4(0x208) !== _0x3828b4(0x208))
-            this['\x5f\x73\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x4f\x6e\x53\x61\x6d\x65\x4d\x61\x70'] === !![] ? this[_0x3828b4(0x1c7)](_0x3828b4(0x1e9)) : this[_0x3828b4(0x1e8)]();
-        else {
-            var _0x5031f7;
-            _0x5031f7 = ANET['\x50\x50'][_0x3828b4(0x142)]()[this[_0x3828b4(0x1f6)]() - 0x1], ANPlayersManager['\x73\x65\x6e\x64\x42\x69\x6e\x64\x41\x63\x74\x6f\x72\x46\x72\x6f\x6d\x47\x61\x6d\x65'](_0x5031f7);
-        }
-    }, _0x3c147a['\x75\x70\x64\x61\x74\x65\x57\x61\x69\x74\x69\x6e\x67'] = function () {
-        var _0x3857c7 = _0x32552d;
-        if (!this['\x69\x73\x53\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72']())
-            return;
-        switch (this[_0x3857c7(0x1e3)]) {
-        case _0x3857c7(0x1e9):
-            if (this['\x69\x73\x41\x6c\x6c\x50\x6c\x61\x79\x65\x72\x4f\x6e\x53\x61\x6d\x65\x4d\x61\x70']()) {
-                this['\x72\x65\x73\x65\x74\x57\x61\x69\x74'](), this[_0x3857c7(0x163)] = ![];
-                if (this[_0x3857c7(0x1cd)] === !![]) {
-                    if (_0x3857c7(0x15f) === '\x46\x6b\x68\x41\x4e')
-                        this[_0x3857c7(0x1e8)]();
-                    else {
-                        var _0x53d0f9;
-                        _0x53d0f9 = {
-                            '\x75\x6e\x69\x71\x75\x65\x53\x61\x76\x65\x49\x44': _0x29bc2a[_0x3857c7(0x1b6)],
-                            '\x73\x61\x76\x65\x66\x69\x6c\x65\x49\x64': _0x221939
-                        }, _0xe19d3b[_0x3857c7(0x17d)](_0x48dfc5['\x47\x61\x6d\x65'](_0x3857c7(0x1ce), _0x53d0f9));
-                    }
-                }
-            }
-            break;
-        case '\x70\x6c\x61\x79\x65\x72\x73\x41\x63\x74\x6f\x72\x73':
-            this[_0x3857c7(0x197)]() && (_0x3857c7(0x1a5) !== _0x3857c7(0x1a5) ? _0x589e02[_0x3857c7(0x1f1)](_0x13860f[_0x3857c7(0x203)]('\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74'), _0x23b0c5, _0x2566db, 0x1388, '\x4a\x6f\x69\x6e\x69\x6e\x67\x20\x74\x6f\x20\x74\x68\x65\x20\x67\x61\x6d\x65\x2e\x2e\x2e') : (this['\x72\x65\x73\x65\x74\x57\x61\x69\x74'](), this[_0x3857c7(0x17f)]()));
-            break;
-        }
-    }, _0x3c147a[_0x32552d(0x17f)] = function () {
-        var _0x4661d5 = _0x32552d;
-        if (_0x4661d5(0x160) === '\x43\x75\x59\x59\x4b')
-            _0x4661d5(0x18c)['\x70'](), ANMapManager[_0x4661d5(0x1c5)](), !ANET[_0x4661d5(0x1fc)][_0x4661d5(0x155)]() && this[_0x4661d5(0x154)]();
-        else
-            return null;
-    }, _0x3c147a['\x73\x68\x6f\x77\x53\x74\x61\x72\x74\x47\x61\x6d\x65\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65'] = function () {
-        var _0x5c0e1e = _0x32552d, _0xd5030f;
-        if (!ANET['\x50\x50'][_0x5c0e1e(0x1f8)]()) {
-            if (_0x5c0e1e(0x15c) !== _0x5c0e1e(0x19c))
-                return;
-            else
-                return _0x2d21f8['\x63\x68\x61\x72\x61\x63\x74\x65\x72\x52\x65\x61\x64\x79'] === !![];
-        }
-        _0xd5030f = ANET['\x50\x50'][_0x5c0e1e(0x13a)]();
-        if (!String[_0x5c0e1e(0x189)](_0xd5030f)) {
-            if (_0x5c0e1e(0x153) !== _0x5c0e1e(0x1aa))
-                return;
-            else
-                return this['\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65'] = _0xd7158b, _0x2fc566[_0x5c0e1e(0x1f9)](0x1f4);
-        }
-        ANET['\x55\x49']['\x61\x64\x64\x4d\x65\x73\x73\x61\x67\x65\x54\x6f\x43\x68\x61\x74'](ANET[_0x5c0e1e(0x1fc)][_0x5c0e1e(0x16a)](0x0, 0x0, _0xd5030f));
-    }, _0x3c147a[_0x32552d(0x20b)] = function (_0x230715) {
-        var _0x4155a7 = _0x32552d;
-        if (_0x4155a7(0x166) !== _0x4155a7(0x177)) {
-            var _0x2a3a37;
-            _0x16df94['\x70'](_0x4155a7(0x1d5)), _0x2a3a37 = ANET['\x50\x50'][_0x4155a7(0x183)](), _0x2a3a37 > 0x0 && $gameTemp[_0x4155a7(0x1b4)](_0x2a3a37);
-        } else
-            this[_0x4155a7(0x205)] = [], this[_0x4155a7(0x205)][_0x4155a7(0x161)](_0x2211c3[_0x4155a7(0x1ef)]());
-    }, _0x3c147a[_0x32552d(0x1c4)] = function () {
-        var _0x54c1e1 = _0x32552d, _0x568b08, _0x225fbe, _0x179e74, _0x4a00e5, _0x1028a1, _0x2c15f1;
-        try {
-            $gameMap[_0x54c1e1(0x1a2)] = new Game_Interpreter(), $gameParty[_0x54c1e1(0x164)] = 0x0, $gameParty[_0x54c1e1(0x1dd)] = {}, $gameParty['\x5f\x61\x72\x6d\x6f\x72\x73'] = {}, $gameParty['\x5f\x69\x74\x65\x6d\x73'] = {}, $gameParty[_0x54c1e1(0x178)] = ![], _0x1028a1 = $gameMap[_0x54c1e1(0x1b0)], _0x2c15f1 = [];
-            for (_0x179e74 = 0x0, _0x4a00e5 = _0x1028a1['\x6c\x65\x6e\x67\x74\x68']; _0x179e74 < _0x4a00e5; _0x179e74++) {
-                _0x225fbe = _0x1028a1[_0x179e74];
-                if (_0x225fbe == null) {
-                    if (_0x54c1e1(0x16b) === '\x63\x44\x56\x51\x4e')
-                        continue;
-                    else
-                        return '';
-                }
-                _0x2c15f1[_0x54c1e1(0x161)](_0x225fbe[_0x54c1e1(0x1d0)] = ![]);
-            }
-            return _0x2c15f1;
-        } catch (_0x5ae15d) {
-            if (_0x54c1e1(0x1c8) !== _0x54c1e1(0x1c8))
-                _0x962bad[_0x54c1e1(0x1b3)] = _0x2f846b;
-            else
-                return _0x568b08 = _0x5ae15d, ANET['\x77'](_0x568b08);
-        }
-    }, _0x3c147a['\x73\x65\x6e\x64\x53\x63\x65\x6e\x65\x43\x68\x61\x6e\x67\x69\x6e\x67'] = function () {
-        var _0x2904c4 = _0x32552d, _0x41cdb8;
-        _0x41cdb8 = '\x75\x6e\x6b\x6e\x6f\x77\x6e';
-        if (!SceneManager[_0x2904c4(0x211)](Scene_Map)) {
-            if (_0x2904c4(0x192) !== _0x2904c4(0x192))
-                return _0x47cfbf = _0x112d25, _0x51c730[_0x2904c4(0x1a9)](_0x331ae0);
-            else
-                _0x41cdb8 = _0x2904c4(0x1b2);
-        }
-        if (SceneManager['\x69\x73\x4e\x65\x78\x74\x53\x63\x65\x6e\x65'](Scene_Battle)) {
-            if ('\x4b\x45\x58\x69\x6e' === _0x2904c4(0x16f))
-                return _0x54da3d = _0x281c57, _0xf60fe5['\x77\x61\x72\x6e\x69\x6e\x67'](_0x57ca23);
-            else
-                _0x41cdb8 = _0x2904c4(0x20d);
-        }
-        SceneManager['\x69\x73\x4e\x65\x78\x74\x53\x63\x65\x6e\x65'](Scene_NetChatInput) && (_0x41cdb8 = '\x63\x68\x61\x74');
-        if (SceneManager[_0x2904c4(0x211)](Scene_NetworkInGameTrade)) {
-            if (_0x2904c4(0x1ea) === _0x2904c4(0x1ae))
-                return _0x10dc26;
-            else
-                _0x41cdb8 = '\x74\x72\x61\x64\x65';
-        }
-        ANNetwork['\x73\x65\x6e\x64'](NMS[_0x2904c4(0x203)](_0x2904c4(0x1d9), _0x41cdb8));
-    }, _0x3c147a[_0x32552d(0x1c1)] = function (_0x5eb263) {
-        var _0xcd2112 = _0x32552d;
-        if (_0xcd2112(0x1a1) !== _0xcd2112(0x188)) {
-            var _0x3a6f00;
-            _0x3a6f00 = {
-                '\x75\x6e\x69\x71\x75\x65\x53\x61\x76\x65\x49\x44': $gameTemp[_0xcd2112(0x1b6)],
-                '\x73\x61\x76\x65\x66\x69\x6c\x65\x49\x64': _0x5eb263
-            }, ANNetwork['\x73\x65\x6e\x64'](NMS[_0xcd2112(0x203)](_0xcd2112(0x1ce), _0x3a6f00));
-        } else
-            this[_0xcd2112(0x205)][_0xcd2112(0x161)](_0x250066);
-    }, _0x3c147a[_0x32552d(0x1f0)] = function () {
-        var _0x3ae10b = _0x32552d;
-        ANNetwork[_0x3ae10b(0x17d)](NMS[_0x3ae10b(0x203)](_0x3ae10b(0x20f), this[_0x3ae10b(0x1ad)]()));
-    }, _0x3c147a[_0x32552d(0x1ed)] = function (_0x346e07, _0x324977) {
-        var _0x448475 = _0x32552d;
-        _0x448475(0x1af) === _0x448475(0x1af) ? this['\x73\x65\x6e\x64\x52\x61\x77\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65'](_0x346e07, this['\x6d\x79\x41\x63\x74\x6f\x72\x49\x64'](), _0x324977) : _0x10088e['\x77'](_0x448475(0x144) + _0x25f263 + _0x448475(0x194));
-    }, _0x3c147a[_0x32552d(0x1ba)] = function (_0x989869, _0x524d8d, _0x2c728a) {
-        var _0x1c1178 = _0x32552d;
-        if (_0x1c1178(0x196) !== '\x58\x53\x69\x4a\x6d') {
-            var _0x305f7d;
-            _0x305f7d = ANET['\x55\x74\x69\x6c\x73'][_0x1c1178(0x16a)](_0x989869, _0x524d8d, _0x2c728a), ANNetwork[_0x1c1178(0x17a)](NMS[_0x1c1178(0x203)](_0x1c1178(0x1a8), _0x305f7d), function () {
-                var _0x387e0a = _0x1c1178;
-                if (_0x387e0a(0x195) === _0x387e0a(0x195))
-                    return ANET['\x55\x49'][_0x387e0a(0x175)](_0x305f7d), ANET['\x55\x49'][_0x387e0a(0x162)](_0x305f7d);
-                else {
-                    var _0x14d5e6;
-                    if (this[_0x387e0a(0x139)]())
-                        _0x14d5e6 = this[_0x387e0a(0x1f2)](_0x1d8e23), _0x14d5e6 != null && (_0x14d5e6[_0x387e0a(0x1b3)] = _0x407e88);
-                    else {
-                    }
-                }
-            });
-        } else
-            return this[_0x1c1178(0x1a3)]()['\x69\x73\x4d\x61\x70\x4d\x61\x73\x74\x65\x72'] === !![];
-    }, _0x3c147a[_0x32552d(0x1da)] = function (_0x59db9d, _0x32d9b9) {
-        var _0x297c1c = _0x32552d;
-        ANClientResponceManager['\x73\x65\x6e\x64\x52\x65\x73\x70\x6f\x6e\x63\x65'](NMS['\x47\x61\x6d\x65'](_0x297c1c(0x1c3)), _0x59db9d, _0x32d9b9, 0x1388, '\x4a\x6f\x69\x6e\x69\x6e\x67\x20\x74\x6f\x20\x74\x68\x65\x20\x67\x61\x6d\x65\x2e\x2e\x2e');
-    }, _0x3c147a[_0x32552d(0x15e)] = function (_0x40c41c) {
-        var _0x5a827f = _0x32552d, _0x1bae67, _0x20b0e5;
-        try {
-            return _0x20b0e5 = DataManager[_0x5a827f(0x198)](), KDCore[_0x5a827f(0x1b1)]() ? StorageManager[_0x5a827f(0x20e)](_0x20b0e5)[_0x5a827f(0x180)](function () {
-                var _0x5ab779 = _0x5a827f;
-                return ANNetwork[_0x5ab779(0x17d)](NMS[_0x5ab779(0x203)](_0x5ab779(0x204), {
-                    '\x77\x68\x6f\x52\x65\x71\x75\x65\x73\x74\x49\x64': _0x40c41c,
-                    '\x67\x61\x6d\x65\x44\x61\x74\x61': $gameTemp[_0x5ab779(0x1c6)]
-                })), $gameTemp[_0x5ab779(0x1c6)] = null;
-            }) : (_0x20b0e5 = JsonEx[_0x5a827f(0x1bd)](DataManager[_0x5a827f(0x198)]()), ANNetwork[_0x5a827f(0x17d)](NMS[_0x5a827f(0x203)](_0x5a827f(0x204), {
-                '\x77\x68\x6f\x52\x65\x71\x75\x65\x73\x74\x49\x64': _0x40c41c,
-                '\x67\x61\x6d\x65\x44\x61\x74\x61': _0x20b0e5
-            })));
-        } catch (_0x191d64) {
-            return _0x1bae67 = _0x191d64, KDCore['\x77\x61\x72\x6e\x69\x6e\x67'](_0x1bae67);
-        }
-    }, _0x3c147a[_0x32552d(0x1a0)] = function () {
-        var _0x16859c = _0x32552d, _0x984ded;
-        try {
-            return ANNetwork[_0x16859c(0x17d)](NMS[_0x16859c(0x203)](_0x16859c(0x168)));
-        } catch (_0x2372b6) {
-            return _0x984ded = _0x2372b6, KDCore[_0x16859c(0x1a9)](_0x984ded);
-        }
-    }, _0x3c147a['\x73\x65\x6e\x64\x55\x73\x65\x49\x74\x65\x6d\x46\x72\x6f\x6d\x4d\x65\x6e\x75\x41\x63\x74\x69\x6f\x6e'] = function (_0xa827cb, _0x4837a4) {
-        var _0x270441 = _0x32552d;
-        if (_0x270441(0x143) !== _0x270441(0x152)) {
-            var _0x4198f9, _0x3d0ba5;
-            try {
-                return '\x4b\x7a\x58\x69\x77' === _0x270441(0x1be) ? (_0x4198f9 = {
-                    '\x61\x63\x74\x69\x6f\x6e': _0xa827cb,
-                    '\x74\x61\x72\x67\x65\x74': ANET['\x55\x74\x69\x6c\x73'][_0x270441(0x174)](_0x4837a4)
-                }, ANNetwork[_0x270441(0x17d)](NMS[_0x270441(0x1c9)](_0x270441(0x1e6), _0x4198f9))) : _0x171520['\x69\x64'] === _0x14fc0e;
-            } catch (_0xc3c12d) {
-                return _0x270441(0x207) === _0x270441(0x149) ? this[_0x270441(0x205)] != null : (_0x3d0ba5 = _0xc3c12d, KDCore[_0x270441(0x1a9)](_0x3d0ba5));
-            }
-        } else
-            return _0x1b8060[_0x270441(0x17d)](_0x496bb0[_0x270441(0x203)](_0x270441(0x168)));
-    }, _0x3c147a[_0x32552d(0x14a)] = function (_0x145246, _0x468b16) {
-        var _0x10c252 = _0x32552d;
-        if ('\x48\x56\x43\x71\x4f' === _0x10c252(0x187)) {
-            var _0x2c0ed4;
-            if (this['\x69\x73\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x45\x78\x69\x73\x74\x73']()) {
-                if (_0x10c252(0x14c) === '\x48\x59\x56\x74\x42')
-                    _0x2c0ed4 = this['\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x49\x64'](_0x145246), _0x2c0ed4 != null && (_0x2c0ed4[_0x10c252(0x1b3)] = _0x468b16);
-                else {
-                    var _0x185dc6;
-                    if (!_0x198b19['\x50\x50'][_0x10c252(0x1f8)]())
-                        return;
-                    _0x185dc6 = _0x1c202c['\x50\x50'][_0x10c252(0x13a)]();
-                    if (!_0x2b30d1['\x61\x6e\x79'](_0x185dc6))
-                        return;
-                    _0x2cb683['\x55\x49'][_0x10c252(0x175)](_0x1fd964[_0x10c252(0x1fc)][_0x10c252(0x16a)](0x0, 0x0, _0x185dc6));
-                }
-            } else {
-            }
-        } else
-            return;
-    }, _0x3c147a['\x6f\x6e\x52\x6f\x6f\x6d\x50\x6c\x61\x79\x65\x72\x73'] = function (_0x42e12c) {
-        var _0x573653 = _0x32552d, _0x4b3d72;
-        _0x4b3d72 = this[_0x573653(0x1a3)](), this[_0x573653(0x205)] = _0x42e12c;
-        if (!this[_0x573653(0x1f2)](ANNetwork['\x6d\x79\x49\x64']())) {
-            if (_0x573653(0x147) === '\x6e\x64\x72\x63\x42')
-                this[_0x573653(0x205)]['\x70\x75\x73\x68'](_0x4b3d72);
-            else
-                return;
-        }
-    }, _0x3c147a[_0x32552d(0x1bc)] = function (_0xc3db1b) {
-        var _0x47818c = _0x32552d;
-        this[_0x47818c(0x209)](_0xc3db1b), this['\x72\x65\x66\x72\x65\x73\x68\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x74\x65\x73'](), $gameMap[_0x47818c(0x14b)]();
-    }, _0x3c147a[_0x32552d(0x1e7)] = function () {
-        var _0x4fffd6 = _0x32552d;
-        if ('\x57\x46\x6f\x6e\x6e' === '\x78\x48\x47\x5a\x4b') {
-            var _0x3045b4;
-            _0x3a1fc2['\x70']('\x50\x6c\x61\x79\x65\x72\x20\x6c\x65\x61\x76\x65\x20\x67\x61\x6d\x65'), _0x3045b4 = _0x29421f['\x50\x50']['\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x4c\x65\x61\x76\x65\x47\x61\x6d\x65\x43\x6f\x6d\x6d\x6f\x6e\x45\x76\x65\x6e\x74\x49\x64'](), _0x3045b4 > 0x0 && _0x30cbb5[_0x4fffd6(0x1b4)](_0x3045b4);
-        } else {
-            var _0x71d8bf, _0x298aa, _0xd185cb, _0x5828da;
-            $gameParty[_0x4fffd6(0x19d)](), _0x5828da = this[_0x4fffd6(0x205)];
-            for (_0x71d8bf = 0x0, _0x298aa = _0x5828da[_0x4fffd6(0x201)]; _0x71d8bf < _0x298aa; _0x71d8bf++) {
-                _0xd185cb = _0x5828da[_0x71d8bf], NetPlayerDataWrapper['\x69\x73\x48\x61\x76\x65\x43\x68\x61\x72\x61\x63\x74\x65\x72\x49\x6e\x47\x61\x6d\x65'](_0xd185cb) && (_0x4fffd6(0x157) !== _0x4fffd6(0x1ee) ? $gameParty['\x5f\x61\x63\x74\x6f\x72\x73']['\x70\x75\x73\x68'](_0xd185cb[_0x4fffd6(0x1b7)]) : _0xdb628e['\x77']('\x50\x6c\x61\x79\x65\x72\x20\x64\x61\x74\x61\x20\x66\x6f\x72\x20' + _0x41151e + _0x4fffd6(0x194)));
-            }
-            $gameParty[_0x4fffd6(0x1fa)](), $gamePlayer['\x72\x65\x66\x72\x65\x73\x68'](), $gameMap['\x6e\x53\x61\x66\x65\x52\x65\x66\x72\x65\x73\x68'](), KDCore['\x47\x45\x76\x65\x6e\x74\x73\x4d\x61\x6e\x61\x67\x65\x72'][_0x4fffd6(0x1fd)](_0x4fffd6(0x141));
-        }
-    }, _0x3c147a[_0x32552d(0x202)] = function () {
-        var _0x559913 = _0x32552d;
-        return this[_0x559913(0x16d)]();
-    }, _0x3c147a[_0x32552d(0x1a7)] = function (_0x914aa6) {
-        var _0x4ea112 = _0x32552d;
-        if (_0x4ea112(0x1bf) === '\x41\x56\x5a\x55\x70')
-            return _0x42fba4;
-        else {
-            var _0x456458;
-            _0x4ea112(0x15d)['\x70'](_0x914aa6);
-            if (_0x914aa6 !== ANNetwork[_0x4ea112(0x1db)]())
-                return;
-            ANET['\x50\x50'][_0x4ea112(0x1b8)]() ? _0x4ea112(0x151) === _0x4ea112(0x18e) ? (_0x1b0130 = this[_0x4ea112(0x1f2)](_0x1fd865), _0x5ad9b8 != null && (_0x278696[_0x4ea112(0x1b3)] = _0x240652)) : this[_0x4ea112(0x1d1)]() : this[_0x4ea112(0x140)](), _0x456458 = ANET['\x50\x50'][_0x4ea112(0x1cc)](), _0x456458 > 0x0 && $gameTemp[_0x4ea112(0x1b4)](_0x456458);
-        }
+        results.push(ev._starting = false);
+      }
+      return results;
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  //? КОМАНДЫ ЗАПРОСЫ (посылаются на сервер)
+  // * ===============================================================
+  _.sendSceneChanging = function() {
+    var sceneType;
+    sceneType = "unknown";
+    // * Тут не учитывается наследовательность, определяется точный класс через ===
+    // * Чтобы на всех сценах, кроме карты была иконка, сделал через unless
+    // * Это лучше, чем проверять все все сцены
+    if (!SceneManager.isNextScene(Scene_Map)) {
+      sceneType = "menu";
+    }
+    if (SceneManager.isNextScene(Scene_Battle)) {
+      sceneType = "battle";
+    }
+    if (SceneManager.isNextScene(Scene_NetChatInput)) {
+      sceneType = "chat";
+    }
+    if (SceneManager.isNextScene(Scene_NetworkInGameTrade)) {
+      sceneType = "trade";
+    }
+    ANNetwork.send(NMS.Game("sceneChange", sceneType));
+  };
+  // * Это запрос от мастер клиента на другие клиенты, что надо выполнить сохранение
+  _.sendSaveDataRequest = function(savefileId) {
+    var data;
+    data = {
+      uniqueSaveID: $gameTemp.nUniqueSaveID,
+      savefileId: savefileId
     };
-}()), window[_0x257403(0x1d4)] = ANGameManager);
-function _0x36e2() {
-    var _0x1dbffe = [
-        '\x4b\x7a\x58\x69\x77',
-        '\x49\x57\x46\x4b\x68',
-        '\x61\x63\x74\x6f\x72\x4e\x61\x6d\x65',
-        '\x73\x65\x6e\x64\x53\x61\x76\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x33\x33\x4e\x70\x58\x5a\x55\x59',
-        '\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x61\x70\x70\x6c\x79\x4a\x6f\x69\x6e\x65\x64\x44\x61\x74\x61\x43\x6f\x72\x72\x65\x63\x74\x73',
-        '\x73\x65\x6e\x64\x49\x6e\x69\x74\x69\x61\x6c\x4d\x61\x70\x44\x61\x74\x61',
-        '\x5f\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x73\x70\x6f\x6e\x73\x65',
-        '\x73\x65\x74\x57\x61\x69\x74',
-        '\x44\x78\x66\x78\x78',
-        '\x43\x6f\x6d\x6d\x6f\x6e',
-        '\x72\x65\x66\x72\x65\x73\x68\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x74\x65\x73',
-        '\x66\x63\x73\x54\x69',
-        '\x67\x65\x74\x4a\x6f\x69\x6e\x65\x64\x52\x6f\x6f\x6d\x43\x6f\x6d\x6d\x6f\x6e\x45\x76\x65\x6e\x74',
-        '\x6e\x65\x74\x77\x6f\x72\x6b\x47\x61\x6d\x65\x53\x74\x61\x72\x74\x65\x64',
-        '\x73\x61\x76\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x5f\x73\x74\x61\x72\x74\x69\x6e\x67',
-        '\x61\x63\x74\x6f\x72\x42\x69\x6e\x67\x69\x6e\x67\x46\x72\x6f\x6d\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e',
-        '\x69\x73\x53\x68\x6f\x77\x4e\x65\x74\x77\x6f\x72\x6b\x49\x63\x6f\x6e\x73',
-        '\x66\x79\x52\x67\x4f',
-        '\x4e\x47\x41\x4d\x45',
-        '\x50\x6c\x61\x79\x65\x72\x20\x6c\x65\x61\x76\x65\x20\x67\x61\x6d\x65',
-        '\x46\x42\x64\x6b\x72',
-        '\x50\x6c\x61\x79\x65\x72\x20\x64\x61\x74\x61\x20\x66\x6f\x72\x20',
-        '\x4c\x48\x63\x54\x59',
-        '\x73\x63\x65\x6e\x65\x43\x68\x61\x6e\x67\x65',
-        '\x73\x65\x6e\x64\x53\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x6d\x79\x49\x64',
-        '\x6d\x61\x70\x49\x64',
-        '\x5f\x77\x65\x61\x70\x6f\x6e\x73',
-        '\x45\x5a\x50\x50\x4d',
-        '\x65\x76\x65\x72\x79',
-        '\x67\x65\x74\x52\x65\x71\x75\x65\x73\x74\x65\x64\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x74\x65',
-        '\x66\x69\x6c\x74\x65\x72',
-        '\x69\x6e\x64\x65\x78',
-        '\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65',
-        '\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72',
-        '\x36\x30\x39\x33\x65\x79\x44\x62\x46\x4c',
-        '\x63\x75\x73\x74\x6f\x6d\x5f\x61\x70\x70\x6c\x79\x49\x74\x65\x6d\x46\x72\x6f\x6d\x4d\x65\x6e\x75',
-        '\x6f\x6e\x52\x65\x66\x72\x65\x73\x68\x47\x61\x6d\x65\x50\x61\x72\x74\x79',
-        '\x62\x69\x6e\x64\x69\x6e\x67\x41\x63\x74\x6f\x72\x73',
-        '\x70\x6c\x61\x79\x65\x72\x73\x4f\x6e\x4d\x61\x70',
-        '\x75\x75\x62\x4b\x41',
-        '\x69\x73\x41\x6c\x6c\x50\x6c\x61\x79\x65\x72\x4f\x6e\x53\x61\x6d\x65\x4d\x61\x70',
-        '\x61\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x4d\x61\x70',
-        '\x73\x65\x6e\x64\x4d\x79\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x67\x7a\x6b\x56\x5a',
-        '\x63\x72\x65\x61\x74\x65\x4c\x6f\x63\x61\x6c',
-        '\x73\x65\x6e\x64\x53\x61\x76\x65\x44\x61\x74\x61\x43\x6f\x6d\x70\x6c\x65\x74\x65\x46\x6c\x61\x67',
-        '\x73\x65\x6e\x64\x52\x65\x73\x70\x6f\x6e\x63\x65',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x49\x64',
-        '\x74\x72\x61\x64\x65',
-        '\x72\x65\x73\x65\x74\x57\x61\x69\x74',
-        '\x69\x73\x42\x61\x74\x74\x6c\x65\x4d\x61\x73\x74\x65\x72',
-        '\x6d\x79\x49\x6e\x64\x65\x78',
-        '\x69\x6e\x66\x6f',
-        '\x69\x73\x47\x61\x6d\x65\x43\x68\x61\x74\x41\x6c\x6c\x6f\x77\x65\x64',
-        '\x73\x68\x6f\x77\x4c\x6f\x61\x64\x65\x72',
-        '\x6e\x52\x65\x66\x72\x65\x73\x68\x53\x68\x61\x72\x65\x64\x4d\x65\x6d\x62\x65\x72\x73',
-        '\x69\x73\x4d\x61\x70\x4d\x61\x73\x74\x65\x72',
-        '\x55\x74\x69\x6c\x73',
-        '\x63\x61\x6c\x6c',
-        '\x61\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x73',
-        '\x69\x73\x53\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72',
-        '\x6c\x6b\x44\x50\x52',
-        '\x6c\x65\x6e\x67\x74\x68',
-        '\x6f\x6e\x4c\x65\x61\x76\x65\x52\x6f\x6f\x6d',
-        '\x47\x61\x6d\x65',
-        '\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61',
-        '\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61',
-        '\x62\x61\x74\x74\x6c\x65\x44\x61\x74\x61',
-        '\x43\x56\x6f\x43\x44',
-        '\x58\x56\x4d\x75\x41',
-        '\x6f\x6e\x52\x6f\x6f\x6d\x50\x6c\x61\x79\x65\x72\x73',
-        '\x53\x50\x4a\x74\x7a',
-        '\x61\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x4c\x65\x61\x76\x65\x47\x61\x6d\x65',
-        '\x69\x73\x43\x68\x61\x72\x4f\x6e\x4d\x61\x70',
-        '\x62\x61\x74\x74\x6c\x65',
-        '\x73\x61\x76\x65\x4f\x62\x6a\x65\x63\x74\x46\x6f\x72\x4e\x65\x74',
-        '\x73\x61\x76\x65\x44\x61\x74\x61\x43\x6f\x6d\x70\x6c\x65\x74\x65',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x49\x6e\x66\x6f',
-        '\x69\x73\x4e\x65\x78\x74\x53\x63\x65\x6e\x65',
-        '\x69\x73\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x45\x78\x69\x73\x74\x73',
-        '\x67\x65\x74\x43\x68\x61\x74\x53\x74\x61\x72\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x6d\x61\x70',
-        '\x72\x65\x73\x65\x74',
-        '\x6f\x6e\x4d\x61\x70\x4c\x6f\x61\x64\x65\x64',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x41\x63\x74\x6f\x72\x49\x64',
-        '\x48\x49\x6d\x69\x51',
-        '\x73\x74\x61\x74\x69\x63\x41\x63\x74\x6f\x72\x42\x69\x6e\x67\x69\x6e\x67',
-        '\x6e\x65\x74\x7a\x52\x65\x66\x72\x65\x73\x68\x4e\x61\x6d\x65\x70\x6c\x61\x74\x65',
-        '\x61\x63\x74\x6f\x72\x73\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x41\x59\x4d\x6c\x74',
-        '\x50\x6c\x61\x79\x65\x72\x20\x64\x61\x74\x61\x20\x66\x6f\x72\x20\x41\x63\x74\x6f\x72\x20\x77\x69\x74\x68\x20\x49\x44\x20',
-        '\x70\x6c\x61\x79\x65\x72\x4e\x61\x6d\x65',
-        '\x73\x65\x74\x75\x70\x4e\x65\x74\x77\x6f\x72\x6b\x47\x61\x6d\x65',
-        '\x6e\x64\x72\x63\x42',
-        '\x5f\x6e\x4c\x6f\x63\x61\x6c\x41\x63\x74\x6f\x72\x4d\x6f\x64\x65',
-        '\x46\x7a\x69\x55\x54',
-        '\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4e\x61\x6d\x65',
-        '\x6e\x53\x61\x66\x65\x52\x65\x66\x72\x65\x73\x68',
-        '\x48\x59\x56\x74\x42',
-        '\x44\x59\x4b\x7a\x6c',
-        '\x44\x50\x54\x59\x4f',
-        '\x50\x78\x79\x56\x74',
-        '\x67\x65\x74\x4e\x65\x74\x43\x68\x61\x72\x61\x63\x74\x65\x72\x46\x6f\x72\x50\x6c\x61\x79\x65\x72',
-        '\x78\x58\x43\x79\x43',
-        '\x44\x65\x59\x73\x4c',
-        '\x59\x62\x73\x45\x47',
-        '\x73\x68\x6f\x77\x53\x74\x61\x72\x74\x47\x61\x6d\x65\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x69\x73\x4c\x6f\x61\x64\x47\x61\x6d\x65\x52\x6f\x6f\x6d',
-        '\x66\x69\x6e\x64',
-        '\x4c\x4b\x6a\x6a\x66',
-        '\x76\x65\x6a\x6e\x56',
-        '\x32\x32\x32\x31\x34\x31\x32\x6e\x65\x6e\x4b\x63\x4b',
-        '\x5a\x72\x7a\x65\x53',
-        '\x36\x37\x38\x37\x35\x38\x30\x44\x57\x43\x5a\x6e\x77',
-        '\x4a\x64\x50\x4d\x4d',
-        '\x4a\x4f\x49\x4e\x45\x44\x20\x54\x4f\x20\x47\x41\x4d\x45',
-        '\x73\x65\x6e\x64\x53\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x44\x61\x74\x61\x52\x65\x73\x70\x6f\x6e\x65',
-        '\x46\x6b\x68\x41\x4e',
-        '\x43\x75\x59\x59\x4b',
-        '\x70\x75\x73\x68',
-        '\x61\x64\x64\x45\x6d\x6f\x74\x69\x6f\x6e\x54\x6f\x43\x68\x61\x74',
-        '\x5f\x73\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x4f\x6e\x53\x61\x6d\x65\x4d\x61\x70',
-        '\x5f\x67\x6f\x6c\x64',
-        '\x42\x4c\x41\x43\x4b',
-        '\x76\x4c\x76\x49\x56',
-        '\x41\x51\x62\x42\x54',
-        '\x73\x6f\x6d\x65\x6f\x6e\x65\x4a\x6f\x69\x6e\x65\x64\x54\x6f\x53\x74\x61\x72\x74\x65\x64\x47\x61\x6d\x65',
-        '\x64\x6d\x6f\x50\x73',
-        '\x62\x75\x69\x6c\x64\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x63\x44\x56\x51\x4e',
-        '\x61\x63\x74\x6f\x72',
-        '\x63\x72\x65\x61\x74\x65\x4d\x79\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61',
-        '\x55\x64\x54\x74\x56',
-        '\x4d\x6e\x76\x58\x51',
-        '\x73\x65\x74\x75\x70\x4e\x65\x77\x4e\x65\x74\x77\x6f\x72\x6b\x47\x61\x6d\x65',
-        '\x69\x44\x68\x63\x4c',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x67\x65\x74\x42\x79\x46\x69\x65\x6c\x64',
-        '\x70\x61\x63\x6b\x42\x61\x74\x74\x6c\x65\x72\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x61\x64\x64\x4d\x65\x73\x73\x61\x67\x65\x54\x6f\x43\x68\x61\x74',
-        '\x62\x72\x51\x58\x5a',
-        '\x4f\x46\x46\x55\x4d',
-        '\x5f\x69\x6e\x42\x61\x74\x74\x6c\x65',
-        '\x41\x4e\x47\x61\x6d\x65\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x63\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x69\x73\x53\x61\x6d\x65\x4d\x61\x70\x4d\x6f\x64\x65',
-        '\x49\x66\x6d\x6c\x75',
-        '\x73\x65\x6e\x64',
-        '\x53\x67\x66\x67\x72',
-        '\x73\x74\x61\x72\x74\x47\x61\x6d\x65',
-        '\x74\x68\x65\x6e',
-        '\x73\x65\x6e\x64\x50\x6c\x61\x79\x65\x72\x4e\x61\x6d\x65',
-        '\x6e\x65\x74\x49\x64',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x4c\x65\x61\x76\x65\x47\x61\x6d\x65\x43\x6f\x6d\x6d\x6f\x6e\x45\x76\x65\x6e\x74\x49\x64',
-        '\x72\x65\x71\x75\x65\x73\x74\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x74\x65\x49\x63\x6f\x6e',
-        '\x73\x65\x6e\x64\x41\x63\x74\x6f\x72\x52\x65\x61\x64\x79',
-        '\x4e\x75\x6a\x4b\x50',
-        '\x48\x56\x43\x71\x4f',
-        '\x55\x53\x4e\x4d\x75',
-        '\x61\x6e\x79',
-        '\x55\x6c\x48\x51\x73',
-        '\x38\x32\x36\x34\x32\x47\x55\x62\x56\x6e\x51',
-        '\x52\x45\x41\x44\x59\x20\x54\x4f\x20\x53\x54\x41\x52\x54\x20\x47\x41\x4d\x45',
-        '\x34\x34\x33\x35\x32\x32\x35\x64\x65\x77\x4b\x47\x51',
-        '\x4a\x4d\x52\x52\x65',
-        '\x41\x41\x4c\x6f\x58',
-        '\x31\x39\x34\x32\x30\x35\x54\x69\x4c\x74\x6a\x43',
-        '\x4a\x6c\x74\x70\x4f',
-        '\x62\x78\x41\x58\x41',
-        '\x2c\x20\x69\x6e\x66\x6f\x20\x6e\x6f\x74\x20\x66\x69\x6e\x64\x65\x64',
-        '\x20\x6e\x6f\x74\x20\x66\x6f\x75\x6e\x64\x21',
-        '\x42\x65\x4d\x42\x77',
-        '\x57\x70\x53\x51\x6c',
-        '\x69\x73\x41\x6c\x6c\x50\x6c\x61\x79\x65\x72\x73\x41\x63\x74\x6f\x72\x73\x52\x65\x61\x64\x79',
-        '\x6d\x61\x6b\x65\x53\x61\x76\x65\x43\x6f\x6e\x74\x65\x6e\x74\x73',
-        '\x42\x41\x75\x6f\x6b',
-        '\x7a\x48\x42\x51\x4d',
-        '\x32\x33\x32\x6b\x59\x4c\x48\x45\x54',
-        '\x4b\x76\x79\x61\x66',
-        '\x6e\x43\x6c\x65\x61\x72\x42\x65\x66\x6f\x72\x65\x52\x65\x66\x72\x65\x73\x68',
-        '\x4e\x65\x74\x47\x61\x6d\x65',
-        '\x70\x6c\x61\x79\x65\x72\x49\x6e\x64\x65\x78',
-        '\x73\x65\x6e\x64\x4a\x6f\x69\x6e\x65\x64\x54\x6f\x53\x74\x61\x72\x74\x65\x64\x47\x61\x6d\x65',
-        '\x7a\x77\x5a\x41\x6a',
-        '\x5f\x69\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72',
-        '\x6d\x79\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61',
-        '\x6f\x6e\x54\x72\x61\x64\x65\x53\x63\x65\x6e\x65\x45\x6e\x64',
-        '\x57\x72\x66\x70\x42',
-        '\x68\x69\x64\x65\x4c\x6f\x61\x64\x65\x72',
-        '\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4a\x6f\x69\x6e\x65\x64\x54\x68\x69\x73\x47\x61\x6d\x65',
-        '\x63\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x77\x61\x72\x6e\x69\x6e\x67',
-        '\x42\x69\x69\x77\x69',
-        '\x69\x6e\x69\x74',
-        '\x4d\x48\x43\x59\x55',
-        '\x6d\x79\x41\x63\x74\x6f\x72\x49\x64',
-        '\x48\x4d\x76\x75\x51',
-        '\x76\x51\x68\x75\x57',
-        '\x5f\x65\x76\x65\x6e\x74\x73',
-        '\x69\x73\x4d\x5a',
-        '\x6d\x65\x6e\x75',
-        '\x6e\x61\x6d\x65',
-        '\x72\x65\x73\x65\x72\x76\x65\x43\x6f\x6d\x6d\x6f\x6e\x45\x76\x65\x6e\x74',
-        '\x32\x30\x30\x30\x38\x36\x77\x5a\x6b\x5a\x4c\x49',
-        '\x6e\x55\x6e\x69\x71\x75\x65\x53\x61\x76\x65\x49\x44',
-        '\x61\x63\x74\x6f\x72\x49\x64',
-        '\x69\x73\x41\x63\x74\x6f\x72\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x41\x6c\x6c\x6f\x77\x65\x64',
-        '\x6a\x70\x41\x41\x7a',
-        '\x73\x65\x6e\x64\x52\x61\x77\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x32\x39\x34\x66\x43\x7a\x62\x51\x45',
-        '\x6f\x6e\x47\x61\x6d\x65\x50\x6c\x61\x79\x65\x72\x73',
-        '\x73\x74\x72\x69\x6e\x67\x69\x66\x79'
-    ];
-    _0x36e2 = function () {
-        return _0x1dbffe;
-    };
-    return _0x36e2();
-}
+    ANNetwork.send(NMS.Game("saveDataRequest", data));
+  };
+  // * Это ответ от клиента, что он выполнил сохранение
+  _.sendSaveDataCompleteFlag = function() {
+    ANNetwork.send(NMS.Game("saveDataComplete", this.myActorId()));
+  };
+  // * Отправить сообщение в чат от текущего клиента
+  _.sendMyChatMessage = function(channelId, message) {
+    this.sendRawChatMessage(channelId, this.myActorId(), message);
+  };
+  _.sendRawChatMessage = function(channelId, actorId, message) {
+    var data;
+    data = ANET.Utils.buildChatMessage(channelId, actorId, message);
+    ANNetwork.callback(NMS.Game("chatMessage", data), function() {
+      ANET.UI.addMessageToChat(data);
+      return ANET.UI.addEmotionToChat(data);
+    });
+  };
+  // * Запрос мастера игры (комнаты) на данные игрового мира
+  // * (При подключении к уже запущенной игре)
+  _.sendStartedRoomGameDataRequest = function(onResponce, onTimeout) {
+    ANClientResponceManager.sendResponce(NMS.Game("startedRoomGameDataRequest"), onResponce, onTimeout, 5000, "Joining to the game...");
+  };
+  _.sendStartedRoomDataRespone = function(whoRequestId) {
+    var e, gameData;
+    try {
+      // * Сохраняем данные о текущем мире (игре)
+      gameData = DataManager.makeSaveContents();
+      if (KDCore.isMZ()) {
+        // * Тут нельзя редактировать gameData
+        return StorageManager.saveObjectForNet(gameData).then(function() {
+          // * Отправляем обратно тому кто запросил
+          ANNetwork.send(NMS.Game("startedRoomGameData", {
+            whoRequestId,
+            gameData: $gameTemp._startedRoomGameDataResponse
+          }));
+          return $gameTemp._startedRoomGameDataResponse = null; // * В MV другая реализация сохранения и загрузки данных
+        });
+      } else {
+        gameData = JsonEx.stringify(DataManager.makeSaveContents());
+        return ANNetwork.send(NMS.Game("startedRoomGameData", {whoRequestId, gameData}));
+      }
+    } catch (error) {
+      e = error;
+      return KDCore.warning(e);
+    }
+  };
+  _.sendJoinedToStartedGame = function() {
+    var e;
+    try {
+      return ANNetwork.send(NMS.Game("someoneJoinedToStartedGame"));
+    } catch (error) {
+      e = error;
+      return KDCore.warning(e);
+    }
+  };
+  // * Когда один игрок применяе предмет (навык) из меню на другого игрока
+  _.sendUseItemFromMenuAction = function(action, target) {
+    var data, e;
+    try {
+      data = {
+        action,
+        target: ANET.Utils.packBattlerForNetwork(target)
+      };
+      return ANNetwork.send(NMS.Common("custom_applyItemFromMenu", data));
+    } catch (error) {
+      e = error;
+      return KDCore.warning(e);
+    }
+  };
+  //? CALLBACKS ОТ ЗАПРОСОВ НА СЕРВЕР
+  // * ===============================================================
+
+  //? СОБЫТИЯ (обработка событий от сервера, вызываются из NETClientMethodsManager)
+  // * ===============================================================
+  _.onPlayerName = function(playerId, name) {
+    var playerData;
+    if (this.isPlayerDataExists()) {
+      playerData = this.getPlayerDataById(playerId);
+      if (playerData != null) {
+        playerData.name = name;
+      }
+    } else {
+
+    }
+  };
+  // * Данные об игроках в комнате (подключился, ушёл и т.д.)
+  // * Тут архитектурная ошибка или просчёт, суть в том, что когда покидаешь комнату,
+  // * приходят данные о игроках команты, а текущего клиента нету, а так как идёт
+  // * замена полностью (присваивание), теряются данные текущего игрока
+  // * Поэтому проверяется, если данных текущего клиента нету (а это невозможно)
+  // * то мы их снова добавляем
+  //  * Значит смена имени игрока, с которым мы не в комнате
+  // Пока ничего не делаем, так как не видим всех игроков на сервере
+  _.onRoomPlayers = function(data) {
+    var myPlayerData;
+    // * Копия наших данных
+    myPlayerData = this.myPlayerData();
+    this.playersData = data;
+    // * Если наших данных нету (когда покинули комнату бывает такое)
+    // * добавляем копию своих данных
+    if (!this.getPlayerDataById(ANNetwork.myId())) {
+      this.playersData.push(myPlayerData);
+    }
+  };
+  // * Данные (состояния) об игроках (NetPlayer Data новые)
+  _.onGamePlayers = function(data) {
+    this.onRoomPlayers(data);
+    // * Проверить состояние для всех игроков (иконки)
+    this.refreshNetworkStates();
+    $gameMap.nSafeRefresh();
+  };
+  // * Когда кто-то из игроков выбрал своего персонажа (готов к игре)
+  _.onRefreshGameParty = function() {
+    var i, len, plData, ref;
+    $gameParty.nClearBeforeRefresh();
+    ref = this.playersData;
+    for (i = 0, len = ref.length; i < len; i++) {
+      plData = ref[i];
+      if (NetPlayerDataWrapper.isHaveCharacterInGame(plData)) {
+        $gameParty._actors.push(plData.actorId);
+      }
+    }
+    $gameParty.nRefreshSharedMembers();
+    $gamePlayer.refresh();
+    $gameMap.nSafeRefresh();
+    KDCore.GEventsManager.call("netzRefreshNameplate");
+  };
+  _.onLeaveRoom = function() {
+    // * Удаляем остальных игроков, оставляем себя
+    return this.createMyPlayerData();
+  };
+  // * Этот метод получают все игроки (и тот кто присоединился)
+  _.onPlayerJoinedThisGame = function(joinedPlayerId) { // * EMPTY
+    var joinedCE;
+    "JOINED TO GAME".p(joinedPlayerId);
+    if (joinedPlayerId !== ANNetwork.myId()) {
+      return;
+    }
+    if (ANET.PP.isActorSelectionAllowed()) {
+      this.actorBingingFromSelection();
+    } else {
+      this.staticActorBinging();
+    }
+    joinedCE = ANET.PP.getJoinedRoomCommonEvent();
+    if (joinedCE > 0) {
+      $gameTemp.reserveCommonEvent(joinedCE);
+    }
+  };
+})();
+
+//@[EXTEND]
+window.NGAME = ANGameManager;
+
 
 // Generated by CoffeeScript 2.6.1
 // * Специальные методы передачи данных для патчей совместимости
@@ -11302,2058 +10767,1318 @@ DataObserver = class DataObserver {
 };
 
 
-function _0x2759(_0x27db1b, _0x1a88c5) {
-    var _0x46abb6 = _0x46ab();
-    return _0x2759 = function (_0x275906, _0x104287) {
-        _0x275906 = _0x275906 - 0xea;
-        var _0x3e15e5 = _0x46abb6[_0x275906];
-        return _0x3e15e5;
-    }, _0x2759(_0x27db1b, _0x1a88c5);
-}
-function _0x46ab() {
-    var _0x262b83 = [
-        '\x6d\x50\x72\x67\x57',
-        '\x6e\x59\x6b\x64\x4a',
-        '\x53\x65\x72\x76\x65\x72\x20\x69\x73\x20\x6f\x75\x74\x64\x61\x74\x65\x64\x2c\x20\x72\x65\x71\x75\x69\x72\x65\x20\x72\x65\x76\x2e\x20',
-        '\x55\x6e\x6b\x6e\x6f\x77\x6e\x20\x63\x6f\x6d\x6d\x6f\x6e\x20\x73\x75\x62\x43\x6f\x6d\x6d\x61\x6e\x64\x20',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x6f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x65\x76\x65\x6e\x74\x5f\x61\x61\x62\x7a',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61',
-        '\x31\x32\x50\x42\x4a\x6a\x48\x55',
-        '\x32\x31\x30\x37\x32\x37\x6f\x66\x76\x52\x70\x4a',
-        '\x75\x52\x5a\x4a\x51',
-        '\x46\x49\x71\x79\x69',
-        '\x31\x39\x38\x37\x30\x37\x30\x46\x4b\x77\x79\x6b\x67',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x65\x78\x65\x63\x75\x74\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72',
-        '\x62\x61\x74\x74\x6c\x65\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x20\x6f\x72\x20\x68\x69\x67\x68\x65\x72',
-        '\x63\x61\x6c\x6c\x53\x63\x65\x6e\x65\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x55\x6d\x76\x62\x4a',
-        '\x6b\x49\x73\x69\x5a',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x62\x61\x74\x74\x6c\x65\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x74\x79\x70\x65',
-        '\x73\x61\x76\x65\x66\x69\x6c\x65\x49\x64',
-        '\x45\x6a\x69\x55\x57',
-        '\x47\x41\x4d\x45\x20\x50\x4c\x41\x59\x45\x52\x53\x20\x44\x41\x54\x41\x20\x52\x45\x46\x52\x45\x53\x48\x45\x44',
-        '\x65\x76\x65\x6e\x74\x5f\x6c\x6f\x62\x62\x79\x5f\x73\x74\x61\x72\x74\x47\x61\x6d\x65',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x6c\x6f\x67\x4d\x65\x73\x73\x61\x67\x65',
-        '\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64',
-        '\x4d\x68\x49\x78\x42',
-        '\x67\x61\x6d\x65\x5f\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x58\x6d\x74\x57\x47',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x63\x75\x73\x74\x6f\x6d\x43\x6f\x6d\x6d\x61\x6e\x64\x4c\x69\x6e\x6b',
-        '\x65\x76\x65\x6e\x74\x5f\x6c\x6f\x62\x62\x79\x5f\x63\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4d\x6f\x76\x65',
-        '\x6e\x61\x6d\x65',
-        '\x6f\x6e\x43\x6f\x6e\x6e\x65\x63\x74',
-        '\x54\x61\x77\x44\x49',
-        '\x43\x55\x53\x54\x4f\x4d\x20\x4c\x49\x4e\x4b\x20\x49\x4e',
-        '\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61',
-        '\x46\x61\x58\x55\x54',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x6f\x6d\x65\x6f\x6e\x65\x4a\x6f\x69\x6e\x65\x64\x54\x6f\x53\x74\x61\x72\x74\x65\x64\x47\x61\x6d\x65',
-        '\x73\x65\x6e\x64\x53\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x44\x61\x74\x61\x52\x65\x73\x70\x6f\x6e\x65',
-        '\x67\x46\x6d\x4c\x6c',
-        '\x6f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x43\x68\x6f\x69\x63\x65\x41\x63\x74\x69\x6f\x6e\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x33\x66\x73\x74\x71\x64\x5a',
-        '\x6e\x53\x61\x76\x65\x44\x61\x74\x61',
-        '\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x44\x6f\x6e\x65',
-        '\x78\x6d\x48\x44\x59',
-        '\x33\x52\x4d\x6c\x57\x78\x48',
-        '\x79\x64\x6f\x73\x79',
-        '\x4f\x4b\x4c\x55\x4f',
-        '\x6f\x6e\x47\x61\x6d\x65\x50\x6c\x61\x79\x65\x72\x73',
-        '\x4e\x65\x74\x43\x6c\x69\x65\x6e\x74\x4d\x65\x74\x68\x6f\x64\x73\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x6f\x6e\x43\x6f\x6e\x6e\x65\x63\x74\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x6f\x6e\x53\x65\x72\x76\x65\x72\x45\x76\x65\x6e\x74',
-        '\x59\x55\x46\x48\x46',
-        '\x65\x76\x65\x6e\x74\x5f\x6d\x61\x70\x5f\x69\x6e\x69\x74\x69\x61\x6c\x4d\x61\x70\x53\x79\x6e\x63\x68\x72\x6f\x6e\x69\x7a\x61\x74\x69\x6f\x6e',
-        '\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4c\x6f\x63\x61\x74\x69\x6f\x6e',
-        '\x45\x56\x45\x4e\x54\x5f\x41\x41\x42\x53\x5a',
-        '\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x73\x68\x61\x72\x65\x64\x43\x68\x6f\x69\x63\x65',
-        '\x6e\x61\x6d\x65\x70\x6c\x61\x74\x65\x73',
-        '\x55\x67\x76\x4f\x4c',
-        '\x54\x4a\x66\x6d\x47',
-        '\x58\x44\x4c\x52\x57',
-        '\x65\x76\x65\x6e\x74\x5f\x6c\x6f\x62\x62\x79\x5f\x72\x6f\x6f\x6d\x43\x6c\x6f\x73\x65\x64',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x67\x61\x6d\x65\x5f\x6f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x56\x41\x68\x70\x62',
-        '\x6f\x6e\x52\x65\x73\x70\x6f\x6e\x63\x65\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x6e\x6f\x74\x69\x66\x79\x45\x72\x72\x6f\x72',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x6f\x6e\x50\x6c\x61\x79\x65\x72\x73\x4e\x61\x6d\x65\x70\x6c\x61\x74\x65\x73\x53\x74\x79\x6c\x65\x73',
-        '\x33\x30\x6c\x4c\x55\x75\x53\x65',
-        '\x45\x67\x62\x68\x6a',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x41\x6e\x69\x6d\x61\x74\x69\x6f\x6e',
-        '\x4f\x6f\x41\x64\x6d',
-        '\x4d\x41\x47\x45\x4e\x54\x41',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x75\x73\x65\x72\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x39\x36\x44\x4e\x46\x52\x58\x6c',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x73\x65\x72\x76\x65\x72\x42\x61\x74\x74\x6c\x65\x44\x61\x74\x61',
-        '\x65\x76\x65\x6e\x74\x5f\x6c\x6f\x62\x62\x79\x5f\x63\x68\x61\x6e\x67\x65\x50\x6c\x61\x79\x65\x72\x4e\x61\x6d\x65',
-        '\x44\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x65\x64',
-        '\x61\x64\x64\x4d\x65\x73\x73\x61\x67\x65\x54\x6f\x43\x68\x61\x74',
-        '\x6f\x6e\x52\x6f\x6f\x6d\x43\x6c\x6f\x73\x65\x64',
-        '\x6e\x52\x65\x67\x69\x73\x74\x65\x72\x43\x75\x73\x74\x6f\x6d\x43\x6f\x6d\x6d\x61\x6e\x64\x43\x45',
-        '\x75\x4f\x78\x56\x6f',
-        '\x6f\x6e\x45\x76\x65\x6e\x74\x4d\x6f\x76\x65',
-        '\x65\x76\x65\x6e\x74\x5f\x63\x6f\x6d\x6d\x6f\x6e\x5f\x61\x62\x73\x7a',
-        '\x65\x76\x65\x6e\x74\x5f\x6d\x61\x70\x5f\x70\x6c\x61\x79\x65\x72\x4c\x6f\x63\x61\x74\x69\x6f\x6e',
-        '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x49\x4e',
-        '\x4d\x69\x4c\x63\x78',
-        '\x6f\x6e\x45\x78\x65\x63\x75\x74\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72\x42\x61\x74\x74\x6c\x65',
-        '\x69\x73\x4d\x61\x73\x74\x65\x72\x43\x6c\x69\x65\x6e\x74',
-        '\x52\x45\x46\x52\x45\x53\x48\x20\x50\x41\x52\x54\x59',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x65\x76\x65\x6e\x74\x5f\x6d\x61\x70\x5f\x70\x6c\x61\x79\x65\x72\x4d\x6f\x76\x65',
-        '\x69\x6e\x70\x75\x74\x41\x63\x74\x6f\x72\x49\x64',
-        '\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x76\x69\x72\x74\x75\x61\x6c\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x6c\x56\x51\x65\x71',
-        '\x64\x61\x74\x61',
-        '\x4c\x6f\x62\x62\x79',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x63\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65',
-        '\x75\x6e\x64\x65\x66\x69\x6e\x65\x64',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x49\x6e\x70\x75\x74\x53\x74\x61\x74\x65',
-        '\x65\x53\x41\x44\x45',
-        '\x6f\x6e\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x73\x65',
-        '\x65\x76\x65\x6e\x74\x5f\x6c\x6f\x62\x62\x79\x5f\x72\x65\x66\x72\x65\x73\x68\x52\x6f\x6f\x6d\x44\x61\x74\x61',
-        '\x73\x61\x76\x65\x47\x61\x6d\x65',
-        '\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4a\x6f\x69\x6e\x65\x64\x54\x68\x69\x73\x47\x61\x6d\x65',
-        '\x64\x4f\x65\x71\x6d',
-        '\x63\x6f\x6e\x74\x61\x69\x6e\x73',
-        '\x61\x63\x74\x69\x6f\x6e',
-        '\x6f\x6e\x42\x65\x66\x6f\x72\x65\x53\x61\x76\x65',
-        '\x63\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x43\x41\x4e\x20\x43\x4f\x4e\x54\x49\x4e\x55\x45',
-        '\x4e\x41\x70\x70\x6c\x79\x46\x72\x6f\x6d\x4d\x65\x6e\x75\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x6f\x6e\x43\x6f\x6e\x74\x69\x6e\x75\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x6f\x6e\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x71\x75\x65\x73\x74',
-        '\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x73\x68\x61\x72\x65\x64\x43\x61\x6e\x43\x6f\x6e\x74\x69\x6e\x75\x65',
-        '\x6f\x6e\x43\x75\x73\x74\x6f\x6d\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x78\x59\x52\x43\x58',
-        '\x49\x6c\x4f\x6a\x6c',
-        '\x45\x76\x65\x6e\x74\x20\x45\x6e\x64\x3a\x20',
-        '\x77\x79\x57\x70\x53',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x69\x6e\x70\x75\x74',
-        '\x68\x52\x65\x75\x48',
-        '\x43\x55\x53\x54\x4f\x4d\x20\x43\x4f\x4d\x4d\x41\x4e\x44\x20\x49\x4e',
-        '\x79\x5a\x4e\x6c\x4e',
-        '\x74\x4c\x68\x76\x51',
-        '\x6d\x45\x49\x51\x42',
-        '\x6f\x6e\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x54\x63\x62\x62\x6b',
-        '\x6f\x6e\x4c\x6f\x67\x57\x69\x6e\x64\x6f\x77\x4d\x65\x73\x73\x61\x67\x65',
-        '\x61\x6e\x79',
-        '\x61\x6c\x65\x72\x74',
-        '\x73\x74\x6f\x70',
-        '\x6f\x6e\x52\x65\x66\x72\x65\x73\x68\x47\x61\x6d\x65\x50\x61\x72\x74\x79',
-        '\x42\x4c\x41\x43\x4b',
-        '\x73\x65\x6e\x64\x53\x61\x76\x65\x44\x61\x74\x61\x43\x6f\x6d\x70\x6c\x65\x74\x65\x46\x6c\x61\x67',
-        '\x63\x68\x61\x6e\x6e\x65\x6c\x49\x64',
-        '\x76\x56\x68\x4c\x64',
-        '\x6b\x62\x56\x4d\x49',
-        '\x6d\x46\x57\x50\x7a',
-        '\x53\x65\x72\x76\x65\x72\x20\x76\x65\x72\x73\x69\x6f\x6e\x20\x69\x73\x20\x6f\x75\x74\x64\x61\x74\x65\x64\x20\x66\x6f\x72\x20\x74\x68\x69\x73\x20\x41\x6c\x70\x68\x61\x20\x4e\x45\x54\x20\x5a\x20\x76\x65\x72\x73\x69\x6f\x6e\x20',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x74\x61\x72\x74\x65\x64\x52\x6f\x6f\x6d\x47\x61\x6d\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x77\x61\x72\x6e',
-        '\x63\x6d\x64',
-        '\x6f\x6e\x41\x6e\x73\x77\x65\x72',
-        '\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x73\x68\x61\x72\x65\x64\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c',
-        '\x53\x45\x58\x68\x76',
-        '\x65\x76\x65\x6e\x74\x5f\x6d\x61\x70\x5f\x65\x76\x65\x6e\x74\x4d\x6f\x76\x65',
-        '\x55\x41\x72\x6d\x65',
-        '\x6f\x6e\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e',
-        '\x44\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x65\x64\x20\x66\x72\x6f\x6d\x20\x73\x65\x72\x76\x65\x72',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x76\x61\x72\x69\x61\x62\x6c\x65',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x72\x6f\x6f\x6d',
-        '\x4c\x63\x51\x71\x78',
-        '\x65\x76\x65\x6e\x74\x5f',
-        '\x52\x6c\x49\x68\x56',
-        '\x65\x76\x65\x6e\x74\x5f\x63\x6f\x6d\x6d\x6f\x6e\x5f\x66\x6f\x72\x43\x6c\x69\x65\x6e\x74\x73',
-        '\x35\x36\x39\x33\x31\x59\x45\x48\x55\x4c\x45',
-        '\x58\x48\x51\x4b\x4b',
-        '\x62\x4a\x59\x4f\x66',
-        '\x31\x36\x39\x39\x30\x38\x64\x43\x70\x6f\x57\x41',
-        '\x32\x32\x38\x38\x34\x45\x68\x6a\x69\x66\x6a',
-        '\x5f\x73\x63\x65\x6e\x65',
-        '\x74\x59\x43\x6f\x6f',
-        '\x74\x72\x61\x64\x65',
-        '\x6d\x65\x74\x68\x6f\x64',
-        '\x31\x37\x38\x34\x36\x33\x37\x77\x53\x54\x44\x51\x43',
-        '\x6f\x6e\x53\x77\x69\x74\x63\x68\x56\x61\x6c\x75\x65',
-        '\x69\x73\x42\x75\x73\x79\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b\x44\x61\x74\x61',
-        '\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x69\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e',
-        '\x76\x6e\x71\x58\x6c',
-        '\x6f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x71\x70\x73\x6b\x6f',
-        '\x6f\x6e\x56\x61\x72\x69\x61\x62\x6c\x65\x56\x61\x6c\x75\x65',
-        '\x45\x4e\x43\x4f\x55\x4e\x54\x45\x52\x20\x4d\x41\x50\x20\x42\x41\x54\x54\x4c\x45\x20\x49\x4e',
-        '\x65\x70\x53\x67\x78',
-        '\x6e\x55\x6e\x69\x71\x75\x65\x53\x61\x76\x65\x49\x44',
-        '\x6f\x6e\x49\x6e\x69\x74\x69\x61\x6c\x4d\x61\x70\x53\x79\x6e\x63',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x61\x76\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74',
-        '\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72',
-        '\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64',
-        '\x4d\x69\x6e\x53\x65\x72\x76\x65\x72\x52\x65\x76',
-        '\x6d\x61\x70\x5f\x70\x6c\x61\x79\x65\x72\x4d\x6f\x76\x65',
-        '\x45\x58\x4d\x46\x73',
-        '\x6f\x6e\x4c\x6f\x73\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e',
-        '\x55\x71\x66\x57\x68',
-        '\x73\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x54\x6f\x4d\x61\x73\x74\x65\x72\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x74\x65\x78\x74',
-        '\x6d\x61\x70\x49\x64',
-        '\x56\x65\x72\x73\x69\x6f\x6e',
-        '\x36\x30\x33\x39\x34\x68\x78\x46\x4d\x74\x77',
-        '\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x77\x69\x74\x63\x68',
-        '\x46\x53\x4c\x4b\x4f',
-        '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x41\x4e\x53\x57\x45\x52',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x44\x61\x74\x61\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x43\x6f\x6c\x6f\x72'
-    ];
-    _0x46ab = function () {
-        return _0x262b83;
-    };
-    return _0x46ab();
-}
-(function (_0xec6122, _0xf17f27) {
-    var _0x315a25 = _0x2759, _0x466488 = _0xec6122();
-    while (!![]) {
-        try {
-            var _0x367cfc = parseInt(_0x315a25(0x1ad)) / 0x1 * (-parseInt(_0x315a25(0x176)) / 0x2) + -parseInt(_0x315a25(0x1a9)) / 0x3 * (parseInt(_0x315a25(0x159)) / 0x4) + parseInt(_0x315a25(0xfb)) / 0x5 * (parseInt(_0x315a25(0x158)) / 0x6) + -parseInt(_0x315a25(0x155)) / 0x7 * (-parseInt(_0x315a25(0x101)) / 0x8) + -parseInt(_0x315a25(0x15e)) / 0x9 + parseInt(_0x315a25(0x187)) / 0xa + parseInt(_0x315a25(0x184)) / 0xb * (-parseInt(_0x315a25(0x183)) / 0xc);
-            if (_0x367cfc === _0xf17f27)
-                break;
-            else
-                _0x466488['push'](_0x466488['shift']());
-        } catch (_0x195d73) {
-            _0x466488['push'](_0x466488['shift']());
-        }
-    }
-}(_0x46ab, 0x25381), window['\x4e\x65\x74\x43\x6c\x69\x65\x6e\x74\x4d\x65\x74\x68\x6f\x64\x73\x4d\x61\x6e\x61\x67\x65\x72'] = function () {
-}, (function () {
-    var _0x4cd058 = _0x2759, _0x571cee, _0x3d383d;
-    _0x571cee = new KDCore[(_0x4cd058(0x14f))]('\x4e\x45\x54\x20\x43\x6c\x69\x65\x6e\x74'), _0x571cee['\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73'](KDCore[_0x4cd058(0x17b)][_0x4cd058(0xff)]['\x72\x65\x41\x6c\x70\x68\x61'](0xc8), KDCore[_0x4cd058(0x17b)][_0x4cd058(0x13c)][_0x4cd058(0x16b)](0xc8)), _0x571cee['\x6f\x6e'](), _0x3d383d = window[_0x4cd058(0x1b1)], _0x3d383d[_0x4cd058(0x172)] = function (_0x4b5252) {
-        this['\x6f\x6e\x43\x6f\x6e\x6e\x65\x63\x74\x43\x61\x6c\x6c\x62\x61\x63\x6b'] = _0x4b5252;
-    }, _0x3d383d[_0x4cd058(0x1a0)] = function () {
-        var _0x26796b = _0x4cd058;
-        _0x571cee['\x70']('\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64'), ANNetwork[_0x26796b(0x124)](NMS[_0x26796b(0x117)]('\x73\x65\x72\x76\x65\x72\x56\x65\x72\x43\x68\x65\x63\x6b', ANET['\x4d\x69\x6e\x53\x65\x72\x76\x65\x72\x52\x65\x76']), function (_0x369068) {
-            var _0x995ee5 = _0x26796b;
-            if (!_0x369068) {
-                if (_0x995ee5(0x133) !== _0x995ee5(0x133)) {
-                    var _0xc0ba25;
-                    try {
-                        return '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x43\x48\x4f\x49\x43\x45\x20\x41\x43\x54\x49\x4f\x4e'['\x70'](), _0x4584d2[_0x995ee5(0x1a8)](_0x16980b);
-                    } catch (_0x54f98b) {
-                        return _0xc0ba25 = _0x54f98b, _0x3ca1ac[_0x995ee5(0x144)](_0x995ee5(0x147), _0xc0ba25);
-                    }
-                } else
-                    return _0x571cee['\x70']('\x53\x65\x72\x76\x65\x72\x20\x69\x73\x20\x6f\x75\x74\x64\x61\x74\x65\x64\x2c\x20\x72\x65\x71\x75\x69\x72\x65\x20\x72\x65\x76\x2e\x20' + ANET['\x4d\x69\x6e\x53\x65\x72\x76\x65\x72\x52\x65\x76'] + _0x995ee5(0x18a)), window['\x61\x6c\x65\x72\x74'](_0x995ee5(0x142) + ANET[_0x995ee5(0x175)] / 0x64), ANNetwork[_0x995ee5(0x13a)]();
-            }
-        });
-        if (this['\x6f\x6e\x43\x6f\x6e\x6e\x65\x63\x74\x43\x61\x6c\x6c\x62\x61\x63\x6b'] != null)
-            return _0x26796b(0x157) !== _0x26796b(0xf6) ? this[_0x26796b(0x1b2)](0x1) : (_0x428f27 = _0xe29b15, _0x3d4adc['\x77\x61\x72\x6e'](_0x26796b(0x149), _0x42f5c1));
-    }, _0x3d383d['\x6f\x6e\x44\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74'] = function () {
-        var _0x25aeea = _0x4cd058, _0x221c8b;
-        return _0x571cee['\x70'](_0x25aeea(0x104)), (_0x221c8b = SceneManager[_0x25aeea(0x15a)]) != null && _0x221c8b['\x6f\x6e\x4c\x6f\x73\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e'](), HUIManager[_0x25aeea(0xf8)](_0x25aeea(0x14d)), ANNetwork[_0x25aeea(0x13a)]();
-    }, _0x3d383d['\x6f\x6e\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x45\x72\x72\x6f\x72'] = function () {
-        var _0x10fa33 = _0x4cd058;
-        if (_0x10fa33(0x130) !== _0x10fa33(0x130)) {
-            var _0x100a63;
-            try {
-                return _0x126a5d[_0x10fa33(0x14b)](_0x5eca91);
-            } catch (_0x4b2546) {
-                return _0x100a63 = _0x4b2546, _0x3c9e04[_0x10fa33(0x144)](_0x10fa33(0x114), _0x100a63);
-            }
-        } else
-            return _0x571cee['\x70']('\x43\x61\x6e\x27\x74\x20\x63\x6f\x6e\x6e\x65\x63\x74\x20\x74\x6f\x20\x73\x65\x72\x76\x65\x72\x21'), this[_0x10fa33(0x1b2)] != null && (_0x10fa33(0x151) !== _0x10fa33(0x1ac) ? this[_0x10fa33(0x1b2)](0x0) : _0x269e0b['\x70'](_0x10fa33(0x12d) + _0x564822)), ANNetwork[_0x10fa33(0x13a)]();
-    }, _0x3d383d['\x69\x73\x45\x78\x69\x73\x74\x50\x72\x63\x45\x76\x65\x6e\x74'] = function (_0x2c4a20) {
-        var _0x229dc7 = _0x4cd058;
-        if (_0x229dc7(0x19a) === _0x229dc7(0x15b)) {
-            var _0x84f861;
-            return _0x5a2683['\x70'](_0x229dc7(0x104)), (_0x84f861 = _0x5aa8c6['\x5f\x73\x63\x65\x6e\x65']) != null && _0x84f861[_0x229dc7(0x170)](), _0x239e17['\x6e\x6f\x74\x69\x66\x79\x45\x72\x72\x6f\x72']('\x44\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x65\x64\x20\x66\x72\x6f\x6d\x20\x73\x65\x72\x76\x65\x72'), _0x49768c[_0x229dc7(0x13a)]();
-        } else
-            return NetClientMethodsManager[_0x229dc7(0x152) + _0x2c4a20] != null;
-    }, _0x3d383d['\x68\x61\x6e\x64\x6c\x65\x50\x72\x63\x45\x76\x65\x6e\x74'] = function (_0x16bf40, _0x40b937) {
-        var _0x50d6c1 = _0x4cd058, _0x14690d;
-        _0x14690d = [
-            _0x50d6c1(0xf5),
-            '\x6d\x61\x70\x5f\x65\x76\x65\x6e\x74\x4d\x6f\x76\x65',
-            _0x50d6c1(0x16e),
-            _0x50d6c1(0x190),
-            _0x50d6c1(0x189)
-        ][_0x50d6c1(0x121)](_0x16bf40);
-        !_0x14690d && _0x571cee['\x70']('\x48\x61\x6e\x64\x6c\x65\x20\x45\x76\x65\x6e\x74\x3a\x20' + _0x16bf40);
-        NetClientMethodsManager['\x65\x76\x65\x6e\x74\x5f' + _0x16bf40](_0x40b937);
-        if (_0x16bf40 === '\x63\x6f\x6d\x6d\x6f\x6e\x5f\x66\x6f\x72\x43\x6c\x69\x65\x6e\x74\x73' && _0x40b937 != null && String[_0x50d6c1(0x138)](_0x40b937[_0x50d6c1(0x145)]))
-            this[_0x50d6c1(0x18b)](_0x16bf40 + '\x5f' + _0x40b937[_0x50d6c1(0x145)]);
-        else {
-            if (_0x50d6c1(0x1a1) !== _0x50d6c1(0x164))
-                this[_0x50d6c1(0x18b)](_0x16bf40);
-            else {
-                var _0x3dabe7;
-                try {
-                    return _0x3c5801[_0x50d6c1(0x109)](_0x1dcb26[_0x50d6c1(0x174)], _0xde672f['\x69\x64'], _0x47735c[_0x50d6c1(0x116)]);
-                } catch (_0x1634cc) {
-                    return _0x3dabe7 = _0x1634cc, _0x42a14d['\x77\x61\x72\x6e']('\x65\x76\x65\x6e\x74\x5f\x6d\x61\x70\x5f\x65\x76\x65\x6e\x74\x4d\x6f\x76\x65', _0x3dabe7);
-                }
-            }
-        }
-        !_0x14690d && ('\x52\x6c\x49\x68\x56' !== _0x50d6c1(0x153) ? this[_0x50d6c1(0x1b2)](0x0) : _0x571cee['\x70'](_0x50d6c1(0x12d) + _0x16bf40));
-    }, _0x3d383d[_0x4cd058(0x18b)] = function (_0x276838) {
-        var _0x343a71 = _0x4cd058;
-        if (_0x343a71(0x148) !== _0x343a71(0x156)) {
-            var _0x2658f3;
-            return (_0x2658f3 = SceneManager['\x5f\x73\x63\x65\x6e\x65']) != null ? _0x2658f3[_0x343a71(0x1b3)](_0x276838) : void 0x0;
-        } else
-            return;
-    }, _0x3d383d[_0x4cd058(0x103)] = function (_0x41d08b) {
-        var _0xf71abc = _0x4cd058;
-        return _0xf71abc(0x1af) === _0xf71abc(0x1af) ? ANGameManager['\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4e\x61\x6d\x65'](_0x41d08b['\x77\x68\x6f'], _0x41d08b[_0xf71abc(0x19f)]) : (_0x5e2831 = _0x19a072, _0x3f8066['\x77\x61\x72\x6e'](_0xf71abc(0x196), _0x1f55e9));
-    }, _0x3d383d[_0x4cd058(0x11d)] = function (_0x36e43f) {
-        var _0x23688e = _0x4cd058;
-        if (_0x23688e(0x115) !== '\x6c\x56\x51\x65\x71')
-            return _0x55c8a2[_0x23688e(0xec)](_0x1907cb['\x69\x64'], _0x9916ed['\x64\x61\x74\x61']);
-        else {
-            if (SceneManager['\x69\x73\x42\x75\x73\x79\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b\x44\x61\x74\x61']()) {
-                if ('\x53\x67\x52\x6a\x42' !== '\x5a\x43\x64\x42\x47')
-                    return;
-                else
-                    return _0x23688e(0x131)['\x70'](), {
-                        name: _0x16d558,
-                        data: _0x5129d5
-                    } = _0xdf19d, _0x41c6dc[_0x23688e(0x12a)](_0x5b82e7, _0x33dd34);
-            }
-            return ANGameManager['\x6f\x6e\x52\x6f\x6f\x6d\x50\x6c\x61\x79\x65\x72\x73'](_0x36e43f['\x70\x6c\x61\x79\x65\x72\x73\x44\x61\x74\x61']), ANNetwork['\x6f\x6e\x52\x6f\x6f\x6d\x44\x61\x74\x61\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'](_0x36e43f[_0x23688e(0x150)]);
-        }
-    }, _0x3d383d[_0x4cd058(0xf3)] = function (_0x4af139) {
-        var _0x2cb390 = _0x4cd058;
-        return _0x2cb390(0x1a7) === _0x2cb390(0x1a7) ? ANNetwork['\x6f\x6e\x52\x6f\x6f\x6d\x43\x6c\x6f\x73\x65\x64']() : _0x7e0ad0[_0x2cb390(0xf9)](_0x21f81['\x69\x64'], _0x1fbeea[_0x2cb390(0x15d)], _0x172a20[_0x2cb390(0x116)]);
-    }, _0x3d383d[_0x4cd058(0x195)] = function () {
-        return ANGameManager['\x73\x65\x74\x75\x70\x4e\x65\x77\x4e\x65\x74\x77\x6f\x72\x6b\x47\x61\x6d\x65'](), '\x53\x54\x41\x52\x54\x49\x4e\x47\x20\x47\x41\x4d\x45'['\x70']();
-    }, _0x3d383d[_0x4cd058(0x19d)] = function (_0x2f7407) {
-        var _0x26691d;
-        try {
-            return HUIManager['\x6f\x6e\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'](_0x2f7407);
-        } catch (_0x1aee0e) {
-            return _0x26691d = _0x1aee0e, ANET['\x77'](_0x26691d);
-        }
-    }, _0x3d383d[_0x4cd058(0x182)] = function (_0x2ca4ee) {
-        var _0x1a7d35 = _0x4cd058;
-        return _0x1a7d35(0x140) !== _0x1a7d35(0x198) ? (ANGameManager[_0x1a7d35(0x1b0)](_0x2ca4ee), _0x1a7d35(0x194)['\x70']()) : (_0x3bb8d1 = _0x32d4c8, _0x1d0119[_0x1a7d35(0x144)](_0x1a7d35(0x111), _0x524b06));
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x72\x65\x66\x72\x65\x73\x68\x50\x61\x72\x74\x79'] = function () {
-        var _0x51edae = _0x4cd058;
-        if ('\x72\x51\x7a\x44\x6b' !== '\x50\x6b\x6c\x4d\x71')
-            return ANGameManager[_0x51edae(0x13b)](), _0x51edae(0x110)['\x70']();
-        else {
-            var _0x540424;
-            try {
-                return '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x43\x41\x4e\x20\x43\x4f\x4e\x54\x49\x4e\x55\x45'['\x70'](), _0x5548f1[_0x51edae(0x127)](_0x193da4);
-            } catch (_0x14a12c) {
-                return _0x540424 = _0x14a12c, _0x194ff8['\x77\x61\x72\x6e'](_0x51edae(0x129), _0x540424);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x180)] = function (_0x19976a) {
-        var _0x320d5a = _0x4cd058, _0x1e52e8;
-        try {
-            return ANSyncDataManager[_0x320d5a(0x135)](_0x19976a['\x69\x64'], _0x19976a[_0x320d5a(0x191)], _0x19976a[_0x320d5a(0x116)]);
-        } catch (_0x18e8d3) {
-            if (_0x320d5a(0x108) !== _0x320d5a(0x178))
-                return _0x1e52e8 = _0x18e8d3, console[_0x320d5a(0x144)](_0x320d5a(0x180), _0x1e52e8);
-            else {
-                var _0xd38265;
-                try {
-                    if (_0x2ac03f['\x6d\x61\x70\x49\x64']() === _0x14c520)
-                        return _0x560f90['\x6f\x6e\x49\x6e\x69\x74\x69\x61\x6c\x4d\x61\x70\x53\x79\x6e\x63']();
-                } catch (_0x1fa43d) {
-                    return _0xd38265 = _0x1fa43d, _0x3d1203['\x77\x61\x72\x6e'](_0x320d5a(0x149), _0xd38265);
-                }
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x14e)] = function (_0x379238) {
-        var _0x570a54 = _0x4cd058, _0x559c9a;
-        try {
-            return ANSyncDataManager[_0x570a54(0x165)](_0x379238['\x69\x64'], _0x379238['\x64\x61\x74\x61']);
-        } catch (_0x56f553) {
-            return _0x559c9a = _0x56f553, console[_0x570a54(0x144)](_0x570a54(0x14e), _0x559c9a);
-        }
-    }, _0x3d383d[_0x4cd058(0x177)] = function (_0x3b7ba2) {
-        var _0x95867b = _0x4cd058;
-        if ('\x58\x44\x4c\x52\x57' === _0x95867b(0xf2)) {
-            var _0x1af265;
-            try {
-                if (_0x95867b(0x12b) !== _0x95867b(0x12b)) {
-                    var _0x20e3f7;
-                    try {
-                        return _0x58a276[_0x95867b(0xfd)](_0xd4cc81);
-                    } catch (_0x5e3d04) {
-                        return _0x20e3f7 = _0x5e3d04, _0x460535[_0x95867b(0x144)](_0x95867b(0x19b), _0x20e3f7);
-                    }
-                } else
-                    return ANSyncDataManager[_0x95867b(0x15f)](_0x3b7ba2['\x69\x64'], _0x3b7ba2[_0x95867b(0x116)]);
-            } catch (_0x41f2ba) {
-                return _0x1af265 = _0x41f2ba, console[_0x95867b(0x144)]('\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x77\x69\x74\x63\x68', _0x1af265);
-            }
-        } else
-            return _0x1eef8a = _0x3dd470, _0x5653d3[_0x95867b(0x144)](_0x95867b(0x100), _0x5976ff);
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x61\x76\x65\x44\x61\x74\x61\x52\x65\x71\x75\x65\x73\x74'] = function (_0x40048d) {
-        var _0x230979 = _0x4cd058;
-        if (_0x230979(0x17d) !== _0x230979(0x17d))
-            return _0x35f5ea = _0x2bc5bd, _0x140236['\x77'](_0x18425e);
-        else {
-            var _0x3e165e;
-            try {
-                return $gameTemp[_0x230979(0x168)] = _0x40048d['\x75\x6e\x69\x71\x75\x65\x53\x61\x76\x65\x49\x44'], $gameSystem[_0x230979(0x123)](), DataManager[_0x230979(0x11e)](_0x40048d[_0x230979(0x192)]), ANGameManager[_0x230979(0x13d)]();
-            } catch (_0x1508c8) {
-                return _0x3e165e = _0x1508c8, console['\x77\x61\x72\x6e'](_0x230979(0x16a), _0x3e165e);
-            }
-        }
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x61\x76\x65\x44\x61\x74\x61\x43\x6f\x6d\x70\x6c\x65\x74\x65'] = function (_0x2e3d3e) {
-        var _0x37dc64 = _0x4cd058, _0xbef2fc, _0x34a0c7;
-        try {
-            if ($gameTemp[_0x37dc64(0x1aa)] == null) {
-                if ('\x79\x64\x6f\x73\x79' === _0x37dc64(0x1ae))
-                    return;
-                else
-                    return _0x39ab47[_0x37dc64(0x106)]();
-            }
-            return _0x34a0c7 = _0x2e3d3e, $gameTemp[_0x37dc64(0x1aa)][_0x37dc64(0x146)](_0x34a0c7, !![]);
-        } catch (_0x1ee07d) {
-            return _0x37dc64(0x18d) === _0x37dc64(0x18d) ? (_0xbef2fc = _0x1ee07d, console[_0x37dc64(0x144)]('\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x73\x61\x76\x65\x44\x61\x74\x61\x43\x6f\x6d\x70\x6c\x65\x74\x65', _0xbef2fc)) : (_0x22ed46 = _0x95b04e, _0x454460[_0x37dc64(0x144)](_0x37dc64(0x154), _0x4e8833));
-        }
-    }, _0x3d383d[_0x4cd058(0x118)] = function (_0xf0165d) {
-        var _0x17a3b5 = _0x4cd058;
-        if (_0x17a3b5(0x193) === _0x17a3b5(0x193)) {
-            var _0x1f32b0, _0x1c4905, _0xb110da;
-            try {
-                if (_0x17a3b5(0x10d) === _0x17a3b5(0x10d)) {
-                    _0xb110da = _0xf0165d['\x6d\x61\x70\x49\x64'], _0x1f32b0 = _0xf0165d[_0x17a3b5(0x13e)];
-                    if (_0x1f32b0 > 0x0) {
-                        if (_0xb110da != null && _0xb110da === $gameMap[_0x17a3b5(0x174)]())
-                            return ANET['\x55\x49']['\x61\x64\x64\x4d\x65\x73\x73\x61\x67\x65\x54\x6f\x43\x68\x61\x74'](_0xf0165d);
-                    } else
-                        return _0x17a3b5(0x185) === '\x72\x53\x6a\x76\x52' ? (_0x5c63f3 = _0x39fa3f, _0x10a2bf[_0x17a3b5(0x144)](_0x17a3b5(0x16c), _0x154a6c)) : ANET['\x55\x49'][_0x17a3b5(0x105)](_0xf0165d);
-                } else {
-                    if (_0x5e0e17[_0x17a3b5(0x160)]())
-                        return;
-                    return _0x1a4d3f['\x6f\x6e\x52\x6f\x6f\x6d\x50\x6c\x61\x79\x65\x72\x73'](_0x13e536[_0x17a3b5(0x1a3)]), _0x13b957['\x6f\x6e\x52\x6f\x6f\x6d\x44\x61\x74\x61\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'](_0x37c4cc[_0x17a3b5(0x150)]);
-                }
-            } catch (_0x589fec) {
-                return _0x1c4905 = _0x589fec, console[_0x17a3b5(0x144)](_0x17a3b5(0x118), _0x1c4905);
-            }
-        } else
-            return _0x54b7a8[_0x17a3b5(0x15f)](_0x623a9['\x69\x64'], _0x3225b4[_0x17a3b5(0x116)]);
-    }, _0x3d383d[_0x4cd058(0x143)] = function (_0x443aa6) {
-        var _0x32dc39 = _0x4cd058, _0x2f4409;
-        try {
-            if (!ANNetwork[_0x32dc39(0x10f)]())
-                return;
-            return ANGameManager[_0x32dc39(0x1a6)](_0x443aa6);
-        } catch (_0x3e835c) {
-            return _0x2f4409 = _0x3e835c, console[_0x32dc39(0x144)](_0x32dc39(0x143), _0x2f4409);
-        }
-    }, _0x3d383d[_0x4cd058(0x18e)] = function (_0x36326f) {
-        var _0x20cded = _0x4cd058, _0x37a6f8, _0x271140;
-        try {
-            return _0x271140 = _0x20cded(0x199), ANClientResponceManager[_0x20cded(0xf7)](_0x271140, _0x36326f);
-        } catch (_0x12e97e) {
-            if (_0x20cded(0x171) !== _0x20cded(0x171)) {
-                var _0x58e4b2;
-                try {
-                    return _0x265da4['\x6f\x6e\x50\x6c\x61\x79\x65\x72\x4a\x6f\x69\x6e\x65\x64\x54\x68\x69\x73\x47\x61\x6d\x65'](_0x4ee3e9);
-                } catch (_0x5ec407) {
-                    return _0x58e4b2 = _0x5ec407, _0x2bb622['\x77\x61\x72\x6e'](_0x20cded(0x1a5), _0x58e4b2);
-                }
-            } else
-                return _0x37a6f8 = _0x12e97e, console[_0x20cded(0x144)](_0x20cded(0x143), _0x37a6f8);
-        }
-    }, _0x3d383d[_0x4cd058(0x1a5)] = function (_0x22e887) {
-        var _0x28e361 = _0x4cd058;
-        if (_0x28e361(0x17c) !== _0x28e361(0x17c))
-            return _0x4815a5['\x70'](_0x28e361(0x17e) + _0x42801c[_0x28e361(0x16d)] + _0x28e361(0x18a)), _0x50895f[_0x28e361(0x139)](_0x28e361(0x142) + _0x43cf30[_0x28e361(0x175)] / 0x64), _0x4a3652[_0x28e361(0x13a)]();
-        else {
-            var _0x1b035b;
-            try {
-                return ANGameManager[_0x28e361(0x11f)](_0x22e887);
-            } catch (_0x53d95c) {
-                return _0x1b035b = _0x53d95c, console[_0x28e361(0x144)](_0x28e361(0x1a5), _0x1b035b);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x112)] = function (_0x4b87c9) {
-        var _0x4b7aa0 = _0x4cd058;
-        if (_0x4b7aa0(0x136) !== '\x70\x7a\x53\x54\x79') {
-            var _0x9b0383;
-            try {
-                return ANPlayersManager[_0x4b7aa0(0x19e)](_0x4b87c9['\x69\x64'], _0x4b87c9['\x64\x61\x74\x61']);
-            } catch (_0x550cf1) {
-                return _0x9b0383 = _0x550cf1, console[_0x4b7aa0(0x144)](_0x4b7aa0(0x112), _0x9b0383);
-            }
-        } else
-            return _0x20b140[_0x4b7aa0(0x14b)](_0x56bba8);
-    }, _0x3d383d[_0x4cd058(0x10b)] = function (_0x1a84aa) {
-        var _0x2966cb = _0x4cd058;
-        if (_0x2966cb(0x13f) === '\x76\x56\x68\x4c\x64') {
-            var _0x5da9de;
-            try {
-                return ANPlayersManager[_0x2966cb(0xec)](_0x1a84aa['\x69\x64'], _0x1a84aa['\x64\x61\x74\x61']);
-            } catch (_0x4364cb) {
-                return _0x5da9de = _0x4364cb, console['\x77\x61\x72\x6e'](_0x2966cb(0x10b), _0x5da9de);
-            }
-        } else {
-            _0x3e95d5['\x70'](_0x2966cb(0x197)), _0x576253['\x63\x61\x6c\x6c\x62\x61\x63\x6b'](_0x1464fa[_0x2966cb(0x117)]('\x73\x65\x72\x76\x65\x72\x56\x65\x72\x43\x68\x65\x63\x6b', _0x36c2dd[_0x2966cb(0x16d)]), function (_0x44f204) {
-                var _0x1e6b8e = _0x2966cb;
-                if (!_0x44f204)
-                    return _0xc5b1c6['\x70']('\x53\x65\x72\x76\x65\x72\x20\x69\x73\x20\x6f\x75\x74\x64\x61\x74\x65\x64\x2c\x20\x72\x65\x71\x75\x69\x72\x65\x20\x72\x65\x76\x2e\x20' + _0x22fa7f[_0x1e6b8e(0x16d)] + _0x1e6b8e(0x18a)), _0x1cbf5d['\x61\x6c\x65\x72\x74']('\x53\x65\x72\x76\x65\x72\x20\x76\x65\x72\x73\x69\x6f\x6e\x20\x69\x73\x20\x6f\x75\x74\x64\x61\x74\x65\x64\x20\x66\x6f\x72\x20\x74\x68\x69\x73\x20\x41\x6c\x70\x68\x61\x20\x4e\x45\x54\x20\x5a\x20\x76\x65\x72\x73\x69\x6f\x6e\x20' + _0x307ad5['\x56\x65\x72\x73\x69\x6f\x6e'] / 0x64), _0x1c56ab['\x73\x74\x6f\x70']();
-            });
-            if (this[_0x2966cb(0x1b2)] != null)
-                return this[_0x2966cb(0x1b2)](0x1);
-        }
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x6d\x61\x70\x5f\x65\x76\x65\x6e\x74\x4d\x6f\x76\x65'] = function (_0x4a1571) {
-        var _0x9b2686 = _0x4cd058, _0x12e7bf;
-        try {
-            return ANMapManager[_0x9b2686(0x109)](_0x4a1571[_0x9b2686(0x174)], _0x4a1571['\x69\x64'], _0x4a1571[_0x9b2686(0x116)]);
-        } catch (_0x50d844) {
-            return _0x12e7bf = _0x50d844, console['\x77\x61\x72\x6e'](_0x9b2686(0x149), _0x12e7bf);
-        }
-    }, _0x3d383d[_0x4cd058(0xeb)] = function (_0x21b98f) {
-        var _0x52c5ba = _0x4cd058;
-        if (_0x52c5ba(0x12c) !== _0x52c5ba(0x12c))
-            return _0x1e8a89[_0x52c5ba(0x11f)](_0x3e931b);
-        else {
-            var _0x11ad69;
-            try {
-                if ('\x48\x4d\x45\x73\x53' !== _0x52c5ba(0x16f)) {
-                    if ($gameMap['\x6d\x61\x70\x49\x64']() === _0x21b98f)
-                        return ANMapManager[_0x52c5ba(0x169)]();
-                } else
-                    return _0x4ce928['\x6f\x6e\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'](_0x21d8ff);
-            } catch (_0x1477ac) {
-                return _0x52c5ba(0xea) !== _0x52c5ba(0xea) ? (_0x530af7 = _0x4e5ca2, _0x5b7784[_0x52c5ba(0x144)]('\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x73\x68\x61\x72\x65\x64\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c', _0x5bbd46)) : (_0x11ad69 = _0x1477ac, console['\x77\x61\x72\x6e'](_0x52c5ba(0x149), _0x11ad69));
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x114)] = function (_0x27fde5) {
-        var _0x59bfb8 = _0x4cd058, _0x35406c;
-        try {
-            return ANInterpreterManager['\x6f\x6e\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64'](_0x27fde5);
-        } catch (_0x41a35f) {
-            return _0x35406c = _0x41a35f, console[_0x59bfb8(0x144)]('\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x76\x69\x72\x74\x75\x61\x6c\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64', _0x35406c);
-        }
-    }, _0x3d383d[_0x4cd058(0xf4)] = function (_0x6960d8) {
-        var _0x4f95f6 = _0x4cd058;
-        if ('\x52\x4b\x69\x4a\x54' !== '\x52\x4b\x69\x4a\x54')
-            return _0x1cc44f = _0x4910ef, _0x5aab9a[_0x4f95f6(0x144)]('\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x63\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65', _0x10841e);
-        else {
-            var _0x363239;
-            try {
-                return ANBattleManager[_0x4f95f6(0xf9)](_0x6960d8['\x69\x64'], _0x6960d8[_0x4f95f6(0x15d)], _0x6960d8['\x64\x61\x74\x61']);
-            } catch (_0x197392) {
-                return _0x363239 = _0x197392, console['\x77\x61\x72\x6e']('\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64', _0x363239);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x19b)] = function (_0x2f5d5b) {
-        var _0xcbbe20 = _0x4cd058, _0x108f2d;
-        try {
-            return ANBattleManager['\x6f\x6e\x42\x61\x74\x74\x6c\x65\x41\x6e\x69\x6d\x61\x74\x69\x6f\x6e'](_0x2f5d5b);
-        } catch (_0x4b2fd2) {
-            return _0x108f2d = _0x4b2fd2, console[_0xcbbe20(0x144)]('\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e', _0x108f2d);
-        }
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64'] = function (_0x10e99d) {
-        var _0x5b4af8 = _0x4cd058;
-        if (_0x5b4af8(0x132) === _0x5b4af8(0x132)) {
-            var _0x57ff68;
-            try {
-                return ANBattleManager[_0x5b4af8(0x18f)]();
-            } catch (_0x156b14) {
-                if (_0x5b4af8(0x1a4) !== _0x5b4af8(0x1a4))
-                    this['\x63\x61\x6c\x6c\x53\x63\x65\x6e\x65\x43\x61\x6c\x6c\x62\x61\x63\x6b'](_0x28e1a4);
-                else
-                    return _0x57ff68 = _0x156b14, console['\x77\x61\x72\x6e'](_0x5b4af8(0x111), _0x57ff68);
-            }
-        } else {
-            var _0x287f54;
-            try {
-                if (!_0x42d8c5[_0x5b4af8(0x10f)]())
-                    return;
-                return _0xbe38c9[_0x5b4af8(0x1a6)](_0x54ae82);
-            } catch (_0x101e19) {
-                return _0x287f54 = _0x101e19, _0x3be810['\x77\x61\x72\x6e'](_0x5b4af8(0x143), _0x287f54);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x196)] = function (_0x57e792) {
-        var _0x8bbd13 = _0x4cd058;
-        if (_0x8bbd13(0x11b) !== _0x8bbd13(0x11b))
-            return _0x9b2ca1[_0x8bbd13(0x152) + _0x4af576] != null;
-        else {
-            var _0x430f40;
-            try {
-                return ANBattleManager[_0x8bbd13(0x137)](_0x57e792[_0x8bbd13(0x145)], _0x57e792[_0x8bbd13(0x173)]);
-            } catch (_0x4fe717) {
-                return _0x430f40 = _0x4fe717, console['\x77\x61\x72\x6e']('\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x6c\x6f\x67\x4d\x65\x73\x73\x61\x67\x65', _0x430f40);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x12f)] = function (_0x543eb3) {
-        var _0x3ac8b9 = _0x4cd058;
-        if ('\x55\x6d\x76\x62\x4a' !== _0x3ac8b9(0x18c)) {
-            var _0x4291bb;
-            try {
-                return _0x49e424[_0x3ac8b9(0xf9)](_0x798b08['\x69\x64'], _0x19bf83[_0x3ac8b9(0x15d)], _0x5cc153[_0x3ac8b9(0x116)]);
-            } catch (_0x12a184) {
-                return _0x4291bb = _0x12a184, _0x3ce3f0[_0x3ac8b9(0x144)]('\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64', _0x4291bb);
-            }
-        } else {
-            var _0x32c938;
-            try {
-                return _0x3ac8b9(0x134) === _0x3ac8b9(0x134) ? ANBattleManager[_0x3ac8b9(0x11a)](_0x543eb3['\x69\x6e\x70\x75\x74\x53\x74\x61\x74\x65'], _0x543eb3[_0x3ac8b9(0x113)]) : _0x36aafc[_0x3ac8b9(0x19e)](_0x286e22['\x69\x64'], _0x52cf27[_0x3ac8b9(0x116)]);
-            } catch (_0x6f87c7) {
-                return _0x32c938 = _0x6f87c7, console[_0x3ac8b9(0x144)](_0x3ac8b9(0x12f), _0x32c938);
-            }
-        }
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x69\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e'] = function (_0x3e2d2f) {
-        var _0x2975bf = _0x4cd058, _0x22b407;
-        try {
-            return ANBattleManager[_0x2975bf(0x14c)](_0x3e2d2f[_0x2975bf(0x113)], _0x3e2d2f[_0x2975bf(0x122)]);
-        } catch (_0x1b7b2c) {
-            if (_0x2975bf(0xfe) === _0x2975bf(0xfe))
-                return _0x22b407 = _0x1b7b2c, console[_0x2975bf(0x144)](_0x2975bf(0x161), _0x22b407);
-            else {
-                var _0x333946, _0x283c7d;
-                try {
-                    return _0x283c7d = _0x2975bf(0x199), _0x52fc80['\x6f\x6e\x52\x65\x73\x70\x6f\x6e\x63\x65\x52\x65\x63\x65\x69\x76\x65\x64'](_0x283c7d, _0x28a4ce);
-                } catch (_0x2dddf1) {
-                    return _0x333946 = _0x2dddf1, _0x332949[_0x2975bf(0x144)](_0x2975bf(0x143), _0x333946);
-                }
-            }
-        }
-    }, _0x3d383d['\x65\x76\x65\x6e\x74\x5f\x62\x61\x74\x74\x6c\x65\x5f\x73\x65\x72\x76\x65\x72\x42\x61\x74\x74\x6c\x65\x44\x61\x74\x61'] = function (_0x5ef9a6) {
-        var _0x29d64d = _0x4cd058, _0x2a8809;
-        try {
-            return ANBattleManager[_0x29d64d(0x17a)](_0x5ef9a6);
-        } catch (_0x4174bf) {
-            return _0x29d64d(0x167) === '\x4e\x4d\x41\x4e\x42' ? (_0x29d64d(0x125)['\x70'](), _0x5cfed1[_0x29d64d(0x127)](_0x134292)) : (_0x2a8809 = _0x4174bf, console[_0x29d64d(0x144)](_0x29d64d(0x102), _0x2a8809));
-        }
-    }, _0x3d383d[_0x4cd058(0x188)] = function (_0x462319) {
-        var _0x3845c0 = _0x4cd058;
-        if (_0x3845c0(0x120) === '\x64\x4f\x65\x71\x6d') {
-            var _0x56745f;
-            try {
-                return _0x3845c0(0x162) !== _0x3845c0(0x162) ? _0x215ec0[_0x3845c0(0x165)](_0x533061['\x69\x64'], _0x3bd7bd[_0x3845c0(0x116)]) : (_0x3845c0(0x166)['\x70'](), ANBattleManager[_0x3845c0(0x10e)](_0x462319));
-            } catch (_0x42e863) {
-                return _0x56745f = _0x42e863, console['\x77\x61\x72\x6e'](_0x3845c0(0x188), _0x56745f);
-            }
-        } else {
-            var _0x184c91;
-            try {
-                return _0x21401f['\x6f\x6e\x56\x61\x72\x69\x61\x62\x6c\x65\x56\x61\x6c\x75\x65'](_0x3e2732['\x69\x64'], _0xf2a7e8[_0x3845c0(0x116)]);
-            } catch (_0x255964) {
-                return _0x184c91 = _0x255964, _0x505c77[_0x3845c0(0x144)]('\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x76\x61\x72\x69\x61\x62\x6c\x65', _0x184c91);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x16c)] = function (_0x5bc6d2) {
-        var _0xd07b04 = _0x4cd058, _0x17bb7c;
-        try {
-            return _0xd07b04(0x10c)['\x70'](), ANInterpreterManager[_0xd07b04(0x128)](_0x5bc6d2);
-        } catch (_0x1a604f) {
-            return _0x17bb7c = _0x1a604f, console[_0xd07b04(0x144)]('\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64', _0x17bb7c);
-        }
-    }, _0x3d383d[_0x4cd058(0x1ab)] = function (_0x2de7c3) {
-        var _0x36b7bf = _0x4cd058, _0x11bf60;
-        try {
-            return _0x36b7bf(0x179)['\x70'](), ANInterpreterManager[_0x36b7bf(0x11c)](_0x2de7c3);
-        } catch (_0x506402) {
-            return _0x11bf60 = _0x506402, console[_0x36b7bf(0x144)]('\x65\x76\x65\x6e\x74\x5f\x65\x76\x65\x6e\x74\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x44\x6f\x6e\x65', _0x11bf60);
-        }
-    }, _0x3d383d[_0x4cd058(0x129)] = function (_0x30fce1) {
-        var _0x2837dc = _0x4cd058;
-        if ('\x56\x78\x68\x6b\x4a' !== _0x2837dc(0x12e)) {
-            var _0x2556d7;
-            try {
-                return '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x43\x41\x4e\x20\x43\x4f\x4e\x54\x49\x4e\x55\x45'['\x70'](), ANInterpreterManager[_0x2837dc(0x127)](_0x30fce1);
-            } catch (_0x2e5fd0) {
-                return _0x2556d7 = _0x2e5fd0, console[_0x2837dc(0x144)](_0x2837dc(0x129), _0x2556d7);
-            }
-        } else {
-            if (!_0x4b3655[_0x2837dc(0x10f)]())
-                return;
-            return _0x310578[_0x2837dc(0x1a6)](_0x592773);
-        }
-    }, _0x3d383d[_0x4cd058(0x147)] = function (_0x3c0ab0) {
-        var _0x22276d = _0x4cd058;
-        if (_0x22276d(0x14a) === _0x22276d(0xf1))
-            return _0x214c03['\x55\x49'][_0x22276d(0x105)](_0x5ac444);
-        else {
-            var _0x5491c5;
-            try {
-                return '\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x46\x4f\x52\x43\x45\x20\x43\x41\x4e\x43\x45\x4c\x4c\x45\x44'['\x70'](), ANInterpreterManager[_0x22276d(0x163)](_0x3c0ab0);
-            } catch (_0x7d6509) {
-                return _0x5491c5 = _0x7d6509, console['\x77\x61\x72\x6e'](_0x22276d(0x147), _0x5491c5);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0xee)] = function (_0x554246) {
-        var _0x321b94 = _0x4cd058, _0x463cdc;
-        try {
-            return _0x321b94(0xfc) !== _0x321b94(0xfc) ? (_0x510e = _0x36405f, _0x3e6bbd[_0x321b94(0x144)]('\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x75\x73\x65\x72\x43\x6f\x6d\x6d\x61\x6e\x64', _0x1faa68)) : ('\x53\x48\x41\x52\x45\x44\x20\x45\x56\x45\x4e\x54\x20\x43\x48\x4f\x49\x43\x45\x20\x41\x43\x54\x49\x4f\x4e'['\x70'](), ANInterpreterManager[_0x321b94(0x1a8)](_0x554246));
-        } catch (_0x43b8b5) {
-            return _0x463cdc = _0x43b8b5, console[_0x321b94(0x144)](_0x321b94(0x147), _0x463cdc);
-        }
-    }, _0x3d383d[_0x4cd058(0x100)] = function (_0x335308) {
-        var _0x1101f1 = _0x4cd058, _0x3cf2db, _0x3eb5cc, _0x196031;
-        try {
-            return _0x1101f1(0x141) === '\x6d\x46\x57\x50\x7a' ? (_0x1101f1(0x131)['\x70'](), {
-                name: _0x196031,
-                data: _0x3cf2db
-            } = _0x335308, nAPI['\x6f\x6e\x43\x75\x73\x74\x6f\x6d\x43\x6f\x6d\x6d\x61\x6e\x64'](_0x196031, _0x3cf2db)) : (_0x1f110c[_0x1101f1(0x13b)](), _0x1101f1(0x110)['\x70']());
-        } catch (_0x400c8f) {
-            return _0x3eb5cc = _0x400c8f, console['\x77\x61\x72\x6e'](_0x1101f1(0x100), _0x3eb5cc);
-        }
-    }, _0x3d383d[_0x4cd058(0x19c)] = function (_0xf1664b) {
-        var _0x23e087 = _0x4cd058;
-        if ('\x6e\x52\x55\x7a\x57' !== '\x62\x44\x65\x44\x77') {
-            var _0x364a41, _0x329d83, _0x35a685;
-            try {
-                return _0x23e087(0x1a2)['\x70'](), {
-                    name: _0x35a685,
-                    commonEventId: _0x364a41
-                } = _0xf1664b, typeof $gameSystem !== _0x23e087(0x119) && $gameSystem !== null ? $gameSystem[_0x23e087(0x107)](_0x35a685, _0x364a41) : void 0x0;
-            } catch (_0x49dc90) {
-                return _0x329d83 = _0x49dc90, console[_0x23e087(0x144)]('\x65\x76\x65\x6e\x74\x5f\x67\x61\x6d\x65\x5f\x75\x73\x65\x72\x43\x6f\x6d\x6d\x61\x6e\x64', _0x329d83);
-            }
-        } else
-            return _0x430b15 = _0x2ce3a9, _0x267c52[_0x23e087(0x144)](_0x23e087(0x10a), _0xf30de0);
-    }, _0x3d383d[_0x4cd058(0x154)] = function (_0xb26802) {
-        var _0x56499e = _0x4cd058, _0x2b7bbe, _0x100b3e, _0x42612e;
-        try {
-            ({
-                cmd: _0x2b7bbe,
-                data: _0x100b3e
-            } = _0xb26802);
-            if (_0x2b7bbe[_0x56499e(0x121)](_0x56499e(0x15c)))
-                return ANTradeManager['\x6f\x6e\x43\x6f\x6d\x6d\x6f\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'](_0x2b7bbe, _0x100b3e);
-            else {
-                if (_0x2b7bbe[_0x56499e(0x121)]('\x61\x70\x70\x6c\x79\x49\x74\x65\x6d\x46\x72\x6f\x6d\x4d\x65\x6e\x75'))
-                    return Game_Action[_0x56499e(0x126)](_0x100b3e);
-                else
-                    return _0x2b7bbe[_0x56499e(0x121)](_0x56499e(0xef)) ? ANPlayersManager[_0x56499e(0xfa)](_0x100b3e) : console[_0x56499e(0x144)](_0x56499e(0x17f) + _0x2b7bbe);
-            }
-        } catch (_0xd8b483) {
-            return _0x56499e(0xf0) === _0x56499e(0xf0) ? (_0x42612e = _0xd8b483, console[_0x56499e(0x144)]('\x65\x76\x65\x6e\x74\x5f\x63\x6f\x6d\x6d\x6f\x6e\x5f\x66\x6f\x72\x43\x6c\x69\x65\x6e\x74\x73', _0x42612e)) : this['\x6f\x6e\x43\x6f\x6e\x6e\x65\x63\x74\x43\x61\x6c\x6c\x62\x61\x63\x6b'](0x1);
-        }
-    }, _0x3d383d[_0x4cd058(0x10a)] = function (_0x936392) {
-        var _0x58f3f6 = _0x4cd058;
-        if ('\x46\x49\x71\x79\x69' !== _0x58f3f6(0x186))
-            return _0x684e59['\x6f\x6e\x45\x76\x65\x6e\x74\x4d\x6f\x76\x65'](_0x5d352b['\x6d\x61\x70\x49\x64'], _0x16f5c3['\x69\x64'], _0x377e17[_0x58f3f6(0x116)]);
-        else {
-            var _0x459bd0, _0x950faf, _0x59a4e8;
-            try {
-                return '\x6c\x63\x50\x73\x47' !== '\x6c\x63\x50\x73\x47' ? (_0x58f3f6(0x179)['\x70'](), _0x45b942['\x6f\x6e\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x73\x65'](_0x3b5315)) : ({
-                    cmd: _0x459bd0,
-                    data: _0x950faf
-                } = _0x936392, NetClientMethodsManager[_0x58f3f6(0x181)](_0x459bd0, _0x950faf));
-            } catch (_0x224068) {
-                if ('\x63\x74\x68\x42\x6a' !== '\x63\x74\x68\x42\x6a') {
-                    var _0x5ceb2f;
-                    return (_0x5ceb2f = _0x355a88[_0x58f3f6(0x15a)]) != null ? _0x5ceb2f['\x6f\x6e\x53\x65\x72\x76\x65\x72\x45\x76\x65\x6e\x74'](_0x29735d) : void 0x0;
-                } else
-                    return _0x59a4e8 = _0x224068, console[_0x58f3f6(0x144)](_0x58f3f6(0x10a), _0x59a4e8);
-            }
-        }
-    }, _0x3d383d[_0x4cd058(0x181)] = function (_0x296424, _0x5b8064) {
-        var _0x57eb2f = _0x4cd058;
-        return _0x57eb2f(0xed)['\x70'](_0x296424);
-    };
-}()));
+// Generated by CoffeeScript 2.6.1
+//$[ENCODE]
 
-function _0x4aaf() {
-    var _0x525326 = [
-        '\x6c\x65\x61\x64\x65\x72',
-        '\x64\x78\x56\x56\x6b',
-        '\x72\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x4c\x6f\x63\x61\x6c\x42\x61\x74\x74\x6c\x65',
-        '\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73',
-        '\x73\x65\x6c\x65\x63\x74\x4e\x65\x78\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x75\x70\x64\x61\x74\x65',
-        '\x73\x65\x74\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x5f\x77\x61\x69\x74\x54\x69\x6d\x65\x6f\x75\x74',
-        '\x53\x45\x54\x55\x50',
-        '\x74\x61\x72\x67\x65\x74\x73',
-        '\x63\x64\x4e\x6c\x70',
-        '\x75\x70\x64\x61\x74\x65\x57\x61\x69\x74\x69\x6e\x67',
-        '\x41\x4e\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x73\x65\x6e\x64\x57\x69\x6e\x64\x6f\x77\x4c\x6f\x67\x4d\x65\x73\x73\x61\x67\x65',
-        '\x5f\x77\x61\x69\x74\x50\x6f\x6f\x6c',
-        '\x70\x61\x63\x6b\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x6d\x57\x73\x47\x76',
-        '\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x54\x6f\x45\x78\x69\x73\x74\x73\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65',
-        '\x6f\x61\x77\x42\x4b',
-        '\x69\x73\x42\x61\x74\x74\x6c\x65\x4d\x61\x73\x74\x65\x72',
-        '\x73\x65\x6e\x64\x49\x6e\x70\x75\x74\x53\x74\x61\x74\x65',
-        '\x6d\x61\x6b\x65\x49\x64',
-        '\x72\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x42\x61\x74\x74\x6c\x65',
-        '\x70\x78\x68\x72\x78',
-        '\x73\x65\x74\x45\x76\x65\x6e\x74\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x57\x77\x68\x45\x4c',
-        '\x52\x55\x4d\x74\x71',
-        '\x31\x30\x37\x39\x31\x38\x39\x33\x6e\x62\x52\x76\x58\x7a',
-        '\x67\x74\x4c\x59\x58',
-        '\x4e\x4a\x72\x44\x53',
-        '\x45\x68\x73\x42\x71',
-        '\x69\x73\x46\x6f\x72\x63\x65\x42\x61\x74\x74\x6c\x65\x53\x79\x6e\x63\x4d\x6f\x64\x65',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x45\x6e\x64\x65\x64',
-        '\x69\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e',
-        '\x63\x42\x7a\x52\x65',
-        '\x61\x63\x74\x6f\x72\x73',
-        '\x69\x73\x4c\x6f\x61\x64\x65\x72\x41\x63\x74\x69\x76\x65',
-        '\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x49\x64',
-        '\x62\x61\x74\x74\x6c\x65\x4d\x65\x6d\x62\x65\x72\x73',
-        '\x76\x79\x4a\x4b\x49',
-        '\x72\x65\x73\x65\x74\x57\x61\x69\x74',
-        '\x73\x65\x74\x75\x70',
-        '\x65\x6e\x64\x65\x64',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x4f\x64\x48\x71\x49',
-        '\x4e\x65\x74\x42\x61\x74\x74\x6c\x65',
-        '\x6f\x70\x74\x69\x6f\x6e\x73',
-        '\x69\x66\x45\x52\x77',
-        '\x63\x4c\x51\x43\x66',
-        '\x79\x43\x72\x48\x45',
-        '\x4e\x6b\x56\x52\x63',
-        '\x56\x58\x6c\x58\x53',
-        '\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e',
-        '\x42\x69\x66\x53\x5a',
-        '\x75\x53\x72\x64\x72',
-        '\x5f\x6c\x61\x73\x74\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72\x49\x6e\x70\x75\x74\x41\x63\x74\x6f\x72',
-        '\x72\x61\x6e\x64\x6f\x6d',
-        '\x35\x34\x39\x35\x39\x30\x34\x52\x48\x55\x48\x7a\x4d',
-        '\x79\x64\x56\x4d\x47',
-        '\x63\x6c\x65\x61\x72',
-        '\x52\x45\x44',
-        '\x38\x74\x79\x62\x6d\x71\x69',
-        '\x69\x73\x4f\x6e\x65\x42\x61\x74\x74\x6c\x65\x72',
-        '\x6e\x55\x68\x4e\x6e',
-        '\x6c\x65\x6e\x67\x74\x68',
-        '\x61\x63\x74\x6f\x72',
-        '\x64\x73\x4d\x57\x66',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x50\x4e\x45\x78\x6c',
-        '\x32\x33\x38\x35\x30\x32\x34\x46\x4e\x48\x41\x67\x56',
-        '\x51\x52\x41\x55\x69',
-        '\x42\x4c\x41\x43\x4b',
-        '\x5f\x6c\x61\x73\x74\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65',
-        '\x65\x78\x65\x63\x75\x74\x65\x4d\x61\x70\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72\x42\x61\x74\x74\x6c\x65',
-        '\x50\x6e\x46\x54\x5a',
-        '\x6f\x72\x4a\x73\x75',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x53\x74\x61\x72\x74\x65\x64',
-        '\x33\x34\x32\x35\x39\x32\x32\x6a\x63\x62\x54\x59\x46',
-        '\x5a\x75\x6c\x6f\x68',
-        '\x4e\x6d\x73\x6d\x57',
-        '\x69\x73\x42\x61\x74\x74\x6c\x65\x4c\x6f\x63\x61\x6c',
-        '\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x44\x61\x74\x61\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x5a\x4d\x76\x75\x57',
-        '\x62\x43\x61\x4d\x53',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x53\x74\x61\x72\x74\x65\x64',
-        '\x5f\x65\x76\x65\x6e\x74\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x69\x6e\x66\x6f',
-        '\x62\x61\x74\x74\x6c\x65\x49\x64',
-        '\x42\x61\x74\x74\x6c\x65',
-        '\x73\x45\x66\x71\x47',
-        '\x6d\x61\x6b\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72\x43\x6f\x75\x6e\x74',
-        '\x69\x6e\x70\x75\x74',
-        '\x4e\x6f\x72\x68\x57',
-        '\x62\x61\x74\x74\x6c\x65\x44\x61\x74\x61',
-        '\x75\x6e\x70\x61\x63\x6b\x42\x61\x74\x74\x6c\x65\x72\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x62\x44\x5a\x74\x4a',
-        '\x69\x73\x4c\x6f\x63\x61\x6c',
-        '\x32\x31\x31\x31\x32\x32\x31\x32\x59\x6d\x62\x53\x63\x76',
-        '\x61\x64\x64',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x49\x6e\x70\x75\x74\x53\x74\x61\x74\x65',
-        '\x72\x6e\x66\x63\x6f',
-        '\x69\x6e\x42\x61\x74\x74\x6c\x65',
-        '\x43\x41\x4c\x4c\x20\x42\x41\x54\x54\x4c\x45\x20\x4d\x45\x54\x48\x4f\x44',
-        '\x54\x61\x6c\x73\x67',
-        '\x55\x74\x69\x6c\x73',
-        '\x4e\x48\x4f\x67\x47',
-        '\x61\x63\x74\x6f\x72\x49\x64',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x41\x6e\x69\x6d\x61\x74\x69\x6f\x6e',
-        '\x72\x65\x71\x75\x65\x73\x74\x41\x6e\x69\x6d\x61\x74\x69\x6f\x6e',
-        '\x6b\x75\x76\x6b\x46',
-        '\x73\x65\x6e\x64\x45\x78\x65\x63\x75\x74\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72\x42\x61\x74\x74\x6c\x65\x52\x65\x71\x75\x65\x73\x74',
-        '\x61\x64\x64\x54\x65\x78\x74',
-        '\x4d\x53\x63\x4e\x79',
-        '\x6f\x6e\x4c\x6f\x67\x57\x69\x6e\x64\x6f\x77\x4d\x65\x73\x73\x61\x67\x65',
-        '\x70\x74\x58\x70\x53',
-        '\x69\x73\x53\x68\x6f\x75\x6c\x64\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72',
-        '\x73\x74\x61\x72\x74\x65\x64',
-        '\x69\x73\x42\x61\x74\x74\x6c\x65\x52\x65\x67\x69\x73\x74\x72\x65\x64',
-        '\x43\x62\x4b\x47\x70',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x52\x65\x67\x69\x73\x74\x65\x72\x52\x65\x73\x75\x6c\x74',
-        '\x6d\x61\x70',
-        '\x77\x42\x70\x4e\x44',
-        '\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65',
-        '\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x5f\x70\x72\x65\x76\x69\x6f\x75\x73\x4e\x65\x74\x42\x61\x74\x74\x6c\x65\x41\x63\x74\x6f\x72\x73',
-        '\x54\x49\x4d\x45\x20\x4f\x55\x54',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e',
-        '\x72\x65\x67\x69\x73\x74\x65\x72',
-        '\x75\x53\x63\x4a\x75',
-        '\x6d\x67\x55\x53\x50',
-        '\x56\x45\x6b\x64\x7a',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64',
-        '\x4e\x61\x66\x63\x57',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x72\x4f\x62\x73\x65\x72\x76\x65\x72',
-        '\x68\x69\x64\x65\x4c\x6f\x61\x64\x65\x72',
-        '\x62\x61\x74\x74\x6c\x65\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e\x44\x6f\x6e\x65',
-        '\x5f\x69\x6e\x70\x75\x74\x74\x69\x6e\x67',
-        '\x5f\x63\x61\x6c\x6c\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x4f\x6e\x53\x65\x72\x76\x65\x72',
-        '\x63\x61\x6c\x6c\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x52\x45\x47\x49\x53\x54\x45\x52\x20\x53\x55\x43\x43\x45\x53\x53',
-        '\x75\x61\x63\x6f\x7a',
-        '\x53\x54\x41\x52\x54\x45\x44\x20\x4c\x4f\x43\x41\x4c\x20\x42\x41\x54\x54\x4c\x45',
-        '\x32\x30\x67\x7a\x41\x68\x62\x66',
-        '\x73\x65\x6e\x64',
-        '\x6f\x6e\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64',
-        '\x5f\x6c\x6f\x67\x57\x69\x6e\x64\x6f\x77',
-        '\x4e\x7a\x62\x76\x4c',
-        '\x6d\x61\x70\x49\x64',
-        '\x5f\x69\x73\x44\x61\x74\x61\x43\x68\x61\x6e\x67\x65\x64',
-        '\x6e\x53\x65\x74\x4e\x65\x74\x77\x6f\x72\x6b\x42\x61\x74\x74\x6c\x65',
-        '\x31\x30\x36\x36\x38\x38\x32\x55\x52\x53\x52\x4f\x45',
-        '\x65\x78\x65\x63\x75\x74\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72',
-        '\x31\x30\x72\x4f\x70\x62\x46\x64',
-        '\x51\x48\x68\x65\x65',
-        '\x69\x73\x4d\x56',
-        '\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x73\x50\x6f\x6f\x6c',
-        '\x59\x4e\x68\x59\x53',
-        '\x76\x46\x6b\x6a\x78',
-        '\x46\x6c\x69\x78\x4a',
-        '\x5f\x72\x65\x71\x75\x65\x73\x74\x49\x6e\x69\x74\x69\x61\x6c\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65\x52\x65\x66\x72\x65\x73\x68',
-        '\x6d\x79\x41\x63\x74\x6f\x72\x49\x64',
-        '\x5f\x63\x75\x72\x72\x65\x6e\x74\x41\x63\x74\x6f\x72',
-        '\x73\x65\x6e\x64\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x42\x61\x74\x74\x6c\x65',
-        '\x32\x4f\x44\x42\x44\x44\x50',
-        '\x73\x65\x74\x57\x61\x69\x74',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x41\x6e\x69\x6d\x61\x74\x69\x6f\x6e',
-        '\x69\x6e\x70\x75\x74\x74\x69\x6e\x67\x41\x63\x74\x69\x6f\x6e',
-        '\x4a\x6f\x69\x6e\x20\x53\x68\x61\x72\x65\x64\x20\x62\x61\x74\x74\x6c\x65',
-        '\x6e\x43\x6c\x65\x61\x72\x43\x6c\x69\x65\x6e\x74\x49\x6e\x70\x75\x74',
-        '\x77\x61\x72\x6e\x69\x6e\x67',
-        '\x43\x6e\x6a\x45\x59',
-        '\x73\x68\x69\x66\x74',
-        '\x33\x37\x32\x39\x34\x31\x31\x6b\x47\x71\x4a\x6f\x67',
-        '\x6f\x57\x54\x43\x56',
-        '\x70\x75\x73\x68',
-        '\x65\x79\x76\x64\x6e',
-        '\x67\x65\x74',
-        '\x73\x68\x6f\x77\x4c\x6f\x61\x64\x65\x72',
-        '\x6c\x6f\x67\x4d\x65\x73\x73\x61\x67\x65',
-        '\x75\x70\x64\x61\x74\x65\x49\x6e\x70\x75\x74\x43\x68\x61\x6e\x67\x65',
-        '\x6e\x53\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x43\x6c\x69\x65\x6e\x74\x49\x6e\x70\x75\x74',
-        '\x73\x4e\x69\x5a\x51',
-        '\x54\x72\x79\x20\x72\x65\x67\x69\x73\x74\x65\x72\x20\x62\x61\x74\x74\x6c\x65\x3a\x20',
-        '\x65\x68\x78\x51\x6d',
-        '\x61\x50\x64\x42\x73'
-    ];
-    _0x4aaf = function () {
-        return _0x525326;
-    };
-    return _0x4aaf();
-}
-function _0x1649(_0x208c92, _0x258a73) {
-    var _0x4aaf21 = _0x4aaf();
-    return _0x1649 = function (_0x16491f, _0x51778a) {
-        _0x16491f = _0x16491f - 0x1be;
-        var _0x2bacfa = _0x4aaf21[_0x16491f];
-        return _0x2bacfa;
-    }, _0x1649(_0x208c92, _0x258a73);
-}
-var _0x429283 = _0x1649;
-(function (_0x332b3d, _0x402dfe) {
-    var _0x2db483 = _0x1649, _0x12d673 = _0x332b3d();
-    while (!![]) {
-        try {
-            var _0x697996 = -parseInt(_0x2db483(0x1ce)) / 0x1 + parseInt(_0x2db483(0x1db)) / 0x2 * (-parseInt(_0x2db483(0x23e)) / 0x3) + -parseInt(_0x2db483(0x236)) / 0x4 * (-parseInt(_0x2db483(0x1d0)) / 0x5) + -parseInt(_0x2db483(0x22a)) / 0x6 + -parseInt(_0x2db483(0x20c)) / 0x7 * (parseInt(_0x2db483(0x22e)) / 0x8) + parseInt(_0x2db483(0x1e4)) / 0x9 + parseInt(_0x2db483(0x1c6)) / 0xa * (parseInt(_0x2db483(0x253)) / 0xb);
-            if (_0x697996 === _0x402dfe)
-                break;
-            else
-                _0x12d673['push'](_0x12d673['shift']());
-        } catch (_0x338f28) {
-            _0x12d673['push'](_0x12d673['shift']());
-        }
-    }
-}(_0x4aaf, 0xbe2b8), window[_0x429283(0x1fd)] = function () {
-}, (function () {
-    var _0x1fe615 = _0x429283, _0x3005ac, _0x1c00ea;
-    _0x3005ac = new KDCore[(_0x1fe615(0x21c))](_0x1fe615(0x21e)), _0x3005ac[_0x1fe615(0x1f4)](KDCore[_0x1fe615(0x1c2)][_0x1fe615(0x22d)], KDCore[_0x1fe615(0x1c2)][_0x1fe615(0x238)]['\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72'](0x87)), _0x3005ac['\x6f\x6e'](), _0x1c00ea = window['\x41\x4e\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72'], _0x1c00ea[_0x1fe615(0x204)] = function () {
-        var _0x3098ad = _0x1fe615;
-        return _0x3098ad(0x1e5) === '\x6f\x57\x54\x43\x56' ? this[_0x3098ad(0x24f)] != null ? this[_0x3098ad(0x24f)][_0x3098ad(0x214)][0x0] === ANGameManager[_0x3098ad(0x1d8)]() : '\x6d\x6b\x45\x6e\x46' === _0x3098ad(0x23b) ? _0x522e79[_0x3098ad(0x257)]() : $gameParty[_0x3098ad(0x257)]() : _0x58fde9[_0x3098ad(0x1c7)](_0x1d3f4c[_0x3098ad(0x24a)](_0x3098ad(0x1cf), _0x2886d4));
-    }, _0x1c00ea['\x69\x73\x42\x61\x74\x74\x6c\x65\x52\x65\x67\x69\x73\x74\x72\x65\x64'] = function () {
-        var _0x680f4c = _0x1fe615;
-        if (_0x680f4c(0x1d5) !== _0x680f4c(0x1d5))
-            _0x2e2174 = _0x16e125[_0x680f4c(0x1fa)][_0x680f4c(0x26a)](function (_0x546c9f) {
-                var _0x36cd9d = _0x680f4c;
-                return _0x115368[_0x36cd9d(0x25a)][_0x36cd9d(0x250)](_0x546c9f);
-            }), _0x16e484[_0x680f4c(0x25e)](_0x3da808, _0x5e1c2d[_0x680f4c(0x216)], _0x71a3f6['\x6d\x69\x72\x72\x6f\x72']);
-        else
-            return this['\x62\x61\x74\x74\x6c\x65\x44\x61\x74\x61'] != null;
-    }, _0x1c00ea[_0x1fe615(0x241)] = function () {
-        var _0x28dd4a = _0x1fe615;
-        if (_0x28dd4a(0x237) !== _0x28dd4a(0x274))
-            return this['\x62\x61\x74\x74\x6c\x65\x44\x61\x74\x61'] != null ? this[_0x28dd4a(0x24f)]['\x69\x73\x4c\x6f\x63\x61\x6c'] : !![];
-        else
-            _0x168593 = _0x26c21c, _0x5b1320['\x77'](_0x348dcd);
-    }, _0x1c00ea[_0x1fe615(0x265)] = function () {
-        var _0x3e52a5 = _0x1fe615;
-        return this[_0x3e52a5(0x26c)] != null;
-    }, _0x1c00ea[_0x1fe615(0x217)] = function () {
-        var _0x5a4b0d = _0x1fe615;
-        if (_0x5a4b0d(0x273) !== _0x5a4b0d(0x273))
-            this['\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x73\x50\x6f\x6f\x6c'] == null && (this['\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x73\x50\x6f\x6f\x6c'] = []), this['\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x73\x50\x6f\x6f\x6c']['\x70\x75\x73\x68']([
-                _0x4fa539,
-                _0x146a36,
-                _0x518242
-            ]);
-        else
-            return this[_0x5a4b0d(0x267)]() ? _0x5a4b0d(0x25b) === _0x5a4b0d(0x25b) ? this[_0x5a4b0d(0x24f)][_0x5a4b0d(0x214)][_0x5a4b0d(0x26a)](function (_0x1be6b9) {
-                var _0x240784 = _0x5a4b0d;
-                return _0x240784(0x1d1) !== '\x51\x48\x68\x65\x65' ? this[_0x240784(0x24f)] != null ? this[_0x240784(0x24f)][_0x240784(0x214)][0x0] === _0x299b7e[_0x240784(0x1d8)]() : _0x291669[_0x240784(0x257)]() : $gameActors[_0x240784(0x232)](_0x1be6b9);
-            }) : (_0x2d00bd['\x70'](_0x5a4b0d(0x1ee) + _0x1cd1aa[_0x5a4b0d(0x249)]), this[_0x5a4b0d(0x1da)](_0x35bde0)) : [$gameParty[_0x5a4b0d(0x1f1)]()];
-    }, _0x1c00ea[_0x1fe615(0x1dc)] = function (_0x46b2de) {
-        var _0x112fdd = _0x1fe615;
-        return _0x112fdd(0x1e7) !== _0x112fdd(0x1e7) ? (this['\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65'] = _0x3e9f09, this[_0x112fdd(0x1ff)] = 0x0, this[_0x112fdd(0x1f8)] = 0x168, _0x4e9b94[_0x112fdd(0x1e9)](0x3e8)) : (this[_0x112fdd(0x26c)] = _0x46b2de, this[_0x112fdd(0x1ff)] = 0x0, this['\x5f\x77\x61\x69\x74\x54\x69\x6d\x65\x6f\x75\x74'] = 0x168, HUIManager[_0x112fdd(0x1e9)](0x3e8));
-    }, _0x1c00ea[_0x1fe615(0x219)] = function () {
-        var _0x324e33 = _0x1fe615;
-        return this['\x73\x65\x74\x57\x61\x69\x74'](null), HUIManager[_0x324e33(0x278)]();
-    }, _0x1c00ea[_0x1fe615(0x1f6)] = function () {
-        var _0xd594a2 = _0x1fe615;
-        if (this[_0xd594a2(0x265)]()) {
-            if ('\x63\x64\x4e\x6c\x70' === _0xd594a2(0x1fb)) {
-                if (this['\x5f\x77\x61\x69\x74\x54\x69\x6d\x65\x6f\x75\x74'] <= 0x0)
-                    _0x3005ac['\x70'](_0xd594a2(0x26f)), this[_0xd594a2(0x219)]();
-                else {
-                    if (_0xd594a2(0x20e) !== _0xd594a2(0x272))
-                        this[_0xd594a2(0x1f8)]--, this[_0xd594a2(0x1fc)]();
-                    else
-                        return;
-                }
-            } else
-                return this[_0xd594a2(0x267)]() ? this[_0xd594a2(0x24f)][_0xd594a2(0x214)][_0xd594a2(0x26a)](function (_0x5e8bde) {
-                    var _0x4f06b3 = _0xd594a2;
-                    return _0x58d34c[_0x4f06b3(0x232)](_0x5e8bde);
-                }) : [_0x54b7a2['\x6c\x65\x61\x64\x65\x72']()];
-        } else {
-            if ('\x59\x43\x59\x4d\x69' !== _0xd594a2(0x203))
-                this[_0xd594a2(0x1d3)][_0xd594a2(0x231)] > 0x0 && this[_0xd594a2(0x1c0)](...this[_0xd594a2(0x1d3)][_0xd594a2(0x1e3)]()), HUIManager[_0xd594a2(0x215)]() && HUIManager[_0xd594a2(0x278)]();
-            else
-                return;
-        }
-    }, _0x1c00ea['\x75\x70\x64\x61\x74\x65\x57\x61\x69\x74\x69\x6e\x67'] = function () {
-        var _0x4e0cda = _0x1fe615;
-        if (_0x4e0cda(0x240) === _0x4e0cda(0x240)) {
-            if (!this[_0x4e0cda(0x265)]())
-                return;
-            '\x57\x41\x49\x54'['\x70'](this[_0x4e0cda(0x1ff)]);
-            switch (this[_0x4e0cda(0x26c)]) {
-            case '\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64':
-                if (this[_0x4e0cda(0x1ff)] === $gameParty[_0x4e0cda(0x217)]()[_0x4e0cda(0x231)]) {
-                    if (_0x4e0cda(0x259) === _0x4e0cda(0x1d4))
-                        return this[_0x4e0cda(0x24f)] != null ? this[_0x4e0cda(0x24f)][_0x4e0cda(0x252)] : !![];
-                    else
-                        this[_0x4e0cda(0x219)]();
-                }
-            }
-        } else
-            this[_0x4e0cda(0x202)]();
-    }, _0x1c00ea[_0x1fe615(0x1eb)] = function () {
-        var _0x27499d = _0x1fe615;
-        if ($gameParty['\x69\x73\x4f\x6e\x65\x42\x61\x74\x74\x6c\x65\x72']())
-            return;
-        if (this[_0x27499d(0x228)] !== BattleManager[_0x27499d(0x1d9)]) {
-            if ('\x4d\x53\x63\x4e\x79' === _0x27499d(0x262))
-                this[_0x27499d(0x228)] = BattleManager['\x5f\x63\x75\x72\x72\x65\x6e\x74\x41\x63\x74\x6f\x72'], this[_0x27499d(0x205)]();
-            else
-                return _0x21359c['\x55\x74\x69\x6c\x73'][_0x27499d(0x250)](_0x2b5381);
-        } else
-            this['\x5f\x6c\x61\x73\x74\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65'] !== BattleManager['\x5f\x69\x6e\x70\x75\x74\x74\x69\x6e\x67'] && (this[_0x27499d(0x239)] = BattleManager[_0x27499d(0x1bf)], this[_0x27499d(0x205)]());
-    }, _0x1c00ea[_0x1fe615(0x1f3)] = function () {
-        var _0x4cfc0f = _0x1fe615;
-        if ('\x63\x55\x5a\x62\x6e' === _0x4cfc0f(0x20a)) {
-            var _0x227bdd, _0x5331bd;
-            try {
-                _0x5331bd = _0x13f7ed['\x74\x61\x72\x67\x65\x74\x73'][_0x4cfc0f(0x26a)](function (_0x16a745) {
-                    var _0x4ee858 = _0x4cfc0f;
-                    return _0x2e4b05['\x55\x74\x69\x6c\x73'][_0x4ee858(0x250)](_0x16a745);
-                }), _0x55749a[_0x4cfc0f(0x25e)](_0x5331bd, _0x266abb[_0x4cfc0f(0x216)], _0x112d58['\x6d\x69\x72\x72\x6f\x72']);
-            } catch (_0x5348c0) {
-                _0x227bdd = _0x5348c0, _0x226d3b['\x77'](_0x227bdd);
-            }
-        } else
-            this[_0x4cfc0f(0x24f)] = {
-                '\x69\x73\x4c\x6f\x63\x61\x6c': !![],
-                '\x62\x61\x74\x74\x6c\x65\x49\x64': '\x6c\x6f\x63\x61\x6c',
-                '\x61\x63\x74\x6f\x72\x73': [ANGameManager[_0x4cfc0f(0x1d8)]()]
-            }, _0x3005ac['\x70'](_0x4cfc0f(0x1c5));
-    }, _0x1c00ea[_0x1fe615(0x246)] = function () {
-        var _0x456d45 = _0x1fe615;
-        _0x456d45(0x1f0) === _0x456d45(0x1f0) ? (this[_0x456d45(0x1d3)] = [], this[_0x456d45(0x239)] = ![], this[_0x456d45(0x228)] = null, this[_0x456d45(0x23d)]()) : (_0xd80dee = _0x53dbf4, _0x446320['\x77'](_0xb6f67f));
-    }, _0x1c00ea['\x6f\x6e\x42\x61\x74\x74\x6c\x65\x45\x6e\x64'] = function () {
-        var _0x2d8b0 = _0x1fe615;
-        if ('\x6b\x75\x76\x6b\x46' === _0x2d8b0(0x25f))
-            !this['\x69\x73\x42\x61\x74\x74\x6c\x65\x4c\x6f\x63\x61\x6c']() && this[_0x2d8b0(0x211)](), this['\x62\x61\x74\x74\x6c\x65\x44\x61\x74\x61'] = null;
-        else {
-            if (_0xd44f8b[_0x2d8b0(0x22f)]())
-                return;
-            if (this[_0x2d8b0(0x228)] !== _0x41068e[_0x2d8b0(0x1d9)])
-                this[_0x2d8b0(0x228)] = _0x4e000a[_0x2d8b0(0x1d9)], this[_0x2d8b0(0x205)]();
-            else
-                this['\x5f\x6c\x61\x73\x74\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65'] !== _0x5ea65f[_0x2d8b0(0x1bf)] && (this['\x5f\x6c\x61\x73\x74\x42\x61\x74\x74\x6c\x65\x4d\x61\x6e\x61\x67\x65\x72\x49\x6e\x70\x75\x74\x56\x61\x6c\x75\x65'] = _0x4fc94b[_0x2d8b0(0x1bf)], this['\x73\x65\x6e\x64\x49\x6e\x70\x75\x74\x53\x74\x61\x74\x65']());
-        }
-    }, _0x1c00ea[_0x1fe615(0x1c1)] = function (_0x31e0cc, _0x40d75f, _0x36eed1) {
-        var _0x5ca5e4 = _0x1fe615;
-        if (_0x5ca5e4(0x221) === _0x5ca5e4(0x208))
-            return this[_0x5ca5e4(0x1dc)](null), _0xc1a2d6[_0x5ca5e4(0x278)]();
-        else {
-            if ($gameParty[_0x5ca5e4(0x22f)]()) {
-                if ('\x75\x61\x63\x6f\x7a' === _0x5ca5e4(0x1c4))
-                    return;
-                else
-                    this[_0x5ca5e4(0x1dc)]('\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64'), this['\x5f\x77\x61\x69\x74\x50\x6f\x6f\x6c'] += 0x1;
-            }
-            ANET['\x50\x50']['\x69\x73\x46\x6f\x72\x63\x65\x42\x61\x74\x74\x6c\x65\x53\x79\x6e\x63\x4d\x6f\x64\x65']() ? (this[_0x5ca5e4(0x1d3)] == null && (this['\x5f\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x73\x50\x6f\x6f\x6c'] = []), this[_0x5ca5e4(0x1d3)][_0x5ca5e4(0x1e6)]([
-                _0x31e0cc,
-                _0x40d75f,
-                _0x36eed1
-            ])) : this[_0x5ca5e4(0x1c0)](_0x31e0cc, _0x40d75f, _0x36eed1);
-        }
-    }, _0x1c00ea['\x5f\x63\x61\x6c\x6c\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x4f\x6e\x53\x65\x72\x76\x65\x72'] = function (_0x3bb9cb, _0x1e7604, _0x3d8e15) {
-        var _0x287e6a = _0x1fe615;
-        '\x43\x41\x4c\x4c\x20\x42\x41\x54\x54\x4c\x45\x20\x4d\x45\x54\x48\x4f\x44'['\x70'](), ANSyncDataManager[_0x287e6a(0x277)](_0x3bb9cb), _0x3bb9cb['\x6e\x65\x74\x44\x61\x74\x61\x4f\x62\x73\x65\x72\x76\x65\x72'][_0x287e6a(0x1cc)] = !![], this['\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64'](_0x1e7604, _0x3bb9cb[_0x287e6a(0x200)](), _0x3d8e15), ANET['\x50\x50']['\x69\x73\x46\x6f\x72\x63\x65\x42\x61\x74\x74\x6c\x65\x53\x79\x6e\x63\x4d\x6f\x64\x65']() && (_0x287e6a(0x23c) !== '\x77\x73\x69\x4f\x70' ? (this['\x73\x65\x74\x57\x61\x69\x74']('\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64'), this[_0x287e6a(0x1ff)] += 0x1) : (_0x555be9 = _0xc3d256, _0x5b7d51['\x77'](_0x315b27)));
-    }, _0x1c00ea[_0x1fe615(0x25e)] = function (_0x3f2b87, _0x420595, _0x4d6891 = ![]) {
-        var _0x45ad45 = _0x1fe615, _0xd738f0, _0x52f386;
-        if ($gameParty[_0x45ad45(0x22f)]()) {
-            if (_0x45ad45(0x24e) !== _0x45ad45(0x24e))
-                return this[_0x45ad45(0x24f)] != null;
-            else
-                return;
-        }
-        _0xd738f0 = _0x3f2b87[_0x45ad45(0x26a)](function (_0x1653e4) {
-            var _0x6c3c6a = _0x45ad45;
-            return _0x1653e4[_0x6c3c6a(0x200)]();
-        }), _0x52f386 = {
-            '\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x49\x64': _0x420595,
-            '\x6d\x69\x72\x72\x6f\x72': _0x4d6891,
-            '\x74\x61\x72\x67\x65\x74\x73': _0xd738f0
-        }, this[_0x45ad45(0x1dd)](_0x52f386);
-    }, _0x1c00ea[_0x1fe615(0x1be)] = function () {
-        var _0x360b54 = _0x1fe615;
-        if (_0x360b54(0x244) === _0x360b54(0x244)) {
-            var _0xa9aa9b;
-            _0xa9aa9b = BattleManager[_0x360b54(0x1de)]();
-            if (KDCore[_0x360b54(0x1d2)]()) {
-                if ('\x54\x54\x4a\x4e\x49' !== _0x360b54(0x233)) {
-                    if (_0xa9aa9b == null) {
-                        if (_0x360b54(0x1f2) === _0x360b54(0x213)) {
-                            var _0x44fe19;
-                            _0x44fe19 = {
-                                '\x6d\x65\x74\x68\x6f\x64': _0x49308e,
-                                '\x69\x64': _0x1f14d6,
-                                '\x64\x61\x74\x61': _0x310a45
-                            }, _0x33e0e9[_0x360b54(0x1c7)](_0x475016[_0x360b54(0x24a)](_0x360b54(0x242), _0x44fe19), !![]);
-                        } else
-                            return;
-                    }
-                } else
-                    _0x115051 = _0x564a8b[_0x360b54(0x1d9)][_0x360b54(0x25c)]();
-            }
-            this[_0x360b54(0x270)](ANGameManager[_0x360b54(0x1d8)](), _0xa9aa9b);
-        } else
-            return;
-    }, _0x1c00ea[_0x1fe615(0x207)] = function (_0x585d0f) {
-        var _0x309a89 = _0x1fe615;
-        if ('\x4b\x75\x72\x79\x73' === _0x309a89(0x24b)) {
-            if (!_0x843c92[_0x309a89(0x257)]())
-                return;
-            return _0x24097e[_0x309a89(0x1bf)] = _0x55e7d9, _0x501d0e === _0x446577['\x6d\x79\x41\x63\x74\x6f\x72\x49\x64']() ? _0x20f980[_0x309a89(0x1ec)]() : _0x13c722['\x6e\x43\x6c\x65\x61\x72\x43\x6c\x69\x65\x6e\x74\x49\x6e\x70\x75\x74']();
-        } else
-            return _0x3005ac['\x70'](_0x309a89(0x1ee) + _0x585d0f[_0x309a89(0x249)]), this['\x73\x65\x6e\x64\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x42\x61\x74\x74\x6c\x65'](_0x585d0f);
-    }, _0x1c00ea[_0x1fe615(0x202)] = function () {
-        var _0x5400c2 = _0x1fe615;
-        _0x3005ac['\x70'](_0x5400c2(0x1df)), $gameTemp['\x5f\x72\x65\x71\x75\x65\x73\x74\x49\x6e\x69\x74\x69\x61\x6c\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65\x52\x65\x66\x72\x65\x73\x68'] = !![];
-    }, _0x1c00ea[_0x1fe615(0x23a)] = function (_0x525358) {
-        var _0xaca118 = _0x1fe615;
-        if (_0xaca118(0x227) === _0xaca118(0x227)) {
-            var _0x268ab6, _0x388097;
-            try {
-                if ('\x43\x62\x4b\x47\x70' === _0xaca118(0x268))
-                    return _0x268ab6 = KDCore['\x6d\x61\x6b\x65\x49\x64'](0x4), BattleManager[_0xaca118(0x1cd)](_0x268ab6), this[_0xaca118(0x260)]({
-                        '\x62\x61\x74\x74\x6c\x65\x49\x64': _0x268ab6,
-                        '\x6d\x61\x70\x49\x64': $gameMap[_0xaca118(0x1cb)](),
-                        '\x74\x72\x6f\x6f\x70\x49\x64': _0x525358
-                    });
-                else {
-                    if (!this[_0xaca118(0x265)]())
-                        return;
-                    '\x57\x41\x49\x54'['\x70'](this[_0xaca118(0x1ff)]);
-                    switch (this['\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65']) {
-                    case '\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64':
-                        this['\x5f\x77\x61\x69\x74\x50\x6f\x6f\x6c'] === _0x1d0c71[_0xaca118(0x217)]()[_0xaca118(0x231)] && this[_0xaca118(0x219)]();
-                    }
-                }
-            } catch (_0x1da5dd) {
-                return _0x388097 = _0x1da5dd, KDCore[_0xaca118(0x1e1)](_0x388097);
-            }
-        } else
-            return _0x50f795[_0xaca118(0x1e0)]();
-    }, _0x1c00ea[_0x1fe615(0x270)] = function (_0x18b449, _0x4318da) {
-        var _0x2fda72 = _0x1fe615;
-        ANNetwork[_0x2fda72(0x1c7)](NMS[_0x2fda72(0x24a)](_0x2fda72(0x212), {
-            '\x61\x63\x74\x69\x6f\x6e': _0x4318da,
-            '\x69\x6e\x70\x75\x74\x41\x63\x74\x6f\x72\x49\x64': _0x18b449
-        }));
-    }, _0x1c00ea[_0x1fe615(0x205)] = function () {
-        var _0x437314 = _0x1fe615, _0x23fd61, _0xa119ea;
-        _0xa119ea = BattleManager[_0x437314(0x1bf)];
-        if (BattleManager['\x5f\x63\x75\x72\x72\x65\x6e\x74\x41\x63\x74\x6f\x72'] != null) {
-            if (_0x437314(0x220) === _0x437314(0x264)) {
-                if (!this['\x69\x73\x42\x61\x74\x74\x6c\x65\x52\x65\x67\x69\x73\x74\x72\x65\x64']())
-                    return;
-                if (this[_0x437314(0x241)]())
-                    return;
-                this[_0x437314(0x24f)][_0x437314(0x249)] === _0x14e78f['\x62\x61\x74\x74\x6c\x65\x49\x64'] && (_0x52fab0[_0x437314(0x26e)] = [...this[_0x437314(0x24f)][_0x437314(0x214)]], this[_0x437314(0x24f)] = _0x377341);
-            } else
-                _0x23fd61 = BattleManager[_0x437314(0x1d9)][_0x437314(0x25c)]();
-        } else
-            _0x23fd61 = null;
-        ANNetwork[_0x437314(0x1c7)](NMS[_0x437314(0x24a)](_0x437314(0x24d), {
-            '\x69\x6e\x70\x75\x74\x53\x74\x61\x74\x65': _0xa119ea,
-            '\x69\x6e\x70\x75\x74\x41\x63\x74\x6f\x72\x49\x64': _0x23fd61
-        }));
-    }, _0x1c00ea[_0x1fe615(0x1fe)] = function (_0x309d97, _0x4d9ad4) {
-        var _0xd977f7 = _0x1fe615;
-        if (_0xd977f7(0x21d) !== _0xd977f7(0x21d))
-            return;
-        else
-            ANNetwork[_0xd977f7(0x1c7)](NMS[_0xd977f7(0x24a)](_0xd977f7(0x1ea), {
-                '\x63\x6d\x64': _0x309d97,
-                '\x74\x65\x78\x74': _0x4d9ad4
-            }));
-    }, _0x1c00ea[_0x1fe615(0x23d)] = function () {
-        var _0x3b8aa3 = _0x1fe615;
-        if (_0x3b8aa3(0x201) === _0x3b8aa3(0x201))
-            return ANNetwork[_0x3b8aa3(0x1c7)](NMS[_0x3b8aa3(0x24a)](_0x3b8aa3(0x266)));
-        else
-            return;
-    }, _0x1c00ea[_0x1fe615(0x211)] = function () {
-        var _0x573963 = _0x1fe615;
-        if (_0x573963(0x226) === _0x573963(0x226))
-            return ANNetwork[_0x573963(0x1c7)](NMS[_0x573963(0x24a)](_0x573963(0x21b)));
-        else
-            _0x573963(0x258)['\x70'](), _0x5613ea['\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x72\x4f\x62\x73\x65\x72\x76\x65\x72'](_0x2c4a2d), _0x512636['\x6e\x65\x74\x44\x61\x74\x61\x4f\x62\x73\x65\x72\x76\x65\x72']['\x5f\x69\x73\x44\x61\x74\x61\x43\x68\x61\x6e\x67\x65\x64'] = !![], this[_0x573963(0x234)](_0x437622, _0x286ddb[_0x573963(0x200)](), _0x1e40bf), _0x660652['\x50\x50'][_0x573963(0x210)]() && (this['\x73\x65\x74\x57\x61\x69\x74']('\x62\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64'), this[_0x573963(0x1ff)] += 0x1);
-    }, _0x1c00ea[_0x1fe615(0x234)] = function (_0x1c66fd, _0x1929af, _0x53b87d) {
-        var _0x2a6199 = _0x1fe615;
-        if ('\x4e\x61\x66\x63\x57' !== _0x2a6199(0x276))
-            this[_0x2a6199(0x1ff)] += 0x1;
-        else {
-            var _0x33b663;
-            _0x33b663 = {
-                '\x6d\x65\x74\x68\x6f\x64': _0x1c66fd,
-                '\x69\x64': _0x1929af,
-                '\x64\x61\x74\x61': _0x53b87d
-            }, ANNetwork[_0x2a6199(0x1c7)](NMS[_0x2a6199(0x24a)](_0x2a6199(0x242), _0x33b663), !![]);
-        }
-    }, _0x1c00ea[_0x1fe615(0x1dd)] = function (_0xd9dd03) {
-        var _0x4b90c1 = _0x1fe615;
-        if (_0x4b90c1(0x1ef) !== '\x65\x68\x78\x51\x6d') {
-            var _0x25c650, _0x3c1c8a;
-            try {
-                return _0x25c650 = _0x3920a5[_0x4b90c1(0x206)](0x4), _0x5795b6['\x6e\x53\x65\x74\x4e\x65\x74\x77\x6f\x72\x6b\x42\x61\x74\x74\x6c\x65'](_0x25c650), this['\x73\x65\x6e\x64\x45\x78\x65\x63\x75\x74\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72\x42\x61\x74\x74\x6c\x65\x52\x65\x71\x75\x65\x73\x74']({
-                    '\x62\x61\x74\x74\x6c\x65\x49\x64': _0x25c650,
-                    '\x6d\x61\x70\x49\x64': _0x25c829[_0x4b90c1(0x1cb)](),
-                    '\x74\x72\x6f\x6f\x70\x49\x64': _0x4e8525
-                });
-            } catch (_0x1828ca) {
-                return _0x3c1c8a = _0x1828ca, _0x1c2ab8['\x77\x61\x72\x6e\x69\x6e\x67'](_0x3c1c8a);
-            }
-        } else
-            ANNetwork['\x73\x65\x6e\x64'](NMS[_0x4b90c1(0x24a)](_0x4b90c1(0x225), _0xd9dd03));
-    }, _0x1c00ea[_0x1fe615(0x275)] = function () {
-        var _0xf47883 = _0x1fe615;
-        if (_0xf47883(0x20d) !== _0xf47883(0x20d))
-            return;
-        else
-            ANNetwork[_0xf47883(0x1c7)](NMS[_0xf47883(0x24a)](_0xf47883(0x26d)));
-    }, _0x1c00ea[_0x1fe615(0x1da)] = function (_0x49acf3) {
-        var _0x5128e9 = _0x1fe615;
-        if (_0x5128e9(0x223) !== _0x5128e9(0x230))
-            ANNetwork[_0x5128e9(0x1e8)](NMS[_0x5128e9(0x24a)](_0x5128e9(0x271), _0x49acf3), function (_0x4e6483) {
-                var _0x56052c = _0x5128e9;
-                return ANBattleManager[_0x56052c(0x269)](_0x4e6483);
-            }, function () {
-                var _0x18e172 = _0x5128e9;
-                if (_0x18e172(0x20f) !== _0x18e172(0x256))
-                    return BattleManager[_0x18e172(0x1cd)](null), ANBattleManager[_0x18e172(0x1f3)]();
-                else
-                    !this[_0x18e172(0x241)]() && this[_0x18e172(0x211)](), this[_0x18e172(0x24f)] = null;
-            });
-        else
-            return _0x4396e1 = _0x276404, _0x4019c8[_0x5128e9(0x1e1)](_0x1062d9);
-    }, _0x1c00ea[_0x1fe615(0x260)] = function (_0x1365d9) {
-        var _0x5cf61d = _0x1fe615;
-        return ANNetwork[_0x5cf61d(0x1c7)](NMS[_0x5cf61d(0x24a)](_0x5cf61d(0x1cf), _0x1365d9));
-    }, _0x1c00ea[_0x1fe615(0x243)] = function (_0x343d59) {
-        var _0x4581bd = _0x1fe615;
-        if (_0x4581bd(0x218) === '\x65\x49\x6f\x43\x65') {
-            var _0x46c1b2;
-            try {
-                return _0x2de10c['\x6e\x53\x65\x74\x4e\x65\x74\x77\x6f\x72\x6b\x42\x61\x74\x74\x6c\x65'](_0x118b3e), _0x44015a['\x73\x65\x74\x75\x70'](_0x101fb3, !![], ![]), _0x47b225[_0x4581bd(0x1e6)](_0x5a0d02);
-            } catch (_0x4a2f2c) {
-                return _0x46c1b2 = _0x4a2f2c, _0xd66e80[_0x4581bd(0x1e1)](_0x46c1b2);
-            }
-        } else {
-            if (!this[_0x4581bd(0x267)]())
-                return;
-            if (this[_0x4581bd(0x241)]())
-                return;
-            this[_0x4581bd(0x24f)]['\x62\x61\x74\x74\x6c\x65\x49\x64'] === _0x343d59['\x62\x61\x74\x74\x6c\x65\x49\x64'] && (_0x4581bd(0x1e2) === _0x4581bd(0x1e2) ? ($gameTemp[_0x4581bd(0x26e)] = [...this[_0x4581bd(0x24f)][_0x4581bd(0x214)]], this[_0x4581bd(0x24f)] = _0x343d59) : _0x260fe4 = null);
-        }
-    }, _0x1c00ea[_0x1fe615(0x269)] = function (_0x5ddb65) {
-        var _0x9129a7 = _0x1fe615, _0x454a49;
-        '\x52\x45\x47\x49\x53\x54\x45\x52\x20\x53\x55\x43\x43\x45\x53\x53'['\x70'](), this[_0x9129a7(0x24f)] = _0x5ddb65, _0x454a49 = BattleManager[_0x9129a7(0x247)], BattleManager[_0x9129a7(0x21a)](..._0x5ddb65['\x6f\x70\x74\x69\x6f\x6e\x73']), _0x454a49 != null && BattleManager[_0x9129a7(0x209)](_0x454a49), _0x9129a7(0x1f9)['\x70'](_0x5ddb65['\x6f\x70\x74\x69\x6f\x6e\x73']), console['\x69\x6e\x66\x6f'](_0x5ddb65), !this[_0x9129a7(0x204)]() && ('\x46\x6c\x69\x78\x4a' !== _0x9129a7(0x1d6) ? _0x5d5786[_0x9129a7(0x1c7)](_0x2cb8b5[_0x9129a7(0x24a)](_0x9129a7(0x1ea), {
-            '\x63\x6d\x64': _0x2e195a,
-            '\x74\x65\x78\x74': _0x18dd06
-        })) : this[_0x9129a7(0x202)]());
-    }, _0x1c00ea[_0x1fe615(0x25d)] = function (_0x5f15c1) {
-        var _0x507cc6 = _0x1fe615, _0x33975f, _0x421ff9;
-        try {
-            if (_0x507cc6(0x1ca) !== '\x4d\x6b\x51\x45\x74')
-                _0x421ff9 = _0x5f15c1[_0x507cc6(0x1fa)][_0x507cc6(0x26a)](function (_0x2f6c5c) {
-                    var _0x37f8ca = _0x507cc6;
-                    if (_0x37f8ca(0x222) === _0x37f8ca(0x222))
-                        return ANET[_0x37f8ca(0x25a)][_0x37f8ca(0x250)](_0x2f6c5c);
-                    else
-                        _0x4effc1['\x70'](_0x37f8ca(0x1df)), _0x322c8b[_0x37f8ca(0x1d7)] = !![];
-                }), $gameTemp[_0x507cc6(0x25e)](_0x421ff9, _0x5f15c1['\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x49\x64'], _0x5f15c1['\x6d\x69\x72\x72\x6f\x72']);
-            else
-                return _0x18e501 = _0x2254cc, _0x3aa0d4['\x77\x61\x72\x6e\x69\x6e\x67'](_0xd4c563);
-        } catch (_0x279ad8) {
-            _0x33975f = _0x279ad8, ANET['\x77'](_0x33975f);
-        }
-    }, _0x1c00ea[_0x1fe615(0x1c8)] = function (_0x1d2b22, _0x5050b9, _0x1204ae) {
-        var _0x38af9a = _0x1fe615, _0x57514e, _0x328efd;
-        try {
-            ANET['\x50\x50'][_0x38af9a(0x210)]() && this[_0x38af9a(0x275)](), _0x57514e = ANET[_0x38af9a(0x25a)][_0x38af9a(0x250)](_0x1d2b22), _0x57514e[_0x5050b9] != null && (_0x38af9a(0x235) === _0x38af9a(0x1ed) ? this['\x5f\x63\x61\x6c\x6c\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x4f\x6e\x53\x65\x72\x76\x65\x72'](_0x1a501c, _0x1f028d, _0x3abe56) : _0x57514e[_0x5050b9](_0x1204ae));
-        } catch (_0x118be1) {
-            _0x328efd = _0x118be1, ANET['\x77'](_0x328efd);
-        }
-    }, _0x1c00ea['\x6f\x6e\x42\x61\x74\x74\x6c\x65\x4d\x65\x74\x68\x6f\x64\x52\x65\x63\x65\x69\x76\x65\x64'] = function () {
-        var _0x463541 = _0x1fe615;
-        if ('\x43\x67\x44\x55\x4c' === _0x463541(0x20b))
-            _0xa4ce9f[_0x463541(0x26e)] = [...this[_0x463541(0x24f)][_0x463541(0x214)]], this['\x62\x61\x74\x74\x6c\x65\x44\x61\x74\x61'] = _0x5b78d1;
-        else {
-            var _0x980985;
-            try {
-                this[_0x463541(0x1ff)] += 0x1;
-            } catch (_0x2df179) {
-                _0x980985 = _0x2df179, ANET['\x77'](_0x980985);
-            }
-        }
-    }, _0x1c00ea[_0x1fe615(0x255)] = function (_0x483614, _0x5546c2) {
-        var _0x25b4cb = _0x1fe615;
-        if (_0x25b4cb(0x26b) !== '\x77\x42\x70\x4e\x44')
-            _0x4924af = _0x39b29c, _0x17607d['\x77'](_0x28a335);
-        else {
-            var _0x37e6dd;
-            try {
-                if (!$gameParty[_0x25b4cb(0x257)]()) {
-                    if ('\x4c\x70\x6e\x4e\x59' !== _0x25b4cb(0x22b))
-                        return;
-                    else
-                        return _0x561e0f[_0x25b4cb(0x232)](_0x5ec8c0);
-                }
-                BattleManager[_0x25b4cb(0x1bf)] = _0x483614;
-                if (_0x5546c2 === ANGameManager[_0x25b4cb(0x1d8)]()) {
-                    if ('\x78\x71\x44\x46\x70' === _0x25b4cb(0x23f))
-                        return;
-                    else
-                        return BattleManager[_0x25b4cb(0x1ec)]();
-                } else
-                    return BattleManager[_0x25b4cb(0x1e0)]();
-            } catch (_0x2b1078) {
-                _0x37e6dd = _0x2b1078, ANET['\x77'](_0x37e6dd);
-            }
-        }
-    }, _0x1c00ea['\x6f\x6e\x42\x61\x74\x74\x6c\x65\x49\x6e\x70\x75\x74\x41\x63\x74\x69\x6f\x6e'] = function (_0x1cb5a1, _0x47909f) {
-        var _0x9c1119 = _0x1fe615, _0x36332c;
-        try {
-            if (!ANGameManager[_0x9c1119(0x204)]())
-                return;
-            return BattleManager[_0x9c1119(0x1de)]()[_0x9c1119(0x1f7)](_0x47909f), BattleManager[_0x9c1119(0x1f5)]();
-        } catch (_0x3c3fef) {
-            _0x36332c = _0x3c3fef, ANET['\x77'](_0x36332c);
-        }
-    }, _0x1c00ea[_0x1fe615(0x263)] = function (_0x557fcb, _0x408fa3) {
-        var _0x129bc0 = _0x1fe615, _0x4a3366, _0x59eb59, _0x2c9469;
-        try {
-            if (!$gameParty[_0x129bc0(0x257)]())
-                return;
-            switch (_0x557fcb) {
-            case _0x129bc0(0x254):
-                (_0x59eb59 = BattleManager['\x5f\x6c\x6f\x67\x57\x69\x6e\x64\x6f\x77']) != null && _0x59eb59[_0x129bc0(0x261)](_0x408fa3);
-                break;
-            default:
-                (_0x2c9469 = BattleManager[_0x129bc0(0x1c9)]) != null && _0x2c9469[_0x129bc0(0x22c)]();
-            }
-        } catch (_0x193e91) {
-            _0x4a3366 = _0x193e91, ANET['\x77'](_0x4a3366);
-        }
-    }, _0x1c00ea['\x6f\x6e\x45\x78\x65\x63\x75\x74\x65\x45\x6e\x63\x6f\x75\x6e\x74\x65\x72\x42\x61\x74\x74\x6c\x65'] = function (_0x4a3959) {
-        var _0xec233d = _0x1fe615, _0xa75ba8, _0x2b4387, _0x1eb41f, _0x5a948a, _0x1d36c2;
-        try {
-            if (_0xec233d(0x251) === '\x62\x44\x5a\x74\x4a') {
-                if ($gameMap['\x69\x73\x45\x76\x65\x6e\x74\x52\x75\x6e\x6e\x69\x6e\x67']())
-                    return;
-                if (KDCore[_0xec233d(0x25a)]['\x69\x73\x53\x63\x65\x6e\x65\x42\x61\x74\x74\x6c\x65']())
-                    return;
-                if (_0x4a3959 == null)
-                    return;
-                ({
-                    battleId: _0xa75ba8,
-                    mapId: _0x1eb41f,
-                    troopId: _0x1d36c2
-                } = _0x4a3959);
-                if ($gameMap[_0xec233d(0x1cb)]() !== _0x1eb41f) {
-                    if ('\x46\x47\x65\x69\x4e' !== _0xec233d(0x245))
-                        return;
-                    else
-                        return !![];
-                }
-                return $gamePlayer[_0xec233d(0x24c)](), _0x5a948a = Math[_0xec233d(0x229)]() * 0xc8, setTimeout(function () {
-                    var _0x4ff677 = _0xec233d, _0x25d407;
-                    try {
-                        if (_0x4ff677(0x224) !== _0x4ff677(0x224))
-                            return;
-                        else
-                            return BattleManager[_0x4ff677(0x1cd)](_0xa75ba8), BattleManager['\x73\x65\x74\x75\x70'](_0x1d36c2, !![], ![]), SceneManager['\x70\x75\x73\x68'](Scene_Battle);
-                    } catch (_0x3a40aa) {
-                        return _0x25d407 = _0x3a40aa, KDCore['\x77\x61\x72\x6e\x69\x6e\x67'](_0x25d407);
-                    }
-                }, _0x5a948a);
-            } else {
-                var _0x252c10;
-                _0xec233d(0x1c3)['\x70'](), this[_0xec233d(0x24f)] = _0xee4720, _0x252c10 = _0x68962c[_0xec233d(0x247)], _0x112076[_0xec233d(0x21a)](..._0x213bd7[_0xec233d(0x21f)]), _0x252c10 != null && _0x4b1886[_0xec233d(0x209)](_0x252c10), _0xec233d(0x1f9)['\x70'](_0x405c3b[_0xec233d(0x21f)]), _0x49a7b0[_0xec233d(0x248)](_0x47a8fa), !this['\x69\x73\x42\x61\x74\x74\x6c\x65\x4d\x61\x73\x74\x65\x72']() && this[_0xec233d(0x202)]();
-            }
-        } catch (_0x108fd0) {
-            return _0x2b4387 = _0x108fd0, KDCore['\x77\x61\x72\x6e\x69\x6e\x67'](_0x2b4387);
-        }
-    };
-}()));
+//@[GLOBAL]
+window.NetClientMethodsManager = function() {};
 
-function _0xc641(_0x528f60, _0x359b70) {
-    var _0x5a332f = _0x5a33();
-    return _0xc641 = function (_0xc641d9, _0x397fb8) {
-        _0xc641d9 = _0xc641d9 - 0xda;
-        var _0x1ff200 = _0x5a332f[_0xc641d9];
-        return _0x1ff200;
-    }, _0xc641(_0x528f60, _0x359b70);
-}
-function _0x5a33() {
-    var _0x5742eb = [
-        '\x37\x34\x39\x35\x32\x30\x32\x4a\x79\x41\x47\x46\x57',
-        '\x54\x6e\x4d\x50\x6b',
-        '\x66\x76\x77\x48\x56',
-        '\x61\x6a\x72\x4b\x6e',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x5a\x46\x4c\x6c\x78',
-        '\x34\x48\x68\x58\x64\x50\x68',
-        '\x69\x6e\x64\x65\x78',
-        '\x6b\x6c\x48\x54\x6b',
-        '\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x54\x56\x6e\x65\x75',
-        '\x4e\x65\x74\x49\x6e\x74\x72',
-        '\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73',
-        '\x6c\x69\x73\x74',
-        '\x50\x72\x65\x73\x73\x20\x45\x53\x43\x20\x74\x6f\x20\x63\x61\x6e\x63\x65\x6c',
-        '\x65\x78\x65\x63\x75\x74\x65\x4d\x6f\x64\x65',
-        '\x4e\x71\x59\x57\x52',
-        '\x31\x30\x4a\x73\x66\x45\x59\x41',
-        '\x6d\x79\x41\x63\x74\x6f\x72\x49\x64',
-        '\x69\x73\x45\x76\x65\x6e\x74\x52\x75\x6e\x6e\x69\x6e\x67',
-        '\x4e\x48\x7a\x53\x52',
-        '\x45\x71\x65\x65\x74',
-        '\x70\x61\x72\x61\x6d\x65\x74\x65\x72\x73',
-        '\x68\x69\x64\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x72\x65\x73\x65\x72\x76\x65\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x6f\x6e\x45\x76\x65\x6e\x74',
-        '\x31\x30\x30\x33\x33\x36\x30\x77\x4a\x6b\x77\x43\x48',
-        '\x53\x68\x61\x72\x65\x64\x20\x65\x76\x65\x6e\x74\x20\x72\x65\x67\x69\x73\x74\x72\x65\x64\x20',
-        '\x75\x6e\x64\x65\x66\x69\x6e\x65\x64',
-        '\x56\x69\x72\x74\x75\x61\x6c',
-        '\x65\x76\x65\x6e\x74\x49\x64',
-        '\x35\x35\x32\x37\x32\x37\x48\x75\x4c\x54\x4b\x44',
-        '\x73\x65\x6e\x64\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x67\x69\x73\x74\x65\x72\x65\x64\x44\x6f\x6e\x65',
-        '\x73\x65\x6e\x64',
-        '\x79\x56\x5a\x6e\x7a',
-        '\x5f\x69\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72',
-        '\x42\x42\x4b\x54\x64',
-        '\x69\x73\x4f\x6e\x41\x6e\x79\x45\x76\x65\x6e\x74',
-        '\x72\x65\x73\x65\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x37\x36\x38\x30\x32\x34\x39\x52\x79\x5a\x65\x47\x65',
-        '\x65\x76\x65\x6e\x74',
-        '\x6f\x6e\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x71\x75\x65\x73\x74',
-        '\x67\x76\x58\x59\x4e',
-        '\x73\x65\x6e\x64\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x45\x6e\x64\x65\x64',
-        '\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x49\x73\x52\x75\x6e\x6e\x69\x6e\x67',
-        '\x69\x73\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x44\x72\x67\x52\x52',
-        '\x41\x79\x42\x5a\x61',
-        '\x53\x68\x61\x72\x65\x64\x20\x65\x76\x65\x6e\x74\x20\x66\x6f\x72\x63\x65\x20\x63\x61\x6e\x63\x65\x6c\x6c\x65\x64',
-        '\x4e\x6f\x6e\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64\x73\x4c\x69\x73\x74',
-        '\x73\x68\x6f\x77\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f',
-        '\x76\x69\x72\x74\x75\x61\x6c\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x78\x51\x69\x76\x52',
-        '\x6f\x70\x74\x69\x6f\x6e\x73',
-        '\x55\x74\x69\x6c\x73',
-        '\x45\x76\x65\x6e\x74',
-        '\x61\x4e\x7a\x49\x6e',
-        '\x76\x6f\x75\x74\x7a',
-        '\x5f\x73\x68\x6f\x75\x6c\x64\x46\x6f\x72\x63\x65\x45\x78\x69\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x73\x65\x6e\x64\x43\x68\x6f\x69\x63\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e',
-        '\x72\x65\x73\x65\x72\x76\x65\x4e\x65\x74\x77\x6f\x72\x6b\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x64\x51\x64\x6f\x74',
-        '\x53\x45\x4e\x44\x20\x41\x4c\x4c\x20\x43\x41\x4e\x43\x45\x4c\x20\x45\x56\x45\x4e\x54',
-        '\x69\x6e\x64\x65\x6e\x74',
-        '\x72\x65\x74\x72\x69\x65\x76\x65\x4e\x65\x74\x77\x6f\x72\x6b\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x65\x78\x65\x63\x75\x74\x65\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x75\x6b\x6e\x44\x6d',
-        '\x6a\x6d\x53\x72\x56',
-        '\x48\x54\x72\x6c\x74',
-        '\x36\x31\x32\x31\x31\x37\x6b\x6a\x45\x53\x50\x48',
-        '\x54\x74\x65\x58\x42',
-        '\x6d\x79\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61',
-        '\x73\x65\x74\x56\x61\x6c\x75\x65',
-        '\x6b\x43\x51\x6f\x44',
-        '\x6d\x4b\x72\x6e\x4d',
-        '\x72\x65\x67\x69\x73\x74\x65\x72\x44\x6f\x6e\x65',
-        '\x6e\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x41\x63\x74\x69\x6f\x6e\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x6f\x6e\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x73\x65\x74\x75\x70\x53\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72',
-        '\x69\x73\x4e\x65\x74\x77\x6f\x72\x6b\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x73\x65\x72\x76\x65\x64',
-        '\x46\x65\x66\x72\x67',
-        '\x68\x69\x64\x65\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f',
-        '\x69\x73\x50\x61\x73\x73\x45\x76\x65\x6e\x74\x46\x69\x6c\x74\x65\x72\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x53\x61\x6d\x65\x20\x6d\x61\x70',
-        '\x38\x55\x74\x6e\x5a\x50\x71',
-        '\x63\x6f\x6e\x74\x61\x69\x6e\x73',
-        '\x69\x73\x42\x75\x73\x79',
-        '\x42\x4c\x41\x43\x4b',
-        '\x65\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x65\x64',
-        '\x6d\x61\x70\x49\x64',
-        '\x53\x68\x61\x72\x65\x64\x20\x43\x68\x6f\x69\x63\x65\x20\x61\x63\x63\x65\x70\x74\x65\x64\x20\x66\x72\x6f\x6d\x20\x73\x65\x72\x76\x65\x72',
-        '\x77\x63\x59\x41\x44',
-        '\x72\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64',
-        '\x35\x36\x36\x34\x30\x30\x6f\x4b\x53\x71\x48\x71',
-        '\x6f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61',
-        '\x53\x79\x73\x74\x65\x6d',
-        '\x65\x76\x65\x6e\x74\x50\x72\x6f\x63\x65\x73\x73\x45\x78\x69\x74',
-        '\x6f\x6e\x43\x6f\x6e\x74\x69\x6e\x75\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x54\x73\x62\x67\x77',
-        '\x48\x5a\x63\x64\x6e',
-        '\x39\x34\x37\x31\x31\x32\x77\x78\x68\x72\x79\x70',
-        '\x32\x30\x63\x4a\x56\x4e\x5a\x63',
-        '\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x78\x57\x63\x41\x45',
-        '\x6f\x6e\x52\x65\x67\x69\x73\x74\x65\x72\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x73\x70\x6f\x6e\x73\x65',
-        '\x73\x68\x61\x72\x65\x64\x43\x68\x6f\x69\x63\x65',
-        '\x5f\x72\x65\x73\x65\x72\x76\x65\x64\x4e\x65\x74\x77\x6f\x72\x6b\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x45\x56\x57\x72\x79',
-        '\x66\x6f\x47\x41\x6d',
-        '\x63\x68\x65\x63\x6b\x45\x76\x65\x6e\x74\x52\x75\x6e\x6e\x69\x6e\x67',
-        '\x5f\x73\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4d\x61\x73\x74\x65\x72',
-        '\x73\x74\x61\x72\x74\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x63\x6f\x64\x65',
-        '\x59\x45\x4c\x4c\x4f\x57',
-        '\x6a\x65\x71\x4c\x4e',
-        '\x73\x77\x52\x4a\x6d',
-        '\x4b\x5a\x66\x49\x73',
-        '\x65\x76\x65\x6e\x74\x45\x6e\x64\x65\x64',
-        '\x6e\x4f\x6e\x53\x79\x6e\x63\x65\x64\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x52\x65\x73\x70\x6f\x6e\x73\x65',
-        '\x73\x65\x74\x75\x70',
-        '\x4b\x6c\x53\x45\x50',
-        '\x5f\x73\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72',
-        '\x6e\x53\x65\x74\x45\x6e\x64\x43\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x65\x64',
-        '\x61\x64\x47\x76\x56',
-        '\x4b\x65\x58\x6b\x43',
-        '\x6d\x6a\x70\x58\x4f',
-        '\x43\x6f\x6d\x6d\x6f\x6e\x20\x45\x76\x65\x6e\x74',
-        '\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4d\x61\x73\x74\x65\x72'
-    ];
-    _0x5a33 = function () {
-        return _0x5742eb;
-    };
-    return _0x5a33();
-}
-(function (_0x10dceb, _0x624244) {
-    var _0x109044 = _0xc641, _0x5c3831 = _0x10dceb();
-    while (!![]) {
-        try {
-            var _0xeed5fa = -parseInt(_0x109044(0x124)) / 0x1 + parseInt(_0x109044(0xf8)) / 0x2 + -parseInt(_0x109044(0x144)) / 0x3 * (-parseInt(_0x109044(0xe5)) / 0x4) + -parseInt(_0x109044(0x145)) / 0x5 * (-parseInt(_0x109044(0x13c)) / 0x6) + -parseInt(_0x109044(0xfd)) / 0x7 * (-parseInt(_0x109044(0x133)) / 0x8) + -parseInt(_0x109044(0x105)) / 0x9 * (parseInt(_0x109044(0xf0)) / 0xa) + parseInt(_0x109044(0xdf)) / 0xb;
-            if (_0xeed5fa === _0x624244)
-                break;
-            else
-                _0x5c3831['push'](_0x5c3831['shift']());
-        } catch (_0x27877e) {
-            _0x5c3831['push'](_0x5c3831['shift']());
+(function() {  //╒═════════════════════════════════════════════════════════════════════════╛
+  // ■ NetClientMethodsManager.coffee
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  //---------------------------------------------------------------------------
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("NET Client");
+  LOG.setColors(KDCore.Color.MAGENTA.reAlpha(200), KDCore.Color.BLACK.getLightestColor(200));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.NetClientMethodsManager;
+  _.setConnectionToMasterCallback = function(onConnectCallback) {
+    this.onConnectCallback = onConnectCallback;
+  };
+  _.onConnect = function() {
+    LOG.p("Connected");
+    // * Проверка версии сервера и клиента на соответствие
+    ANNetwork.callback(NMS.Lobby("serverVerCheck", ANET.MinServerRev), function(result) {
+      if (!result) {
+        LOG.p("Server is outdated, require rev. " + ANET.MinServerRev + " or higher");
+        window.alert("Server version is outdated for this Alpha NET Z version " + (ANET.Version / 100));
+        return ANNetwork.stop();
+      }
+    });
+    if (this.onConnectCallback != null) {
+      return this.onConnectCallback(1);
+    }
+  };
+  _.onDisconnect = function() {
+    var ref;
+    LOG.p("Disconnected");
+    // * Общее событие на все сцены
+    if ((ref = SceneManager._scene) != null) {
+      ref.onLostConnection();
+    }
+    HUIManager.notifyError("Disconnected from server");
+    return ANNetwork.stop();
+  };
+  _.onConnectionError = function() {
+    LOG.p("Can't connect to server!");
+    if (this.onConnectCallback != null) {
+      this.onConnectCallback(0);
+    }
+    return ANNetwork.stop();
+  };
+  // * Существует ли метод для обработки команды от сервера?
+  _.isExistPrcEvent = function(eventHandlerMethodName) {
+    return NetClientMethodsManager["event_" + eventHandlerMethodName] != null;
+  };
+  // * Выполнить команду от сервера
+  _.handlePrcEvent = function(eventHandlerMethodName, content) {
+    var noLog;
+    noLog = ["game_observerData", "map_eventMove", "map_playerMove", "battle_battleMethod", "battle_battleMethodReceived"].contains(eventHandlerMethodName);
+    if (!noLog) {
+      LOG.p("Handle Event: " + eventHandlerMethodName);
+    }
+    NetClientMethodsManager["event_" + eventHandlerMethodName](content);
+    // * Вызвать метод на сцене, если он существует
+    // * Сцена уже сама знает, надо ей обновить (перерисовать) что-то или нет,
+    // * определяет по имени метода
+    // * С версии 0.7 появились общие комманды, их можно обрабатывать на сцене с учётом имени самой команды
+    if (eventHandlerMethodName === "common_forClients" && (content != null) && String.any(content.cmd)) {
+      this.callSceneCallback(eventHandlerMethodName + "_" + content.cmd);
+    } else {
+      this.callSceneCallback(eventHandlerMethodName);
+    }
+    if (!noLog) {
+      LOG.p("Event End: " + eventHandlerMethodName);
+    }
+  };
+  _.callSceneCallback = function(eventName) {
+    var ref;
+    return (ref = SceneManager._scene) != null ? ref.onServerEvent(eventName) : void 0;
+  };
+  //? ОБРАБОТКА КОМАНД ОТ СЕРВЕРА
+  // * =========================================================================
+
+  //TODO: Это возможно и не нужно, так как игрок имя может поменять только перед входом в комнату( созданием)
+  _.event_lobby_changePlayerName = function(content) {
+    return ANGameManager.onPlayerName(content.who, content.name);
+  };
+  _.event_lobby_refreshRoomData = function(content) {
+    if (SceneManager.isBusyForNetworkData()) {
+      return;
+    }
+    ANGameManager.onRoomPlayers(content.playersData);
+    return ANNetwork.onRoomDataFromServer(content.room);
+  };
+  _.event_lobby_roomClosed = function(content) {
+    return ANNetwork.onRoomClosed();
+  };
+  _.event_lobby_startGame = function() {
+    ANGameManager.setupNewNetworkGame();
+    return "STARTING GAME".p();
+  };
+  _.event_lobby_chatMessage = function(content) {
+    var e;
+    try {
+      return HUIManager.onChatMessageFromServer(content);
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _.event_game_playersData = function(content) {
+    ANGameManager.onGamePlayers(content);
+    return "GAME PLAYERS DATA REFRESHED".p();
+  };
+  _.event_game_refreshParty = function() {
+    ANGameManager.onRefreshGameParty();
+    return "REFRESH PARTY".p();
+  };
+  _.event_game_observerData = function(content) {
+    var e;
+    try {
+      return ANSyncDataManager.onObserverData(content.id, content.type, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_observerData", e);
+    }
+  };
+  _.event_game_variable = function(content) {
+    var e;
+    try {
+      return ANSyncDataManager.onVariableValue(content.id, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_variable", e);
+    }
+  };
+  _.event_game_switch = function(content) {
+    var e;
+    try {
+      return ANSyncDataManager.onSwitchValue(content.id, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_switch", e);
+    }
+  };
+  _.event_game_saveDataRequest = function(content) {
+    var e;
+    try {
+      $gameTemp.nUniqueSaveID = content.uniqueSaveID;
+      // * Сохранение выполненно
+      $gameSystem.onBeforeSave();
+      DataManager.saveGame(content.savefileId);
+      //TODO: Тут желательно ждать положительный результат, но пока сразу отправим флаг
+      return ANGameManager.sendSaveDataCompleteFlag();
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_saveDataRequest", e);
+    }
+  };
+  _.event_game_saveDataComplete = function(content) {
+    var e, savedActorId;
+    try {
+      // * Если данный клиент не запускал сохранение, то игнор
+      if ($gameTemp.nSaveData == null) {
+        return;
+      }
+      savedActorId = content;
+      //console.log(savedActorId)
+      return $gameTemp.nSaveData.onAnswer(savedActorId, true);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_saveDataComplete", e);
+    }
+  };
+  _.event_game_chatMessage = function(content) {
+    var channelId, e, mapId;
+    try {
+      mapId = content.mapId;
+      channelId = content.channelId;
+      if (channelId > 0) { // * MAP
+        if ((mapId != null) && mapId === $gameMap.mapId()) {
+          return ANET.UI.addMessageToChat(content);
+        }
+      } else {
+        return ANET.UI.addMessageToChat(content);
+      }
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_chatMessage", e);
+    }
+  };
+  _.event_game_startedRoomGameDataRequest = function(content) {
+    var e;
+    try {
+      // * Эта проверка не обязательная, сервер только матеру отправляет
+      if (!ANNetwork.isMasterClient()) {
+        return;
+      }
+      return ANGameManager.sendStartedRoomDataRespone(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_startedRoomGameDataRequest", e);
+    }
+  };
+  _.event_game_startedRoomGameData = function(content) {
+    var e, id;
+    try {
+      // * Тут через ANClientResponceManager
+      id = "game_startedRoomGameDataRequest";
+      return ANClientResponceManager.onResponceReceived(id, content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_startedRoomGameDataRequest", e);
+    }
+  };
+  _.event_game_someoneJoinedToStartedGame = function(content) {
+    var e;
+    try {
+      return ANGameManager.onPlayerJoinedThisGame(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_someoneJoinedToStartedGame", e);
+    }
+  };
+  _.event_map_playerMove = function(content) {
+    var e;
+    try {
+      return ANPlayersManager.onPlayerMove(content.id, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_map_playerMove", e);
+    }
+  };
+  _.event_map_playerLocation = function(content) {
+    var e;
+    try {
+      return ANPlayersManager.onPlayerLocation(content.id, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_map_playerLocation", e);
+    }
+  };
+  _.event_map_eventMove = function(content) {
+    var e;
+    try {
+      return ANMapManager.onEventMove(content.mapId, content.id, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_map_eventMove", e);
+    }
+  };
+  // * Если пришёл этот метод, то надо отправить данные свои на карте, для синхронизации
+  _.event_map_initialMapSynchronization = function(content) {
+    var e;
+    try {
+      if ($gameMap.mapId() === content) {
+        return ANMapManager.onInitialMapSync();
+      }
+    } catch (error) {
+      e = error;
+      return console.warn("event_map_eventMove", e);
+    }
+  };
+  _.event_event_virtualEventCommand = function(content) {
+    var e;
+    try {
+      return ANInterpreterManager.onVirtualCommand(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_event_virtualEventCommand", e);
+    }
+  };
+  _.event_battle_battleMethod = function(content) {
+    var e;
+    try {
+      return ANBattleManager.onBattleMethod(content.id, content.method, content.data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_battleMethod", e);
+    }
+  };
+  _.event_battle_animation = function(content) {
+    var e;
+    try {
+      return ANBattleManager.onBattleAnimation(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_animation", e);
+    }
+  };
+  _.event_battle_battleMethodReceived = function(content) {
+    var e;
+    try {
+      return ANBattleManager.onBattleMethodReceived();
+    } catch (error) {
+      e = error;
+      return console.warn("event_battleMethodReceived", e);
+    }
+  };
+  _.event_battle_logMessage = function(content) {
+    var e;
+    try {
+      return ANBattleManager.onLogWindowMessage(content.cmd, content.text);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_logMessage", e);
+    }
+  };
+  _.event_battle_input = function(content) {
+    var e;
+    try {
+      return ANBattleManager.onBattleInputState(content.inputState, content.inputActorId);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_input", e);
+    }
+  };
+  _.event_battle_inputAction = function(content) {
+    var e;
+    try {
+      return ANBattleManager.onBattleInputAction(content.inputActorId, content.action);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_inputAction", e);
+    }
+  };
+  _.event_battle_serverBattleData = function(content) {
+    var e;
+    try {
+      // * Обновляем данные, затем вызывается уже event сцены битвы
+      return ANBattleManager.onBattleDataFromServer(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_serverBattleData", e);
+    }
+  };
+  _.event_battle_executeEncounter = function(content) {
+    var e;
+    try {
+      "ENCOUNTER MAP BATTLE IN".p();
+      return ANBattleManager.onExecuteEncounterBattle(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_battle_executeEncounter", e);
+    }
+  };
+  _.event_event_registerOnShared = function(content) {
+    var e;
+    try {
+      "SHARED EVENT IN".p();
+      return ANInterpreterManager.onRegisterOnSharedEventRequest(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_event_registerOnShared", e);
+    }
+  };
+  _.event_event_registerDone = function(content) {
+    var e;
+    try {
+      "SHARED EVENT ANSWER".p();
+      return ANInterpreterManager.onRegisterOnSharedEventResponse(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_event_registerDone", e);
+    }
+  };
+  _.event_event_sharedCanContinue = function(content) {
+    var e;
+    try {
+      "SHARED EVENT CAN CONTINUE".p();
+      return ANInterpreterManager.onContinueSharedEvent(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_event_sharedCanContinue", e);
+    }
+  };
+  _.event_event_sharedForceCancel = function(content) {
+    var e;
+    try {
+      "SHARED EVENT FORCE CANCELLED".p();
+      return ANInterpreterManager.onSharedEventForceCancelFromServer(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_event_sharedForceCancel", e);
+    }
+  };
+  _.event_event_sharedChoice = function(content) {
+    var e;
+    try {
+      "SHARED EVENT CHOICE ACTION".p();
+      return ANInterpreterManager.onSharedEventChoiceActionFromServer(content);
+    } catch (error) {
+      e = error;
+      return console.warn("event_event_sharedForceCancel", e);
+    }
+  };
+  _.event_game_userCommand = function(content) {
+    var data, e, name;
+    try {
+      "CUSTOM COMMAND IN".p();
+      ({name, data} = content);
+      return nAPI.onCustomCommand(name, data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_userCommand", e);
+    }
+  };
+  _.event_game_customCommandLink = function(content) {
+    var commonEventId, e, name;
+    try {
+      "CUSTOM LINK IN".p();
+      ({name, commonEventId} = content);
+      return typeof $gameSystem !== "undefined" && $gameSystem !== null ? $gameSystem.nRegisterCustomCommandCE(name, commonEventId) : void 0;
+    } catch (error) {
+      e = error;
+      return console.warn("event_game_userCommand", e);
+    }
+  };
+  // * Обработка общих команд, которые имеют внутренний флаг cmd
+  // * См. реализацию NMS.Common в NetMessages.coffee
+  //? ТОЛЬКО НА ДРУГИХ КЛИЕНТАХ, а не на том кто отправил!
+  _.event_common_forClients = function(content) {
+    var cmd, data, e;
+    try {
+      ({cmd, data} = content);
+      //TODO: Более удобную структуру чем else if
+      if (cmd.contains("trade")) {
+        return ANTradeManager.onCommonCommandFromServer(cmd, data);
+      } else if (cmd.contains("applyItemFromMenu")) {
+        return Game_Action.NApplyFromMenuFromNetwork(data);
+      } else if (cmd.contains("nameplates")) {
+        return ANPlayersManager.onPlayersNameplatesStyles(data);
+      } else {
+        return console.warn("Unknown common subCommand " + cmd);
+      }
+    } catch (error) {
+      e = error;
+      return console.warn("event_common_forClients", e);
+    }
+  };
+  // * Обработка выделенной общей команды для плагина Alpha ABS Z
+  _.event_common_absz = function(content) {
+    var cmd, data, e;
+    try {
+      ({cmd, data} = content);
+      return NetClientMethodsManager.event_aabz(cmd, data);
+    } catch (error) {
+      e = error;
+      return console.warn("event_common_absz", e);
+    }
+  };
+  //@[FOR OVERRIDE]
+  // * Отдельный метод, который должен быть переопределён в плагине AABSZ
+  _.event_aabz = function(name, data) { // * for AABS Z plugin implementation
+    return "EVENT_AABSZ".p(name);
+  };
+})();
+
+// ■ END NetClientMethodsManager.coffee
+//---------------------------------------------------------------------------
+//console.log(name)
+//console.info(data)
+
+
+// Generated by CoffeeScript 2.6.1
+// * Данный класс отвечает за синхронизацию и обработку данных в бою
+
+//$[ENCODE]
+
+//@[GLOBAL]
+window.ANBattleManager = function() {};
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("NetBattle");
+  LOG.setColors(KDCore.Color.RED, KDCore.Color.BLACK.getLightestColor(135));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANBattleManager;
+  _.isBattleMaster = function() {
+    if (this.battleData != null) {
+      return this.battleData.actors[0] === ANGameManager.myActorId();
+    } else {
+      return $gameParty.inBattle();
+    }
+  };
+  _.isBattleRegistred = function() {
+    return this.battleData != null;
+  };
+  _.isBattleLocal = function() {
+    if (this.battleData != null) {
+      return this.battleData.isLocal;
+    } else {
+      return true;
+    }
+  };
+  _.isShouldWaitServer = function() {
+    return this._waitMode != null;
+  };
+  _.battleMembers = function() {
+    if (this.isBattleRegistred()) {
+      return this.battleData.actors.map(function(a) {
+        return $gameActors.actor(a);
+      });
+    } else {
+      return [$gameParty.leader()];
+    }
+  };
+  _.setWait = function(_waitMode) {
+    this._waitMode = _waitMode;
+    this._waitPool = 0;
+    this._waitTimeout = 360;
+    return HUIManager.showLoader(1000);
+  };
+  _.resetWait = function() {
+    this.setWait(null);
+    return HUIManager.hideLoader();
+  };
+  _.update = function() {
+    if (this.isShouldWaitServer()) {
+      if (this._waitTimeout <= 0) {
+        LOG.p("TIME OUT");
+        this.resetWait();
+      } else {
+        this._waitTimeout--;
+        this.updateWaiting();
+      }
+    } else {
+      if (this._battleMethodsPool.length > 0) {
+        this._callBattleMethodOnServer(...this._battleMethodsPool.shift());
+      }
+      if (HUIManager.isLoaderActive()) {
+        HUIManager.hideLoader();
+      }
+    }
+  };
+  // * Ожидание данных (игроков) от сервера
+  _.updateWaiting = function() {
+    if (!this.isShouldWaitServer()) {
+      return;
+    }
+    "WAIT".p(this._waitPool);
+    switch (this._waitMode) {
+      case 'battleMethod':
+        if (this._waitPool === $gameParty.battleMembers().length) {
+          this.resetWait();
         }
     }
-}(_0x5a33, 0x77979), window['\x41\x4e\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72\x4d\x61\x6e\x61\x67\x65\x72'] = function () {
-}, (function () {
-    var _0x555067 = _0xc641, _0x2f172b, _0x1afc92;
-    _0x2f172b = new KDCore[(_0x555067(0x147))](_0x555067(0xea)), _0x2f172b[_0x555067(0xeb)](KDCore[_0x555067(0xe3)][_0x555067(0x152)], KDCore[_0x555067(0xe3)][_0x555067(0x136)][_0x555067(0x146)](0xf)), _0x2f172b['\x6f\x6e'](), _0x1afc92 = window['\x41\x4e\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72\x4d\x61\x6e\x61\x67\x65\x72'], _0x1afc92[_0x555067(0x140)] = function () {
-        var _0x331cac = _0x555067;
-        $gameMessage[_0x331cac(0x135)]() ? $gameMessage['\x6e\x53\x65\x74\x45\x6e\x64\x43\x61\x6c\x6c\x62\x61\x63\x6b'](_0x1afc92[_0x331cac(0x140)]) : !$gameMap[_0x331cac(0xf2)]() && (_0x331cac(0x12f) === '\x53\x50\x44\x69\x4b' ? (_0x2ff8ee = _0x178991, _0x383ad8['\x77'](_0x458f20)) : (_0x1afc92[_0x331cac(0x10a)](), _0x1afc92[_0x331cac(0x104)]()));
-    }, _0x1afc92[_0x555067(0x14e)] = function () {
-        var _0x5390ea = _0x555067, _0x13e04d;
-        if (NetPlayerDataWrapper[_0x5390ea(0x103)](ANGameManager[_0x5390ea(0x126)]()))
-            _0x5390ea(0x148) !== _0x5390ea(0x148) ? _0x478ae1[_0x5390ea(0x11f)]() : !$gameMap['\x69\x73\x45\x76\x65\x6e\x74\x52\x75\x6e\x6e\x69\x6e\x67']() && (!$gameMessage[_0x5390ea(0x135)]() && (_0x5390ea(0x122) === _0x5390ea(0x100) ? _0x10090f[_0x5390ea(0x150)](_0x42c67a, _0x2bff88['\x65\x76\x65\x6e\x74\x49\x64'], _0x546ed1[_0x5390ea(0x138)]) : this[_0x5390ea(0x10a)]()));
-        else {
-            if (_0x5390ea(0xdc) === '\x6d\x6a\x70\x58\x4f') {
-                if ($gameMap[_0x5390ea(0xf2)]()) {
-                    if (_0x5390ea(0x10e) === _0x5390ea(0x10e))
-                        _0x13e04d = $gameMap['\x5f\x69\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72'][_0x5390ea(0xfc)](), this[_0x5390ea(0x15c)](_0x13e04d);
-                    else {
-                        if (_0x24ba4d[_0x5390ea(0x138)]() !== _0x2a44dc['\x6d\x61\x70\x49\x64'])
-                            return;
-                    }
-                }
-            } else
-                return;
-        }
-    }, _0x1afc92['\x73\x74\x61\x72\x74\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64'] = function (_0x5ed524, _0x24076d, _0x39fb4d) {
-        var _0x253914 = _0x555067, _0x26fd02, _0x46df75, _0xabb895;
-        try {
-            if (_0x5ed524[0x0][_0x253914(0x151)] === 0x7b && _0x24076d > 0x0) {
-                if (_0x253914(0x102) === '\x63\x44\x75\x70\x6c') {
-                    ({
-                        mapId: _0x36d27c,
-                        eventId: _0x3c3517,
-                        action: _0x110f35,
-                        index: _0x4add8f
-                    } = _0x4b4563);
-                    if (_0x20823[_0x253914(0x138)]() !== _0xa108cb)
-                        return;
-                    if (!_0x54afec[_0x253914(0x10b)]())
-                        return;
-                    if (_0x41f931[_0x253914(0x15a)]['\x65\x76\x65\x6e\x74\x49\x64']() !== _0x1d25b0)
-                        return;
-                    return _0x155307[_0x253914(0x12b)] = {
-                        '\x61\x63\x74\x69\x6f\x6e': _0x2aa860,
-                        '\x69\x6e\x64\x65\x78': _0x70cbe6
-                    }, _0x1ec63d['\x70']('\x53\x68\x61\x72\x65\x64\x20\x43\x68\x6f\x69\x63\x65\x20\x61\x63\x63\x65\x70\x74\x65\x64\x20\x66\x72\x6f\x6d\x20\x73\x65\x72\x76\x65\x72');
-                } else
-                    _0x46df75 = [
-                        _0x39fb4d,
-                        _0x24076d,
-                        _0x5ed524[0x0]['\x70\x61\x72\x61\x6d\x65\x74\x65\x72\x73'][0x0]
-                    ], $gameSelfSwitches[_0x253914(0x127)](_0x46df75, _0x5ed524[0x0][_0x253914(0xf5)][0x1] === 0x0);
-            } else
-                _0xabb895 = new Game_Interpreter(), _0xabb895['\x73\x65\x74\x75\x70'](_0x5ed524, _0x24076d), _0xabb895[_0x253914(0x120)]();
-        } catch (_0x1b169e) {
-            _0x26fd02 = _0x1b169e, ANET['\x77'](_0x26fd02);
-        }
-    }, _0x1afc92[_0x555067(0x10c)] = function (_0x36add0) {
-        var _0x208ba7 = _0x555067;
-        return !ANET[_0x208ba7(0x13f)][_0x208ba7(0x110)][_0x208ba7(0x134)](_0x36add0);
-    }, _0x1afc92['\x72\x65\x73\x65\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = function () {
-        var _0x341da7 = _0x555067;
-        this[_0x341da7(0x15a)] = null, this[_0x341da7(0x14f)] = ![], this[_0x341da7(0xf6)]();
-    }, _0x1afc92[_0x555067(0x12d)] = function (_0x301168, _0x3e0354) {
-        var _0x3de009 = _0x555067;
-        this[_0x3de009(0x15a)] = _0x301168, this[_0x3de009(0x14f)] = _0x3e0354, $gameTemp[_0x3de009(0x119)] = ![];
-        if ($gameTemp[_0x3de009(0x12e)]())
-            return;
-        if (this['\x5f\x73\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72'] == null) {
-            if ('\x6f\x43\x57\x73\x75' !== _0x3de009(0x113))
-                return;
-            else
-                _0x42f1f9[0x0][_0x3de009(0x151)] === 0x7b && _0x211995 > 0x0 ? (_0x1bd353 = [
-                    _0x17b396,
-                    _0x519fa2,
-                    _0x2285fd[0x0][_0x3de009(0xf5)][0x0]
-                ], _0x5b775c['\x73\x65\x74\x56\x61\x6c\x75\x65'](_0x387443, _0x5997a7[0x0][_0x3de009(0xf5)][0x1] === 0x0)) : (_0x33836a = new _0x678ff7(), _0x1102fe[_0x3de009(0x158)](_0x359639, _0x3a4a93), _0x19fc68[_0x3de009(0x120)]());
-        }
-        _0x2f172b['\x70'](_0x3de009(0xf9) + this[_0x3de009(0x15a)][_0x3de009(0xfc)]());
-    }, _0x1afc92[_0x555067(0xde)] = function () {
-        var _0x585a04 = _0x555067;
-        return this[_0x585a04(0x10b)]() && this[_0x585a04(0x14f)] === !![];
-    }, _0x1afc92[_0x555067(0x10b)] = function () {
-        var _0x3adb74 = _0x555067;
-        if ('\x77\x63\x59\x41\x44' !== _0x3adb74(0x13a))
-            _0x278a38 = new _0x575d1e(), _0x40886f[_0x3adb74(0x158)](_0x180880, _0xac580), _0x33e675[_0x3adb74(0x120)]();
-        else
-            return this[_0x3adb74(0x15a)] != null && $gameMap[_0x3adb74(0xf2)]();
-    }, _0x1afc92['\x66\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = function () {
-        var _0x47c40b = _0x555067;
-        if (!this[_0x47c40b(0xde)]())
-            return;
-        _0x2f172b['\x70'](_0x47c40b(0x10f)), _0x47c40b(0x11d)['\x70'](), this[_0x47c40b(0x109)](), this[_0x47c40b(0xf6)]();
-    }, _0x1afc92['\x73\x68\x6f\x77\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = function () {
-        var _0xfcd3de = _0x555067, _0x4e637f, _0xa87ebd;
-        this[_0xfcd3de(0xf6)](), _0x4e637f = '\x57\x61\x69\x74\x69\x6e\x67\x20\x70\x6c\x61\x79\x65\x72\x73', _0xa87ebd = '';
-        this[_0xfcd3de(0xde)]() && this[_0xfcd3de(0x15a)]['\x6e\x49\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x43\x61\x6e\x42\x65\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x6c\x65\x64']() && ('\x44\x72\x67\x52\x52' !== _0xfcd3de(0x10d) ? (_0xc6d0a9 = _0x2e89fb, _0x6436d0['\x77'](_0xb2fd56)) : _0xa87ebd = _0xfcd3de(0xed));
-        if (typeof HUIManager !== _0xfcd3de(0xfa) && HUIManager !== null) {
-            if (_0xfcd3de(0x129) === _0xfcd3de(0x153)) {
-                ({
-                    mapId: _0x3850b4,
-                    eventId: _0x2d54ca,
-                    index: _0xeab575,
-                    indent: _0xdffddc
-                } = _0x5f805c);
-                if (_0xcbd601[_0xfcd3de(0x138)]() !== _0x466a2f)
-                    return;
-                if (_0x29c634[_0xfcd3de(0x10b)]())
-                    return;
-                if (_0x6f4099 !== 0x0)
-                    return;
-                _0x243107[_0xfcd3de(0x11b)](_0x523059);
-                return;
-            } else
-                HUIManager['\x73\x68\x6f\x77\x57\x61\x69\x74\x69\x6e\x67\x49\x6e\x66\x6f'](_0x4e637f, _0xa87ebd, 0x3e8);
-        }
-    }, _0x1afc92['\x68\x69\x64\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = function () {
-        var _0x2b2f1d = _0x555067;
-        return typeof HUIManager !== _0x2b2f1d(0xfa) && HUIManager !== null ? HUIManager[_0x2b2f1d(0x130)]() : void 0x0;
-    }, _0x1afc92['\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x65\x64'] = function (_0x58620c) {
-        var _0x32c47f = _0x555067;
-        if ('\x61\x6a\x72\x4b\x6e' === _0x32c47f(0xe2))
-            return ANNetwork['\x73\x65\x6e\x64'](NMS[_0x32c47f(0x116)](_0x32c47f(0x137), _0x58620c));
-        else
-            !_0x488190['\x69\x73\x45\x76\x65\x6e\x74\x52\x75\x6e\x6e\x69\x6e\x67']() && (!_0x7bb1e3[_0x32c47f(0x135)]() && this[_0x32c47f(0x10a)]());
-    }, _0x1afc92[_0x555067(0x10a)] = function () {
-        var _0x506721 = _0x555067;
-        return ANNetwork[_0x506721(0xff)](NMS['\x45\x76\x65\x6e\x74'](_0x506721(0x156)));
-    }, _0x1afc92[_0x555067(0xe8)] = function (_0x385cae, _0x521d41, _0x117bf9) {
-        var _0x34ac4d = _0x555067, _0x35e82b, _0x267813, _0x22591f;
-        _0x267813 = {
-            '\x63\x6f\x64\x65': 0x0,
-            '\x69\x6e\x64\x65\x6e\x74': 0x0,
-            '\x70\x61\x72\x61\x6d\x65\x74\x65\x72\x73': []
-        }, _0x22591f = {
-            '\x6c\x69\x73\x74': [
-                _0x385cae,
-                _0x267813
-            ]
-        }, _0x35e82b = {
-            '\x6d\x61\x70\x49\x64': $gameMap[_0x34ac4d(0x138)](),
-            '\x65\x76\x65\x6e\x74\x49\x64': _0x117bf9,
-            '\x65\x76\x65\x6e\x74': _0x22591f,
-            '\x6f\x70\x74\x69\x6f\x6e\x73': _0x521d41
-        }, ANNetwork[_0x34ac4d(0xff)](NMS[_0x34ac4d(0x116)](_0x34ac4d(0x112), _0x35e82b));
-    }, _0x1afc92['\x73\x65\x6e\x64\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x71\x75\x69\x72\x65\x52\x65\x67\x69\x73\x74\x65\x72'] = function () {
-        var _0x1928cb = _0x555067;
-        if (_0x1928cb(0xf3) !== '\x4e\x48\x7a\x53\x52')
-            return;
-        else {
-            var _0x1d81bc;
-            if (!this['\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4d\x61\x73\x74\x65\x72']())
-                return;
-            _0x1d81bc = {
-                '\x6d\x61\x70\x49\x64': $gameMap[_0x1928cb(0x138)](),
-                '\x65\x76\x65\x6e\x74\x49\x64': this[_0x1928cb(0x15a)][_0x1928cb(0xfc)](),
-                '\x69\x6e\x64\x65\x78': this[_0x1928cb(0x15a)][_0x1928cb(0x13e)][_0x1928cb(0xe6)],
-                '\x69\x6e\x64\x65\x6e\x74': this['\x5f\x73\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72'][_0x1928cb(0x13e)][_0x1928cb(0x11e)]
-            }, ANNetwork[_0x1928cb(0xff)](NMS[_0x1928cb(0x116)](_0x1928cb(0x13b), _0x1d81bc));
-        }
-    }, _0x1afc92[_0x555067(0xfe)] = function () {
-        var _0x25b820 = _0x555067, _0x2196c1;
-        if (this[_0x25b820(0xde)]())
-            return;
-        _0x2196c1 = {
-            '\x6d\x61\x70\x49\x64': $gameMap[_0x25b820(0x138)](),
-            '\x65\x76\x65\x6e\x74\x49\x64': this['\x5f\x73\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72'][_0x25b820(0xfc)](),
-            '\x61\x63\x74\x6f\x72\x49\x64': ANGameManager[_0x25b820(0xf1)](),
-            '\x69\x6e\x64\x65\x78': this[_0x25b820(0x15a)][_0x25b820(0x13e)][_0x25b820(0xe6)],
-            '\x69\x6e\x64\x65\x6e\x74': this['\x5f\x73\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72'][_0x25b820(0x13e)][_0x25b820(0x11e)]
-        }, ANNetwork[_0x25b820(0xff)](NMS[_0x25b820(0x116)](_0x25b820(0x12a), _0x2196c1));
-    }, _0x1afc92['\x73\x65\x6e\x64\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x61\x64\x79\x54\x6f\x43\x6f\x6e\x74\x69\x6e\x75\x65'] = function () {
-        var _0x42a9a9 = _0x555067;
-        if (_0x42a9a9(0xe9) !== '\x45\x63\x61\x4e\x73') {
-            var _0x2744da;
-            if (!this[_0x42a9a9(0xde)]()) {
-                if ('\x48\x5a\x63\x64\x6e' === _0x42a9a9(0x143))
-                    return;
-                else
-                    return;
-            }
-            _0x2744da = {
-                '\x6d\x61\x70\x49\x64': $gameMap[_0x42a9a9(0x138)](),
-                '\x65\x76\x65\x6e\x74\x49\x64': this[_0x42a9a9(0x15a)][_0x42a9a9(0xfc)]()
-            }, ANNetwork[_0x42a9a9(0xff)](NMS[_0x42a9a9(0x116)]('\x73\x68\x61\x72\x65\x64\x43\x61\x6e\x43\x6f\x6e\x74\x69\x6e\x75\x65', _0x2744da));
-        } else
-            return this[_0x42a9a9(0x10b)]() && this[_0x42a9a9(0x14f)] === !![];
-    }, _0x1afc92['\x73\x65\x6e\x64\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = function () {
-        var _0x53fdf2 = _0x555067;
-        if (_0x53fdf2(0x154) !== _0x53fdf2(0xe7)) {
-            var _0x18452e;
-            if (!this['\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4d\x61\x73\x74\x65\x72']()) {
-                if (_0x53fdf2(0xe0) !== _0x53fdf2(0xe0))
-                    _0x4df65e[_0x53fdf2(0x15b)](_0x5847dd[_0x53fdf2(0x140)]);
-                else
-                    return;
-            }
-            _0x18452e = {
-                '\x6d\x61\x70\x49\x64': $gameMap[_0x53fdf2(0x138)](),
-                '\x65\x76\x65\x6e\x74\x49\x64': this[_0x53fdf2(0x15a)][_0x53fdf2(0xfc)]()
-            }, ANNetwork['\x73\x65\x6e\x64'](NMS['\x45\x76\x65\x6e\x74']('\x73\x68\x61\x72\x65\x64\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c', _0x18452e));
-        } else
-            return;
-    }, _0x1afc92[_0x555067(0x11a)] = function (_0x259f37, _0x2ee1b3) {
-        var _0x454220 = _0x555067, _0x2b5007;
-        if (!this[_0x454220(0xde)]())
-            return;
-        _0x2b5007 = {
-            '\x6d\x61\x70\x49\x64': $gameMap[_0x454220(0x138)](),
-            '\x65\x76\x65\x6e\x74\x49\x64': this[_0x454220(0x15a)][_0x454220(0xfc)](),
-            '\x69\x6e\x64\x65\x78': _0x259f37,
-            '\x61\x63\x74\x69\x6f\x6e': _0x2ee1b3
-        }, ANNetwork[_0x454220(0xff)](NMS[_0x454220(0x116)](_0x454220(0x14a), _0x2b5007));
-    }, _0x1afc92[_0x555067(0x12c)] = function (_0x539136) {
-        var _0x2599e1 = _0x555067, _0x8e7b43, _0x637496, _0x2b3dd2;
-        try {
-            if (_0x2599e1(0xef) !== '\x61\x53\x63\x4a\x49') {
-                if (_0x539136['\x6f\x70\x74\x69\x6f\x6e\x73']['\x73\x63\x6f\x70\x65'] === _0x2599e1(0x132)) {
-                    if (_0x2599e1(0x159) !== _0x2599e1(0xf4)) {
-                        if ($gameMap['\x6d\x61\x70\x49\x64']() !== _0x539136[_0x2599e1(0x138)]) {
-                            if ('\x66\x76\x77\x48\x56' !== _0x2599e1(0xe1))
-                                _0x1bb756 = _0x2599e1(0xed);
-                            else
-                                return;
-                        }
-                    } else
-                        !_0x520269[_0x2599e1(0xf2)]() && (_0x5229d2['\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x45\x6e\x64\x65\x64'](), _0xbd5772['\x72\x65\x73\x65\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74']());
-                }
-                if (!ANET[_0x2599e1(0x115)][_0x2599e1(0x131)](_0x539136[_0x2599e1(0x114)]))
-                    return;
-                _0x637496 = _0x539136[_0x2599e1(0x106)], _0x2b3dd2 = _0x637496[_0x2599e1(0xec)];
-                switch (_0x539136[_0x2599e1(0x114)][_0x2599e1(0xee)]) {
-                case _0x2599e1(0xfb):
-                    _0x1afc92[_0x2599e1(0x150)](_0x2b3dd2, _0x539136[_0x2599e1(0xfc)], _0x539136[_0x2599e1(0x138)]);
-                    break;
-                case _0x2599e1(0xdd):
-                    $gameTemp[_0x2599e1(0xf7)](_0x637496);
-                    break;
-                default:
-                    if (_0x1afc92[_0x2599e1(0x10c)](_0x2b3dd2[0x0][_0x2599e1(0x151)]))
-                        _0x1afc92[_0x2599e1(0x150)](_0x2b3dd2, _0x539136[_0x2599e1(0xfc)], _0x539136[_0x2599e1(0x138)]);
-                    else {
-                        if ('\x67\x76\x58\x59\x4e' === _0x2599e1(0x108))
-                            $gameTemp[_0x2599e1(0xf7)](_0x637496);
-                        else
-                            return typeof _0x1ed273 !== _0x2599e1(0xfa) && _0x706cb !== null ? _0x1ff057[_0x2599e1(0x130)]() : void 0x0;
-                    }
-                }
-            } else
-                _0x9fe18b[_0x2599e1(0x12e)]() && (_0x5db027 === _0x4e4e4f[_0x2599e1(0x14b)] && _0x1c2b7c[_0x2599e1(0x11f)]());
-        } catch (_0x579fc7) {
-            _0x8e7b43 = _0x579fc7, ANET['\x77'](_0x8e7b43);
-        }
-    }, _0x1afc92[_0x555067(0x107)] = function (_0x2c9b7f) {
-        var _0x81f783 = _0x555067;
-        if ('\x4f\x6c\x4c\x4a\x46' === _0x81f783(0x118))
-            return;
-        else {
-            var _0x8c88fe, _0xc3b76, _0x59aa1d, _0x16c2df, _0x1e7b8c;
-            try {
-                ({
-                    mapId: _0x1e7b8c,
-                    eventId: _0xc3b76,
-                    index: _0x16c2df,
-                    indent: _0x59aa1d
-                } = _0x2c9b7f);
-                if ($gameMap[_0x81f783(0x138)]() !== _0x1e7b8c) {
-                    if ('\x66\x61\x56\x57\x53' !== _0x81f783(0xda))
-                        return;
-                    else {
-                        var _0x158fe9, _0x230611;
-                        this['\x68\x69\x64\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'](), _0x158fe9 = '\x57\x61\x69\x74\x69\x6e\x67\x20\x70\x6c\x61\x79\x65\x72\x73', _0x230611 = '', this[_0x81f783(0xde)]() && this[_0x81f783(0x15a)]['\x6e\x49\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x43\x61\x6e\x42\x65\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x6c\x65\x64']() && (_0x230611 = _0x81f783(0xed)), typeof _0x2e9495 !== _0x81f783(0xfa) && _0x5c0a16 !== null && _0x5c9183[_0x81f783(0x111)](_0x158fe9, _0x230611, 0x3e8);
-                    }
-                }
-                if (_0x1afc92[_0x81f783(0x10b)]())
-                    return;
-                if (_0x16c2df !== 0x0)
-                    return;
-                $gameTemp[_0x81f783(0x11b)](_0xc3b76);
-                return;
-            } catch (_0x5e9860) {
-                if ('\x74\x47\x78\x59\x4b' === _0x81f783(0x121))
-                    return;
-                else
-                    _0x8c88fe = _0x5e9860, ANET['\x77'](_0x8c88fe);
-            }
-        }
-    }, _0x1afc92[_0x555067(0x149)] = function (_0x2eeee3) {
-        var _0x3fe93f = _0x555067, _0x33e453, _0x29e519, _0x400068, _0x3a31ed, _0x38ba23, _0x420860;
-        try {
-            if (_0x3fe93f(0x123) !== '\x48\x54\x72\x6c\x74')
-                _0x53cee1[_0x3fe93f(0x135)]() ? _0x472806[_0x3fe93f(0x15b)](_0x3e4701[_0x3fe93f(0x140)]) : !_0x2359ef[_0x3fe93f(0xf2)]() && (_0x34ebed[_0x3fe93f(0x10a)](), _0xbd40e7[_0x3fe93f(0x104)]());
-            else {
-                ({
-                    mapId: _0x420860,
-                    eventId: _0x400068,
-                    actorId: _0x33e453,
-                    index: _0x38ba23,
-                    indent: _0x3a31ed
-                } = _0x2eeee3);
-                if ($gameMap[_0x3fe93f(0x138)]() !== _0x420860)
-                    return;
-                if (!_0x1afc92[_0x3fe93f(0xde)]()) {
-                    if ('\x6f\x41\x64\x4e\x62' !== '\x4b\x4d\x4a\x41\x64')
-                        return;
-                    else
-                        return;
-                }
-                if (_0x1afc92[_0x3fe93f(0x15a)][_0x3fe93f(0xfc)]() !== _0x400068)
-                    return;
-                _0x1afc92[_0x3fe93f(0x15a)][_0x3fe93f(0x157)](_0x38ba23, _0x3a31ed, _0x33e453);
-            }
-        } catch (_0x3cb9cc) {
-            _0x29e519 = _0x3cb9cc, ANET['\x77'](_0x29e519);
-        }
-    }, _0x1afc92[_0x555067(0x141)] = function (_0x4d692b) {
-        var _0x58a260 = _0x555067;
-        if (_0x58a260(0x128) !== _0x58a260(0x128))
-            _0x217bbd[_0x58a260(0xf7)](_0x355d06);
-        else {
-            var _0x10d0a8, _0x177bed, _0x5a7f72;
-            try {
-                ({
-                    mapId: _0x5a7f72,
-                    eventId: _0x177bed
-                } = _0x4d692b);
-                if ($gameMap[_0x58a260(0x138)]() !== _0x5a7f72)
-                    return;
-                if (!_0x1afc92['\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x49\x73\x52\x75\x6e\x6e\x69\x6e\x67']())
-                    return;
-                if (_0x1afc92[_0x58a260(0xde)]()) {
-                    if (_0x58a260(0x11c) !== _0x58a260(0x142))
-                        return;
-                    else {
-                        var _0x8e3b98, _0x137658, _0x551c8f;
-                        _0x137658 = {
-                            '\x63\x6f\x64\x65': 0x0,
-                            '\x69\x6e\x64\x65\x6e\x74': 0x0,
-                            '\x70\x61\x72\x61\x6d\x65\x74\x65\x72\x73': []
-                        }, _0x551c8f = {
-                            '\x6c\x69\x73\x74': [
-                                _0x389934,
-                                _0x137658
-                            ]
-                        }, _0x8e3b98 = {
-                            '\x6d\x61\x70\x49\x64': _0x384839[_0x58a260(0x138)](),
-                            '\x65\x76\x65\x6e\x74\x49\x64': _0x42f801,
-                            '\x65\x76\x65\x6e\x74': _0x551c8f,
-                            '\x6f\x70\x74\x69\x6f\x6e\x73': _0x1a2f9f
-                        }, _0x30ebd1[_0x58a260(0xff)](_0x387712[_0x58a260(0x116)](_0x58a260(0x112), _0x8e3b98));
-                    }
-                }
-                if (_0x1afc92[_0x58a260(0x15a)]['\x65\x76\x65\x6e\x74\x49\x64']() !== _0x177bed)
-                    return;
-                return _0x1afc92[_0x58a260(0x15a)]['\x6e\x41\x6c\x6c\x6f\x77\x43\x6f\x6e\x74\x69\x6e\x75\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74']();
-            } catch (_0x39fb92) {
-                if (_0x58a260(0x155) !== _0x58a260(0x155))
-                    _0x192bdc = _0x4cd315[_0x58a260(0x101)]['\x65\x76\x65\x6e\x74\x49\x64'](), this[_0x58a260(0x15c)](_0xfeaadd);
-                else
-                    return _0x10d0a8 = _0x39fb92, ANET['\x77'](_0x10d0a8);
-            }
-        }
-    }, _0x1afc92[_0x555067(0x13d)] = function (_0x25d39f) {
-        var _0x5ee472 = _0x555067, _0x1530f8, _0x271d80, _0x401729;
-        try {
-            ({
-                mapId: _0x401729,
-                eventId: _0x271d80
-            } = _0x25d39f);
-            if ($gameMap[_0x5ee472(0x138)]() !== _0x401729)
-                return;
-            if (_0x1afc92[_0x5ee472(0xde)]()) {
-                if (_0x5ee472(0x117) !== _0x5ee472(0x117)) {
-                    var _0x21f46a;
-                    if (!this[_0x5ee472(0xde)]())
-                        return;
-                    _0x21f46a = {
-                        '\x6d\x61\x70\x49\x64': _0x189a3e[_0x5ee472(0x138)](),
-                        '\x65\x76\x65\x6e\x74\x49\x64': this[_0x5ee472(0x15a)][_0x5ee472(0xfc)](),
-                        '\x69\x6e\x64\x65\x78': this[_0x5ee472(0x15a)]['\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61']['\x69\x6e\x64\x65\x78'],
-                        '\x69\x6e\x64\x65\x6e\x74': this[_0x5ee472(0x15a)][_0x5ee472(0x13e)]['\x69\x6e\x64\x65\x6e\x74']
-                    }, _0x3dcf40[_0x5ee472(0xff)](_0x2d0aca[_0x5ee472(0x116)](_0x5ee472(0x13b), _0x21f46a));
-                } else
-                    return;
-            }
-            if (_0x1afc92[_0x5ee472(0x10b)]()) {
-                if (_0x1afc92[_0x5ee472(0x15a)][_0x5ee472(0xfc)]() !== _0x271d80)
-                    return;
-                return $gameTemp['\x5f\x73\x68\x6f\x75\x6c\x64\x46\x6f\x72\x63\x65\x45\x78\x69\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = !![];
-            } else {
-                if ($gameTemp[_0x5ee472(0x12e)]()) {
-                    if (_0x271d80 === $gameTemp['\x5f\x72\x65\x73\x65\x72\x76\x65\x64\x4e\x65\x74\x77\x6f\x72\x6b\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74']) {
-                        if ('\x6d\x50\x56\x46\x76' !== _0x5ee472(0x14d))
-                            $gameTemp[_0x5ee472(0x11f)]();
-                        else
-                            return;
-                    }
-                }
-            }
-        } catch (_0x39f433) {
-            if (_0x5ee472(0x125) === _0x5ee472(0x14c))
-                return;
-            else
-                return _0x1530f8 = _0x39f433, ANET['\x77'](_0x1530f8);
-        }
-    }, _0x1afc92['\x6f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x43\x68\x6f\x69\x63\x65\x41\x63\x74\x69\x6f\x6e\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72'] = function (_0x48bf9f) {
-        var _0x3ec09d = _0x555067;
-        if ('\x5a\x46\x4c\x6c\x78' !== _0x3ec09d(0xe4)) {
-            var _0x3c0ac2;
-            if (this[_0x3ec09d(0xde)]())
-                return;
-            _0x3c0ac2 = {
-                '\x6d\x61\x70\x49\x64': _0x1ca6dd[_0x3ec09d(0x138)](),
-                '\x65\x76\x65\x6e\x74\x49\x64': this[_0x3ec09d(0x15a)][_0x3ec09d(0xfc)](),
-                '\x61\x63\x74\x6f\x72\x49\x64': _0x4210dc['\x6d\x79\x41\x63\x74\x6f\x72\x49\x64'](),
-                '\x69\x6e\x64\x65\x78': this[_0x3ec09d(0x15a)][_0x3ec09d(0x13e)]['\x69\x6e\x64\x65\x78'],
-                '\x69\x6e\x64\x65\x6e\x74': this[_0x3ec09d(0x15a)]['\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61']['\x69\x6e\x64\x65\x6e\x74']
-            }, _0x5f3077['\x73\x65\x6e\x64'](_0x407e6a['\x45\x76\x65\x6e\x74'](_0x3ec09d(0x12a), _0x3c0ac2));
-        } else {
-            var _0x1e9b8a, _0x1e63d5, _0x23b5a7, _0x34dea4, _0x5c3451;
-            try {
-                ({
-                    mapId: _0x5c3451,
-                    eventId: _0x23b5a7,
-                    action: _0x1e9b8a,
-                    index: _0x34dea4
-                } = _0x48bf9f);
-                if ($gameMap[_0x3ec09d(0x138)]() !== _0x5c3451)
-                    return;
-                if (!_0x1afc92['\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x49\x73\x52\x75\x6e\x6e\x69\x6e\x67']()) {
-                    if ('\x4b\x65\x58\x6b\x43' === _0x3ec09d(0xdb))
-                        return;
-                    else
-                        return this[_0x3ec09d(0x15a)] != null && _0x3184c7[_0x3ec09d(0xf2)]();
-                }
-                if (_0x1afc92[_0x3ec09d(0x15a)][_0x3ec09d(0xfc)]() !== _0x23b5a7)
-                    return;
-                return $gameTemp[_0x3ec09d(0x12b)] = {
-                    '\x61\x63\x74\x69\x6f\x6e': _0x1e9b8a,
-                    '\x69\x6e\x64\x65\x78': _0x34dea4
-                }, _0x2f172b['\x70'](_0x3ec09d(0x139));
-            } catch (_0x5ed2b6) {
-                return _0x1e63d5 = _0x5ed2b6, ANET['\x77'](_0x1e63d5);
-            }
-        }
+  };
+  _.updateInputChange = function() {
+    if ($gameParty.isOneBattler()) {
+      return;
+    }
+    if (this._lastBattleManagerInputActor !== BattleManager._currentActor) {
+      this._lastBattleManagerInputActor = BattleManager._currentActor;
+      this.sendInputState();
+    } else if (this._lastBattleManagerInputValue !== BattleManager._inputting) {
+      this._lastBattleManagerInputValue = BattleManager._inputting;
+      this.sendInputState();
+    }
+  };
+  _.registerOnLocalBattle = function() {
+    this.battleData = {
+      isLocal: true,
+      battleId: "local",
+      actors: [ANGameManager.myActorId()]
     };
-}()));
+    LOG.p("STARTED LOCAL BATTLE");
+  };
+  _.onBattleStarted = function() {
+    this._battleMethodsPool = [];
+    this._lastBattleManagerInputValue = false;
+    this._lastBattleManagerInputActor = null;
+    this.sendBattleStarted();
+  };
+  _.onBattleEnd = function() {
+    if (!this.isBattleLocal()) {
+      this.sendBattleEnded();
+    }
+    this.battleData = null;
+  };
+  _.callBattleMethod = function(battler, method, args) {
+    // * Если в бою только один игрок, то ничего не отправляем (чтобы не грузить сеть)
+    if ($gameParty.isOneBattler()) {
+      return;
+    }
+    if (ANET.PP.isForceBattleSyncMode()) {
+      if (this._battleMethodsPool == null) {
+        this._battleMethodsPool = [];
+      }
+      this._battleMethodsPool.push([battler, method, args]);
+    } else {
+      this._callBattleMethodOnServer(battler, method, args);
+    }
+  };
+  
+  // * Отправка метод из очереди (используется в режиме Force Battle Sync)
+  _._callBattleMethodOnServer = function(battler, method, args) {
+    "CALL BATTLE METHOD".p();
+    // * Обновим данные перед методом битвы
+    // * Без этого был баг, что приходил collapse эффект, а hp = 0 уже после
+    ANSyncDataManager.sendBattlerObserver(battler);
+    // * На всякий случай, чтобы не сбивать основную логику обновления
+    battler.netDataObserver._isDataChanged = true;
+    this.sendBattleMethod(method, battler.packForNetwork(), args);
+    if (ANET.PP.isForceBattleSyncMode()) {
+      // * Будем ждать игроков
+      this.setWait('battleMethod');
+      this._waitPool += 1; // * Мы уже готовы (мастер боя)
+    }
+  };
+  // * Анимация в бою
+  _.requestAnimation = function(targets, animationId, mirror = false) {
+    var converted, data;
+    if ($gameParty.isOneBattler()) {
+      return;
+    }
+    converted = targets.map(function(t) {
+      return t.packForNetwork();
+    });
+    data = {
+      animationId: animationId,
+      mirror: mirror,
+      targets: converted
+    };
+    this.sendBattleAnimation(data);
+  };
+  // * Персонаж данного игрока сделал выбор в бою (ввод команды)
+  _.battleInputActionDone = function() {
+    var action;
+    action = BattleManager.inputtingAction();
+    // * Логика боя в MV другая, поэтому доп. проверка
+    if (KDCore.isMV()) {
+      if (action == null) {
+        return;
+      }
+    }
+    this.sendBattleInputAction(ANGameManager.myActorId(), action);
+  };
+  // * Регистрация на битву
+  _.registerOnBattle = function(battleData) {
+    LOG.p("Try register battle: " + battleData.battleId);
+    return this.sendRegisterOnBattle(battleData);
+  };
+  // * Регистрация (вступление в битву) которая уже была начата
+  _._registerToExistsSharedBattle = function() {
+    LOG.p("Join Shared battle");
+    $gameTemp._requestInitialSharedBattleRefresh = true;
+  };
+  // * Запуск глобальный битвы через Map Encounter
+  _.executeMapEncounterBattle = function(troopId) {
+    var battleId, e;
+    try {
+      // * Создаём ID
+      battleId = KDCore.makeId(4);
+      // * Регестрируем битву
+      BattleManager.nSetNetworkBattle(battleId);
+      // * Отправляем на сервер (другим игрокам)
+      return this.sendExecuteEncounterBattleRequest({
+        battleId,
+        mapId: $gameMap.mapId(),
+        troopId
+      });
+    } catch (error) {
+      e = error;
+      return KDCore.warning(e);
+    }
+  };
+  //? КОМАНДЫ ЗАПРОСЫ (посылаются на сервер)
+  // * ===============================================================
+
+  // * Отправить выбранное игроком (в битве) действие
+  _.sendBattleInputAction = function(inputActorId, action) {
+    ANNetwork.send(NMS.Battle("inputAction", {action, inputActorId}));
+  };
+  // * Отправить изменение состояния ввода
+  _.sendInputState = function() {
+    var inputActorId, inputState;
+    inputState = BattleManager._inputting;
+    if (BattleManager._currentActor != null) {
+      inputActorId = BattleManager._currentActor.actorId();
+    } else {
+      inputActorId = null;
+    }
+    ANNetwork.send(NMS.Battle("input", {inputState, inputActorId}));
+  };
+  // * Отправить команду WindowLog на сервер
+  _.sendWindowLogMessage = function(cmd, text) {
+    ANNetwork.send(NMS.Battle("logMessage", {cmd, text}));
+  };
+  _.sendBattleStarted = function() {
+    return ANNetwork.send(NMS.Battle("started"));
+  };
+  _.sendBattleEnded = function() {
+    return ANNetwork.send(NMS.Battle("ended"));
+  };
+  _.sendBattleMethod = function(methodName, id, args) {
+    var data;
+    data = {
+      method: methodName,
+      id: id,
+      data: args
+    };
+    ANNetwork.send(NMS.Battle("battleMethod", data), true);
+  };
+  _.sendBattleAnimation = function(data) {
+    ANNetwork.send(NMS.Battle("animation", data));
+  };
+  _.sendBattleMethodReceived = function() {
+    ANNetwork.send(NMS.Battle("battleMethodReceived"));
+  };
+  _.sendRegisterOnBattle = function(battleData) {
+    ANNetwork.get(NMS.Battle("register", battleData), function(result) {
+      return ANBattleManager.onBattleRegisterResult(result);
+    }, function() {
+      // * Снять флаг сетевой битвы (чтобы сцена Start выполнела)
+      BattleManager.nSetNetworkBattle(null);
+      // * Запускаем локальную битву (чтобы battleData существовал)
+      return ANBattleManager.registerOnLocalBattle();
+    });
+  };
+  _.sendExecuteEncounterBattleRequest = function(battleData) {
+    return ANNetwork.send(NMS.Battle("executeEncounter", battleData));
+  };
+  //? CALLBACKS ОТ ЗАПРОСОВ НА СЕРВЕР
+  // * ===============================================================
+  _.onBattleDataFromServer = function(battleData) {
+    // * Если этот клиент не участвует в битве, то ничего
+    if (!this.isBattleRegistred()) {
+      return;
+    }
+    // * Если я в локальной битве (сам), то меня не касается
+    if (this.isBattleLocal()) {
+      return;
+    }
+    // * Данные битвы касаются моей битвы?
+    if (this.battleData.battleId === battleData.battleId) {
+      $gameTemp._previousNetBattleActors = [...this.battleData.actors];
+      this.battleData = battleData;
+    }
+  };
+  _.onBattleRegisterResult = function(result) {
+    var _evCallback;
+    "REGISTER SUCCESS".p();
+    this.battleData = result;
+    // * Эта команда обязательно должны быть ниже этой @battleData = result
+    // * После регистрации на сетевую битву, устанавливается Troop
+    // * из сервера, чтобы у всех одинаковый был
+    // * Чтобы не сбросился callback результата битвы, переносим его
+    // * Так как initMembers получается второй раз вызывается
+    _evCallback = BattleManager._eventCallback;
+    BattleManager.setup(...result.options);
+    if (_evCallback != null) {
+      BattleManager.setEventCallback(_evCallback);
+    }
+    "SETUP".p(result.options);
+    console.info(result);
+    if (!this.isBattleMaster()) {
+      this._registerToExistsSharedBattle();
+    }
+  };
+  // * С сервера пришла команда проиграть анимацию
+  _.onBattleAnimation = function(data) {
+    var e, targets;
+    try {
+      targets = data.targets.map(function(t) {
+        return ANET.Utils.unpackBattlerFromNetwork(t);
+      });
+      $gameTemp.requestAnimation(targets, data.animationId, data.mirror);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * С сервера пришла команда (метод) боя
+  _.onBattleMethod = function(battlerNetData, method, args) {
+    var battler, e;
+    try {
+      //"BATTLE METHOD RECEIVED".p()
+      // * Отправляю мастеру битвы информацию что я получил команду
+      if (ANET.PP.isForceBattleSyncMode()) {
+        this.sendBattleMethodReceived();
+      }
+      battler = ANET.Utils.unpackBattlerFromNetwork(battlerNetData);
+      if (battler[method] != null) {
+        //TODO: convert arguments
+        battler[method](args);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Игрок принял команду боя
+  _.onBattleMethodReceived = function() {
+    var e;
+    try {
+      this._waitPool += 1;
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Пришло изменение состояние ввода
+  _.onBattleInputState = function(inputState, inputActorId) {
+    var e;
+    try {
+      if (!$gameParty.inBattle()) {
+        return;
+      }
+      BattleManager._inputting = inputState;
+      if (inputActorId === ANGameManager.myActorId()) {
+        return BattleManager.nSetCurrentClientInput();
+      } else {
+        // * Если не мой персонаж, то никакого ввода
+        return BattleManager.nClearClientInput();
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _.onBattleInputAction = function(inputActorId, action) {
+    var e;
+    try {
+      if (!ANGameManager.isBattleMaster()) {
+        return;
+      }
+      //TODO: Тут есть проблема в MV версии
+      //? TypeError: Cannot read property 'setFromNetwork' of null
+      // inputtingAction() - нету в MV
+      //TODO: Проверка что inputActorId = BattleManager._currentActor.actorId()
+      BattleManager.inputtingAction().setFromNetwork(action);
+      // * Далее (продолжить бой)
+      return BattleManager.selectNextCommand();
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _.onLogWindowMessage = function(cmd, text) {
+    var e, ref, ref1;
+    try {
+      if (!$gameParty.inBattle()) {
+        return;
+      }
+      switch (cmd) {
+        case "add":
+          if ((ref = BattleManager._logWindow) != null) {
+            ref.addText(text);
+          }
+          break;
+        default:
+          if ((ref1 = BattleManager._logWindow) != null) {
+            ref1.clear();
+          }
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _.onExecuteEncounterBattle = function(battleData) {
+    var battleId, e, mapId, timeRand, troopId;
+    try {
+      // * Данный метод приходит ДРУГИМ игрокам, помимо того, кто вызвал битву
+      //?Пока просто выходим, если запущено событие
+      if ($gameMap.isEventRunning()) {
+        return;
+      }
+      if (KDCore.Utils.isSceneBattle()) {
+        return;
+      }
+      if (battleData == null) {
+        return;
+      }
+      ({battleId, mapId, troopId} = battleData);
+      // * Нельзя на разных картах!
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      // * Сбрасываем шаги до след. битвы у всех, чтобы не частить
+      $gamePlayer.makeEncounterCount();
+      // * Чтобы все игрока в одно времяя не начали
+      // (чтобы кто-то первый (точно первый) зарегестрировал Shared битву)
+      timeRand = Math.random() * 200;
+      return setTimeout((function() {
+        var e;
+        try {
+          // * Регестрируемся на Shared битву (как обычно)
+          BattleManager.nSetNetworkBattle(battleId);
+          // * Настраиваем битву
+          BattleManager.setup(troopId, true, false);
+          // * Начинаем битву
+          return SceneManager.push(Scene_Battle);
+        } catch (error) {
+          e = error;
+          return KDCore.warning(e);
+        }
+      }), timeRand);
+    } catch (error) {
+      e = error;
+      return KDCore.warning(e);
+    }
+  };
+})();
+
+
+// Generated by CoffeeScript 2.6.1
+// * Данный класс отвечает за синхронизацию и обработку интерпретера и команд события
+
+//$[ENCODE]
+
+//@[GLOBAL]
+window.ANInterpreterManager = function() {};
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("NetIntr");
+  LOG.setColors(KDCore.Color.YELLOW, KDCore.Color.BLACK.getLightestColor(15));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANInterpreterManager;
+  // * Когда закончелось событие
+  _.eventProcessExit = function() {
+    if ($gameMessage.isBusy()) {
+      $gameMessage.nSetEndCallback(_.eventProcessExit);
+    } else {
+      if (!$gameMap.isEventRunning()) {
+        _.sendEventEnded();
+        _.resetSharedEvent();
+      }
+    }
+  };
+  // * Дополнительная проверка что статус игрока соответсвует событию (запущено или нет)
+  _.checkEventRunning = function() {
+    var evId;
+    if (NetPlayerDataWrapper.isOnAnyEvent(ANGameManager.myPlayerData())) {
+      if (!$gameMap.isEventRunning()) {
+        if (!$gameMessage.isBusy()) {
+          this.sendEventEnded();
+        }
+      }
+    } else {
+      if ($gameMap.isEventRunning()) {
+        evId = $gameMap._interpreter.eventId();
+        this.sendEventStarted(evId);
+      }
+    }
+  };
+  // * Выполнить виртуальную команду (list) вне очереди (не ожидая сцены или другого события)
+  // * mapId - ID карты не текущей, а того, от кого пришла команда (нужно для Self.Switch)
+  _.startVirtualCommand = function(list, eventId, mapId) {
+    var e, key, virtualInter;
+    try {
+      // * Self.Switch имеет отдельную обработку (так как mapId отличается)
+      if (list[0].code === 123 && eventId > 0) {
+        key = [mapId, eventId, list[0].parameters[0]];
+        $gameSelfSwitches.setValue(key, list[0].parameters[1] === 0); // * Команда может быть только одна (всегда), поэтому else (больше команд нету)
+      } else {
+        virtualInter = new Game_Interpreter();
+        virtualInter.setup(list, eventId);
+        virtualInter.executeCommand(); // * force execute
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Выполнить комадну виртуально?
+  _.isVirtualCommand = function(commandCode) {
+    return !ANET.System.NonVirtualCommandsList.contains(commandCode);
+  };
+  // * Сброс общего события
+  _.resetSharedEvent = function() {
+    this._sharedInterpreter = null;
+    this._sharedEventMaster = false;
+    // * На всякий случай
+    this.hideWaitPlayersOnSharedEvent();
+  };
+  // * Когда игрок запускает общее событие, оно регестрируется этим методом
+  // * ссылка на сам interpreter и флаг - является ли игрок мастером - кто первый запустил
+  _.setupSharedInterpreter = function(_sharedInterpreter, _sharedEventMaster) {
+    this._sharedInterpreter = _sharedInterpreter;
+    this._sharedEventMaster = _sharedEventMaster;
+    // * Сброс флага необходимости закрытия (для клиентов)
+    $gameTemp._shouldForceExitSharedEvent = false;
+    // * Нельзя, если уже зарезервированно общее событие от сервера
+    if ($gameTemp.isNetworkSharedEventReserved()) {
+      return;
+    }
+    if (this._sharedInterpreter == null) {
+      return;
+    }
+    LOG.p("Shared event registred " + this._sharedInterpreter.eventId());
+  };
+  // * Является ли данный клиент мастером общего события
+  _.isSharedEventMaster = function() {
+    return this.isSharedEventIsRunning() && this._sharedEventMaster === true;
+  };
+  _.isSharedEventIsRunning = function() {
+    return (this._sharedInterpreter != null) && $gameMap.isEventRunning();
+  };
+  // * Отмена ожидания игроков (когда Shared mode == optional)
+  _.forceCancelSharedEvent = function() {
+    if (!this.isSharedEventMaster()) {
+      return;
+    }
+    LOG.p("Shared event force cancelled");
+    "SEND ALL CANCEL EVENT".p();
+    this.sendForceCancelSharedEvent();
+    this.hideWaitPlayersOnSharedEvent();
+  };
+  _.showWaitPlayersOnSharedEvent = function() {
+    var text, text2;
+    this.hideWaitPlayersOnSharedEvent();
+    //TODO: Вынести все строки в параметры
+    text = "Waiting players";
+    text2 = "";
+    if (this.isSharedEventMaster() && this._sharedInterpreter.nIsSharedEventCanBeForceCancelled()) {
+      text2 = "Press ESC to cancel";
+    }
+    if (typeof HUIManager !== "undefined" && HUIManager !== null) {
+      HUIManager.showWaitingInfo(text, text2, 1000);
+    }
+  };
+  _.hideWaitPlayersOnSharedEvent = function() {
+    return typeof HUIManager !== "undefined" && HUIManager !== null ? HUIManager.hideWaitingInfo() : void 0;
+  };
+  //? КОМАНДЫ ЗАПРОСЫ (посылаются на сервер)
+  // * ===============================================================
+
+  // * Когда игрок запускает какое-либо событие
+  _.sendEventStarted = function(eventId) {
+    return ANNetwork.send(NMS.Event("eventStarted", eventId));
+  };
+  
+  // * Когда игрок "выходит" из запущенного события
+  _.sendEventEnded = function() {
+    return ANNetwork.send(NMS.Event("eventEnded"));
+  };
+  
+  // * Отправка виртуальной команды на сервер
+  _.sendEventVirtualCommand = function(command, options, eventId) {
+    var data, endCommand, vEvent;
+    // * Эта команда всегда в конце
+    endCommand = {
+      code: 0,
+      indent: 0,
+      parameters: []
+    };
+    // * Модель общего события
+    vEvent = {
+      list: [command, endCommand]
+    };
+    data = {
+      mapId: $gameMap.mapId(),
+      eventId: eventId,
+      event: vEvent,
+      options: options
+    };
+    ANNetwork.send(NMS.Event("virtualEventCommand", data));
+  };
+  // * Отправка запроса чтобы все начали общее событие
+  // * Игрок запустил общее событие и будет теперь ждать всех игроков (на карте)
+  _.sendSharedEventRequireRegister = function() {
+    var data;
+    // * Только мастер может это отправить
+    // * Плюс эта проверка гарантирует, что мы запустили событие
+    if (!this.isSharedEventMaster()) {
+      return;
+    }
+    data = {
+      mapId: $gameMap.mapId(),
+      eventId: this._sharedInterpreter.eventId(),
+      index: this._sharedInterpreter.nSyncWaitCommandData.index,
+      indent: this._sharedInterpreter.nSyncWaitCommandData.indent
+    };
+    ANNetwork.send(NMS.Event("registerOnShared", data));
+  };
+  // * Отправка ответа, что клиент зарегестрировался на общем событии
+  _.sendSharedEventRegisteredDone = function() {
+    var data;
+    if (this.isSharedEventMaster()) {
+      return;
+    }
+    data = {
+      mapId: $gameMap.mapId(),
+      eventId: this._sharedInterpreter.eventId(),
+      actorId: ANGameManager.myActorId(),
+      index: this._sharedInterpreter.nSyncWaitCommandData.index,
+      indent: this._sharedInterpreter.nSyncWaitCommandData.indent
+    };
+    ANNetwork.send(NMS.Event("registerDone", data));
+  };
+  // * Мастер отправляет клиентам, что можно продолжать выполнение
+  _.sendSharedEventReadyToContinue = function() {
+    var data;
+    if (!this.isSharedEventMaster()) {
+      return;
+    }
+    data = {
+      mapId: $gameMap.mapId(),
+      eventId: this._sharedInterpreter.eventId()
+    };
+    ANNetwork.send(NMS.Event("sharedCanContinue", data));
+  };
+  // * Когда мастер общего события отменяет общее событие (на стадии ожидания игроков)
+  _.sendForceCancelSharedEvent = function() {
+    var data;
+    if (!this.isSharedEventMaster()) {
+      return;
+    }
+    data = {
+      mapId: $gameMap.mapId(),
+      eventId: this._sharedInterpreter.eventId()
+    };
+    ANNetwork.send(NMS.Event("sharedForceCancel", data));
+  };
+  _.sendChoiceSelection = function(index, action) {
+    var data;
+    if (!this.isSharedEventMaster()) {
+      return;
+    }
+    data = {
+      mapId: $gameMap.mapId(),
+      eventId: this._sharedInterpreter.eventId(),
+      index: index,
+      action: action
+    };
+    ANNetwork.send(NMS.Event("sharedChoice", data));
+  };
+  //? CALLBACKS ОТ ЗАПРОСОВ НА СЕРВЕР
+  // * ===============================================================
+
+  // * Просто общее событие ждёт, а некоторые вещи можно сразу выполнять, не зависимо от того игрок находится в событии или нет
+  _.onVirtualCommand = function(data) {
+    var e, event, list;
+    try {
+      // * Если только на одой карте, то проверяем номер карты
+      if (data.options.scope === "Same map") {
+        if ($gameMap.mapId() !== data.mapId) {
+          return;
+        }
+      }
+      // * Затем проверяем фильтр (для нас ли эта команда?)
+      if (!ANET.Utils.isPassEventFilterOptions(data.options)) {
+        return;
+      }
+      event = data.event;
+      list = event.list;
+      // * В зависимости от опции, запускаем в разных режимах
+      switch (data.options.executeMode) {
+        case "Virtual":
+          _.startVirtualCommand(list, data.eventId, data.mapId);
+          break;
+        case "Common Event":
+          $gameTemp.reserveVirtualCommonEvent(event); //? AUTO
+          break;
+        default:
+          // * Некоторые команды можно выполнять сразу, не ожидая сцены (или другого события)
+          if (_.isVirtualCommand(list[0].code)) {
+            _.startVirtualCommand(list, data.eventId, data.mapId);
+          } else {
+            // * Остальные идут как общее событие (приоритетное)
+            $gameTemp.reserveVirtualCommonEvent(event);
+          }
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Когда пришёл запрос с сервера, что надо начать общее событие
+  _.onRegisterOnSharedEventRequest = function(data) {
+    var e, eventId, indent, index, mapId;
+    try {
+      ({mapId, eventId, index, indent} = data);
+      // * Если карта другая, то пропускаем это сообщение
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      // * Если общее событие уже запущено (не важно какое), игнорируем
+      if (_.isSharedEventIsRunning()) {
+        return;
+      }
+      // * Это событие уже начато, т.е. этот клиент опоздал (пришёл с другой карты)
+      if (index !== 0) {
+        return;
+      }
+      $gameTemp.reserveNetworkSharedEvent(eventId);
+      return;
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Когда клиент на необходимой команде общего события
+  _.onRegisterOnSharedEventResponse = function(data) {
+    var actorId, e, eventId, indent, index, mapId;
+    try {
+      ({mapId, eventId, actorId, index, indent} = data);
+      // * Если карта другая, то пропускаем это сообщение
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      // * Мы не мастер, игнорируем
+      if (!_.isSharedEventMaster()) {
+        return;
+      }
+      // * ID событий не совпадают, игнорируем
+      if (_._sharedInterpreter.eventId() !== eventId) {
+        return;
+      }
+      // * Регестрируем ответ
+      _._sharedInterpreter.nOnSyncedEventCommandResponse(index, indent, actorId);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Когда все игроки "готовы" и можно продолжать выполнение общего события
+  _.onContinueSharedEvent = function(data) {
+    var e, eventId, mapId;
+    try {
+      ({mapId, eventId} = data);
+      // * Если карта другая, то пропускаем это сообщение
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      // * Если общее событие не запущено, игнорируем
+      if (!_.isSharedEventIsRunning()) {
+        return;
+      }
+      // * Мы мастер, игнорируем (выполнение у мастера от пула внутри события)
+      if (_.isSharedEventMaster()) {
+        return;
+      }
+      // * ID событий не совпадают, игнорируем
+      if (_._sharedInterpreter.eventId() !== eventId) {
+        return;
+      }
+      return _._sharedInterpreter.nAllowContinueSharedEvent();
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  // * Когда мастер общего события отменил его
+  _.onSharedEventForceCancelFromServer = function(data) {
+    var e, eventId, mapId;
+    try {
+      ({mapId, eventId} = data);
+      // * Если карта другая, то пропускаем это сообщение
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      // * Мы мастер, игнорируем
+      if (_.isSharedEventMaster()) {
+        return;
+      }
+      if (_.isSharedEventIsRunning()) {
+        // * ID событий не совпадают, игнорируем
+        if (_._sharedInterpreter.eventId() !== eventId) {
+          return;
+        }
+        // * Ставим глобальны флаг (обаботка идёт внутри Game_Event)
+        return $gameTemp._shouldForceExitSharedEvent = true;
+      } else {
+        // * Если событие ещё не было запущено (например этот клиент был в меню)
+        // * Надо проверить не стоит ли событие в очереди на запуск
+        if ($gameTemp.isNetworkSharedEventReserved()) {
+          // * Если ID событий совпадает
+          if (eventId === $gameTemp._reservedNetworkSharedEvent) {
+            $gameTemp.retrieveNetworkSharedEvent(); // * Забираем без выполнения
+          }
+        }
+      }
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  // * Когда мастер общего события сменил выбор (или действие выбора) в окне выбора вариантов в сообщении
+  _.onSharedEventChoiceActionFromServer = function(data) {
+    var action, e, eventId, index, mapId;
+    try {
+      ({mapId, eventId, action, index} = data);
+      // * Если карта другая, то пропускаем это сообщение
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      // * Если клиент не в общем событии, пропускаем
+      if (!_.isSharedEventIsRunning()) {
+        return;
+      }
+      // * ID событий не совпадают, игнорируем
+      if (_._sharedInterpreter.eventId() !== eventId) {
+        return;
+      }
+      // * Задаём глобальные данные
+      $gameTemp.nSelectionActionFromNetwork = {action, index};
+      return LOG.p("Shared Choice accepted from server");
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+})();
+
 
 // Generated by CoffeeScript 2.6.1
 // * Данный класс отвечает за синхронизацию и обработку игровых карт
@@ -13557,391 +12282,257 @@ ANPlayersManager = function() {};
 })();
 
 
-var _0x3d67cd = _0x4d10;
-function _0x1456() {
-    var _0x46fed9 = [
-        '\x4c\x68\x61\x52\x6b',
-        '\x71\x65\x4f\x6f\x44',
-        '\x6d\x61\x70\x49\x64',
-        '\x67\x65\x74\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x32\x35\x37\x38\x33\x34\x38\x42\x4f\x73\x55\x56\x58',
-        '\x37\x78\x61\x4c\x6a\x73\x6e',
-        '\x70\x61\x56\x53\x6c',
-        '\x5f\x6f\x6e\x42\x61\x74\x74\x6c\x65\x72\x52\x65\x73\x75\x6c\x74\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x4b\x6d\x50\x50\x6b',
-        '\x45\x54\x79\x67\x76',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x72\x52\x65\x73\x75\x6c\x74\x4f\x62\x73\x65\x72\x76\x65\x72',
-        '\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73',
-        '\x6f\x6e\x53\x77\x69\x74\x63\x68\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x5f\x64\x61\x74\x61\x43\x6c\x61\x73\x73',
-        '\x6f\x6e\x53\x77\x69\x74\x63\x68\x56\x61\x6c\x75\x65',
-        '\x31\x36\x32\x39\x35\x39\x30\x6f\x43\x42\x75\x44\x76',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x35\x38\x34\x33\x31\x34\x58\x67\x76\x41\x41\x41',
-        '\x76\x6e\x6b\x46\x7a',
-        '\x6f\x6e\x56\x61\x72\x69\x61\x62\x6c\x65\x56\x61\x6c\x75\x65',
-        '\x66\x78\x76\x51\x78',
-        '\x75\x6e\x70\x61\x63\x6b\x42\x61\x74\x74\x6c\x65\x72\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x62\x61\x74\x74\x6c\x65\x72\x52\x65\x73\x75\x6c\x74',
-        '\x6d\x79\x49\x64',
-        '\x53\x45\x4e\x44\x20\x42\x41\x54\x54\x4c\x45\x52\x20\x52\x45\x53\x55\x4c\x54',
-        '\x70\x61\x63\x6b\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x65\x4d\x47\x4b\x7a',
-        '\x58\x51\x6c\x70\x4e',
-        '\x73\x65\x6e\x64\x50\x6c\x61\x79\x65\x72\x4f\x62\x73\x65\x72\x76\x65\x72',
-        '\x65\x76\x65\x6e\x74\x43\x68\x61\x72',
-        '\x5f\x6e\x4c\x6f\x63\x61\x6c\x41\x63\x74\x6f\x72\x4d\x6f\x64\x65',
-        '\x73\x65\x6e\x64\x41\x63\x74\x6f\x72\x4f\x62\x73\x65\x72\x76\x65\x72',
-        '\x73\x65\x6e\x64\x53\x79\x6e\x63\x47\x6c\x6f\x62\x61\x6c\x56\x61\x72\x69\x61\x62\x6c\x65\x73',
-        '\x73\x65\x6e\x64\x47\x6c\x6f\x62\x61\x6c\x56\x61\x72\x69\x61\x62\x6c\x65\x43\x68\x61\x6e\x67\x65',
-        '\x6c\x65\x6e\x67\x74\x68',
-        '\x59\x6b\x66\x52\x67',
-        '\x5f\x6f\x6e\x50\x6c\x61\x79\x65\x72\x41\x63\x74\x6f\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x34\x35\x31\x31\x32\x37\x34\x52\x69\x61\x65\x45\x52',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x65\x52\x61\x43\x75',
-        '\x4a\x6a\x76\x74\x56',
-        '\x5f\x6f\x6e\x42\x61\x74\x74\x6c\x65\x55\x6e\x69\x74\x73\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x73\x65\x6e\x64\x47\x6c\x6f\x62\x61\x6c\x53\x77\x69\x74\x63\x68\x43\x68\x61\x6e\x67\x65',
-        '\x67\x65\x74\x41\x63\x74\x6f\x72\x46\x6f\x72\x50\x6c\x61\x79\x65\x72',
-        '\x4b\x6c\x44\x4d\x67',
-        '\x41\x4e\x53\x79\x6e\x63\x44\x61\x74\x61\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x31\x35\x38\x36\x32\x32\x75\x4c\x66\x7a\x50\x6c',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x49\x64',
-        '\x6d\x61\x70',
-        '\x46\x72\x6f\x6d\x20\x73\x65\x72\x76\x65\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x6f\x62\x73\x65\x72\x76\x65\x72\x20\x64\x61\x74\x61\x20\x74\x79\x70\x65\x3a\x20',
-        '\x5f\x72\x65\x71\x75\x65\x73\x74\x49\x6e\x69\x74\x69\x61\x6c\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65\x52\x65\x66\x72\x65\x73\x68',
-        '\x70\x6c\x61\x79\x65\x72\x41\x63\x74\x6f\x72',
-        '\x73\x65\x6e\x64',
-        '\x31\x34\x30\x39\x36\x33\x31\x42\x4e\x77\x77\x6e\x69',
-        '\x4c\x46\x69\x69\x4c',
-        '\x78\x49\x65\x6b\x51',
-        '\x53\x45\x4e\x44\x20\x42\x41\x54\x54\x4c\x45\x52\x20\x4f\x42\x53\x45\x52\x56\x45\x52',
-        '\x78\x52\x74\x68\x56',
-        '\x47\x61\x6d\x65',
-        '\x61\x70\x70\x6c\x79\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x5f\x65\x71\x75\x69\x70\x73',
-        '\x72\x65\x73\x75\x6c\x74',
-        '\x73\x77\x69\x74\x63\x68',
-        '\x41\x51\x55\x41',
-        '\x5f\x63\x6f\x6e\x76\x65\x72\x74\x41\x63\x74\x6f\x72\x45\x71\x75\x69\x70\x6d\x65\x6e\x73',
-        '\x70\x6c\x61\x79\x65\x72\x43\x68\x61\x72',
-        '\x62\x61\x74\x74\x6c\x65\x55\x6e\x69\x74\x73',
-        '\x62\x61\x74\x74\x6c\x65\x72',
-        '\x35\x33\x34\x32\x30\x34\x30\x4f\x5a\x46\x57\x43\x7a',
-        '\x5a\x62\x67\x61\x55',
-        '\x61\x50\x56\x59\x6d',
-        '\x51\x4f\x5a\x65\x4a',
-        '\x55\x74\x69\x6c\x73',
-        '\x6e\x72\x4b\x43\x70',
-        '\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x72\x4f\x62\x73\x65\x72\x76\x65\x72',
-        '\x6f\x6e\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x71\x67\x66\x61\x79',
-        '\x53\x4e\x6c\x6c\x48',
-        '\x76\x72\x50\x77\x4d',
-        '\x62\x57\x6d\x50\x75',
-        '\x69\x6e\x42\x61\x74\x74\x6c\x65',
-        '\x5f\x6f\x6e\x50\x6c\x61\x79\x65\x72\x43\x68\x61\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x5f\x6e\x4e\x65\x74\x77\x6f\x72\x6b\x41\x63\x74\x6f\x72\x50\x69\x63\x6b\x52\x65\x71\x75\x65\x73\x74',
-        '\x6e\x52\x65\x66\x72\x65\x73\x68\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65\x53\x74\x61\x74\x65',
-        '\x6f\x6e\x56\x61\x72\x69\x61\x62\x6c\x65\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x6b\x57\x4f\x55\x59',
-        '\x65\x76\x65\x6e\x74',
-        '\x5f\x69\x74\x65\x6d\x49\x64',
-        '\x5f\x73\x65\x6e\x64\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x5f\x6f\x6e\x45\x76\x65\x6e\x74\x43\x68\x61\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x6e\x65\x74\x77\x6f\x72\x6b\x43\x68\x61\x72\x61\x63\x74\x65\x72\x42\x79\x49\x64',
-        '\x5f\x6f\x6e\x42\x61\x74\x74\x6c\x65\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61',
-        '\x69\x73\x4f\x6e\x65\x42\x61\x74\x74\x6c\x65\x72',
-        '\x57\x68\x43\x53\x41',
-        '\x6f\x52\x71\x63\x55'
-    ];
-    _0x1456 = function () {
-        return _0x46fed9;
-    };
-    return _0x1456();
-}
-function _0x4d10(_0x42e954, _0x258034) {
-    var _0x1456e4 = _0x1456();
-    return _0x4d10 = function (_0x4d1022, _0x2fa4c3) {
-        _0x4d1022 = _0x4d1022 - 0x107;
-        var _0x374df4 = _0x1456e4[_0x4d1022];
-        return _0x374df4;
-    }, _0x4d10(_0x42e954, _0x258034);
-}
-(function (_0xcdec40, _0x16a0d5) {
-    var _0x580370 = _0x4d10, _0x135697 = _0xcdec40();
-    while (!![]) {
-        try {
-            var _0x2a078c = parseInt(_0x580370(0x14e)) / 0x1 + -parseInt(_0x580370(0x10c)) / 0x2 + -parseInt(_0x580370(0x113)) / 0x3 + -parseInt(_0x580370(0x141)) / 0x4 + -parseInt(_0x580370(0x14c)) / 0x5 + -parseInt(_0x580370(0x162)) / 0x6 * (-parseInt(_0x580370(0x142)) / 0x7) + parseInt(_0x580370(0x122)) / 0x8;
-            if (_0x2a078c === _0x16a0d5)
-                break;
-            else
-                _0x135697['push'](_0x135697['shift']());
-        } catch (_0x285c93) {
-            _0x135697['push'](_0x135697['shift']());
-        }
+// Generated by CoffeeScript 2.6.1
+// * Данный класс отвечает за методы передачи, обработки и
+// * синхронизации игровых данных (и Observers)
+
+//$[ENCODE]
+
+//@[GLOBAL]
+window.ANSyncDataManager = function() {};
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("DataSync");
+  LOG.setColors(KDCore.Color.AQUA, KDCore.Color.BLACK.getLightestColor(35));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANSyncDataManager;
+  //? КОМАНДЫ ЗАПРОСЫ (посылаются на сервер)
+  // * ===============================================================
+  _.sendPlayerObserver = function() {
+    return this._sendObserverData('playerChar', ANNetwork.myId(), $gamePlayer.getObserverDataForNetwork());
+  };
+  _.sendEventObserver = function(eventId) {
+    this._sendObserverData('eventChar', {
+      mapId: $gameMap.mapId(),
+      eventId: eventId
+    }, $gameMap.event(eventId).getObserverDataForNetwork());
+  };
+  _.sendActorObserver = function() {
+    return this._sendObserverData('playerActor', ANNetwork.myId(), $gameParty.leader().getObserverDataForNetwork());
+  };
+  //TODO: через GET ? или callback
+  _.sendBattleUnitsObserver = function(members) {
+    var observers;
+    //"SEND UNITS OBSERVER".p()
+    if ($gameParty.isOneBattler()) {
+      return;
     }
-}(_0x1456, 0x7639f), window[_0x3d67cd(0x10b)] = function () {
-}, (function () {
-    var _0x47742d = _0x3d67cd, _0x276db8, _0x609d46;
-    _0x276db8 = new KDCore[(_0x47742d(0x14d))]('\x44\x61\x74\x61\x53\x79\x6e\x63'), _0x276db8[_0x47742d(0x148)](KDCore['\x43\x6f\x6c\x6f\x72'][_0x47742d(0x11d)], KDCore[_0x47742d(0x163)]['\x42\x4c\x41\x43\x4b']['\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72'](0x23)), _0x276db8['\x6f\x6e'](), _0x609d46 = window[_0x47742d(0x10b)], _0x609d46[_0x47742d(0x159)] = function () {
-        var _0x21de7f = _0x47742d;
-        if (_0x21de7f(0x12b) === _0x21de7f(0x10a))
-            _0x1d51d0 = _0x343948, _0x538717['\x77'](_0x56e0f0);
-        else
-            return this[_0x21de7f(0x136)](_0x21de7f(0x11f), ANNetwork[_0x21de7f(0x154)](), $gamePlayer[_0x21de7f(0x140)]());
-    }, _0x609d46['\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x4f\x62\x73\x65\x72\x76\x65\x72'] = function (_0x22b613) {
-        var _0x345763 = _0x47742d;
-        this[_0x345763(0x136)](_0x345763(0x15a), {
-            '\x6d\x61\x70\x49\x64': $gameMap['\x6d\x61\x70\x49\x64'](),
-            '\x65\x76\x65\x6e\x74\x49\x64': _0x22b613
-        }, $gameMap[_0x345763(0x134)](_0x22b613)['\x67\x65\x74\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b']());
-    }, _0x609d46[_0x47742d(0x15c)] = function () {
-        var _0x3fef04 = _0x47742d;
-        return this[_0x3fef04(0x136)](_0x3fef04(0x111), ANNetwork[_0x3fef04(0x154)](), $gameParty['\x6c\x65\x61\x64\x65\x72']()[_0x3fef04(0x140)]());
-    }, _0x609d46['\x73\x65\x6e\x64\x42\x61\x74\x74\x6c\x65\x55\x6e\x69\x74\x73\x4f\x62\x73\x65\x72\x76\x65\x72'] = function (_0x45fb1e) {
-        var _0x3b33bf = _0x47742d;
-        if (_0x3b33bf(0x146) === _0x3b33bf(0x13c))
-            return;
-        else {
-            var _0x3ee1c5;
-            if ($gameParty[_0x3b33bf(0x13a)]())
-                return;
-            _0x3ee1c5 = _0x45fb1e[_0x3b33bf(0x10e)](function (_0x24d941) {
-                var _0x348b95 = _0x3b33bf;
-                if ('\x71\x65\x4f\x6f\x44' !== _0x348b95(0x13e)) {
-                    _0x5a915b[_0x348b95(0x15b)] === !![] && (_0x76c9de[_0x348b95(0x130)] = !![]);
-                    _0x44b5fc = _0x37e478[_0x348b95(0x10d)](_0x4244bf), _0x3aca44 = _0x559338[_0x348b95(0x109)](_0x545102), _0x505408[_0x348b95(0x130)] = ![];
-                    if (_0x5f44a0 == null)
-                        return;
-                    this[_0x348b95(0x11e)](_0xaec2c), _0x4e6466['\x61\x70\x70\x6c\x79\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61'](_0x3befb6);
-                } else
-                    return [
-                        _0x24d941['\x70\x61\x63\x6b\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b'](),
-                        _0x24d941[_0x348b95(0x140)]()
-                    ];
-            }), this[_0x3b33bf(0x136)](_0x3b33bf(0x120), null, _0x3ee1c5);
-        }
-    }, _0x609d46[_0x47742d(0x128)] = function (_0x15c46e) {
-        var _0x2443d2 = _0x47742d;
-        return _0x2443d2(0x116)['\x70'](), this[_0x2443d2(0x136)](_0x2443d2(0x121), _0x15c46e['\x70\x61\x63\x6b\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b'](), _0x15c46e[_0x2443d2(0x140)]());
-    }, _0x609d46[_0x47742d(0x147)] = function (_0x112c92) {
-        var _0x162afa = _0x47742d;
-        '\x53\x45\x4e\x44\x20\x42\x41\x54\x54\x4c\x45\x52\x20\x52\x45\x53\x55\x4c\x54'['\x70']();
-        if ($gameParty[_0x162afa(0x13a)]())
-            return;
-        return this[_0x162afa(0x136)](_0x162afa(0x153), _0x112c92[_0x162afa(0x156)](), _0x112c92[_0x162afa(0x11b)]()[_0x162afa(0x140)]());
-    }, _0x609d46[_0x47742d(0x136)] = function (_0x120fe3, _0x33a16f, _0x41da8e) {
-        var _0x1fa824 = _0x47742d, _0xeb93b4;
-        _0xeb93b4 = {
-            '\x74\x79\x70\x65': _0x120fe3,
-            '\x69\x64': _0x33a16f,
-            '\x64\x61\x74\x61': _0x41da8e
-        }, ANNetwork[_0x1fa824(0x112)](NMS[_0x1fa824(0x118)]('\x6f\x62\x73\x65\x72\x76\x65\x72', _0xeb93b4), !![]);
-    }, _0x609d46[_0x47742d(0x15e)] = function (_0x509eec, _0x2b10cc) {
-        var _0x535e49;
-        _0x535e49 = {
-            '\x69\x64': _0x509eec,
-            '\x64\x61\x74\x61': _0x2b10cc
-        }, ANNetwork['\x73\x65\x6e\x64'](NMS['\x47\x61\x6d\x65']('\x76\x61\x72\x69\x61\x62\x6c\x65', _0x535e49));
-    }, _0x609d46[_0x47742d(0x108)] = function (_0x13f2a3, _0x3fa922) {
-        var _0x372e94 = _0x47742d;
-        if (_0x372e94(0x14f) !== _0x372e94(0x143)) {
-            var _0x3a30a3;
-            _0x3a30a3 = {
-                '\x69\x64': _0x13f2a3,
-                '\x64\x61\x74\x61': _0x3fa922
-            }, ANNetwork[_0x372e94(0x112)](NMS[_0x372e94(0x118)](_0x372e94(0x11c), _0x3a30a3));
-        } else
-            _0x5d26b3[_0x372e94(0x119)](_0x3c1ac2);
-    }, _0x609d46[_0x47742d(0x15d)] = function () {
-    }, _0x609d46[_0x47742d(0x129)] = function (_0x4fa41a, _0x27c10c, _0x449032) {
-        var _0xd7f753 = _0x47742d;
-        switch (_0x27c10c) {
-        case '\x70\x6c\x61\x79\x65\x72\x43\x68\x61\x72':
-            return this[_0xd7f753(0x12f)](_0x4fa41a, _0x449032);
-        case _0xd7f753(0x15a):
-            return this[_0xd7f753(0x137)](_0x4fa41a, _0x449032);
-        case _0xd7f753(0x111):
-            return this['\x5f\x6f\x6e\x50\x6c\x61\x79\x65\x72\x41\x63\x74\x6f\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61'](_0x4fa41a, _0x449032);
-        case _0xd7f753(0x121):
-            return this[_0xd7f753(0x139)](_0x4fa41a, _0x449032);
-        case _0xd7f753(0x153):
-            return this[_0xd7f753(0x144)](_0x4fa41a, _0x449032);
-        case '\x62\x61\x74\x74\x6c\x65\x55\x6e\x69\x74\x73':
-            return this[_0xd7f753(0x107)](_0x449032);
-        default:
-            _0x276db8['\x70'](_0xd7f753(0x10f) + _0x27c10c);
-        }
-    }, _0x609d46[_0x47742d(0x12f)] = function (_0xab1198, _0x16bc37) {
-        var _0x42084a = _0x47742d, _0x5305e0, _0x2ee24c;
-        try {
-            _0x5305e0 = $gameMap[_0x42084a(0x138)](_0xab1198), _0x5305e0 != null && ('\x4b\x58\x4e\x6f\x41' !== '\x4b\x58\x4e\x6f\x41' ? (_0x57f9cf = _0x1640eb, _0x1f41d2['\x77'](_0x491cd8)) : _0x5305e0[_0x42084a(0x119)](_0x16bc37));
-        } catch (_0x35f8f4) {
-            if (_0x42084a(0x164) === _0x42084a(0x164))
-                _0x2ee24c = _0x35f8f4, ANET['\x77'](_0x2ee24c);
-            else {
-                var _0x437a4e;
-                _0x437a4e = {
-                    '\x69\x64': _0x51ad34,
-                    '\x64\x61\x74\x61': _0x22b10a
-                }, _0x108f44[_0x42084a(0x112)](_0x3f9601[_0x42084a(0x118)]('\x76\x61\x72\x69\x61\x62\x6c\x65', _0x437a4e));
-            }
-        }
-    }, _0x609d46['\x5f\x6f\x6e\x45\x76\x65\x6e\x74\x43\x68\x61\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61'] = function (_0x56cb67, _0x342cca) {
-        var _0x196a17 = _0x47742d;
-        if (_0x196a17(0x145) !== '\x63\x4a\x7a\x4e\x49') {
-            var _0x484a0e, _0x34df32, _0x318189, _0x4def39;
-            try {
-                if ('\x4c\x68\x61\x52\x6b' !== _0x196a17(0x13d))
-                    _0x5e21d2[_0x196a17(0x130)] = !![];
-                else {
-                    ({
-                        mapId: _0x4def39,
-                        eventId: _0x318189
-                    } = _0x56cb67);
-                    if ($gameMap[_0x196a17(0x13f)]() !== _0x4def39)
-                        return;
-                    _0x34df32 = $gameMap[_0x196a17(0x134)](_0x318189);
-                    if (_0x34df32 != null) {
-                        if (_0x196a17(0x115) === '\x6c\x7a\x4c\x69\x68') {
-                            var _0x1ea9ac, _0x17f427, _0x4f71cb, _0x2822f9;
-                            if (_0x50a595[_0x196a17(0x11a)] == null)
-                                return;
-                            for (_0x1ea9ac = _0x4f71cb = 0x0, _0x2822f9 = _0x407a63['\x5f\x65\x71\x75\x69\x70\x73']['\x6c\x65\x6e\x67\x74\x68']; 0x0 <= _0x2822f9 ? _0x4f71cb < _0x2822f9 : _0x4f71cb > _0x2822f9; _0x1ea9ac = 0x0 <= _0x2822f9 ? ++_0x4f71cb : --_0x4f71cb) {
-                                _0x17f427 = _0x53ea96[_0x196a17(0x11a)][_0x1ea9ac], _0x2011a7[_0x196a17(0x11a)][_0x1ea9ac] = new _0x11d1ea(), _0x265770['\x5f\x65\x71\x75\x69\x70\x73'][_0x1ea9ac][_0x196a17(0x14a)] = _0x17f427['\x5f\x64\x61\x74\x61\x43\x6c\x61\x73\x73'], _0x350715[_0x196a17(0x11a)][_0x1ea9ac][_0x196a17(0x135)] = _0x17f427['\x5f\x69\x74\x65\x6d\x49\x64'];
-                            }
-                        } else
-                            _0x34df32['\x61\x70\x70\x6c\x79\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61'](_0x342cca);
-                    }
-                }
-            } catch (_0x4f60f0) {
-                _0x484a0e = _0x4f60f0, ANET['\x77'](_0x484a0e);
-            }
-        } else
-            return;
-    }, _0x609d46[_0x47742d(0x161)] = function (_0x4d11d3, _0x203504) {
-        var _0x2bfbf7 = _0x47742d, _0x1bd44d, _0x7df1cc, _0x6c6e3e;
-        try {
-            if ($gameTemp[_0x2bfbf7(0x15b)] === !![]) {
-                if (_0x2bfbf7(0x12a) !== _0x2bfbf7(0x12a))
-                    return '\x53\x45\x4e\x44\x20\x42\x41\x54\x54\x4c\x45\x52\x20\x4f\x42\x53\x45\x52\x56\x45\x52'['\x70'](), this[_0x2bfbf7(0x136)]('\x62\x61\x74\x74\x6c\x65\x72', _0x4f87ab[_0x2bfbf7(0x156)](), _0x567506[_0x2bfbf7(0x140)]());
-                else
-                    $gameTemp[_0x2bfbf7(0x130)] = !![];
-            }
-            _0x6c6e3e = ANGameManager[_0x2bfbf7(0x10d)](_0x4d11d3), _0x1bd44d = NetPlayerDataWrapper['\x67\x65\x74\x41\x63\x74\x6f\x72\x46\x6f\x72\x50\x6c\x61\x79\x65\x72'](_0x6c6e3e), $gameTemp[_0x2bfbf7(0x130)] = ![];
-            if (_0x1bd44d == null)
-                return;
-            this['\x5f\x63\x6f\x6e\x76\x65\x72\x74\x41\x63\x74\x6f\x72\x45\x71\x75\x69\x70\x6d\x65\x6e\x73'](_0x203504), _0x1bd44d[_0x2bfbf7(0x119)](_0x203504);
-        } catch (_0x4783c1) {
-            _0x7df1cc = _0x4783c1, ANET['\x77'](_0x7df1cc);
-        }
-    }, _0x609d46['\x5f\x6f\x6e\x42\x61\x74\x74\x6c\x65\x72\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61'] = function (_0x6a14ef, _0x2bcf94) {
-        var _0x3866b6 = _0x47742d;
-        if (_0x3866b6(0x127) === _0x3866b6(0x151)) {
-            var _0xa22a92;
-            try {
-                _0x2cd29e[_0x3866b6(0x132)](_0x3ce24c, _0x49b308);
-            } catch (_0x3f1aee) {
-                _0xa22a92 = _0x3f1aee, _0x361c12['\x77'](_0xa22a92);
-            }
-        } else {
-            var _0x1ff86c, _0x90b25b;
-            try {
-                if (!$gameParty[_0x3866b6(0x12e)]()) {
-                    if ('\x6e\x77\x6d\x7a\x50' !== _0x3866b6(0x123))
-                        return;
-                    else
-                        _0x4b367b = _0x9d8715, _0x71b69c['\x77'](_0x1e2016);
-                }
-                _0x1ff86c = ANET[_0x3866b6(0x126)][_0x3866b6(0x152)](_0x6a14ef);
-                if (_0x1ff86c == null)
-                    return;
-                this[_0x3866b6(0x11e)](_0x2bcf94), _0x1ff86c[_0x3866b6(0x119)](_0x2bcf94);
-            } catch (_0x459509) {
-                if ('\x76\x46\x71\x73\x63' === _0x3866b6(0x157))
-                    return;
-                else
-                    _0x90b25b = _0x459509, ANET['\x77'](_0x90b25b);
-            }
-        }
-    }, _0x609d46[_0x47742d(0x11e)] = function (_0x15cffd) {
-        var _0x2a0b56 = _0x47742d;
-        if (_0x2a0b56(0x124) === _0x2a0b56(0x165))
-            return;
-        else {
-            var _0x2281dd, _0x495e2f, _0x12ca66, _0x6bcab3;
-            if (_0x15cffd[_0x2a0b56(0x11a)] == null)
-                return;
-            for (_0x2281dd = _0x12ca66 = 0x0, _0x6bcab3 = _0x15cffd[_0x2a0b56(0x11a)][_0x2a0b56(0x15f)]; 0x0 <= _0x6bcab3 ? _0x12ca66 < _0x6bcab3 : _0x12ca66 > _0x6bcab3; _0x2281dd = 0x0 <= _0x6bcab3 ? ++_0x12ca66 : --_0x12ca66) {
-                if ('\x6f\x77\x55\x6d\x68' === '\x6f\x77\x55\x6d\x68')
-                    _0x495e2f = _0x15cffd['\x5f\x65\x71\x75\x69\x70\x73'][_0x2281dd], _0x15cffd['\x5f\x65\x71\x75\x69\x70\x73'][_0x2281dd] = new Game_Item(), _0x15cffd[_0x2a0b56(0x11a)][_0x2281dd][_0x2a0b56(0x14a)] = _0x495e2f[_0x2a0b56(0x14a)], _0x15cffd['\x5f\x65\x71\x75\x69\x70\x73'][_0x2281dd][_0x2a0b56(0x135)] = _0x495e2f[_0x2a0b56(0x135)];
-                else
-                    return;
-            }
-        }
-    }, _0x609d46[_0x47742d(0x144)] = function (_0x1c4632, _0x5ad7f7) {
-        var _0x39982f = _0x47742d, _0x34fc59, _0x514bf8, _0x3a9b63;
-        try {
-            if (!$gameParty[_0x39982f(0x12e)]()) {
-                if (_0x39982f(0x160) === _0x39982f(0x12c)) {
-                    _0x39982f(0x155)['\x70']();
-                    if (_0x149974['\x69\x73\x4f\x6e\x65\x42\x61\x74\x74\x6c\x65\x72']())
-                        return;
-                    return this[_0x39982f(0x136)]('\x62\x61\x74\x74\x6c\x65\x72\x52\x65\x73\x75\x6c\x74', _0x117f62[_0x39982f(0x156)](), _0x2e63bd[_0x39982f(0x11b)]()[_0x39982f(0x140)]());
-                } else
-                    return;
-            }
-            _0x34fc59 = ANET[_0x39982f(0x126)]['\x75\x6e\x70\x61\x63\x6b\x42\x61\x74\x74\x6c\x65\x72\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b'](_0x1c4632);
-            if (_0x34fc59 == null)
-                return;
-            (_0x3a9b63 = _0x34fc59[_0x39982f(0x11b)]()) != null && _0x3a9b63[_0x39982f(0x119)](_0x5ad7f7);
-        } catch (_0x28e362) {
-            _0x514bf8 = _0x28e362, ANET['\x77'](_0x514bf8);
-        }
-    }, _0x609d46[_0x47742d(0x107)] = function (_0xb52128) {
-        var _0x4e95bf = _0x47742d, _0x16b5f0, _0x8555d2, _0x589b9a, _0x46b960, _0x39cc3f;
-        try {
-            if (_0x4e95bf(0x125) === _0x4e95bf(0x125)) {
-                if (!$gameParty['\x69\x6e\x42\x61\x74\x74\x6c\x65']()) {
-                    if ('\x62\x57\x6d\x50\x75' !== _0x4e95bf(0x12d))
-                        _0x456959 = _0x4afc36[_0x42dfa5], _0x569532 = _0x1fe629[_0x4e95bf(0x126)][_0x4e95bf(0x152)](_0x3ca473[0x0]), _0x18deb4 != null && (this[_0x4e95bf(0x11e)](_0x5edeac[0x1]), _0x2e3b25[_0x4e95bf(0x119)](_0x27d474[0x1]));
-                    else
-                        return;
-                }
-                for (_0x589b9a = 0x0, _0x46b960 = _0xb52128[_0x4e95bf(0x15f)]; _0x589b9a < _0x46b960; _0x589b9a++) {
-                    _0x39cc3f = _0xb52128[_0x589b9a], _0x16b5f0 = ANET[_0x4e95bf(0x126)]['\x75\x6e\x70\x61\x63\x6b\x42\x61\x74\x74\x6c\x65\x72\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b'](_0x39cc3f[0x0]), _0x16b5f0 != null && (_0x4e95bf(0x13b) === '\x57\x68\x43\x53\x41' ? (this['\x5f\x63\x6f\x6e\x76\x65\x72\x74\x41\x63\x74\x6f\x72\x45\x71\x75\x69\x70\x6d\x65\x6e\x73'](_0x39cc3f[0x1]), _0x16b5f0['\x61\x70\x70\x6c\x79\x4f\x62\x73\x65\x72\x76\x65\x72\x44\x61\x74\x61'](_0x39cc3f[0x1])) : (_0x58650b = _0x3c1797, _0x239b7e['\x77'](_0x2579d9)));
-                }
-                $gameTemp[_0x4e95bf(0x110)] === !![] && (BattleManager[_0x4e95bf(0x131)](), $gameTemp['\x5f\x72\x65\x71\x75\x65\x73\x74\x49\x6e\x69\x74\x69\x61\x6c\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65\x52\x65\x66\x72\x65\x73\x68'] = ![]);
-            } else
-                _0x158176[_0x4e95bf(0x149)](_0x2759d7, _0x390602);
-        } catch (_0x430693) {
-            if (_0x4e95bf(0x133) !== _0x4e95bf(0x117))
-                _0x8555d2 = _0x430693, ANET['\x77'](_0x8555d2);
-            else
-                return this[_0x4e95bf(0x136)](_0x4e95bf(0x11f), _0x5ada75[_0x4e95bf(0x154)](), _0x2aec28[_0x4e95bf(0x140)]());
-        }
-    }, _0x609d46[_0x47742d(0x150)] = function (_0x581839, _0x5d942c) {
-        var _0x5867f9 = _0x47742d, _0x3e31bf;
-        try {
-            $gameVariables[_0x5867f9(0x132)](_0x581839, _0x5d942c);
-        } catch (_0x41bf3f) {
-            _0x3e31bf = _0x41bf3f, ANET['\x77'](_0x3e31bf);
-        }
-    }, _0x609d46[_0x47742d(0x14b)] = function (_0x1b6f4a, _0x2d343a) {
-        var _0x544df6 = _0x47742d;
-        if (_0x544df6(0x114) !== _0x544df6(0x158)) {
-            var _0x26e40b;
-            try {
-                $gameSwitches[_0x544df6(0x149)](_0x1b6f4a, _0x2d343a);
-            } catch (_0x56a9ea) {
-                _0x26e40b = _0x56a9ea, ANET['\x77'](_0x26e40b);
-            }
-        } else
-            return;
+    observers = members.map(function(m) {
+      return [m.packForNetwork(), m.getObserverDataForNetwork()];
+    });
+    //m.result().getObserverDataForNetwork()]
+    this._sendObserverData('battleUnits', null, observers);
+  };
+  //TODO: NOT USED
+  _.sendBattlerObserver = function(battler) {
+    "SEND BATTLER OBSERVER".p();
+    return this._sendObserverData('battler', battler.packForNetwork(), battler.getObserverDataForNetwork());
+  };
+  _.sendBattlerResultObserver = function(battler) {
+    "SEND BATTLER RESULT".p();
+    if ($gameParty.isOneBattler()) {
+      return;
+    }
+    return this._sendObserverData('battlerResult', battler.packForNetwork(), battler.result().getObserverDataForNetwork());
+  };
+  _._sendObserverData = function(type, id, observerData) {
+    var data;
+    data = {
+      type: type,
+      id: id,
+      data: observerData
     };
-}()));
+    ANNetwork.send(NMS.Game("observer", data), true);
+  };
+  //TODO: Может отправлять изменение на мастера, он уже все глобальные переменные всем отправляет
+  _.sendGlobalVariableChange = function(varId, newValue) {
+    var data;
+    data = {
+      id: varId,
+      data: newValue
+    };
+    ANNetwork.send(NMS.Game("variable", data));
+  };
+  _.sendGlobalSwitchChange = function(switchId, newValue) {
+    var data;
+    data = {
+      id: switchId,
+      data: newValue
+    };
+    ANNetwork.send(NMS.Game("switch", data));
+  };
+  _.sendSyncGlobalVariables = function() {};
+  //TODO: Синхронизация всех глобальных переменных
+  //см. $gameVariables.getAllGlobalVariablesData()
+
+  //? CALLBACKS ОТ ЗАПРОСОВ НА СЕРВЕР
+  // * ===============================================================
+  _.onObserverData = function(id, type, content) {
+    switch (type) {
+      case 'playerChar':
+        return this._onPlayerCharObserverData(id, content);
+      case 'eventChar':
+        return this._onEventCharObserverData(id, content);
+      case 'playerActor':
+        return this._onPlayerActorObserverData(id, content);
+      case 'battler':
+        return this._onBattlerObserverData(id, content);
+      case 'battlerResult':
+        return this._onBattlerResultObserverData(id, content);
+      case 'battleUnits':
+        return this._onBattleUnitsObserverData(content);
+      default:
+        LOG.p("From server: unknown observer data type: " + type);
+    }
+  };
+  _._onPlayerCharObserverData = function(id, content) {
+    var char, e;
+    try {
+      char = $gameMap.networkCharacterById(id);
+      if (char != null) {
+        char.applyObserverData(content);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _._onEventCharObserverData = function(id, content) {
+    var e, event, eventId, mapId;
+    try {
+      ({mapId, eventId} = id);
+      if ($gameMap.mapId() !== mapId) {
+        return;
+      }
+      event = $gameMap.event(eventId);
+      if (event != null) {
+        event.applyObserverData(content);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _._onPlayerActorObserverData = function(id, content) {
+    var actor, e, player;
+    try {
+      // * Если событие перевело выбор персонажа в локальный режим
+      // * то ставим специальный флаг что сейчас идёт обращение только
+      // * к сетевому персонажу
+      if ($gameTemp._nLocalActorMode === true) {
+        $gameTemp._nNetworkActorPickRequest = true;
+      }
+      player = ANGameManager.getPlayerDataById(id);
+      actor = NetPlayerDataWrapper.getActorForPlayer(player);
+      // * На всякий случай сниму флаг
+      $gameTemp._nNetworkActorPickRequest = false;
+      if (actor == null) {
+        return;
+      }
+      this._convertActorEquipmens(content);
+      actor.applyObserverData(content);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _._onBattlerObserverData = function(battlerNetData, content) {
+    var battler, e;
+    try {
+      if (!$gameParty.inBattle()) {
+        return;
+      }
+      //"ON BATTLER OBSERVER DATA".p()
+      battler = ANET.Utils.unpackBattlerFromNetwork(battlerNetData);
+      if (battler == null) {
+        return;
+      }
+      this._convertActorEquipmens(content);
+      battler.applyObserverData(content);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _._convertActorEquipmens = function(content) {
+    var i, itemData, j, ref;
+    if (content._equips == null) {
+      return;
+    }
+    for (i = j = 0, ref = content._equips.length; (0 <= ref ? j < ref : j > ref); i = 0 <= ref ? ++j : --j) {
+      itemData = content._equips[i];
+      content._equips[i] = new Game_Item();
+      content._equips[i]._dataClass = itemData._dataClass;
+      content._equips[i]._itemId = itemData._itemId;
+    }
+  };
+  _._onBattlerResultObserverData = function(battlerNetData, content) {
+    var battler, e, ref;
+    try {
+      if (!$gameParty.inBattle()) {
+        return;
+      }
+      //"ON BATTLER RESULT DATA".p()
+      battler = ANET.Utils.unpackBattlerFromNetwork(battlerNetData);
+      if (battler == null) {
+        return;
+      }
+      if ((ref = battler.result()) != null) {
+        ref.applyObserverData(content);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _._onBattleUnitsObserverData = function(content) {
+    var battler, e, j, len, netData;
+    try {
+      if (!$gameParty.inBattle()) {
+        return;
+      }
+//"ON BATTLERS UNITS DATA".p()
+      for (j = 0, len = content.length; j < len; j++) {
+        netData = content[j];
+        battler = ANET.Utils.unpackBattlerFromNetwork(netData[0]);
+        if (battler != null) {
+          this._convertActorEquipmens(netData[1]);
+          battler.applyObserverData(netData[1]);
+        }
+      }
+      // * Игрок только присоединился, нужен дополнительный refresh графики
+      if ($gameTemp._requestInitialSharedBattleRefresh === true) {
+        BattleManager.nRefreshSharedBattleState();
+        $gameTemp._requestInitialSharedBattleRefresh = false;
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _.onVariableValue = function(varId, value) {
+    var e;
+    try {
+      $gameVariables.onVariableFromServer(varId, value);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  _.onSwitchValue = function(varId, value) {
+    var e;
+    try {
+      $gameSwitches.onSwitchFromServer(varId, value);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+})();
+
 
 // Generated by CoffeeScript 2.6.1
 //? Методы для улучшения совместимости с плагинами Yanfly и VisuMZ
@@ -14162,700 +12753,441 @@ ANET.extend(function() {
 //---------------------------------------------------------------------------
 
 
-function _0x1032() {
-    var _0x48c95a = [
-        '\x57\x4a\x66\x51\x70',
-        '\x5a\x6a\x6c\x50\x56',
-        '\x4a\x4f\x78\x62\x43',
-        '\x74\x72\x61\x64\x65\x5f\x63\x6f\x6d\x70\x6c\x65\x74\x65',
-        '\x6b\x4d\x73\x62\x54',
-        '\x54\x52\x41\x44\x45\x20\x41\x43\x43\x45\x50\x54\x20\x49\x4e',
-        '\x6f\x42\x65\x63\x71',
-        '\x73\x65\x6e\x64',
-        '\x6d\x61\x70',
-        '\x74\x4e\x79\x45\x55',
-        '\x54\x72\x61\x64\x65\x20\x72\x65\x66\x75\x73\x65\x64',
-        '\x73\x68\x6f\x77\x54\x72\x61\x64\x65\x49\x6e\x44\x69\x61\x6c\x6f\x67',
-        '\x5f\x74\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74\x54\x69\x6d\x65\x6f\x75\x74',
-        '\x77\x65\x48\x4c\x4b',
-        '\x5f\x6f\x6e\x5f\x74\x72\x61\x64\x65\x5f\x72\x65\x71\x75\x65\x73\x74',
-        '\x63\x55\x69\x4a\x57',
-        '\x54\x72\x61\x64\x65',
-        '\x74\x72\x61\x64\x65\x5f\x73\x74\x61\x74\x75\x73',
-        '\x54\x52\x41\x44\x45\x20\x49\x54\x45\x4d\x53\x20\x49\x4e',
-        '\x5f\x73\x74\x61\x72\x74\x52\x65\x71\x75\x65\x73\x74\x54\x69\x6d\x65\x6f\x75\x74',
-        '\x7a\x70\x73\x58\x71',
-        '\x44\x65\x76\x4c\x6f\x67',
-        '\x5f\x6f\x6e\x5f\x74\x72\x61\x64\x65\x5f\x73\x74\x61\x74\x75\x73',
-        '\x36\x35\x4c\x53\x6b\x65\x43\x73',
-        '\x66\x75\x63\x70\x51',
-        '\x74\x72\x61\x64\x65\x5f\x72\x65\x71\x75\x65\x73\x74',
-        '\x5f\x6f\x6e\x5f\x74\x72\x61\x64\x65\x5f\x63\x6f\x6d\x70\x6c\x65\x74\x65',
-        '\x57\x61\x69\x74\x69\x6e\x67\x20',
-        '\x6e\x66\x58\x43\x71',
-        '\x76\x65\x6a\x7a\x74',
-        '\x43\x6f\x6c\x6f\x72',
-        '\x46\x54\x6e\x79\x47',
-        '\x65\x46\x4e\x6a\x4b',
-        '\x55\x74\x69\x6c\x73',
-        '\x51\x65\x4d\x73\x4b',
-        '\x5f\x6f\x6e\x5f\x74\x72\x61\x64\x65\x5f\x72\x65\x66\x75\x73\x65',
-        '\x69\x73\x4f\x6e\x4d\x61\x70\x53\x63\x65\x6e\x65',
-        '\x69\x73\x50\x6c\x61\x79\x65\x72\x41\x76\x61\x69\x6c\x61\x62\x6c\x65\x46\x6f\x72\x54\x72\x61\x64\x65',
-        '\x55\x6e\x6b\x6e\x6f\x77\x6e\x20\x63\x6f\x6d\x6d\x6f\x6e\x20\x73\x75\x62\x43\x6f\x6d\x6d\x61\x6e\x64\x20',
-        '\x52\x68\x46\x6a\x4f',
-        '\x42\x4c\x41\x43\x4b',
-        '\x61\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65\x49\x6e\x52\x65\x71\x75\x65\x73\x74',
-        '\x54\x52\x41\x44\x45\x20\x53\x48\x4f\x55\x4c\x44\x20\x42\x45\x20\x43\x4f\x4d\x50\x4c\x45\x54\x45\x44',
-        '\x54\x72\x61\x64\x65\x20\x69\x74\x65\x6d\x73\x20\x5b\x6d\x79\x5d\x20\x63\x68\x61\x6e\x67\x65\x64',
-        '\x63\x75\x75\x6f\x63',
-        '\x76\x75\x74\x55\x46',
-        '\x32\x33\x38\x32\x34\x64\x64\x73\x64\x62\x57',
-        '\x53\x75\x4a\x4f\x45',
-        '\x54\x52\x41\x44\x45\x20\x52\x45\x46\x55\x53\x45\x20\x49\x4e',
-        '\x63\x61\x6c\x6c\x62\x61\x63\x6b',
-        '\x61\x6e\x79',
-        '\x47\x5a\x4d\x6c\x4b',
-        '\x73\x68\x6f\x77\x4d\x6f\x64\x61\x6c\x57\x69\x6e\x64\x6f\x77\x46\x6f\x72\x54\x72\x61\x64\x65',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x49\x64',
-        '\x73\x65\x6e\x64\x43\x6f\x6d\x70\x6c\x65\x74\x65\x54\x72\x61\x64\x65',
-        '\x70\x6c\x61\x79\x53\x45',
-        '\x67\x73\x46\x5a\x6a',
-        '\x5f\x69\x73\x49\x6e\x54\x72\x61\x64\x65',
-        '\x73\x65\x6e\x64\x52\x65\x66\x75\x73\x65\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74',
-        '\x69\x73\x50\x72\x6f',
-        '\x73\x6d\x49\x56\x73',
-        '\x72\x65\x73\x65\x74\x57\x61\x69\x74',
-        '\x70\x61\x63\x6b\x49\x74\x65\x6d\x46\x6f\x72\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x69\x6e\x66\x6f',
-        '\x69\x73\x49\x6e\x54\x72\x61\x64\x65',
-        '\x54\x72\x61\x64\x65\x47\x6f\x6c\x64\x49\x74\x65\x6d\x49\x64',
-        '\x73\x65\x6e\x64\x4d\x79\x54\x72\x61\x64\x65\x52\x65\x61\x64\x79\x53\x74\x61\x74\x75\x73',
-        '\x72\x45\x68\x68\x77',
-        '\x79\x4f\x6a\x76\x6d',
-        '\x68\x69\x64\x65\x49\x6e\x66\x6f\x4d\x65\x73\x73\x61\x67\x65',
-        '\x47\x4a\x4d\x6b\x62',
-        '\x6d\x4c\x61\x6c\x46',
-        '\x5f\x73\x74\x61\x72\x74\x54\x72\x61\x64\x65\x53\x65\x73\x73\x69\x6f\x6e',
-        '\x31\x33\x39\x39\x32\x36\x47\x4c\x61\x77\x4d\x4b',
-        '\x61\x56\x4c\x58\x45',
-        '\x59\x45\x65\x76\x43',
-        '\x5f\x6e\x65\x74\x48\x69\x73\x54\x72\x61\x64\x65\x52\x65\x61\x64\x79\x53\x74\x61\x74\x75\x73',
-        '\x31\x34\x33\x35\x36\x33\x47\x6a\x61\x77\x66\x55',
-        '\x56\x55\x43\x4b\x6d',
-        '\x6f\x6e\x41\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x4e\x6f\x74\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65\x4f\x72\x54\x69\x6d\x65\x6f\x75\x74',
-        '\x5f\x68\x69\x73\x49\x64',
-        '\x73\x65\x6e\x64\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74',
-        '\x73\x65\x6e\x64\x4d\x79\x54\x72\x61\x64\x65\x49\x74\x65\x6d\x73',
-        '\x73\x63\x65\x6e\x65',
-        '\x6f\x6e\x54\x72\x61\x64\x65\x43\x6f\x6d\x70\x6c\x65\x74\x65\x64',
-        '\x6d\x79\x49\x64',
-        '\x70\x7a\x6b\x6f\x66',
-        '\x56\x72\x70\x56\x45',
-        '\x70\x75\x73\x68',
-        '\x5a\x50\x57\x75\x4f',
-        '\x6f\x6e\x54\x72\x61\x64\x65\x43\x68\x61\x6e\x67\x65',
-        '\x69\x73\x48\x61\x76\x65\x54\x72\x61\x64\x65\x50\x61\x72\x74\x69\x63\x69\x70\x61\x6e\x74',
-        '\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x49\x6e\x66\x6f',
-        '\x7a\x50\x70\x59\x62',
-        '\x73\x65\x6e\x64\x53\x74\x61\x72\x74\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74',
-        '\x74\x72\x61\x64\x65\x53\x63\x65\x6e\x65\x43\x6f\x6d\x70\x6c\x65\x74\x65\x53\x45',
-        '\x73\x68\x49\x48\x76',
-        '\x6f\x6e\x41\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65',
-        '\x54\x52\x41\x44\x45\x20\x52\x45\x51\x55\x45\x53\x54\x20\x49\x4e',
-        '\x54\x52\x41\x44\x45\x20\x57\x49\x54\x48\x20',
-        '\x4a\x4d\x51\x59\x69',
-        '\x31\x32\x36\x54\x73\x5a\x65\x57\x52',
-        '\x6f\x6e\x54\x72\x61\x64\x65\x53\x63\x65\x6e\x65\x45\x6e\x64',
-        '\x67\x61\x69\x6e\x47\x6f\x6c\x64',
-        '\x59\x62\x75\x6b\x69',
-        '\x48\x4e\x4a\x42\x4f',
-        '\x73\x68\x6f\x77\x52\x65\x64\x41\x6c\x65\x72\x74',
-        '\x5f\x6e\x65\x74\x4d\x79\x54\x72\x61\x64\x65\x49\x74\x65\x6d\x73',
-        '\x69\x73\x43\x6c\x69\x65\x6e\x74\x41\x76\x61\x69\x6c\x61\x62\x6c\x65\x46\x6f\x72\x54\x72\x61\x64\x65',
-        '\x69\x73\x53\x68\x6f\x77\x4d\x6f\x64\x61\x6c\x46\x6f\x72\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74',
-        '\x31\x39\x33\x35\x32\x37\x36\x49\x6b\x63\x50\x66\x43',
-        '\x54\x6b\x78\x59\x76',
-        '\x5f\x6f\x6e\x52\x65\x71\x75\x65\x73\x74\x41\x6e\x73\x77\x65\x72',
-        '\x43\x6f\x6d\x6d\x6f\x6e',
-        '\x73\x68\x69\x66\x74',
-        '\x41\x4e\x54\x72\x61\x64\x65\x4d\x61\x6e\x61\x67\x65\x72',
-        '\x4a\x63\x68\x61\x62',
-        '\x73\x65\x74\x43\x6f\x6c\x6f\x72\x73',
-        '\x57\x41\x49\x75\x78',
-        '\x69\x73\x53\x63\x65\x6e\x65\x4d\x61\x70',
-        '\x50\x44\x6b\x4b\x6b',
-        '\x59\x45\x4c\x4c\x4f\x57',
-        '\x5f\x6f\x6e\x5f',
-        '\x67\x65\x74\x54\x72\x61\x64\x65\x50\x61\x72\x74\x69\x63\x69\x70\x61\x6e\x74\x44\x61\x74\x61',
-        '\x73\x65\x74\x57\x61\x69\x74',
-        '\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74\x54\x69\x6d\x65',
-        '\x74\x72\x61\x64\x65\x5f\x69\x74\x65\x6d\x73',
-        '\x75\x6e\x70\x61\x63\x6b\x49\x74\x65\x6d\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b',
-        '\x5f\x6e\x65\x74\x48\x69\x73\x4e\x65\x74\x54\x72\x61\x64\x65\x49\x74\x65\x6d\x73',
-        '\x46\x57\x79\x45\x43',
-        '\x71\x4c\x54\x49\x62',
-        '\x50\x6c\x61\x79\x65\x72\x20\x6e\x6f\x74\x20\x61\x76\x61\x69\x6c\x61\x62\x6c\x65\x21',
-        '\x35\x35\x30\x36\x33\x38\x6b\x41\x53\x4b\x44\x51',
-        '\x6e\x65\x74\x49\x64',
-        '\x69\x73\x54\x72\x61\x64\x65\x50\x61\x72\x74\x69\x63\x69\x70\x61\x6e\x74\x49\x73\x56\x61\x6c\x69\x64',
-        '\x72\x65\x66\x75\x73\x65\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74',
-        '\x6e\x61\x6d\x65',
-        '\x6c\x65\x6e\x67\x74\x68',
-        '\x42\x4a\x61\x46\x4b',
-        '\x54\x4d\x42\x41\x6a',
-        '\x6c\x6f\x73\x65\x47\x6f\x6c\x64',
-        '\x67\x65\x74\x4c\x69\x67\x68\x74\x65\x73\x74\x43\x6f\x6c\x6f\x72',
-        '\x20\x72\x65\x66\x75\x73\x65\x64',
-        '\x77\x56\x68\x48\x68',
-        '\x6e\x73\x50\x72\x62',
-        '\x59\x65\x71\x42\x78',
-        '\x6f\x6e\x54\x72\x61\x64\x65\x53\x68\x6f\x75\x6c\x64\x43\x6f\x6d\x70\x6c\x65\x74\x65',
-        '\x31\x30\x31\x35\x35\x37\x36\x55\x70\x6a\x64\x72\x56',
-        '\x6b\x52\x78\x77\x75',
-        '\x56\x4c\x66\x4f\x6c',
-        '\x72\x65\x71\x75\x65\x73\x74\x54\x72\x61\x64\x65\x57\x69\x74\x68',
-        '\x6f\x6e\x43\x6f\x6d\x6d\x6f\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x61\x78\x59\x55\x6f',
-        '\x34\x30\x34\x33\x32\x32\x33\x56\x42\x62\x66\x4b\x42',
-        '\x55\x50\x44\x55\x64',
-        '\x61\x77\x6d\x64\x6a',
-        '\x74\x72\x61\x64\x65\x5f\x72\x65\x66\x75\x73\x65',
-        '\x4a\x7a\x4f\x45\x42',
-        '\x45\x6d\x77\x55\x45',
-        '\x4a\x47\x79\x58\x63',
-        '\x7a\x70\x53\x46\x42',
-        '\x49\x57\x71\x79\x53'
-    ];
-    _0x1032 = function () {
-        return _0x48c95a;
-    };
-    return _0x1032();
-}
-var _0x5bf0dc = _0x20a4;
-function _0x20a4(_0x3baf52, _0x111101) {
-    var _0x10329f = _0x1032();
-    return _0x20a4 = function (_0x20a43b, _0x1e6d71) {
-        _0x20a43b = _0x20a43b - 0x132;
-        var _0x23274f = _0x10329f[_0x20a43b];
-        return _0x23274f;
-    }, _0x20a4(_0x3baf52, _0x111101);
-}
-(function (_0x541b8b, _0x4d965a) {
-    var _0x12125d = _0x20a4, _0xaa42fe = _0x541b8b();
-    while (!![]) {
-        try {
-            var _0x3369f3 = parseInt(_0x12125d(0x1b8)) / 0x1 + parseInt(_0x12125d(0x14d)) / 0x2 + parseInt(_0x12125d(0x1d0)) / 0x3 * (-parseInt(_0x12125d(0x199)) / 0x4) + parseInt(_0x12125d(0x182)) / 0x5 * (parseInt(_0x12125d(0x1b4)) / 0x6) + parseInt(_0x12125d(0x137)) / 0x7 + -parseInt(_0x12125d(0x15c)) / 0x8 + -parseInt(_0x12125d(0x162)) / 0x9;
-            if (_0x3369f3 === _0x4d965a)
-                break;
-            else
-                _0xaa42fe['push'](_0xaa42fe['shift']());
-        } catch (_0x32c1a5) {
-            _0xaa42fe['push'](_0xaa42fe['shift']());
-        }
+// Generated by CoffeeScript 2.6.1
+// * Данный класс отвечает за сетевые алгоритмы
+// * внутриигровой торговли (обмене) между игроками
+
+//$[ENCODE]
+
+//%[Работает на NMS.Common]
+
+//@[GLOBAL]
+window.ANTradeManager = function() {};
+
+(function() {
+  var LOG, _;
+  //@[LOG]
+  LOG = new KDCore.DevLog("Trade");
+  LOG.setColors(KDCore.Color.YELLOW, KDCore.Color.BLACK.getLightestColor(35));
+  LOG.on();
+  //@[DEFINES]
+  _ = window.ANTradeManager;
+  // * Время на раздумия при запросе на торговлю (используется и как timeout)
+  _.TradeRequestTime = 6000;
+  // * ID для идентификации предмета - золото
+  _.TradeGoldItemId = -100;
+  // * Находится ли игрок в режиме торговли
+  // * Данный метод используется стандартными окнами и сценами для смены
+  // * некоторых методов (например отрисовка пустого предмета в списке предметов)
+  _.isInTrade = function() {
+    return ANNetwork.isConnected() && this._isInTrade === true;
+  };
+  // * Есть с кем торговать? (Уже задан и установлен другой участник торговли)
+  _.isHaveTradeParticipant = function() {
+    return String.any(this._hisId);
+  };
+  // * Данные игрока с которым я торгую
+  _.getTradeParticipantData = function() {
+    return nAPI.getPlayerInfo("info", "netId", this._hisId);
+  };
+  //%[Главный метод начала торговли]
+  // * Начать торговлю с другим игроком
+  //?anotherPlayer - NetPlayerData structure
+  _.requestTradeWith = function(anotherPlayer) {
+    if (this.isInTrade()) {
+      return;
     }
-}(_0x1032, 0x2a091), window[_0x5bf0dc(0x13c)] = function () {
-}, (function () {
-    var _0xa56598 = _0x5bf0dc, _0x389408, _0x1c6c95;
-    _0x389408 = new KDCore[(_0xa56598(0x180))](_0xa56598(0x17b)), _0x389408[_0xa56598(0x13e)](KDCore[_0xa56598(0x189)][_0xa56598(0x142)], KDCore['\x43\x6f\x6c\x6f\x72'][_0xa56598(0x193)][_0xa56598(0x156)](0x23)), _0x389408['\x6f\x6e'](), _0x1c6c95 = window['\x41\x4e\x54\x72\x61\x64\x65\x4d\x61\x6e\x61\x67\x65\x72'], _0x1c6c95[_0xa56598(0x146)] = 0x1770, _0x1c6c95[_0xa56598(0x1ac)] = -0x64, _0x1c6c95[_0xa56598(0x1ab)] = function () {
-        var _0x14183a = _0xa56598;
-        return ANNetwork['\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64']() && this[_0x14183a(0x1a4)] === !![];
-    }, _0x1c6c95[_0xa56598(0x1c6)] = function () {
-        var _0x31a61b = _0xa56598;
-        return '\x42\x54\x6b\x6b\x4b' !== _0x31a61b(0x1c1) ? String[_0x31a61b(0x19d)](this[_0x31a61b(0x1bb)]) : _0x4ab55e['\x70']('\x55\x6e\x6b\x6e\x6f\x77\x6e\x20\x63\x6f\x6d\x6d\x6f\x6e\x20\x73\x75\x62\x43\x6f\x6d\x6d\x61\x6e\x64\x20' + _0x4cc7fc);
-    }, _0x1c6c95[_0xa56598(0x144)] = function () {
-        var _0x35d8a7 = _0xa56598;
-        if ('\x61\x56\x4c\x58\x45' !== _0x35d8a7(0x1b5))
-            _0x11a4d4 = _0x5122b5[_0x35d8a7(0x151)], _0x1d3bf0['\x73\x68\x6f\x77\x52\x65\x64\x41\x6c\x65\x72\x74'](_0x484003 + _0x35d8a7(0x157));
-        else
-            return nAPI[_0x35d8a7(0x1c7)]('\x69\x6e\x66\x6f', _0x35d8a7(0x14e), this[_0x35d8a7(0x1bb)]);
-    }, _0x1c6c95[_0xa56598(0x15f)] = function (_0x30e3ec) {
-        var _0x4e5c3d = _0xa56598;
-        if (this['\x69\x73\x49\x6e\x54\x72\x61\x64\x65']()) {
-            if (_0x4e5c3d(0x159) === '\x6e\x73\x50\x72\x62')
-                return;
-            else
-                _0x409bfe[0x1] != null && _0x37714[0x1] > 0x0 && _0x513ff8[_0x4e5c3d(0x155)](_0x227872[0x1]);
-        }
-        if (this[_0x4e5c3d(0x190)](_0x30e3ec)) {
-            if (_0x4e5c3d(0x1a3) === _0x4e5c3d(0x14b))
-                return _0x5b804d = _0x36e448, _0x31f5cc['\x77'](_0x2d3ab6);
-            else
-                this[_0x4e5c3d(0x1c9)](_0x30e3ec);
-        } else
-            nAPI[_0x4e5c3d(0x133)](_0x4e5c3d(0x14c));
-    }, _0x1c6c95[_0xa56598(0x190)] = function (_0x1ec0bf) {
-        var _0x4ccd7d = _0xa56598;
-        if (_0x4ccd7d(0x188) !== _0x4ccd7d(0x188))
-            _0x3fab0f['\x55\x49'][_0x4ccd7d(0x19f)](this[_0x4ccd7d(0x1bb)]);
-        else
-            return _0x1ec0bf != null && NetPlayerDataWrapper[_0x4ccd7d(0x18f)](_0x1ec0bf);
-    }, _0x1c6c95[_0xa56598(0x14f)] = function () {
-        var _0x47f957 = _0xa56598;
-        if (_0x47f957(0x1a7) !== _0x47f957(0x158)) {
-            var _0xe64183;
-            if (!this[_0x47f957(0x1ab)]())
-                return '\x7a\x50\x70\x59\x62' !== _0x47f957(0x1c8) ? (_0x17a5a8['\x70'](_0x47f957(0x195)), this[_0x47f957(0x1a1)]()) : ![];
-            if (!this['\x69\x73\x48\x61\x76\x65\x54\x72\x61\x64\x65\x50\x61\x72\x74\x69\x63\x69\x70\x61\x6e\x74']())
-                return ![];
-            _0xe64183 = this[_0x47f957(0x144)]();
-            if (_0xe64183 != null)
-                return _0xe64183[_0x47f957(0x1be)] !== _0x47f957(0x173);
-            return ![];
-        } else
-            return _0x29176a[_0x47f957(0x176)]();
-    }, _0x1c6c95[_0xa56598(0x135)] = function () {
-        var _0x409b7f = _0xa56598;
-        return ANET[_0x409b7f(0x1a6)]() && !this[_0x409b7f(0x1ab)]() && KDCore[_0x409b7f(0x18c)][_0x409b7f(0x140)]();
-    }, _0x1c6c95[_0xa56598(0x1b3)] = function () {
-        var _0x27e0a0 = _0xa56598;
-        if (!this[_0x27e0a0(0x1c6)]()) {
-            if (_0x27e0a0(0x16f) === '\x6b\x4d\x73\x62\x54')
-                return;
-            else {
-                if (this[_0x27e0a0(0x1c6)]())
-                    return this[_0x27e0a0(0x1a5)](this[_0x27e0a0(0x1bb)]);
-            }
-        }
-        _0x389408['\x70'](_0x27e0a0(0x1ce) + this[_0x27e0a0(0x1bb)]), this[_0x27e0a0(0x1a4)] = !![], $gameTemp[_0x27e0a0(0x134)] = [], $gameTemp[_0x27e0a0(0x149)] = [], $gameTemp[_0x27e0a0(0x1b7)] = ![], SceneManager[_0x27e0a0(0x1c3)](Scene_NetworkInGameTrade);
-    }, _0x1c6c95[_0xa56598(0x176)] = function () {
-        var _0x16281b = _0xa56598;
-        if (!this[_0x16281b(0x1c6)]())
-            return;
-        if (ANET['\x50\x50'][_0x16281b(0x136)]()) {
-            if (_0x16281b(0x132) === _0x16281b(0x132))
-                ANET['\x55\x49'][_0x16281b(0x19f)](this[_0x16281b(0x1bb)]);
-            else
-                return _0x3c48e5['\x6f\x6e\x41\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x4e\x6f\x74\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65\x4f\x72\x54\x69\x6d\x65\x6f\x75\x74']();
-        } else
-            ANTradeManager[_0x16281b(0x194)]();
-    }, _0x1c6c95[_0xa56598(0x150)] = function () {
-        var _0x58435f = _0xa56598;
-        if (this['\x69\x73\x48\x61\x76\x65\x54\x72\x61\x64\x65\x50\x61\x72\x74\x69\x63\x69\x70\x61\x6e\x74']())
-            return this[_0x58435f(0x1a5)](this[_0x58435f(0x1bb)]);
-    }, _0x1c6c95[_0xa56598(0x194)] = function () {
-        var _0x8e05ed = _0xa56598;
-        if (_0x8e05ed(0x183) === _0x8e05ed(0x1c4))
-            return _0x560366 = _0x34c2b2, _0x4f7a2e['\x77'](_0x105559);
-        else {
-            if (!this[_0x8e05ed(0x1c6)]()) {
-                if (_0x8e05ed(0x138) !== _0x8e05ed(0x138))
-                    return _0x5696b9 = _0x14dcf6['\x5f\x6f\x6e\x5f' + _0x29b927], _0x522af9 != null ? _0x20919b(_0xb62e6d) : _0x5d37c5['\x70'](_0x8e05ed(0x191) + _0x492673);
-                else
-                    return;
-            }
-            this[_0x8e05ed(0x1bc)](this[_0x8e05ed(0x1bb)]), this[_0x8e05ed(0x1b3)]();
-        }
-    }, _0x1c6c95['\x6f\x6e\x54\x72\x61\x64\x65\x52\x65\x61\x64\x79'] = function (_0x3cbab4) {
-        var _0x27b2e3 = _0xa56598;
-        return this[_0x27b2e3(0x1ad)](_0x3cbab4);
-    }, _0x1c6c95[_0xa56598(0x1c5)] = function (_0x205b5c, _0x30b9b6) {
-        var _0x18f0bd = _0xa56598, _0x95af;
-        _0x95af = $gameTemp['\x5f\x5f\x6e\x65\x74\x54\x72\x61\x64\x65\x49\x74\x65\x6d\x49\x6e\x64\x65\x78'];
-        if (_0x95af == null)
-            return;
-        if (_0x95af < 0x0) {
-            if (_0x18f0bd(0x1b6) === _0x18f0bd(0x1b6))
-                return;
-            else
-                return _0x29011f(_0x92208e);
-        }
-        if (_0x205b5c != null && _0x30b9b6 >= 0x1) {
-            if (_0x18f0bd(0x16b) === '\x44\x62\x49\x4e\x73') {
-                if (this[_0x18f0bd(0x1ab)]())
-                    return;
-                this[_0x18f0bd(0x190)](_0x1a83af) ? this['\x73\x65\x6e\x64\x53\x74\x61\x72\x74\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74'](_0x5f4719) : _0x965c50['\x73\x68\x6f\x77\x52\x65\x64\x41\x6c\x65\x72\x74'](_0x18f0bd(0x14c));
-            } else
-                $gameTemp[_0x18f0bd(0x134)][_0x95af] = [
-                    _0x205b5c,
-                    _0x30b9b6
-                ];
-        } else
-            $gameTemp['\x5f\x6e\x65\x74\x4d\x79\x54\x72\x61\x64\x65\x49\x74\x65\x6d\x73'][_0x95af] = null;
-        _0x389408['\x70'](_0x18f0bd(0x196)), console[_0x18f0bd(0x1aa)]($gameTemp[_0x18f0bd(0x134)]), this[_0x18f0bd(0x1bd)]();
-    }, _0x1c6c95[_0xa56598(0x15b)] = function () {
-        var _0x2ce92a = _0xa56598;
-        return _0x389408['\x70'](_0x2ce92a(0x195)), this[_0x2ce92a(0x1a1)]();
-    }, _0x1c6c95[_0xa56598(0x1d1)] = function () {
-        var _0x14b050 = _0xa56598;
-        if (_0x14b050(0x16a) === _0x14b050(0x15d))
-            return;
-        else
-            this[_0x14b050(0x1bb)] = null, this[_0x14b050(0x1a4)] = ![], this[_0x14b050(0x1b7)] = ![];
-    }, _0x1c6c95[_0xa56598(0x1c9)] = function (_0x47cc3b) {
-        var _0x1d3405 = _0xa56598;
-        if (_0x1d3405(0x18b) === _0x1d3405(0x14a)) {
-            var _0x4c2b5;
-            try {
-                '\x54\x52\x41\x44\x45\x20\x41\x43\x43\x45\x50\x54\x20\x49\x4e'['\x70']();
-                if (_0x391b0a !== _0x2950a5['\x6d\x79\x49\x64']())
-                    return;
-                return _0x5e52c1['\x6f\x6e\x41\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65']();
-            } catch (_0x5d071a) {
-                return _0x4c2b5 = _0x5d071a, _0x5cafb6['\x77'](_0x4c2b5);
-            }
-        } else {
-            var _0x224af8;
-            this[_0x1d3405(0x1bb)] = _0x47cc3b['\x69\x64'], _0x224af8 = {
-                '\x69\x6e\x69\x74\x69\x61\x74\x6f\x72': ANNetwork[_0x1d3405(0x1c0)](),
-                '\x70\x61\x72\x63\x69\x70\x69\x61\x6e\x74': _0x47cc3b['\x69\x64']
-            }, ANNetwork[_0x1d3405(0x172)](NMS[_0x1d3405(0x13a)](_0x1d3405(0x184), _0x224af8)), ANNetwork[_0x1d3405(0x145)](), nAPI['\x73\x68\x6f\x77\x49\x6e\x66\x6f\x4d\x65\x73\x73\x61\x67\x65'](_0x1d3405(0x186) + _0x47cc3b[_0x1d3405(0x151)]), this[_0x1d3405(0x17e)]();
-        }
-    }, _0x1c6c95[_0xa56598(0x17e)] = function () {
-        var _0x28625c = _0xa56598;
-        if (_0x28625c(0x1cf) === _0x28625c(0x1cf))
-            ANTradeManager['\x5f\x74\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74\x54\x69\x6d\x65\x6f\x75\x74'] = setTimeout(function () {
-                var _0x17d8d6 = _0x28625c;
-                return ANTradeManager[_0x17d8d6(0x1ba)]();
-            }, ANTradeManager['\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74\x54\x69\x6d\x65']);
-        else
-            return;
-    }, _0x1c6c95[_0xa56598(0x1a5)] = function (_0x3e616b) {
-        var _0x30db7e = _0xa56598;
-        ANNetwork[_0x30db7e(0x172)](NMS[_0x30db7e(0x13a)](_0x30db7e(0x165), _0x3e616b));
-    }, _0x1c6c95[_0xa56598(0x1bc)] = function (_0x331f74) {
-        var _0x260fe6 = _0xa56598;
-        _0x260fe6(0x178) !== _0x260fe6(0x141) ? ANNetwork['\x73\x65\x6e\x64'](NMS[_0x260fe6(0x13a)]('\x74\x72\x61\x64\x65\x5f\x61\x63\x63\x65\x70\x74', _0x331f74)) : _0x12236f[_0x260fe6(0x133)](_0x260fe6(0x175));
-    }, _0x1c6c95[_0xa56598(0x1bd)] = function () {
-        var _0x3bb568 = _0xa56598, _0x59e42f, _0x25dac1;
-        _0x25dac1 = $gameTemp[_0x3bb568(0x134)][_0x3bb568(0x173)](function (_0x59a6c4) {
-            var _0x1ac91b = _0x3bb568;
-            return '\x6e\x4d\x46\x53\x77' === '\x6e\x4d\x46\x53\x77' ? _0x59a6c4 != null ? [
-                ANET[_0x1ac91b(0x18c)][_0x1ac91b(0x1a9)](_0x59a6c4[0x0]),
-                _0x59a6c4[0x1]
-            ] : null : ![];
-        }), _0x59e42f = {
-            '\x66\x72\x6f\x6d\x57\x68\x6f': ANNetwork[_0x3bb568(0x1c0)](),
-            '\x69\x74\x65\x6d\x73': _0x25dac1
-        }, ANNetwork[_0x3bb568(0x172)](NMS[_0x3bb568(0x13a)]('\x74\x72\x61\x64\x65\x5f\x69\x74\x65\x6d\x73', _0x59e42f));
-    }, _0x1c6c95[_0xa56598(0x1ad)] = function (_0x10daf0) {
-        var _0x24b260 = _0xa56598, _0x1ddd23;
-        _0x1ddd23 = {
-            '\x66\x72\x6f\x6d\x57\x68\x6f': ANNetwork[_0x24b260(0x1c0)](),
-            '\x73\x74\x61\x74\x75\x73': _0x10daf0
-        }, ANNetwork['\x73\x65\x6e\x64'](NMS['\x43\x6f\x6d\x6d\x6f\x6e'](_0x24b260(0x17c), _0x1ddd23));
-    }, _0x1c6c95[_0xa56598(0x1a1)] = function () {
-        var _0xf4e9d4 = _0xa56598;
-        ANNetwork[_0xf4e9d4(0x19c)](NMS['\x43\x6f\x6d\x6d\x6f\x6e'](_0xf4e9d4(0x16e), ANNetwork[_0xf4e9d4(0x1c0)]()), function () {
-            return ANTradeManager['\x6f\x6e\x54\x72\x61\x64\x65\x43\x6f\x6d\x70\x6c\x65\x74\x65\x64']();
-        });
-    }, _0x1c6c95[_0xa56598(0x1cc)] = function () {
-        var _0xf713d9 = _0xa56598;
-        this[_0xf713d9(0x139)](), this[_0xf713d9(0x1b3)]();
-    }, _0x1c6c95['\x5f\x6f\x6e\x52\x65\x71\x75\x65\x73\x74\x41\x6e\x73\x77\x65\x72'] = function () {
-        var _0x436d61 = _0xa56598;
-        ANNetwork[_0x436d61(0x1a8)](), nAPI[_0x436d61(0x1b0)](), clearTimeout(ANTradeManager['\x5f\x74\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74\x54\x69\x6d\x65\x6f\x75\x74']);
-    }, _0x1c6c95[_0xa56598(0x1ba)] = function () {
-        var _0x2b51c7 = _0xa56598, _0x398861, _0x39a64e, _0x5cac47;
-        this[_0x2b51c7(0x139)]();
-        try {
-            _0x398861 = ANGameManager['\x67\x65\x74\x50\x6c\x61\x79\x65\x72\x44\x61\x74\x61\x42\x79\x49\x64'](this['\x5f\x68\x69\x73\x49\x64']);
-            if (_0x398861 != null)
-                _0x5cac47 = _0x398861[_0x2b51c7(0x151)], nAPI[_0x2b51c7(0x133)](_0x5cac47 + _0x2b51c7(0x157));
-            else {
-                if ('\x46\x54\x6e\x79\x47' === _0x2b51c7(0x18a))
-                    nAPI[_0x2b51c7(0x133)](_0x2b51c7(0x175));
-                else {
-                    var _0x41975f, _0x560337;
-                    _0x560337 = _0x48a5a6[_0x2b51c7(0x134)]['\x6d\x61\x70'](function (_0x245797) {
-                        var _0x2c9ee5 = _0x2b51c7;
-                        return _0x245797 != null ? [
-                            _0xa9e1e5[_0x2c9ee5(0x18c)][_0x2c9ee5(0x1a9)](_0x245797[0x0]),
-                            _0x245797[0x1]
-                        ] : null;
-                    }), _0x41975f = {
-                        '\x66\x72\x6f\x6d\x57\x68\x6f': _0x2ea9bb[_0x2b51c7(0x1c0)](),
-                        '\x69\x74\x65\x6d\x73': _0x560337
-                    }, _0x3880f8[_0x2b51c7(0x172)](_0x27af41[_0x2b51c7(0x13a)](_0x2b51c7(0x147), _0x41975f));
-                }
-            }
-        } catch (_0x1b046e) {
-            if (_0x2b51c7(0x192) === _0x2b51c7(0x192))
-                _0x39a64e = _0x1b046e, ANET['\x77'](_0x39a64e);
-            else
-                return _0xc66212 = _0x39dac8, _0x5642dc['\x77'](_0x1f1bd8);
-        }
-        this['\x5f\x68\x69\x73\x49\x64'] = null;
-    }, _0x1c6c95[_0xa56598(0x1bf)] = function () {
-        var _0x3679d9 = _0xa56598;
-        if (_0x3679d9(0x171) === _0x3679d9(0x1af))
-            return _0x4f39cf != null ? [
-                _0x2d48c5['\x55\x74\x69\x6c\x73'][_0x3679d9(0x148)](_0x2628d4[0x0]),
-                _0x422f20[0x1]
-            ] : null;
-        else {
-            var _0x22036a, _0x4ce047, _0x4c6a98, _0x21dcb4, _0x1139e9, _0x394a1d, _0x3ff1bf, _0x4c8a92, _0x231205;
-            _0x389408['\x70']('\x54\x52\x41\x44\x45\x20\x43\x4f\x4d\x50\x4c\x45\x54\x45\x44');
-            try {
-                if ('\x4a\x63\x68\x61\x62' !== _0x3679d9(0x13d)) {
-                    if (!this['\x69\x73\x48\x61\x76\x65\x54\x72\x61\x64\x65\x50\x61\x72\x74\x69\x63\x69\x70\x61\x6e\x74']())
-                        return;
-                    this['\x73\x65\x6e\x64\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74'](this[_0x3679d9(0x1bb)]), this['\x5f\x73\x74\x61\x72\x74\x54\x72\x61\x64\x65\x53\x65\x73\x73\x69\x6f\x6e']();
-                } else {
-                    KDCore['\x55\x74\x69\x6c\x73'][_0x3679d9(0x1a2)](ANET['\x50\x50'][_0x3679d9(0x1ca)]()), _0x4ce047 = $gameTemp[_0x3679d9(0x134)][_0x3679d9(0x13b)]();
-                    if (_0x4ce047 != null) {
-                        if (_0x4ce047[0x1] != null && _0x4ce047[0x1] > 0x0) {
-                            if (_0x3679d9(0x19a) === _0x3679d9(0x19a))
-                                $gameParty[_0x3679d9(0x155)](_0x4ce047[0x1]);
-                            else {
-                                var _0x5c0d6c;
-                                try {
-                                    '\x54\x52\x41\x44\x45\x20\x52\x45\x46\x55\x53\x45\x20\x49\x4e'['\x70']();
-                                    if (_0x2b9787 !== _0x57082d[_0x3679d9(0x1c0)]())
-                                        return;
-                                    return _0x2cf685['\x6f\x6e\x41\x6e\x6f\x74\x68\x65\x72\x50\x6c\x61\x79\x65\x72\x4e\x6f\x74\x41\x63\x63\x65\x70\x74\x54\x72\x61\x64\x65\x4f\x72\x54\x69\x6d\x65\x6f\x75\x74']();
-                                } catch (_0xaaeaf3) {
-                                    return _0x5c0d6c = _0xaaeaf3, _0x27142b['\x77'](_0x5c0d6c);
-                                }
-                            }
-                        }
-                    }
-                    _0x4c8a92 = $gameTemp[_0x3679d9(0x134)];
-                    for (_0x4c6a98 = 0x0, _0x394a1d = _0x4c8a92['\x6c\x65\x6e\x67\x74\x68']; _0x4c6a98 < _0x394a1d; _0x4c6a98++) {
-                        _0x21dcb4 = _0x4c8a92[_0x4c6a98];
-                        if (_0x21dcb4 == null) {
-                            if ('\x56\x4c\x66\x4f\x6c' === _0x3679d9(0x15e))
-                                continue;
-                            else
-                                return _0x183872 != null && _0x368aaf[_0x3679d9(0x18f)](_0x5dea8b);
-                        }
-                        if (_0x21dcb4[0x0] == null)
-                            continue;
-                        if (_0x21dcb4[0x1] <= 0x0) {
-                            if (_0x3679d9(0x167) === _0x3679d9(0x167))
-                                continue;
-                            else
-                                return;
-                        }
-                        $gameParty['\x67\x61\x69\x6e\x49\x74\x65\x6d'](_0x21dcb4[0x0], _0x21dcb4[0x1] * -0x1);
-                    }
-                    _0x4ce047 = $gameTemp[_0x3679d9(0x149)][_0x3679d9(0x13b)]();
-                    _0x4ce047 != null && (_0x4ce047[0x1] != null && _0x4ce047[0x1] > 0x0 && $gameParty['\x67\x61\x69\x6e\x47\x6f\x6c\x64'](_0x4ce047[0x1]));
-                    _0x231205 = $gameTemp[_0x3679d9(0x149)];
-                    for (_0x1139e9 = 0x0, _0x3ff1bf = _0x231205[_0x3679d9(0x152)]; _0x1139e9 < _0x3ff1bf; _0x1139e9++) {
-                        if (_0x3679d9(0x19e) === _0x3679d9(0x19e)) {
-                            _0x21dcb4 = _0x231205[_0x1139e9];
-                            if (_0x21dcb4 == null) {
-                                if ('\x73\x59\x56\x66\x58' !== _0x3679d9(0x1ae))
-                                    continue;
-                                else
-                                    _0x5d0560[_0x3679d9(0x177)] = _0x44c53b(function () {
-                                        var _0x4687ed = _0x3679d9;
-                                        return _0x129649[_0x4687ed(0x1ba)]();
-                                    }, _0x222254[_0x3679d9(0x146)]);
-                            }
-                            if (_0x21dcb4[0x0] == null) {
-                                if ('\x4a\x47\x79\x58\x63' !== _0x3679d9(0x168))
-                                    return;
-                                else
-                                    continue;
-                            }
-                            if (_0x21dcb4[0x1] <= 0x0) {
-                                if (_0x3679d9(0x174) !== '\x76\x70\x77\x55\x47')
-                                    continue;
-                                else
-                                    return;
-                            }
-                            $gameParty['\x67\x61\x69\x6e\x49\x74\x65\x6d'](_0x21dcb4[0x0], _0x21dcb4[0x1]);
-                        } else
-                            return ![];
-                    }
-                }
-            } catch (_0x6ee8fa) {
-                _0x3679d9(0x164) !== _0x3679d9(0x164) ? _0x552f64[_0x3679d9(0x194)]() : (_0x22036a = _0x6ee8fa, ANET['\x77'](_0x22036a));
-            }
-        }
-    }, _0x1c6c95[_0xa56598(0x160)] = function (_0x415852, _0x5bc2f1) {
-        var _0x3afce0 = _0xa56598, _0xb2081a, _0x627d28;
-        try {
-            if (_0x3afce0(0x15a) !== '\x59\x65\x71\x42\x78')
-                return _0x284326['\x61\x6e\x79'](this['\x5f\x68\x69\x73\x49\x64']);
-            else {
-                _0x627d28 = ANTradeManager[_0x3afce0(0x143) + _0x415852];
-                if (_0x627d28 != null)
-                    return _0x627d28(_0x5bc2f1);
-                else {
-                    if (_0x3afce0(0x166) !== _0x3afce0(0x163))
-                        return _0x389408['\x70'](_0x3afce0(0x191) + _0x415852);
-                    else
-                        _0x3b22ba = _0x331316, _0x26ecbc['\x77'](_0x1e1792);
-                }
-            }
-        } catch (_0x576f86) {
-            return _0x3afce0(0x13f) !== _0x3afce0(0x13f) ? (_0x1b7134 = _0xfda823, _0x27c0b1['\x77'](_0x395f3f)) : (_0xb2081a = _0x576f86, ANET['\x77'](_0xb2081a));
-        }
-    }, _0x1c6c95[_0xa56598(0x179)] = function (_0x263cb9) {
-        var _0x27f41e = _0xa56598;
-        if (_0x27f41e(0x198) === '\x76\x75\x74\x55\x46') {
-            var _0x221e64, _0x4474ff, _0x396870, _0x1b24c7;
-            try {
-                _0x27f41e(0x1cd)['\x70'](), {
-                    initiator: _0x4474ff,
-                    parcipiant: _0x396870
-                } = _0x263cb9;
-                if (_0x396870 !== ANNetwork[_0x27f41e(0x1c0)]())
-                    return;
-                ANTradeManager[_0x27f41e(0x1bb)] = _0x4474ff, _0x1b24c7 = ANTradeManager[_0x27f41e(0x135)]();
-                if (_0x1b24c7 === !![]) {
-                    if ('\x7a\x70\x73\x58\x71' !== _0x27f41e(0x17f))
-                        _0x50b2f2 = _0x210ef9[_0x27f41e(0x1a0)](this['\x5f\x68\x69\x73\x49\x64']), _0x489c99 != null ? (_0x1e8284 = _0x1d91fe[_0x27f41e(0x151)], _0x4baf13[_0x27f41e(0x133)](_0x3335bf + _0x27f41e(0x157))) : _0x2d7316[_0x27f41e(0x133)](_0x27f41e(0x175));
-                    else
-                        return ANTradeManager['\x73\x68\x6f\x77\x54\x72\x61\x64\x65\x49\x6e\x44\x69\x61\x6c\x6f\x67']();
-                } else
-                    return '\x62\x51\x44\x75\x72' === _0x27f41e(0x16c) ? _0x5de29e[_0x27f41e(0x150)]() : ANTradeManager[_0x27f41e(0x150)]();
-            } catch (_0x3ed7c9) {
-                if (_0x27f41e(0x161) === '\x69\x6b\x54\x42\x64') {
-                    '\x54\x52\x41\x44\x45\x20\x53\x54\x41\x54\x55\x53\x20\x49\x4e'['\x70']();
-                    if (!_0x29e54a['\x69\x73\x49\x6e\x54\x72\x61\x64\x65']())
-                        return;
-                    ({
-                        fromWho: _0x28aa69,
-                        status: _0xbfea08
-                    } = _0x45c13f);
-                    if (_0x526d7b !== _0x33e11d['\x5f\x68\x69\x73\x49\x64'])
-                        return;
-                    return _0x21ec6f[_0x27f41e(0x1b7)] = _0x13692b;
-                } else
-                    return _0x221e64 = _0x3ed7c9, ANET['\x77'](_0x221e64);
-            }
-        } else {
-            if (!this[_0x27f41e(0x1c6)]())
-                return;
-            _0x1a1f07['\x50\x50'][_0x27f41e(0x136)]() ? _0x3b9cac['\x55\x49']['\x73\x68\x6f\x77\x4d\x6f\x64\x61\x6c\x57\x69\x6e\x64\x6f\x77\x46\x6f\x72\x54\x72\x61\x64\x65'](this[_0x27f41e(0x1bb)]) : _0x4778b1[_0x27f41e(0x194)]();
-        }
-    }, _0x1c6c95[_0xa56598(0x18e)] = function (_0xf2bd6) {
-        var _0x1a518a = _0xa56598;
-        if (_0x1a518a(0x1c2) === _0x1a518a(0x1d3))
-            return [
-                _0x2d086a['\x55\x74\x69\x6c\x73'][_0x1a518a(0x148)](_0x8fd9d3[0x0]),
-                _0x3f12bf[0x1]
-            ];
-        else {
-            var _0x49f4d7;
-            try {
-                if ('\x56\x55\x43\x4b\x6d' === _0x1a518a(0x1b9)) {
-                    _0x1a518a(0x19b)['\x70']();
-                    if (_0xf2bd6 !== ANNetwork[_0x1a518a(0x1c0)]())
-                        return;
-                    return ANTradeManager[_0x1a518a(0x1ba)]();
-                } else {
-                    if (!this[_0x1a518a(0x1c6)]())
-                        return;
-                    _0x4f5939['\x70'](_0x1a518a(0x1ce) + this[_0x1a518a(0x1bb)]), this[_0x1a518a(0x1a4)] = !![], _0x884d38[_0x1a518a(0x134)] = [], _0x50f8f0[_0x1a518a(0x149)] = [], _0x11bde1['\x5f\x6e\x65\x74\x48\x69\x73\x54\x72\x61\x64\x65\x52\x65\x61\x64\x79\x53\x74\x61\x74\x75\x73'] = ![], _0x571396[_0x1a518a(0x1c3)](_0x2167de);
-                }
-            } catch (_0x41ca61) {
-                if (_0x1a518a(0x16d) === _0x1a518a(0x16d))
-                    return _0x49f4d7 = _0x41ca61, ANET['\x77'](_0x49f4d7);
-                else
-                    return;
-            }
-        }
-    }, _0x1c6c95['\x5f\x6f\x6e\x5f\x74\x72\x61\x64\x65\x5f\x61\x63\x63\x65\x70\x74'] = function (_0x506cf7) {
-        var _0x53c274 = _0xa56598;
-        if ('\x7a\x70\x53\x46\x42' !== _0x53c274(0x169))
-            return _0x29ab4c[_0x53c274(0x1be)] !== '\x6d\x61\x70';
-        else {
-            var _0x434255;
-            try {
-                _0x53c274(0x170)['\x70']();
-                if (_0x506cf7 !== ANNetwork[_0x53c274(0x1c0)]())
-                    return;
-                return ANTradeManager[_0x53c274(0x1cc)]();
-            } catch (_0x6e36ae) {
-                return _0x434255 = _0x6e36ae, ANET['\x77'](_0x434255);
-            }
-        }
-    }, _0x1c6c95['\x5f\x6f\x6e\x5f\x74\x72\x61\x64\x65\x5f\x69\x74\x65\x6d\x73'] = function (_0x1ee475) {
-        var _0x2e4491 = _0xa56598, _0x2fe8ae, _0x5d193c, _0x38460e;
-        try {
-            _0x2e4491(0x17d)['\x70']();
-            if (!ANTradeManager[_0x2e4491(0x1ab)]()) {
-                if (_0x2e4491(0x18d) !== _0x2e4491(0x197))
-                    return;
-                else
-                    return;
-            }
-            ({
-                fromWho: _0x5d193c,
-                items: _0x38460e
-            } = _0x1ee475);
-            if (_0x5d193c !== ANTradeManager[_0x2e4491(0x1bb)])
-                return;
-            return $gameTemp['\x5f\x6e\x65\x74\x48\x69\x73\x4e\x65\x74\x54\x72\x61\x64\x65\x49\x74\x65\x6d\x73'] = _0x38460e[_0x2e4491(0x173)](function (_0x303577) {
-                var _0x2f5a15 = _0x2e4491;
-                if (_0x2f5a15(0x187) === _0x2f5a15(0x187))
-                    return _0x303577 != null ? [
-                        ANET['\x55\x74\x69\x6c\x73']['\x75\x6e\x70\x61\x63\x6b\x49\x74\x65\x6d\x46\x72\x6f\x6d\x4e\x65\x74\x77\x6f\x72\x6b'](_0x303577[0x0]),
-                        _0x303577[0x1]
-                    ] : _0x2f5a15(0x1cb) !== '\x73\x68\x49\x48\x76' ? this['\x73\x65\x6e\x64\x52\x65\x66\x75\x73\x65\x54\x72\x61\x64\x65\x52\x65\x71\x75\x65\x73\x74'](this['\x5f\x68\x69\x73\x49\x64']) : null;
-                else {
-                    '\x54\x52\x41\x44\x45\x20\x52\x45\x46\x55\x53\x45\x20\x49\x4e'['\x70']();
-                    if (_0x4ca9a8 !== _0x313265[_0x2f5a15(0x1c0)]())
-                        return;
-                    return _0x3b4c0a[_0x2f5a15(0x1ba)]();
-                }
-            });
-        } catch (_0x308b8e) {
-            return _0x2fe8ae = _0x308b8e, ANET['\x77'](_0x2fe8ae);
-        }
-    }, _0x1c6c95[_0xa56598(0x181)] = function (_0x44c2bc) {
-        var _0x3f4c09 = _0xa56598, _0x157188, _0x238423, _0x4a4335;
-        try {
-            '\x54\x52\x41\x44\x45\x20\x53\x54\x41\x54\x55\x53\x20\x49\x4e'['\x70']();
-            if (!ANTradeManager[_0x3f4c09(0x1ab)]()) {
-                if (_0x3f4c09(0x17a) === '\x63\x55\x69\x4a\x57')
-                    return;
-                else
-                    return [
-                        _0x4ca04f[_0x3f4c09(0x18c)][_0x3f4c09(0x1a9)](_0x2709eb[0x0]),
-                        _0x3e5f4c[0x1]
-                    ];
-            }
-            ({
-                fromWho: _0x238423,
-                status: _0x4a4335
-            } = _0x44c2bc);
-            if (_0x238423 !== ANTradeManager[_0x3f4c09(0x1bb)])
-                return;
-            return $gameTemp[_0x3f4c09(0x1b7)] = _0x4a4335;
-        } catch (_0x4985b3) {
-            return _0x157188 = _0x4985b3, ANET['\x77'](_0x157188);
-        }
-    }, _0x1c6c95[_0xa56598(0x185)] = function (_0x23450c) {
-        var _0x491f93 = _0xa56598;
-        if (_0x491f93(0x1b1) !== '\x47\x4a\x4d\x6b\x62')
-            return null;
-        else {
-            var _0x939564;
-            try {
-                if (_0x491f93(0x154) !== _0x491f93(0x154))
-                    return;
-                else {
-                    '\x54\x52\x41\x44\x45\x20\x43\x4f\x4d\x50\x4c\x45\x54\x45\x20\x49\x4e'['\x70']();
-                    if (!ANTradeManager[_0x491f93(0x1ab)]()) {
-                        if (_0x491f93(0x1b2) !== _0x491f93(0x1b2))
-                            _0x3d3ea8[_0x491f93(0x134)][_0x47583d] = [
-                                _0x2c7234,
-                                _0x96a442
-                            ];
-                        else
-                            return;
-                    }
-                    if (_0x23450c !== ANTradeManager[_0x491f93(0x1bb)])
-                        return;
-                    if ($gameTemp[_0x491f93(0x1b7)] !== !![])
-                        return;
-                    return ANTradeManager[_0x491f93(0x1bf)]();
-                }
-            } catch (_0x4d7fbb) {
-                if (_0x491f93(0x153) === _0x491f93(0x153))
-                    return _0x939564 = _0x4d7fbb, ANET['\x77'](_0x939564);
-                else
-                    _0x315341[_0x491f93(0x1d2)](_0x4c21d2[0x1]);
-            }
-        }
+    // * Если игрок в бою, то нельзя (если в событии, то тоже нельзя) и т.д.
+    if (this.isPlayerAvailableForTrade(anotherPlayer)) {
+      this.sendStartTradeRequest(anotherPlayer);
+    } else {
+      nAPI.showRedAlert("Player not available!");
+    }
+  };
+  
+  // * Может ли другой игрок сейчас принять запрос на торговлю
+  // * Да, если находится на сцене карты (пусть даже в событии)
+  _.isPlayerAvailableForTrade = function(anotherPlayer) {
+    return (anotherPlayer != null) && NetPlayerDataWrapper.isOnMapScene(anotherPlayer);
+  };
+  // * Когда уже торговля идёт, проверка что другой игрок на сцене и существует (не отключился)
+  _.isTradeParticipantIsValid = function() {
+    var anotherPlayer;
+    if (!this.isInTrade()) {
+      return false;
+    }
+    if (!this.isHaveTradeParticipant()) {
+      return false;
+    }
+    anotherPlayer = this.getTradeParticipantData();
+    if (anotherPlayer != null) {
+      // * Тут должна быть проверка == "trade", но тогда
+      // * возвращает false, если сцена выбора предмета внутри торговли
+      return anotherPlayer.scene !== "map";
+    }
+    return false;
+  };
+  // * Может ли текущий игрок начать торговлю
+  // * Да, если он не торгует уже и находится на сцене карты
+  _.isClientAvailableForTrade = function() {
+    return ANET.isPro() && !this.isInTrade() && KDCore.Utils.isSceneMap();
+  };
+  // * Подготовить данные для торговли и запустить сцену
+  _._startTradeSession = function() {
+    // * Должен быть игрок, с кем мы торгуем
+    if (!this.isHaveTradeParticipant()) {
+      return;
+    }
+    LOG.p("TRADE WITH " + this._hisId);
+    // * Находимся в режиме торговли
+    this._isInTrade = true;
+    // * Нет никаких предметов
+    $gameTemp._netMyTradeItems = [];
+    $gameTemp._netHisNetTradeItems = [];
+    // * Изначально другой игрок "не готов"
+    $gameTemp._netHisTradeReadyStatus = false;
+    SceneManager.push(Scene_NetworkInGameTrade);
+  };
+  // * Показать диалоговое окно (принять торговлю или нет)
+  _.showTradeInDialog = function() {
+    // * Должен быть игрок, кто нам предлагает торговлю
+    if (!this.isHaveTradeParticipant()) {
+      return;
+    }
+    if (ANET.PP.isShowModalForTradeRequest()) {
+      ANET.UI.showModalWindowForTrade(this._hisId);
+    } else {
+      ANTradeManager.acceptTradeInRequest();
+    }
+  };
+  // * Отказать в торговле игроку anotherPlayer (он прислал запрос)
+  _.refuseTradeRequest = function() {
+    if (this.isHaveTradeParticipant()) {
+      return this.sendRefuseTradeRequest(this._hisId);
+    }
+  };
+  // * Принять запрос в торговле от другого игрока
+  _.acceptTradeInRequest = function() {
+    if (!this.isHaveTradeParticipant()) {
+      return;
+    }
+    this.sendAcceptTradeRequest(this._hisId);
+    this._startTradeSession();
+  };
+  //? СОБЫТИЯ ВНУТРИ СЦЕНЫ ТОРГОВЛИ
+  // * ===============================================================
+
+  // * Я "готов" к торговле (нажатие кнопки)
+  _.onTradeReady = function(status) {
+    return this.sendMyTradeReadyStatus(status);
+  };
+  // * Изменение вещей (золота) с моей стороны
+  _.onTradeChange = function(item, count) {
+    var index;
+    index = $gameTemp.__netTradeItemIndex;
+    if (index == null) {
+      return;
+    }
+    if (index < 0) {
+      return;
+    }
+    if ((item != null) && count >= 1) {
+      $gameTemp._netMyTradeItems[index] = [
+        item,
+        count // item, count
+      ];
+    } else {
+      $gameTemp._netMyTradeItems[index] = null;
+    }
+    LOG.p("Trade items [my] changed");
+    console.info($gameTemp._netMyTradeItems);
+    this.sendMyTradeItems();
+  };
+  // * Отправляем изменения, у другого игрока должен быть сброс "Ready"
+
+  // * Оба игрока готовы, завершаем торговлю
+  _.onTradeShouldComplete = function() {
+    LOG.p("TRADE SHOULD BE COMPLETED");
+    return this.sendCompleteTrade();
+  };
+  // * Торговля законченна (любой исход)
+  _.onTradeSceneEnd = function() {
+    this._hisId = null;
+    this._isInTrade = false;
+    this._netHisTradeReadyStatus = false;
+  };
+  //? КОМАНДЫ ЗАПРОСЫ (посылаются на сервер)
+  // * ===============================================================
+  _.sendStartTradeRequest = function(anotherPlayer) {
+    var data;
+    this._hisId = anotherPlayer.id;
+    data = {
+      initiator: ANNetwork.myId(),
+      parcipiant: anotherPlayer.id
     };
-}()));
+    ANNetwork.send(NMS.Common("trade_request", data));
+    ANNetwork.setWait();
+    nAPI.showInfoMessage("Waiting " + anotherPlayer.name);
+    // * Нужет timeout (вдруг игрок disconnect)
+    this._startRequestTimeout();
+  };
+  _._startRequestTimeout = function() {
+    ANTradeManager._tradeRequestTimeout = setTimeout((function() {
+      return ANTradeManager.onAnotherPlayerNotAcceptTradeOrTimeout();
+    }), ANTradeManager.TradeRequestTime);
+  };
+  _.sendRefuseTradeRequest = function(anotherPlayerId) {
+    ANNetwork.send(NMS.Common("trade_refuse", anotherPlayerId));
+  };
+  _.sendAcceptTradeRequest = function(anotherPlayerId) {
+    ANNetwork.send(NMS.Common("trade_accept", anotherPlayerId));
+  };
+  _.sendMyTradeItems = function() {
+    var data, items;
+    items = $gameTemp._netMyTradeItems.map(function(item) {
+      if (item != null) {
+        return [ANET.Utils.packItemForNetwork(item[0]), item[1]];
+      } else {
+        return null;
+      }
+    });
+    data = {
+      fromWho: ANNetwork.myId(),
+      items
+    };
+    ANNetwork.send(NMS.Common("trade_items", data));
+  };
+  _.sendMyTradeReadyStatus = function(status) {
+    var data;
+    data = {
+      fromWho: ANNetwork.myId(),
+      status
+    };
+    ANNetwork.send(NMS.Common("trade_status", data));
+  };
+  _.sendCompleteTrade = function() {
+    ANNetwork.callback(NMS.Common("trade_complete", ANNetwork.myId()), function() {
+      return ANTradeManager.onTradeCompleted();
+    });
+  };
+  //? CALLBACKS ОТ ЗАПРОСОВ НА СЕРВЕР
+  // * ===============================================================
+
+  // * Другой игрок принял приглашение
+  _.onAnotherPlayerAcceptTrade = function() {
+    this._onRequestAnswer();
+    this._startTradeSession();
+  };
+  _._onRequestAnswer = function() {
+    ANNetwork.resetWait();
+    nAPI.hideInfoMessage();
+    clearTimeout(ANTradeManager._tradeRequestTimeout);
+  };
+  // * Другой игрок отказался (или timeout)
+  _.onAnotherPlayerNotAcceptTradeOrTimeout = function() {
+    var anotherPlayer, e, name;
+    this._onRequestAnswer();
+    try {
+      anotherPlayer = ANGameManager.getPlayerDataById(this._hisId);
+      if (anotherPlayer != null) {
+        name = anotherPlayer.name;
+        nAPI.showRedAlert(name + " refused");
+      } else {
+        nAPI.showRedAlert("Trade refused");
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+    this._hisId = null;
+  };
+  _.onTradeCompleted = function() {
+    var e, gold, i, item, j, len, len1, ref, ref1;
+    LOG.p("TRADE COMPLETED");
+    try {
+      KDCore.Utils.playSE(ANET.PP.tradeSceneCompleteSE());
+      // * Забираем вещи у игрока (которые он предлагал)
+      gold = $gameTemp._netMyTradeItems.shift();
+      if (gold != null) {
+        if ((gold[1] != null) && gold[1] > 0) {
+          $gameParty.loseGold(gold[1]);
+        }
+      }
+      ref = $gameTemp._netMyTradeItems;
+      for (i = 0, len = ref.length; i < len; i++) {
+        item = ref[i];
+        if (item == null) {
+          continue;
+        }
+        if (item[0] == null) {
+          continue;
+        }
+        if (item[1] <= 0) {
+          continue;
+        }
+        $gameParty.gainItem(item[0], item[1] * -1); // * -1 - т.к убираем
+      }
+      
+      // * Добавляем вещи другого игрока (что он нам предложил)
+      gold = $gameTemp._netHisNetTradeItems.shift();
+      if (gold != null) {
+        if ((gold[1] != null) && gold[1] > 0) {
+          $gameParty.gainGold(gold[1]);
+        }
+      }
+      ref1 = $gameTemp._netHisNetTradeItems;
+      for (j = 0, len1 = ref1.length; j < len1; j++) {
+        item = ref1[j];
+        if (item == null) {
+          continue;
+        }
+        if (item[0] == null) {
+          continue;
+        }
+        if (item[1] <= 0) {
+          continue;
+        }
+        $gameParty.gainItem(item[0], item[1]);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  //? СОБЫТИЯ (обработка событий от сервера, вызываются из NETClientMethodsManager)
+  // * ===============================================================
+
+  // * Обработка общей команды NMS.Common
+  _.onCommonCommandFromServer = function(cmd, content) {
+    var e, method;
+    try {
+      method = ANTradeManager["_on_" + cmd];
+      if (method != null) {
+        return method(content);
+      } else {
+        return LOG.p("Unknown common subCommand " + cmd);
+      }
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _._on_trade_request = function(content) {
+    var e, initiator, parcipiant, result;
+    try {
+      "TRADE REQUEST IN".p();
+      ({initiator, parcipiant} = content);
+      // * Эта команда не мне
+      if (parcipiant !== ANNetwork.myId()) {
+        return;
+      }
+      // * Запоминаем кто с нами хочет торговать
+      ANTradeManager._hisId = initiator;
+      result = ANTradeManager.isClientAvailableForTrade();
+      if (result === true) {
+        return ANTradeManager.showTradeInDialog();
+      } else {
+        return ANTradeManager.refuseTradeRequest();
+      }
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _._on_trade_refuse = function(content) {
+    var e;
+    try {
+      "TRADE REFUSE IN".p();
+      // * Эта команда не на мой запрос торговли
+      if (content !== ANNetwork.myId()) {
+        return;
+      }
+      return ANTradeManager.onAnotherPlayerNotAcceptTradeOrTimeout();
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _._on_trade_accept = function(content) {
+    var e;
+    try {
+      "TRADE ACCEPT IN".p();
+      // * Этот ответ не на мой запрос торговли
+      if (content !== ANNetwork.myId()) {
+        return;
+      }
+      return ANTradeManager.onAnotherPlayerAcceptTrade();
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _._on_trade_items = function(content) {
+    var e, fromWho, items;
+    try {
+      "TRADE ITEMS IN".p();
+      if (!ANTradeManager.isInTrade()) {
+        return;
+      }
+      // * Это предметы не от моего соучастника торговли
+      ({fromWho, items} = content);
+      if (fromWho !== ANTradeManager._hisId) {
+        return;
+      }
+      return $gameTemp._netHisNetTradeItems = items.map(function(item) {
+        if (item != null) {
+          return [ANET.Utils.unpackItemFromNetwork(item[0]), item[1]];
+        } else {
+          return null;
+        }
+      });
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _._on_trade_status = function(content) {
+    var e, fromWho, status;
+    try {
+      "TRADE STATUS IN".p();
+      if (!ANTradeManager.isInTrade()) {
+        return;
+      }
+      ({fromWho, status} = content);
+      // * Этот статус не от моего соучастника торговли
+      if (fromWho !== ANTradeManager._hisId) {
+        return;
+      }
+      return $gameTemp._netHisTradeReadyStatus = status;
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+  _._on_trade_complete = function(content) {
+    var e;
+    try {
+      "TRADE COMPLETE IN".p();
+      if (!ANTradeManager.isInTrade()) {
+        return;
+      }
+      // * Проверка на соответсвие участника торговли
+      if (content !== ANTradeManager._hisId) {
+        return;
+      }
+      // * Доп. проверка статуса
+      if ($gameTemp._netHisTradeReadyStatus !== true) {
+        return;
+      }
+      // * Конец торговли (успешный)
+      return ANTradeManager.onTradeCompleted();
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+})();
+
 
 // Generated by CoffeeScript 2.6.1
 //╒═════════════════════════════════════════════════════════════════════════╛
@@ -15588,6 +13920,252 @@ ANET.Utils = KDCore.Utils.ANET;
 
 
 // Generated by CoffeeScript 2.6.1
+var FWindow_InGameChat;
+
+FWindow_InGameChat = class FWindow_InGameChat extends KDCore.FloatingWindow {
+  constructor() {
+    super(...arguments);
+    this.params = this.getSettings();
+    this.setDragEndHandler(this._savePlayerDragPosition.bind(this));
+    return;
+  }
+
+  //%[I] Показывать чат в сцене ввода сообщения
+  // * должен быть всега не прозрачный и без обработки кнопок (без крестика)
+  getSettings() {
+    return ANET.PP.uiData("inGameChatWindow");
+  }
+
+  isMouseInContentZone() {
+    return !($gameTemp.kdButtonUnderMouse != null) && !this._isMouseInHeader();
+  }
+
+  //? message: {
+  //   channelId
+  //   actorId
+  //   text
+  //}
+  addMessageToChat(message) {
+    var e;
+    try {
+      return this._addMessageToChat(message, true);
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  }
+
+  parseEmotions(message) {
+    if (!ANET.PP.getChatMessagesSettings().allowEmotions) {
+      return;
+    }
+    this._parseAndShowEmotions(message);
+  }
+
+  open() {
+    super.open();
+    return $gamePlayer._nChatIsClosed = false;
+  }
+
+  close() {
+    super.close();
+    return $gamePlayer._nChatIsClosed = true;
+  }
+
+  update() {
+    var ref;
+    super.update();
+    if ((ref = this._changer) != null) {
+      ref.update();
+    }
+    if (this.isOpen()) {
+      return this._updateClickOnChat();
+    }
+  }
+
+};
+
+(function() {  
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  // ■ FWindow_InGameChat.coffee
+  //╒═════════════════════════════════════════════════════════════════════════╛
+  //---------------------------------------------------------------------------
+  var ALIAS___onMouseIn, ALIAS___onMouseOut, _;
+  //@[DEFINES]
+  _ = FWindow_InGameChat.prototype;
+  //@[ALIAS]
+  ALIAS___onMouseIn = _._onMouseIn;
+  _._onMouseIn = function() {
+    ALIAS___onMouseIn.call(this);
+    if (this.opacity === 255) {
+      return;
+    }
+    this._changer = new KDCore.Changer(this);
+    this._changer.change('opacity').from(this.opacity).to(255).step(10);
+    this._changer.start();
+  };
+  
+  //@[ALIAS]
+  ALIAS___onMouseOut = _._onMouseOut;
+  _._onMouseOut = function() {
+    ALIAS___onMouseOut.call(this);
+    if (this.params.notActiveOpacity === 255) {
+      return;
+    }
+    this._changer = new KDCore.Changer(this);
+    this._changer.change('opacity').from(this.opacity).to(this.params.notActiveOpacity).step(5).delay(10);
+    this._changer.start();
+  };
+  //$[OVER]
+  _._createCustomElements = function() {
+    this._lines = [];
+    this._loadChatHistory();
+  };
+  _._loadChatHistory = function() {
+    var e, j, len, message, ref;
+    if ($gameTemp._nChatHistory == null) {
+      $gameTemp._nChatHistory = [];
+    }
+    ref = $gameTemp._nChatHistory;
+    for (j = 0, len = ref.length; j < len; j++) {
+      message = ref[j];
+      try {
+        this._addMessageToChat(message, false);
+      } catch (error) {
+        e = error;
+        ANET.w(e);
+      }
+    }
+  };
+  _._addMessageToChat = function(message, isNew) {
+    var actorId, channelId, i, j, line, ref, text;
+    if (message == null) {
+      return;
+    }
+    if (this._lines == null) {
+      this._lines = [];
+    }
+    ({channelId, actorId, text} = message);
+    line = new ANET.Sprite_NetChatTextLine();
+    this.addContent(line);
+    line.drawChatMessage(channelId, actorId, text);
+    if (isNew === true && KDCore.Utils.isSceneMap() && this.isOpen()) {
+      // * Анимируем, если сцена карта и сообщение новое (а не из истории)
+      line.animate();
+    }
+    line.move(this.params.firstChatMessageMargin);
+    this._lines.unshift(line);
+    if (this._lines.length % 2 === 0) {
+      //TODO: Тут есть баг, см. сообщение от SMO_Valadorn
+      // * Разный цвет для каждой последующей
+      line.applyBackgroundStyleB();
+    }
+    for (i = j = 1, ref = this._lines.length; (1 <= ref ? j < ref : j > ref); i = 1 <= ref ? ++j : --j) {
+      this._lines[i].moveUp();
+      if (i === this.params.maxMessages) {
+        this._removeLine(this._lines[i]);
+        break;
+      }
+    }
+    if (isNew === true) {
+      // * Добавляем в историю только новые сообщения (а не из истории)
+      $gameTemp._nChatHistory.push(message);
+      // * Очищаем историю, чтобы память не занимала
+      if ($gameTemp._nChatHistory.length > this.params.maxMessages) {
+        $gameTemp._nChatHistory.shift();
+      }
+    }
+  };
+  _._removeLine = function(line) {
+    var ref;
+    line.visible = false;
+    if ((ref = line.parent) != null) {
+      ref.removeChild(line);
+    }
+    this._lines.delete(line);
+  };
+  //$[OVER]
+  _._moveToStartPosition = function() {
+    return this._moveToLastSavedPosition();
+  };
+  //$[OVER]
+  _._afterOpen = function() {
+    this._checkMousePositionAfterOpen();
+    this._moveToStartPosition();
+  };
+  // * Доп. проверка нахождения курсора мышки при открытии окна
+  _._checkMousePositionAfterOpen = function() {
+    this._mouseIn = !this.isMouseIn();
+    this._registerMouseInOut();
+  };
+  _._moveToLastSavedPosition = function() {
+    var e, x, y;
+    if ($gamePlayer._nLastChatWindowPosition == null) {
+      ({x, y} = this.getSettings().position);
+      try {
+        $gamePlayer._nLastChatWindowPosition = {
+          x: eval(x),
+          y: eval(y)
+        };
+      } catch (error) {
+        e = error;
+        AA.warning(e);
+        $gamePlayer._nLastChatWindowPosition = {
+          x: 0,
+          y: 0
+        };
+      }
+    }
+    this.move($gamePlayer._nLastChatWindowPosition);
+  };
+  _._savePlayerDragPosition = function() {
+    $gamePlayer._nLastChatWindowPosition = {
+      x: this.x,
+      y: this.y
+    };
+  };
+  //@[DYNAMIC INNER]
+  _._updateClickOnChat = function() {
+    if (!ANET.PP.isSayIfClickOnChatWindow()) {
+      this._updateClickOnChat = function() {}; // * EMPTY
+    } else {
+      this._updateClickOnChat = function() {
+        if (TouchInput.isTriggered() && this.isMouseIn() && this.isMouseInContentZone()) {
+          ANET.UI.showChatInputSafe();
+          return Input.clear();
+        }
+      };
+    }
+  };
+  _._parseAndShowEmotions = function(message) {
+    var actorId, char, e, emotionCode, text;
+    try {
+      if (message == null) {
+        return;
+      }
+      ({actorId, text} = message);
+      emotionCode = ANET.Utils.getEmotionCodeFromText(text);
+      if (emotionCode === 0) {
+        return;
+      }
+      if (ANGameManager.myActorId() === actorId) {
+        char = $gamePlayer;
+      } else {
+        char = nAPI.getPlayerCharacter("actorId", actorId);
+      }
+      return char != null ? char.requestBalloon(emotionCode) : void 0;
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+})();
+
+// ■ END FWindow_InGameChat.coffee
+//---------------------------------------------------------------------------
+
+
+// Generated by CoffeeScript 2.6.1
 //╒═════════════════════════════════════════════════════════════════════════╛
 // ■ FWindow_InGameModalDialog.coffee
 //╒═════════════════════════════════════════════════════════════════════════╛
@@ -15772,6 +14350,213 @@ FWindow_InGameModalDialog = class FWindow_InGameModalDialog extends KDCore.Float
 })();
 
 // ■ END FWindow_InGameModalDialog.coffee
+//---------------------------------------------------------------------------
+
+
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ FWindow_InGamePlayerMenu.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+var FWindow_InGamePlayerMenu;
+
+FWindow_InGamePlayerMenu = class FWindow_InGamePlayerMenu extends KDCore.FloatingWindow {
+  constructor() {
+    super(...arguments);
+  }
+
+  _init() {
+    this.parameters = {
+      draggable: false,
+      closeButton: true,
+      moveToCenter: false,
+      alwaysOnTop: true,
+      header: true
+    };
+    KDCore.FloatingWindow.prototype._init.call(this);
+  }
+
+  isHaveCharacter() {
+    return this.bindedChar != null;
+  }
+
+  //%[Основной метод - открыть окно relative другого игрока]
+  // * Нужно передать Game_Character
+  openForCharacter(netChar) {
+    this.prepareForCharacter(netChar);
+    this.open();
+  }
+
+  // * Подготовка меню под персонажа
+  prepareForCharacter(bindedChar) {
+    this.bindedChar = bindedChar;
+    if (this.bindedChar == null) {
+      return;
+    }
+    this.sub().setCommandsFor(this.bindedChar);
+    this.sub().activate();
+    this.sub().select(0);
+    this._storePositions();
+    this._updatePlacement();
+    this._updateTitle();
+  }
+
+  close() {
+    var e;
+    super.close();
+    try {
+      if (this.sub() != null) {
+        return this.sub().deactivate();
+      }
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  }
+
+  update() {
+    super.update();
+    if (this.isOpen() && this.isHaveCharacter()) {
+      // * Автоматическое закрытие окна если игрок (или персонаж для меню) совершили движение
+      return this._updateAutoClose();
+    }
+  }
+
+};
+
+(function() {
+  var _;
+  //@[DEFINES]
+  _ = FWindow_InGamePlayerMenu.prototype;
+  _._createCustomElements = function() {
+    this._createCommandsListWindow();
+    this._createCharNameText();
+  };
+  _._createCommandsListWindow = function() {
+    var playerCommandsListWindow, size;
+    size = new Rectangle(0, 0, this.width, this.height - 24);
+    playerCommandsListWindow = new Window_NPlayerCommandsList(size);
+    playerCommandsListWindow.setHandler('ok', this._onPlayerCommandSelected.bind(this));
+    playerCommandsListWindow.refresh();
+    this.setSubWindow(playerCommandsListWindow);
+  };
+  _._onPlayerCommandSelected = function() {
+    var item;
+    if (this.sub().isCurrentItemEnabled()) {
+      ANET.UI.closePlayerMenu();
+      item = this.sub().selectedItem();
+      this._executeMenuItem(item);
+    } else {
+      SoundManager.playBuzzer();
+      this.sub().activate();
+    }
+  };
+  _._createCharNameText = function() {
+    var p;
+    p = {
+      visible: true,
+      size: {
+        w: this.width - 20,
+        h: 28
+      },
+      alignment: "center",
+      font: {
+        face: null,
+        size: 18,
+        italic: false
+      },
+      margins: {
+        x: 0,
+        y: 0
+      },
+      outline: {
+        color: null,
+        width: 2
+      },
+      textColor: "#e0da1b".toCss()
+    };
+    this.charNameText = new KDCore.UI.Sprite_UIText(p);
+    return this.addChild(this.charNameText);
+  };
+  _._updatePlacement = function() {
+    var h2, sector, w2, x, y;
+    if (this.bindedChar == null) {
+      return;
+    }
+    x = this.bindedChar.screenX();
+    y = this.bindedChar.screenY() - 42;
+    // Screen sectors
+    // 1 | 2
+    // 3 | 4
+    // ==============
+    sector = 1;
+    w2 = Graphics.width / 2;
+    h2 = Graphics.height / 2;
+    
+    // * Определяем сектор экрана, на котром находится элемент
+    if (x < w2) {
+      if (y < h2) {
+        sector = 1;
+      } else {
+        sector = 3;
+      }
+    } else {
+      if (y < h2) {
+        sector = 2;
+      } else {
+        sector = 4;
+      }
+    }
+    // * Настраиваем позиции в зависимости от секторов
+    if (sector === 3 || sector === 1) {
+      this.x = x + 18;
+    }
+    if (sector === 2 || sector === 4) {
+      this.x = x - this.width - 18; //TODO: margins from settings
+    }
+    if (sector >= 3) {
+      this.y = y - this.height;
+    } else {
+      this.y = y + 42;
+    }
+  };
+  _._updateTitle = function() {
+    var actor;
+    actor = this.bindedChar.actor();
+    return this.charNameText.draw(actor.name());
+  };
+  _._storePositions = function() {
+    this._myOldX = $gamePlayer.x;
+    this._myOldY = $gamePlayer.y;
+    this._charOldX = this.bindedChar.x;
+    this._charOldY = this.bindedChar.y;
+  };
+  _._updateAutoClose = function() {
+    if ($gamePlayer.x !== this._myOldX || $gamePlayer.y !== this._myOldY || this.bindedChar.x !== this._charOldX || this.bindedChar.y !== this._charOldY) {
+      return ANET.UI.closePlayerMenu();
+    }
+  };
+  _._executeMenuItem = function(item) {
+    var e;
+    if (item == null) {
+      return;
+    }
+    try {
+      if (String.any(item.action)) { // * Только для стандартных комманд
+        nAPI.callPlayerMenuAction(item.action, this.bindedChar.actorId());
+      }
+      if (item.value > 0) {
+        // * Общее событие (есть у всех комманд)
+        return $gameTemp.reserveCommonEvent(item.value);
+      }
+    } catch (error) {
+      e = error;
+      return ANET.w(e);
+    }
+  };
+})();
+
+// ■ END FWindow_InGamePlayerMenu.coffee
 //---------------------------------------------------------------------------
 
 
@@ -16819,379 +15604,252 @@ FWindow_InGameModalDialog = class FWindow_InGameModalDialog extends KDCore.Float
 //---------------------------------------------------------------------------
 
 
-function _0x8fd4() {
-    var _0x257527 = [
-        '\x6c\x6f\x63\x61\x6c\x41\x63\x74\x6f\x72',
-        '\x55\x71\x57\x59\x4e',
-        '\x5f\x6c\x69\x73\x74',
-        '\x70\x61\x72\x61\x6d\x65\x74\x65\x72\x73',
-        '\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x48\x78\x45\x47\x6b',
-        '\x69\x73\x50\x61\x73\x73\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x64\x41\x46\x59\x67',
-        '\x6e\x53\x65\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x41\x6c\x6c',
-        '\x41\x63\x74\x6f\x72\x20\x4c\x69\x73\x74',
-        '\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x4d\x61\x73\x74\x65\x72',
-        '\x55\x74\x69\x6c\x73',
-        '\x6e\x49\x73\x48\x61\x76\x65\x43\x6f\x6d\x6d\x61\x6e\x64\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x5f\x74\x72\x69\x67\x67\x65\x72',
-        '\x4d\x61\x73\x74\x65\x72\x20\x45\x78\x63\x65\x70\x74',
-        '\x5f\x6e\x53\x65\x6e\x64\x43\x6f\x6d\x6d\x61\x6e\x64\x54\x6f\x53\x65\x72\x76\x65\x72',
-        '\x32\x35\x31\x31\x34\x35\x30\x73\x52\x70\x55\x59\x4b',
-        '\x6e\x49\x73\x41\x75\x74\x6f\x72\x75\x6e\x45\x76\x65\x6e\x74',
-        '\x41\x63\x74\x6f\x72\x20\x4c\x69\x73\x74\x20\x45\x78\x63\x65\x70\x74',
-        '\x6e\x43\x68\x65\x63\x6b\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x66\x67\x41\x63\x41',
-        '\x63\x61\x6c\x6c',
-        '\x69\x57\x63\x4f\x57',
-        '\x4d\x61\x73\x74\x65\x72',
-        '\x6d\x61\x73\x74\x65\x72',
-        '\x43\x6f\x74\x42\x6e',
-        '\x61\x6e\x79',
-        '\x36\x38\x51\x64\x52\x52\x79\x4b',
-        '\x6e\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x35\x31\x32\x70\x7a\x47\x71\x66\x56',
-        '\x70\x72\x6f\x74\x6f\x74\x79\x70\x65',
-        '\x48\x6a\x51\x4b\x53',
-        '\x55\x6e\x6b\x6e\x6f\x77\x6e\x20\x4e\x45\x54\x20\x43\x6f\x6d\x6d\x65\x6e\x74\x20\x63\x6f\x6d\x6d\x61\x6e\x64\x20',
-        '\x6e\x52\x65\x71\x75\x65\x73\x74\x4d\x61\x73\x74\x65\x72\x4f\x6e\x6c\x79\x43\x68\x6f\x69\x63\x65\x73\x4d\x6f\x64\x65\x46\x6f\x72\x4e\x65\x78\x74\x43\x68\x6f\x69\x63\x65',
-        '\x6e\x44\x69\x73\x61\x62\x6c\x65\x4e\x6f\x74\x4e\x65\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x73',
-        '\x77\x73\x6a\x4b\x45',
-        '\x37\x37\x35\x30\x32\x6b\x6b\x49\x74\x43\x44',
-        '\x65\x4b\x51\x75\x79',
-        '\x6e\x63\x73\x61\x61',
-        '\x6e\x49\x73\x4f\x70\x74\x69\x6f\x6e\x73\x46\x6f\x72\x43\x75\x72\x72\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x69\x73\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x65\x64\x42\x79\x41\x6e\x79',
-        '\x5f\x6e\x4c\x6f\x63\x61\x6c\x41\x63\x74\x6f\x72\x4d\x6f\x64\x65',
-        '\x4d\x65\x20\x45\x78\x63\x65\x70\x74',
-        '\x36\x31\x31\x38\x32\x30\x70\x4e\x42\x42\x67\x42',
-        '\x21\x66\x6f\x72\x41\x63\x74\x6f\x72\x73',
-        '\x6c\x6c\x46\x51\x67',
-        '\x46\x6f\x72\x62\x69\x64\x64\x65\x6e\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64\x73\x4c\x69\x73\x74',
-        '\x4e\x20\x63\x68\x6f\x69\x63\x65\x73\x46\x6f\x72\x4d\x61\x73\x74\x65\x72\x20\x63\x61\x6e\x20\x62\x65\x20\x75\x73\x65\x64\x20\x6f\x6e\x6c\x79\x20\x69\x6e\x20\x53\x68\x61\x72\x65\x64\x20\x45\x76\x65\x6e\x74\x73',
-        '\x76\x6d\x78\x49\x62',
-        '\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x4e\x6f\x74\x4d\x65',
-        '\x63\x68\x6f\x69\x63\x65\x73\x46\x6f\x72\x4d\x61\x73\x74\x65\x72',
-        '\x53\x6c\x6f\x4d\x65',
-        '\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x57\x69\x74\x68\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x31\x39\x6e\x7a\x53\x4a\x45\x4f',
-        '\x5f\x6e\x4f\x6e\x4e\x65\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x5f\x41\x63\x74\x6f\x72\x4c\x69\x73\x74\x53\x65\x6c\x65\x63\x74\x6f\x72\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x65\x58\x6f\x57\x6f',
-        '\x5f\x6e\x43\x68\x65\x63\x6b\x4e\x65\x74\x43\x6f\x6d\x6d\x65\x6e\x74',
-        '\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x49\x73\x52\x75\x6e\x6e\x69\x6e\x67',
-        '\x63\x6f\x6d\x6d\x61\x6e\x64',
-        '\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x41\x63\x74\x6f\x72\x73\x4c\x69\x73\x74',
-        '\x69\x73\x48\x61\x76\x65\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x70\x77\x46\x71\x5a',
-        '\x32\x33\x38\x37\x38\x75\x43\x59\x65\x6a\x44',
-        '\x5f\x6e\x52\x75\x6e\x6e\x69\x6e\x67\x43\x68\x65\x63\x6b\x54\x69\x6d\x65\x72',
-        '\x69\x48\x6c\x54\x6a',
-        '\x36\x62\x4d\x5a\x5a\x52\x64',
-        '\x69\x4d\x6d\x48\x4f',
-        '\x31\x30\x30\x67\x73\x75\x64\x78\x6d',
-        '\x34\x30\x35\x33\x35\x65\x6f\x70\x4a\x4b\x65',
-        '\x65\x76\x65\x6e\x74',
-        '\x41\x4c\x49\x41\x53\x5f\x5f\x65\x78\x65\x63\x75\x74\x65\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x5f\x6e\x53\x6b\x69\x70\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x5f\x6e\x4f\x6e\x4e\x65\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x5f\x4c\x6f\x63\x61\x6c\x41\x63\x74\x6f\x72',
-        '\x61\x63\x74\x6f\x72\x4c\x69\x73\x74',
-        '\x79\x74\x4f\x63\x61',
-        '\x71\x68\x6a\x73\x53',
-        '\x53\x79\x73\x74\x65\x6d',
-        '\x54\x61\x6e\x4d\x57',
-        '\x59\x79\x53\x7a\x47',
-        '\x6e\x52\x65\x71\x75\x65\x73\x74\x53\x79\x6e\x63\x65\x64\x4e\x65\x78\x74\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x61\x6c\x6c',
-        '\x65\x76\x65\x6e\x74\x49\x64',
-        '\x33\x36\x31\x34\x38\x35\x36\x70\x50\x55\x42\x58\x6b',
-        '\x77\x68\x6f\x53\x65\x6c\x65\x63\x74\x6f\x72',
-        '\x21\x6d\x65',
-        '\x63\x75\x72\x72\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x62\x6d\x67\x55\x6a',
-        '\x77\x61\x72\x6e',
-        '\x73\x74\x61\x72\x74',
-        '\x31\x31\x37\x32\x37\x38\x56\x63\x65\x4f\x51\x69',
-        '\x6e\x43\x6c\x65\x61\x72\x43\x6f\x6d\x6d\x61\x6e\x64\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x5f\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x4f\x70\x74\x69\x6f\x6e\x73\x52\x65\x71\x75\x65\x73\x74\x65\x64',
-        '\x69\x73\x50\x61\x73\x73\x45\x76\x65\x6e\x74\x46\x69\x6c\x74\x65\x72\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x63\x6f\x6e\x74\x61\x69\x6e\x73',
-        '\x58\x52\x76\x6e\x4b',
-        '\x63\x6f\x64\x65',
-        '\x5f\x6e\x4f\x6e\x4e\x65\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x5f\x53\x69\x6e\x67\x6c\x65\x53\x65\x6c\x65\x63\x74\x6f\x72\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x5f\x69\x6e\x64\x65\x78',
-        '\x41\x6c\x6c',
-        '\x6e\x53\x65\x74\x4e\x65\x74\x77\x6f\x72\x6b\x42\x61\x74\x74\x6c\x65'
-    ];
-    _0x8fd4 = function () {
-        return _0x257527;
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ Game_Interpreter.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+//$[ENCODE]
+(function() {
+  var _;
+  // * Используется Virtual Interpreter. Команда от сервера запускается в отдельном Interpreter, а не
+  // * в аналогичном событии (как это было в Alpha NET).
+  // * Некоторы команды выполняются напрямую, а некоторые через общие события только с одной командой
+
+  //@[DEFINES]
+  _ = Game_Interpreter.prototype;
+  // * Отключение не подходящих для сети комманд
+  _.nDisableNotNetCommands = function() {
+    var code, disableCommand, i, len, ref;
+    disableCommand = function() {
+      return _["command" + code] = function() {
+        return true;
+      };
     };
-    return _0x8fd4();
-}
-function _0x2a04(_0x2dae37, _0x2a797f) {
-    var _0x8fd4c2 = _0x8fd4();
-    return _0x2a04 = function (_0x2a042e, _0x957705) {
-        _0x2a042e = _0x2a042e - 0x182;
-        var _0x488064 = _0x8fd4c2[_0x2a042e];
-        return _0x488064;
-    }, _0x2a04(_0x2dae37, _0x2a797f);
-}
-(function (_0x34d138, _0x443fab) {
-    var _0x5bbb48 = _0x2a04, _0xaf96f9 = _0x34d138();
-    while (!![]) {
-        try {
-            var _0x3c79ab = parseInt(_0x5bbb48(0x1a4)) / 0x1 * (-parseInt(_0x5bbb48(0x1ad)) / 0x2) + parseInt(_0x5bbb48(0x192)) / 0x3 * (parseInt(_0x5bbb48(0x189)) / 0x4) + parseInt(_0x5bbb48(0x1e4)) / 0x5 * (parseInt(_0x5bbb48(0x1b0)) / 0x6) + parseInt(_0x5bbb48(0x1c8)) / 0x7 * (-parseInt(_0x5bbb48(0x18b)) / 0x8) + parseInt(_0x5bbb48(0x199)) / 0x9 * (parseInt(_0x5bbb48(0x1b2)) / 0xa) + -parseInt(_0x5bbb48(0x1b3)) / 0xb + parseInt(_0x5bbb48(0x1c1)) / 0xc;
-            if (_0x3c79ab === _0x443fab)
-                break;
-            else
-                _0xaf96f9['push'](_0xaf96f9['shift']());
-        } catch (_0xdd2439) {
-            _0xaf96f9['push'](_0xaf96f9['shift']());
-        }
+    ref = [129, 202, 206, 216, 217, 137];
+    // * Change Party Member
+    // * Set Vehicle Location
+    // * Get on/off Vehicle
+    // * Change Player Followers
+    // * Gather Followers
+    // * Change Formation Access
+    for (i = 0, len = ref.length; i < len; i++) {
+      code = ref[i];
+      disableCommand(code);
     }
-}(_0x8fd4, 0x974cc), (function () {
-    var _0x43d7c2 = _0x2a04, _0x6feeaa;
-    _0x6feeaa = Game_Interpreter[_0x43d7c2(0x18c)], _0x6feeaa[_0x43d7c2(0x190)] = function () {
-        var _0x35b79f = _0x43d7c2;
-        if ('\x59\x79\x53\x7a\x47' === _0x35b79f(0x1bd)) {
-            var _0x145202, _0x1a543e, _0x380634, _0x3de1c9, _0x40b78b;
-            _0x1a543e = function () {
-                return _0x6feeaa['\x63\x6f\x6d\x6d\x61\x6e\x64' + _0x145202] = function () {
-                    return !![];
-                };
-            }, _0x40b78b = [
-                0x81,
-                0xca,
-                0xce,
-                0xd8,
-                0xd9,
-                0x89
-            ];
-            for (_0x380634 = 0x0, _0x3de1c9 = _0x40b78b['\x6c\x65\x6e\x67\x74\x68']; _0x380634 < _0x3de1c9; _0x380634++) {
-                _0x145202 = _0x40b78b[_0x380634], _0x1a543e(_0x145202);
-            }
-        } else
-            return ![];
-    }, _0x6feeaa[_0x43d7c2(0x1e0)] = function () {
-        var _0x38ef3f = _0x43d7c2;
-        return '\x4a\x74\x55\x6e\x53' === _0x38ef3f(0x1af) ? this[_0x38ef3f(0x1ca)] === !![] && this[_0x38ef3f(0x1d7)] != null : this['\x5f\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x4f\x70\x74\x69\x6f\x6e\x73\x52\x65\x71\x75\x65\x73\x74\x65\x64'] === !![] && this['\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73'] != null;
-    }, _0x6feeaa['\x6e\x43\x6c\x65\x61\x72\x43\x6f\x6d\x6d\x61\x6e\x64\x4f\x70\x74\x69\x6f\x6e\x73'] = function () {
-        var _0x45bc66 = _0x43d7c2;
-        if (_0x45bc66(0x1c5) !== '\x58\x4f\x75\x54\x71')
-            return this[_0x45bc66(0x1ca)] = ![], this[_0x45bc66(0x1d7)] = null;
-        else
-            _0x395f70[_0x45bc66(0x197)] = ![], this[_0x45bc66(0x1ae)] = 0x0, this[_0x45bc66(0x1c9)]();
-    }, _0x6feeaa[_0x43d7c2(0x1db)] = function (_0x1b440b) {
-        var _0x5c5291 = _0x43d7c2;
-        if (_0x5c5291(0x1b9) !== '\x58\x68\x66\x65\x4c')
-            return this[_0x5c5291(0x1d7)] = _0x1b440b, this[_0x5c5291(0x1ca)] = !![];
-        else
-            _0x45eb60 = _0x5a5887, _0x2d7214['\x77'](_0x5962bf);
-    }, _0x6feeaa[_0x43d7c2(0x195)] = function () {
-        var _0x42edd1 = _0x43d7c2;
-        if ('\x43\x58\x71\x4c\x6f' !== _0x42edd1(0x193)) {
-            if (!this[_0x42edd1(0x1e0)]())
-                return ![];
-            if (ANET[_0x42edd1(0x1bb)][_0x42edd1(0x19c)][_0x42edd1(0x1cc)](this[_0x42edd1(0x1c4)]()[_0x42edd1(0x1ce)]))
-                return ![];
-            return !![];
-        } else
-            _0x1d8472['\x77\x61\x72\x6e'](_0x42edd1(0x19d));
-    }, _0x6feeaa[_0x43d7c2(0x1a3)] = function () {
-        var _0xdb9d1 = _0x43d7c2, _0x302140;
-        try {
-            this[_0xdb9d1(0x1ca)] = ![];
-            switch (this[_0xdb9d1(0x1d7)][_0xdb9d1(0x1c2)]) {
-            case _0xdb9d1(0x1d1):
-                return this[_0xdb9d1(0x1dc)]();
-            case _0xdb9d1(0x185):
-                return this[_0xdb9d1(0x1de)](!![]);
-            case _0xdb9d1(0x1e2):
-                return this['\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x4d\x61\x73\x74\x65\x72'](![]);
-            case _0xdb9d1(0x1dd):
-                return this[_0xdb9d1(0x1aa)](!![]);
-            case _0xdb9d1(0x1e6):
-                return this[_0xdb9d1(0x1aa)](![]);
-            case _0xdb9d1(0x198):
-                return this[_0xdb9d1(0x19f)]();
-            }
-        } catch (_0x2f5847) {
-            if (_0xdb9d1(0x19e) === _0xdb9d1(0x19e))
-                _0x302140 = _0x2f5847, ANET['\x77'](_0x302140);
-            else
-                return this['\x6e\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73'] != null;
+  };
+  _.nIsHaveCommandOptions = function() {
+    return this._nCommandOptionsRequested === true && (this.nCommandStartOptions != null);
+  };
+  _.nClearCommandOptions = function() {
+    this._nCommandOptionsRequested = false;
+    return this.nCommandStartOptions = null;
+  };
+  // * Устанавливаем опции (набор данных) и флаг что надо использовать на следующей команде
+  _.nSetCommandOptions = function(nCommandStartOptions) {
+    this.nCommandStartOptions = nCommandStartOptions;
+    return this._nCommandOptionsRequested = true;
+  };
+  // * Опции подходят для "текущей" (следующей на выполнение) команды
+  _.nIsOptionsForCurrentCommand = function() {
+    if (!this.nIsHaveCommandOptions()) {
+      return false;
+    }
+    if (ANET.System.ForbiddenVirtualCommandsList.contains(this.currentCommand().code)) {
+      return false;
+    }
+    return true;
+  };
+  // * Проверка опций и выполнение команды в соответсвии с ними
+  _.nProcessCommandWithOptions = function() {
+    var e;
+    try {
+      // * Снимаем флаг, что надо использовать опции
+      this._nCommandOptionsRequested = false;
+      switch (this.nCommandStartOptions.whoSelector) {
+        case "All":
+          return this._nProcessCommandForAll();
+        case "Master":
+          return this._nProcessCommandForMaster(true);
+        case "Master Except":
+          return this._nProcessCommandForMaster(false);
+        case "Actor List":
+          return this._nProcessCommandForActorsList(true);
+        case "Actor List Except":
+          return this._nProcessCommandForActorsList(false);
+        case "Me Except":
+          return this._nProcessCommandNotMe();
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+    return _.ALIAS__executeCommand.call(this);
+  };
+  _._nProcessCommandForAll = function() {
+    this._nSendCommandToServer();
+    // * Выполнение команды как обычно у себя (так как там broadcast)
+    return _.ALIAS__executeCommand.call(this);
+  };
+  _._nProcessCommandForMaster = function(isInclude) {
+    if (ANNetwork.isMasterClient() === isInclude) {
+      return _.ALIAS__executeCommand.call(this);
+    } else {
+      this._nSendCommandToServer();
+      return this._nSkipCommand();
+    }
+  };
+  _._nProcessCommandForActorsList = function(isInclude) {
+    this._nSendCommandToServer();
+    if (ANET.Utils.isMyActorInValidListToStart(this.nCommandStartOptions.actorList, isInclude)) {
+      return _.ALIAS__executeCommand.call(this);
+    } else {
+      return this._nSkipCommand();
+    }
+  };
+  _._nProcessCommandNotMe = function() {
+    this._nSendCommandToServer();
+    return this._nSkipCommand();
+  };
+  _._nSkipCommand = function() {
+    this._index++;
+    this.nClearCommandOptions();
+    return true;
+  };
+  _._nSendCommandToServer = function() {
+    ANInterpreterManager.sendEventVirtualCommand(this.currentCommand(), this.nCommandStartOptions, this.eventId());
+  };
+  // * Проверить комментарий на наличие NET команд
+  _._nCheckNetComment = function(commentLine) {
+    var command;
+    command = ANET.Utils.getNetCommentCommand(commentLine);
+    if (!String.any(command)) {
+      return;
+    }
+    switch (command) {
+      case "localActor":
+        this._nOnNetCommand_LocalActor(commentLine);
+        break;
+      case "all":
+        this._nOnNetCommand_SingleSelectorEventCommand("All", commentLine);
+        break;
+      case "!me":
+        this._nOnNetCommand_SingleSelectorEventCommand("Me Except", commentLine);
+        break;
+      case "master":
+        this._nOnNetCommand_SingleSelectorEventCommand("Master", commentLine);
+        break;
+      case "!master":
+        this._nOnNetCommand_SingleSelectorEventCommand("Master Except", commentLine);
+        break;
+      case "forActors":
+        this._nOnNetCommand_ActorListSelectorEventCommand(commentLine, true);
+        break;
+      case "!forActors":
+        this._nOnNetCommand_ActorListSelectorEventCommand(commentLine, false);
+        break;
+      case "wait":
+        if (ANInterpreterManager.isSharedEventIsRunning()) {
+          this.nRequestSyncedNextEventCommand();
+        } else {
+          console.warn("N wait can be used only in Shared Events");
         }
-        return _0x6feeaa[_0xdb9d1(0x1b5)][_0xdb9d1(0x183)](this);
-    }, _0x6feeaa['\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x41\x6c\x6c'] = function () {
-        var _0x3b558e = _0x43d7c2;
-        return this[_0x3b558e(0x1e3)](), _0x6feeaa[_0x3b558e(0x1b5)][_0x3b558e(0x183)](this);
-    }, _0x6feeaa[_0x43d7c2(0x1de)] = function (_0x4cdeca) {
-        var _0x8bcb2b = _0x43d7c2;
-        return _0x8bcb2b(0x1bc) !== _0x8bcb2b(0x1bc) ? (this[_0x8bcb2b(0x1d7)] = _0x30973d, this[_0x8bcb2b(0x1ca)] = !![]) : ANNetwork['\x69\x73\x4d\x61\x73\x74\x65\x72\x43\x6c\x69\x65\x6e\x74']() === _0x4cdeca ? _0x6feeaa[_0x8bcb2b(0x1b5)][_0x8bcb2b(0x183)](this) : (this[_0x8bcb2b(0x1e3)](), this[_0x8bcb2b(0x1b6)]());
-    }, _0x6feeaa[_0x43d7c2(0x1aa)] = function (_0x3054ef) {
-        var _0x190034 = _0x43d7c2;
-        if (_0x190034(0x1ac) !== _0x190034(0x1b1)) {
-            this[_0x190034(0x1e3)]();
-            if (ANET[_0x190034(0x1df)]['\x69\x73\x4d\x79\x41\x63\x74\x6f\x72\x49\x6e\x56\x61\x6c\x69\x64\x4c\x69\x73\x74\x54\x6f\x53\x74\x61\x72\x74'](this[_0x190034(0x1d7)][_0x190034(0x1b8)], _0x3054ef)) {
-                if (_0x190034(0x182) === '\x66\x67\x41\x63\x41')
-                    return _0x6feeaa['\x41\x4c\x49\x41\x53\x5f\x5f\x65\x78\x65\x63\x75\x74\x65\x43\x6f\x6d\x6d\x61\x6e\x64'][_0x190034(0x183)](this);
-                else
-                    _0x1f0c84 = null;
-            } else
-                return '\x73\x46\x74\x66\x68' === _0x190034(0x19b) ? !![] : this[_0x190034(0x1b6)]();
-        } else
-            _0xcb0dee = _0x1d8fad, _0x1c0b63['\x77'](_0x5bb6d9), this['\x6e\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73'] = null;
-    }, _0x6feeaa['\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x4e\x6f\x74\x4d\x65'] = function () {
-        var _0x1b05ee = _0x43d7c2;
-        return this[_0x1b05ee(0x1e3)](), this[_0x1b05ee(0x1b6)]();
-    }, _0x6feeaa[_0x43d7c2(0x1b6)] = function () {
-        var _0x5435a8 = _0x43d7c2;
-        return this['\x5f\x69\x6e\x64\x65\x78']++, this[_0x5435a8(0x1c9)](), !![];
-    }, _0x6feeaa[_0x43d7c2(0x1e3)] = function () {
-        var _0x27b01e = _0x43d7c2;
-        if (_0x27b01e(0x1cd) === '\x6f\x73\x47\x4a\x6d')
-            return this[_0x27b01e(0x1e3)](), _0x404437['\x41\x4c\x49\x41\x53\x5f\x5f\x65\x78\x65\x63\x75\x74\x65\x43\x6f\x6d\x6d\x61\x6e\x64']['\x63\x61\x6c\x6c'](this);
-        else
-            ANInterpreterManager['\x73\x65\x6e\x64\x45\x76\x65\x6e\x74\x56\x69\x72\x74\x75\x61\x6c\x43\x6f\x6d\x6d\x61\x6e\x64'](this['\x63\x75\x72\x72\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64'](), this['\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73'], this[_0x27b01e(0x1c0)]());
-    }, _0x6feeaa[_0x43d7c2(0x1a7)] = function (_0x438931) {
-        var _0x1f1603 = _0x43d7c2;
-        if (_0x1f1603(0x18d) !== _0x1f1603(0x1d8)) {
-            var _0x26860f;
-            _0x26860f = ANET[_0x1f1603(0x1df)]['\x67\x65\x74\x4e\x65\x74\x43\x6f\x6d\x6d\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64'](_0x438931);
-            if (!String['\x61\x6e\x79'](_0x26860f)) {
-                if ('\x69\x57\x63\x4f\x57' !== _0x1f1603(0x184))
-                    this['\x6e\x52\x65\x71\x75\x65\x73\x74\x53\x79\x6e\x63\x65\x64\x4e\x65\x78\x74\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64']();
-                else
-                    return;
-            }
-            switch (_0x26860f) {
-            case _0x1f1603(0x1d3):
-                this[_0x1f1603(0x1b7)](_0x438931);
-                break;
-            case _0x1f1603(0x1bf):
-                this[_0x1f1603(0x1cf)](_0x1f1603(0x1d1), _0x438931);
-                break;
-            case _0x1f1603(0x1c3):
-                this['\x5f\x6e\x4f\x6e\x4e\x65\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x5f\x53\x69\x6e\x67\x6c\x65\x53\x65\x6c\x65\x63\x74\x6f\x72\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64']('\x4d\x65\x20\x45\x78\x63\x65\x70\x74', _0x438931);
-                break;
-            case _0x1f1603(0x186):
-                this[_0x1f1603(0x1cf)](_0x1f1603(0x185), _0x438931);
-                break;
-            case '\x21\x6d\x61\x73\x74\x65\x72':
-                this[_0x1f1603(0x1cf)](_0x1f1603(0x1e2), _0x438931);
-                break;
-            case '\x66\x6f\x72\x41\x63\x74\x6f\x72\x73':
-                this[_0x1f1603(0x1a5)](_0x438931, !![]);
-                break;
-            case _0x1f1603(0x19a):
-                this[_0x1f1603(0x1a5)](_0x438931, ![]);
-                break;
-            case '\x77\x61\x69\x74':
-                if (ANInterpreterManager[_0x1f1603(0x1a8)]()) {
-                    if ('\x5a\x6f\x4f\x62\x6c' !== '\x5a\x6f\x4f\x62\x6c') {
-                        var _0x299a59;
-                        return _0x54b6f9[_0x1f1603(0x1ce)] === 0x165 && ((_0x299a59 = _0x2e10ae[_0x1f1603(0x1d6)]) != null ? _0x299a59[0x1] : void 0x0) === '\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73';
-                    } else
-                        this[_0x1f1603(0x1be)]();
-                } else
-                    console[_0x1f1603(0x1c6)]('\x4e\x20\x77\x61\x69\x74\x20\x63\x61\x6e\x20\x62\x65\x20\x75\x73\x65\x64\x20\x6f\x6e\x6c\x79\x20\x69\x6e\x20\x53\x68\x61\x72\x65\x64\x20\x45\x76\x65\x6e\x74\x73');
-                break;
-            case _0x1f1603(0x1a0):
-                ANInterpreterManager[_0x1f1603(0x1a8)]() ? this[_0x1f1603(0x18f)]() : console['\x77\x61\x72\x6e'](_0x1f1603(0x19d));
-                break;
-            case _0x1f1603(0x1c7):
-                break;
-            default:
-                console['\x77\x61\x72\x6e'](_0x1f1603(0x18e) + _0x26860f);
-            }
-        } else
-            return _0x325636[_0x1f1603(0x1a9) + _0x2ba142] = function () {
-                return !![];
-            };
-    }, _0x6feeaa['\x6e\x53\x65\x74\x53\x68\x61\x72\x65\x64\x42\x61\x74\x74\x6c\x65'] = function (_0x1e01a8) {
-        var _0x555d3c = _0x43d7c2;
-        if (!String['\x61\x6e\x79'](_0x1e01a8)) {
-            if (_0x555d3c(0x191) !== _0x555d3c(0x191))
-                return this[_0x555d3c(0x1d0)]++, this[_0x555d3c(0x1c9)](), !![];
-            else
-                _0x1e01a8 = null;
+        break;
+      case "choicesForMaster":
+        if (ANInterpreterManager.isSharedEventIsRunning()) {
+          this.nRequestMasterOnlyChoicesModeForNextChoice();
+        } else {
+          console.warn("N choicesForMaster can be used only in Shared Events");
         }
-        BattleManager[_0x555d3c(0x1d2)](_0x1e01a8);
-    }, _0x6feeaa['\x6e\x43\x6c\x65\x61\x72\x46\x6c\x61\x67\x73'] = function () {
-        var _0x493e22 = _0x43d7c2;
-        $gameTemp[_0x493e22(0x197)] = ![], this['\x5f\x6e\x52\x75\x6e\x6e\x69\x6e\x67\x43\x68\x65\x63\x6b\x54\x69\x6d\x65\x72'] = 0x0, this[_0x493e22(0x1c9)]();
-    }, (function () {
-        var _0x3e4956 = _0x43d7c2;
-        return _0x6feeaa[_0x3e4956(0x1ab)] = function () {
-            var _0x2918f7 = _0x3e4956;
-            return this[_0x2918f7(0x18a)] != null;
-        }, _0x6feeaa[_0x3e4956(0x1d9)] = function () {
-            var _0x24baea = _0x3e4956;
-            if (this['\x6e\x49\x73\x45\x76\x65\x6e\x74\x49\x73\x53\x68\x61\x72\x65\x64']() && $gameTemp['\x5f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4f\x75\x74\x65\x72\x53\x74\x61\x72\x74\x46\x6c\x61\x67'] === !![])
-                return !![];
-            else {
-                if (!this['\x69\x73\x48\x61\x76\x65\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73']())
-                    return !![];
-                if (this['\x6e\x49\x73\x4c\x6f\x63\x6b\x65\x64\x45\x76\x65\x6e\x74']()) {
-                    if (_0x24baea(0x194) === _0x24baea(0x1da))
-                        !_0x49a5dc[_0x24baea(0x188)](_0x33209f) && (_0x1e7935 = null), _0x4116a0[_0x24baea(0x1d2)](_0x47f154);
-                    else {
-                        if (ANET[_0x24baea(0x1df)][_0x24baea(0x196)](this[_0x24baea(0x1c0)]()))
-                            return ![];
-                    }
-                }
-                return ANET[_0x24baea(0x1df)][_0x24baea(0x1cb)](this['\x6e\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73']);
-            }
-        }, _0x6feeaa['\x6e\x49\x73\x4c\x6f\x63\x6b\x65\x64\x45\x76\x65\x6e\x74'] = function () {
-            var _0x526212;
-            return this['\x65\x76\x65\x6e\x74\x49\x64']() > 0x0 && ((_0x526212 = this['\x6e\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73']) != null ? _0x526212['\x6c\x6f\x63\x6b\x4d\x6f\x64\x65'] : void 0x0) === '\x74\x72\x75\x65';
-        }, _0x6feeaa[_0x3e4956(0x1e7)] = function () {
-            var _0x2e1ce5 = _0x3e4956;
-            if ('\x6d\x79\x6b\x73\x47' !== _0x2e1ce5(0x1a6)) {
-                var _0x10a1a0, _0x4c3dea, _0x17cd9f;
-                this[_0x2e1ce5(0x18a)] = null;
-                try {
-                    if (_0x2e1ce5(0x1a1) !== _0x2e1ce5(0x1ba))
-                        _0x4c3dea = (_0x17cd9f = this[_0x2e1ce5(0x1d5)]) != null ? _0x17cd9f['\x66\x69\x6e\x64'](function (_0x5592c5) {
-                            var _0x2869da = _0x2e1ce5, _0x20b02e;
-                            return _0x5592c5[_0x2869da(0x1ce)] === 0x165 && ((_0x20b02e = _0x5592c5[_0x2869da(0x1d6)]) != null ? _0x20b02e[0x1] : void 0x0) === _0x2869da(0x1a2);
-                        }) : void 0x0, _0x4c3dea != null ? this[_0x2e1ce5(0x18a)] = _0x4c3dea[_0x2e1ce5(0x1d6)][0x3] : this['\x6e\x43\x68\x65\x63\x6b\x45\x76\x65\x6e\x74\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73\x46\x72\x6f\x6d\x43\x6f\x6d\x6d\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64']();
-                    else
-                        return !![];
-                } catch (_0x18e27b) {
-                    _0x10a1a0 = _0x18e27b, ANET['\x77'](_0x10a1a0), this[_0x2e1ce5(0x18a)] = null;
-                }
-            } else
-                return;
-        }, _0x6feeaa[_0x3e4956(0x1e5)] = function () {
-            var _0x390cd1 = _0x3e4956, _0x565197, _0x4cddba;
-            try {
-                if (_0x390cd1(0x187) === _0x390cd1(0x1d4)) {
-                    this[_0x390cd1(0x1ca)] = ![];
-                    switch (this['\x6e\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73'][_0x390cd1(0x1c2)]) {
-                    case _0x390cd1(0x1d1):
-                        return this[_0x390cd1(0x1dc)]();
-                    case _0x390cd1(0x185):
-                        return this['\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x4d\x61\x73\x74\x65\x72'](!![]);
-                    case _0x390cd1(0x1e2):
-                        return this['\x5f\x6e\x50\x72\x6f\x63\x65\x73\x73\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x6f\x72\x4d\x61\x73\x74\x65\x72'](![]);
-                    case _0x390cd1(0x1dd):
-                        return this[_0x390cd1(0x1aa)](!![]);
-                    case _0x390cd1(0x1e6):
-                        return this[_0x390cd1(0x1aa)](![]);
-                    case _0x390cd1(0x198):
-                        return this[_0x390cd1(0x19f)]();
-                    }
-                } else
-                    return _0x4cddba = $gameMap[_0x390cd1(0x1b4)](this[_0x390cd1(0x1c0)]()), (_0x4cddba != null ? _0x4cddba[_0x390cd1(0x1e1)] : void 0x0) === 0x3;
-            } catch (_0x1d1196) {
-                _0x565197 = _0x1d1196, ANET['\x77'](_0x565197);
-            }
-            return !![];
-        };
-    }());
-}()));
+        break;
+      case "start":
+        break;
+      default:
+        // * Это коммент опций запуска, просто пропускаем, чтобы ошибку не писать в консоль
+        // * Обрабатывается он отдельно, так как если условие ложно, событие не должно
+        // * Вообще запускаться, а эти команды обрабатываеются уже в запущенном событии
+        console.warn("Unknown NET Comment command " + command);
+    }
+  };
+  // * Сделать следующую битву сетевой битвой (общей, расшаринной)
+  _.nSetSharedBattle = function(battleId) {
+    if (!String.any(battleId)) {
+      // * Если пустая строка, то Null
+      battleId = null;
+    }
+    BattleManager.nSetNetworkBattle(battleId);
+  };
+  // * Сбросить все сетевые флаги \ настройки перед запуском очередного события
+  _.nClearFlags = function() {
+    $gameTemp._nLocalActorMode = false;
+    this._nRunningCheckTimer = 0;
+    this.nClearCommandOptions();
+  };
+  (function() {    // * Опции запуска события
+    // -----------------------------------------------------------------------
+    _.isHaveNetworkStartOptions = function() {
+      return this.nStartOptions != null;
+    };
+    // * Может ли данный игрок запустить это событие
+    _.isPassStartOptions = function() {
+      // * Если это общее событие и запускаетс от сервера, то по любому можно запускать
+      if (this.nIsEventIsShared() && $gameTemp._nSharedEventOuterStartFlag === true) {
+        return true;
+      } else {
+        if (!this.isHaveNetworkStartOptions()) {
+          return true;
+        }
+        if (this.nIsLockedEvent()) {
+          if (ANET.Utils.isEventStartedByAny(this.eventId())) {
+            return false;
+          }
+        }
+        return ANET.Utils.isPassEventFilterOptions(this.nStartOptions);
+      }
+    };
+    // * Закрытыми могут быть только события с собственным ID (т.е. события карты)
+    _.nIsLockedEvent = function() {
+      var ref;
+      return this.eventId() > 0 && ((ref = this.nStartOptions) != null ? ref.lockMode : void 0) === "true";
+    };
+    // * Есть ли опции (условия) запуска события для сети
+    _.nCheckEventStartOptions = function() {
+      var e, options, ref;
+      this.nStartOptions = null; // * сбрасываем
+      try {
+        options = (ref = this._list) != null ? ref.find(function(line) {
+          var ref1;
+          return line.code === 357 && ((ref1 = line.parameters) != null ? ref1[1] : void 0) === "EventStartOptions";
+        }) : void 0;
+        if (options != null) {
+          this.nStartOptions = options.parameters[3];
+        } else {
+          // * Меньший приоритет, т.е. параметр плагина главнее
+          this.nCheckEventStartOptionsFromCommentCommand();
+        }
+      } catch (error) {
+        e = error;
+        ANET.w(e);
+        this.nStartOptions = null;
+      }
+    };
+    return _.nIsAutorunEvent = function() {
+      var e, event;
+      try {
+        event = $gameMap.event(this.eventId());
+        return (event != null ? event._trigger : void 0) === 3;
+      } catch (error) {
+        e = error;
+        ANET.w(e);
+      }
+      return true;
+    };
+  })();
+})();
+
+// ■ END Game_Interpreter.coffee
+//---------------------------------------------------------------------------
+
 
 // Generated by CoffeeScript 2.6.1
 //╒═════════════════════════════════════════════════════════════════════════╛
@@ -17262,274 +15920,210 @@ function _0x2a04(_0x2dae37, _0x2a797f) {
 //---------------------------------------------------------------------------
 
 
-function _0x35b9() {
-    var _0x3f7316 = [
-        '\x46\x6d\x76\x62\x6f',
-        '\x73\x65\x6e\x64\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x61\x64\x79\x54\x6f\x43\x6f\x6e\x74\x69\x6e\x75\x65',
-        '\x31\x30\x32\x68\x71\x4c\x70\x4c\x4e',
-        '\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4d\x61\x73\x74\x65\x72',
-        '\x57\x47\x61\x72\x58',
-        '\x68\x6e\x4c\x73\x74',
-        '\x4f\x55\x55\x54\x45\x52\x20\x53\x54\x41\x52\x54',
-        '\x32\x30\x38\x75\x49\x53\x45\x5a\x6a',
-        '\x6e\x49\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x57\x61\x69\x74\x50\x6f\x6f\x6c\x43\x61\x6e\x63\x65\x6c\x6c\x65\x64',
-        '\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c',
-        '\x5f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4f\x75\x74\x65\x72\x53\x74\x61\x72\x74\x46\x6c\x61\x67',
-        '\x5f\x63\x61\x6e\x43\x6f\x6e\x74\x69\x6e\x75\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x41\x61\x5a\x58\x4b',
-        '\x46\x54\x4b\x66\x51',
-        '\x69\x73\x48\x61\x76\x65\x4e\x65\x74\x77\x6f\x72\x6b\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x50\x52\x45\x50\x41\x52\x45\x20\x53\x48\x41\x52\x45\x44\x20\x4d\x4f\x44',
-        '\x31\x35\x38\x38\x33\x71\x74\x66\x4e\x70\x63',
-        '\x6e\x55\x70\x64\x61\x74\x65\x57\x61\x69\x74\x53\x65\x72\x76\x65\x72\x4e\x65\x78\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x50\x65\x72\x6d\x69\x73\x73\x69\x6f\x6e',
-        '\x59\x54\x6e\x52\x44',
-        '\x53\x54\x4f\x50\x20\x57\x41\x49\x54\x49\x4e\x47\x20\x50\x4c\x41\x59\x45\x52\x53\x20\x3a\x20\x49\x53\x20\x43\x41\x4e\x43\x45\x4c\x45\x44\x21',
-        '\x66\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x75\x70\x64\x61\x74\x65',
-        '\x6e\x52\x65\x71\x75\x69\x72\x65\x43\x68\x6f\x69\x63\x65\x4f\x6e\x6c\x79\x46\x6f\x72\x4d\x61\x73\x74\x65\x72',
-        '\x6e\x43\x6c\x65\x61\x72\x53\x68\x61\x72\x65\x64\x53\x79\x6e\x63\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x57\x61\x69\x74',
-        '\x6e\x53\x74\x61\x72\x74\x4f\x70\x74\x69\x6f\x6e\x73',
-        '\x4a\x72\x72\x58\x6b',
-        '\x6e\x52\x65\x71\x75\x65\x73\x74\x53\x79\x6e\x63\x65\x64\x4e\x65\x78\x74\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x6e\x65\x74\x4e\x65\x78\x74\x43\x6f\x6d\x6d\x61\x6e\x64',
-        '\x51\x4c\x68\x65\x46',
-        '\x6e\x49\x73\x45\x76\x65\x6e\x74\x49\x73\x53\x68\x61\x72\x65\x64',
-        '\x5f\x65\x76\x65\x6e\x74\x49\x64',
-        '\x6e\x4b\x61\x53\x50',
-        '\x72\x65\x73\x65\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x31\x33\x36\x31\x38\x30\x68\x4e\x63\x57\x57\x72',
-        '\x6e\x53\x65\x74\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c',
-        '\x6e\x49\x73\x45\x76\x65\x6e\x74\x49\x73\x53\x68\x61\x72\x65\x64\x41\x6e\x64\x53\x74\x72\x69\x63\x74',
-        '\x74\x6e\x59\x63\x70',
-        '\x35\x31\x34\x32\x38\x31\x30\x75\x45\x47\x71\x4a\x65',
-        '\x6d\x4c\x6c\x75\x45',
-        '\x6f\x6e\x41\x6e\x73\x77\x65\x72',
-        '\x34\x33\x32\x77\x5a\x45\x79\x51\x41',
-        '\x6e\x49\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x43\x61\x6e\x42\x65\x46\x6f\x72\x63\x65\x43\x61\x6e\x63\x65\x6c\x6c\x65\x64',
-        '\x31\x31\x59\x67\x5a\x76\x65\x59',
-        '\x43\x41\x4e\x20\x50\x52\x4f\x43\x45\x53\x53\x20\x54\x4f\x20\x4e\x45\x58\x54\x20\x43\x4f\x4d\x4d\x41\x4e\x44',
-        '\x6e\x53\x65\x74\x57\x61\x69\x74\x53\x74\x61\x72\x74\x4e\x65\x78\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x46\x72\x6f\x6d\x53\x65\x72\x76\x65\x72',
-        '\x63\x6c\x65\x61\x72',
-        '\x69\x73\x53\x69\x6e\x67\x6c\x65\x50\x6f\x6f\x6c',
-        '\x6d\x66\x45\x41\x49',
-        '\x37\x35\x34\x39\x39\x32\x49\x51\x57\x6b\x52\x68',
-        '\x74\x65\x72\x6d\x69\x6e\x61\x74\x65',
-        '\x63\x6f\x6e\x74\x61\x69\x6e\x73',
-        '\x55\x54\x4a\x47\x59',
-        '\x7a\x44\x4b\x4e\x52',
-        '\x53\x74\x72\x69\x63\x74',
-        '\x6e\x65\x74\x50\x6c\x61\x79\x65\x72\x73\x50\x6f\x6f\x6c',
-        '\x70\x72\x6f\x74\x6f\x74\x79\x70\x65',
-        '\x75\x62\x6b\x56\x79',
-        '\x73\x68\x6f\x77\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x6e\x41\x6c\x6c\x6f\x77\x43\x6f\x6e\x74\x69\x6e\x75\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x50\x4c\x41\x59\x45\x52\x20\x41\x4e\x53\x57\x45\x52\x20',
-        '\x6e\x4f\x6e\x53\x79\x6e\x63\x65\x64\x45\x76\x65\x6e\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x52\x65\x73\x70\x6f\x6e\x73\x65',
-        '\x42\x55\x6d\x69\x7a',
-        '\x4f\x63\x4c\x54\x4f',
-        '\x73\x65\x74\x75\x70\x53\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72',
-        '\x6e\x52\x65\x71\x75\x65\x73\x74\x4d\x61\x73\x74\x65\x72\x4f\x6e\x6c\x79\x43\x68\x6f\x69\x63\x65\x73\x4d\x6f\x64\x65\x46\x6f\x72\x4e\x65\x78\x74\x43\x68\x6f\x69\x63\x65',
-        '\x5f\x69\x6e\x64\x65\x78',
-        '\x73\x68\x61\x72\x65\x64\x4d\x6f\x64\x65',
-        '\x36\x34\x34\x35\x31\x36\x6c\x4b\x42\x6b\x4e\x43',
-        '\x4b\x56\x69\x47\x46',
-        '\x5f\x6e\x52\x65\x70\x65\x61\x74\x41\x6e\x73\x77\x65\x72\x54\x6f\x53\x65\x72\x76\x65\x72\x54\x69\x6d\x65\x72',
-        '\x6e\x50\x72\x65\x70\x61\x72\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74',
-        '\x38\x39\x35\x35\x34\x70\x6b\x47\x44\x4b\x5a',
-        '\x69\x4e\x67\x79\x78',
-        '\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61',
-        '\x53\x54\x41\x52\x54\x20\x50\x4f\x4f\x4c',
-        '\x69\x6e\x64\x65\x78',
-        '\x58\x4a\x78\x53\x4e',
-        '\x69\x73\x43\x61\x6e\x63\x65\x6c',
-        '\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65',
-        '\x5f\x69\x6e\x64\x65\x6e\x74',
-        '\x31\x33\x30\x31\x31\x39\x51\x76\x64\x43\x64\x72',
-        '\x39\x46\x42\x59\x64\x43\x6f',
-        '\x72\x65\x67\x69\x73\x74\x65\x72',
-        '\x72\x65\x73\x65\x74',
-        '\x6e\x55\x70\x64\x61\x74\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x50\x6f\x6f\x6c'
-    ];
-    _0x35b9 = function () {
-        return _0x3f7316;
-    };
-    return _0x35b9();
-}
-function _0x57bf(_0x3313a5, _0x3a5d2f) {
-    var _0x35b96b = _0x35b9();
-    return _0x57bf = function (_0x57bf14, _0x7af0a8) {
-        _0x57bf14 = _0x57bf14 - 0x12d;
-        var _0x43ab1f = _0x35b96b[_0x57bf14];
-        return _0x43ab1f;
-    }, _0x57bf(_0x3313a5, _0x3a5d2f);
-}
-(function (_0x4f40ae, _0x1aaa91) {
-    var _0xa2b0ad = _0x57bf, _0x490348 = _0x4f40ae();
-    while (!![]) {
-        try {
-            var _0x3ac675 = -parseInt(_0xa2b0ad(0x164)) / 0x1 * (-parseInt(_0xa2b0ad(0x181)) / 0x2) + parseInt(_0xa2b0ad(0x16a)) / 0x3 + -parseInt(_0xa2b0ad(0x17d)) / 0x4 + -parseInt(_0xa2b0ad(0x15b)) / 0x5 * (parseInt(_0xa2b0ad(0x13c)) / 0x6) + -parseInt(_0xa2b0ad(0x14a)) / 0x7 * (-parseInt(_0xa2b0ad(0x141)) / 0x8) + parseInt(_0xa2b0ad(0x136)) / 0x9 * (parseInt(_0xa2b0ad(0x15f)) / 0xa) + parseInt(_0xa2b0ad(0x135)) / 0xb * (-parseInt(_0xa2b0ad(0x162)) / 0xc);
-            if (_0x3ac675 === _0x1aaa91)
-                break;
-            else
-                _0x490348['push'](_0x490348['shift']());
-        } catch (_0xe6dbbc) {
-            _0x490348['push'](_0x490348['shift']());
-        }
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ Game_Interpreter.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+//$[ENCODE]
+(function() {
+  var _;
+  //@[DEFINES]
+  _ = Game_Interpreter.prototype;
+  _.nIsEventIsShared = function() {
+    var e;
+    try {
+      return this.isHaveNetworkStartOptions() && this.nStartOptions.sharedMode !== "No";
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+      return false;
     }
-}(_0x35b9, 0x414ed), (function () {
-    var _0x5e27a6 = _0x57bf, _0x457fea;
-    _0x457fea = Game_Interpreter[_0x5e27a6(0x171)], _0x457fea[_0x5e27a6(0x157)] = function () {
-        var _0x1baeab = _0x5e27a6, _0x10c609;
-        try {
-            return '\x56\x79\x58\x78\x67' !== _0x1baeab(0x12d) ? this[_0x1baeab(0x148)]() && this[_0x1baeab(0x152)]['\x73\x68\x61\x72\x65\x64\x4d\x6f\x64\x65'] !== '\x4e\x6f' : (_0x106aff = _0x3a4ad2, _0x1443fa['\x77'](_0xd140a3), ![]);
-        } catch (_0x2103be) {
-            return _0x10c609 = _0x2103be, ANET['\x77'](_0x10c609), ![];
-        }
-    }, _0x457fea[_0x5e27a6(0x15d)] = function () {
-        var _0x5119aa = _0x5e27a6, _0x3f78c4, _0x1caf34;
-        try {
-            if (_0x5119aa(0x156) !== _0x5119aa(0x146))
-                return this[_0x5119aa(0x157)]() && ((_0x1caf34 = this[_0x5119aa(0x152)][_0x5119aa(0x17c)]) != null ? _0x1caf34[_0x5119aa(0x16c)](_0x5119aa(0x16f)) : void 0x0);
-            else
-                _0x5119aa(0x140)['\x70'](), _0x29dabe['\x5f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4f\x75\x74\x65\x72\x53\x74\x61\x72\x74\x46\x6c\x61\x67'] = null, _0x467917[_0x5119aa(0x179)](this, ![]), this[_0x5119aa(0x154)]();
-        } catch (_0x4039ac) {
-            if ('\x72\x56\x4a\x75\x48' === '\x72\x56\x4a\x75\x48')
-                return _0x3f78c4 = _0x4039ac, ANET['\x77'](_0x3f78c4), ![];
-            else {
-                if (this['\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61'] == null)
-                    return;
-                if (this[_0x5119aa(0x143)] == null)
-                    return;
-                if (this['\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61']['\x69\x6e\x64\x65\x78'] === _0xdea145 && this[_0x5119aa(0x12e)]['\x69\x6e\x64\x65\x6e\x74'] === _0x5de8eb)
-                    return '\x50\x4c\x41\x59\x45\x52\x20\x41\x4e\x53\x57\x45\x52\x20'['\x70'](_0x1c7360), this[_0x5119aa(0x143)][_0x5119aa(0x161)](_0x1a9be7);
-            }
-        }
-    }, _0x457fea[_0x5e27a6(0x163)] = function () {
-        var _0xea5c2e = _0x5e27a6;
-        return !this[_0xea5c2e(0x15d)]() && this[_0xea5c2e(0x12e)][_0xea5c2e(0x130)] === 0x0;
-    }, _0x457fea[_0x5e27a6(0x180)] = function () {
-        var _0x1820ec = _0x5e27a6;
-        ANInterpreterManager[_0x1820ec(0x15a)](), _0x1820ec(0x149)['\x70'](this[_0x1820ec(0x158)]);
-        if ($gameTemp[_0x1820ec(0x144)] == null)
-            this['\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c'] = null, ANInterpreterManager[_0x1820ec(0x179)](this, !![]), this[_0x1820ec(0x154)]();
-        else {
-            if (_0x1820ec(0x13a) === _0x1820ec(0x13a))
-                _0x1820ec(0x140)['\x70'](), $gameTemp[_0x1820ec(0x144)] = null, ANInterpreterManager['\x73\x65\x74\x75\x70\x53\x68\x61\x72\x65\x64\x49\x6e\x74\x65\x72\x70\x72\x65\x74\x65\x72'](this, ![]), this[_0x1820ec(0x154)]();
-            else
-                return;
-        }
-    }, _0x457fea[_0x5e27a6(0x142)] = function () {
-        var _0x4261f0 = _0x5e27a6;
-        if (_0x4261f0(0x14c) !== _0x4261f0(0x14c))
-            this['\x6e\x53\x65\x74\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c']();
-        else {
-            var _0x48bcc8;
-            try {
-                if ('\x4a\x6d\x74\x78\x78' === '\x57\x58\x4b\x52\x54')
-                    this['\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c'] = null, _0x3cf0a3[_0x4261f0(0x179)](this, !![]), this[_0x4261f0(0x154)]();
-                else {
-                    if (!this[_0x4261f0(0x163)]())
-                        return;
-                    if (Input[_0x4261f0(0x132)]())
-                        return Input['\x63\x6c\x65\x61\x72'](), ANInterpreterManager[_0x4261f0(0x14e)](), this[_0x4261f0(0x16b)](), !![];
-                }
-            } catch (_0x44f5d0) {
-                _0x48bcc8 = _0x44f5d0, ANET['\x77'](_0x48bcc8);
-            }
-            return ![];
-        }
-    }, _0x457fea[_0x5e27a6(0x154)] = function () {
-        var _0x2136fb = _0x5e27a6;
-        this[_0x2136fb(0x12e)] = {
-            '\x69\x6e\x64\x65\x78': this[_0x2136fb(0x17b)],
-            '\x69\x6e\x64\x65\x6e\x74': this[_0x2136fb(0x134)]
-        };
-        if (ANInterpreterManager[_0x2136fb(0x13d)]())
-            this[_0x2136fb(0x15c)]();
-        else {
-            if (_0x2136fb(0x177) === '\x42\x55\x6d\x69\x7a')
-                this[_0x2136fb(0x166)]();
-            else
-                return !this[_0x2136fb(0x15d)]() && this[_0x2136fb(0x12e)][_0x2136fb(0x130)] === 0x0;
-        }
-        ANInterpreterManager[_0x2136fb(0x173)]();
-    }, _0x457fea[_0x5e27a6(0x176)] = function (_0x9b5dac, _0xee08c, _0x42747b) {
-        var _0x3341c8 = _0x5e27a6, _0x52fe87;
-        try {
-            if (_0x3341c8(0x16d) !== _0x3341c8(0x16d))
-                return;
-            else {
-                if (this['\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61'] == null)
-                    return;
-                if (this[_0x3341c8(0x143)] == null)
-                    return;
-                if (this['\x6e\x53\x79\x6e\x63\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64\x44\x61\x74\x61'][_0x3341c8(0x130)] === _0x9b5dac && this[_0x3341c8(0x12e)]['\x69\x6e\x64\x65\x6e\x74'] === _0xee08c) {
-                    if (_0x3341c8(0x147) !== _0x3341c8(0x147))
-                        this[_0x3341c8(0x143)][_0x3341c8(0x138)]();
-                    else
-                        return _0x3341c8(0x175)['\x70'](_0x42747b), this['\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c'][_0x3341c8(0x161)](_0x42747b);
-                }
-            }
-        } catch (_0x499949) {
-            _0x3341c8(0x178) !== _0x3341c8(0x13e) ? (_0x52fe87 = _0x499949, ANET['\x77'](_0x52fe87)) : this['\x5f\x6e\x52\x65\x70\x65\x61\x74\x41\x6e\x73\x77\x65\x72\x54\x6f\x53\x65\x72\x76\x65\x72\x54\x69\x6d\x65\x72'] >= 0x0 && (this['\x5f\x6e\x52\x65\x70\x65\x61\x74\x41\x6e\x73\x77\x65\x72\x54\x6f\x53\x65\x72\x76\x65\x72\x54\x69\x6d\x65\x72']--, this[_0x3341c8(0x17f)] === 0x0 && this[_0x3341c8(0x166)]());
-        }
-    }, _0x457fea[_0x5e27a6(0x15c)] = function () {
-        var _0x586a0b = _0x5e27a6;
-        _0x586a0b(0x12f)['\x70'](), this[_0x586a0b(0x143)] == null ? this[_0x586a0b(0x143)] = new PlayersWaitPool() : this['\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c'][_0x586a0b(0x138)](), this['\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c'][_0x586a0b(0x137)](), this[_0x586a0b(0x133)] = _0x586a0b(0x170);
-    }, _0x457fea[_0x5e27a6(0x139)] = function () {
-        var _0x4b0af2 = _0x5e27a6, _0x5b3193;
-        this[_0x4b0af2(0x143)][_0x4b0af2(0x14f)]();
-        if (this['\x6e\x49\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x57\x61\x69\x74\x50\x6f\x6f\x6c\x43\x61\x6e\x63\x65\x6c\x6c\x65\x64']())
-            return _0x4b0af2(0x14d)['\x70'](), !![];
-        return _0x5b3193 = !this[_0x4b0af2(0x143)]['\x69\x73\x52\x65\x61\x64\x79'](), !_0x5b3193 && ('\x53\x54\x4f\x50\x20\x57\x41\x49\x54\x49\x4e\x47\x20\x50\x4c\x41\x59\x45\x52\x53\x20\x3a\x20\x49\x53\x20\x52\x45\x41\x44\x59'['\x70'](), ANInterpreterManager[_0x4b0af2(0x13b)](), ANInterpreterManager['\x68\x69\x64\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'](), this[_0x4b0af2(0x151)](), this[_0x4b0af2(0x133)] = ''), _0x5b3193;
-    }, _0x457fea[_0x5e27a6(0x151)] = function () {
-        var _0x1aa1a4 = _0x5e27a6;
-        if ('\x7a\x44\x4b\x4e\x52' === _0x1aa1a4(0x16e))
-            this[_0x1aa1a4(0x12e)] = null;
-        else
-            return _0x1aa1a4(0x175)['\x70'](_0xc8f17c), this[_0x1aa1a4(0x143)][_0x1aa1a4(0x161)](_0x400985);
-    }, _0x457fea[_0x5e27a6(0x166)] = function () {
-        var _0x27456e = _0x5e27a6;
-        if (_0x27456e(0x13f) !== _0x27456e(0x13f))
-            return _0x27456e(0x14d)['\x70'](), !![];
-        else
-            this[_0x27456e(0x145)] = ![], ANInterpreterManager['\x73\x65\x6e\x64\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x52\x65\x67\x69\x73\x74\x65\x72\x65\x64\x44\x6f\x6e\x65'](), '\x57\x41\x49\x54\x20\x53\x45\x52\x56\x45\x52\x20\x46\x4f\x52\x20\x4e\x45\x58\x54\x20\x43\x4f\x4d\x4d\x41\x4e\x44'['\x70'](), this[_0x27456e(0x17f)] = 0x3c, this['\x5f\x77\x61\x69\x74\x4d\x6f\x64\x65'] = _0x27456e(0x155);
-    }, _0x457fea[_0x5e27a6(0x14b)] = function () {
-        var _0x1a9015 = _0x5e27a6;
-        if (_0x1a9015(0x159) !== '\x7a\x53\x4e\x57\x73') {
-            var _0x58bae5;
-            if ($gameTemp['\x5f\x73\x68\x6f\x75\x6c\x64\x46\x6f\x72\x63\x65\x45\x78\x69\x74\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] === !![]) {
-                if (_0x1a9015(0x17e) === _0x1a9015(0x131))
-                    this[_0x1a9015(0x12e)] = {
-                        '\x69\x6e\x64\x65\x78': this[_0x1a9015(0x17b)],
-                        '\x69\x6e\x64\x65\x6e\x74': this[_0x1a9015(0x134)]
-                    }, _0x292e37['\x69\x73\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74\x4d\x61\x73\x74\x65\x72']() ? this[_0x1a9015(0x15c)]() : this[_0x1a9015(0x166)](), _0x1e3383[_0x1a9015(0x173)]();
-                else
-                    return this[_0x1a9015(0x16b)](), !![];
-            }
-            return _0x58bae5 = !this[_0x1a9015(0x145)], !_0x58bae5 ? (_0x1a9015(0x165)['\x70'](), this[_0x1a9015(0x133)] = '') : _0x1a9015(0x169) === _0x1a9015(0x153) ? this[_0x1a9015(0x166)]() : this[_0x1a9015(0x17f)] >= 0x0 && (this['\x5f\x6e\x52\x65\x70\x65\x61\x74\x41\x6e\x73\x77\x65\x72\x54\x6f\x53\x65\x72\x76\x65\x72\x54\x69\x6d\x65\x72']--, this[_0x1a9015(0x17f)] === 0x0 && this[_0x1a9015(0x166)]()), !![];
-        } else
-            return;
-    }, _0x457fea[_0x5e27a6(0x174)] = function () {
-        var _0x488dc3 = _0x5e27a6;
-        if (this[_0x488dc3(0x133)] !== _0x488dc3(0x155)) {
-            if (_0x488dc3(0x172) !== _0x488dc3(0x160))
-                return;
-            else
-                return;
-        }
-        this['\x5f\x63\x61\x6e\x43\x6f\x6e\x74\x69\x6e\x75\x65\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74'] = !![], this[_0x488dc3(0x17f)] = -0x1, ANInterpreterManager['\x68\x69\x64\x65\x57\x61\x69\x74\x50\x6c\x61\x79\x65\x72\x73\x4f\x6e\x53\x68\x61\x72\x65\x64\x45\x76\x65\x6e\x74']();
-    }, _0x457fea[_0x5e27a6(0x17a)] = function () {
-        var _0x11140a = _0x5e27a6;
-        if (this['\x6e\x50\x6c\x61\x79\x65\x72\x50\x6f\x6f\x6c'] != null && this[_0x11140a(0x143)][_0x11140a(0x168)]()) {
-            if (_0x11140a(0x15e) !== _0x11140a(0x15e))
-                return _0x1f3577[_0x11140a(0x167)](), _0x12ff9a[_0x11140a(0x14e)](), this[_0x11140a(0x16b)](), !![];
-            else
-                return;
-        }
-        '\x53\x68\x61\x72\x65\x64\x20\x45\x76\x65\x6e\x74\x20\x43\x68\x6f\x69\x63\x65\x73\x20\x69\x6e\x20\x4d\x61\x73\x74\x65\x72\x20\x6f\x6e\x6c\x79\x20\x6d\x6f\x64\x65'['\x70'](), $gameTemp[_0x11140a(0x150)] = !![];
+  };
+  _.nIsEventIsSharedAndStrict = function() {
+    var e, ref;
+    try {
+      return this.nIsEventIsShared() && ((ref = this.nStartOptions.sharedMode) != null ? ref.contains("Strict") : void 0);
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+      return false;
+    }
+  };
+  _.nIsSharedEventCanBeForceCancelled = function() {
+    return !this.nIsEventIsSharedAndStrict() && this.nSyncWaitCommandData.index === 0;
+  };
+  _.nPrepareSharedEvent = function() {
+    ANInterpreterManager.resetSharedEvent();
+    "PREPARE SHARED MOD".p(this._eventId);
+    if ($gameTemp._nSharedEventOuterStartFlag == null) {
+      // * Сброс пула игроков
+      this.nPlayerPool = null;
+      // * Регестрируем общее событие (второй аргумент флаг - мастер этот клиент?)
+      ANInterpreterManager.setupSharedInterpreter(this, true);
+      // * Запускаем пул игроков (на карте)
+      this.nRequestSyncedNextEventCommand();
+    } else {
+      "OUUTER START".p();
+      // * Сброс флага
+      $gameTemp._nSharedEventOuterStartFlag = null;
+      // * Отправим, что мы зарегестрировались на этом событии
+      ANInterpreterManager.setupSharedInterpreter(this, false);
+      // * Ждём разрешение на старт следующей команды (от сервера, мастера общего события)
+      this.nRequestSyncedNextEventCommand();
+    }
+  };
+  
+  // * Игрок отменил ожидания других игроков (события должно закрыться сразу)
+  _.nIsSharedEventWaitPoolCancelled = function() {
+    var e;
+    try {
+      if (!this.nIsSharedEventCanBeForceCancelled()) {
+        return;
+      }
+      if (Input.isCancel()) {
+        // * Прерываем событие сразу (не запускаем)
+        // * Очищаем ввод, чтобы меню сразу не выскочело после нажатия Esc
+        Input.clear();
+        ANInterpreterManager.forceCancelSharedEvent();
+        this.terminate();
+        return true;
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+    return false;
+  };
+  // * Следующая команда события должна быть синхронизированна
+  _.nRequestSyncedNextEventCommand = function() {
+    this.nSyncWaitCommandData = {
+      index: this._index,
+      indent: this._indent
     };
-}()));
+    if (ANInterpreterManager.isSharedEventMaster()) {
+      this.nSetWaitPlayerPool();
+    } else {
+      this.nSetWaitStartNextCommandFromServer();
+    }
+    ANInterpreterManager.showWaitPlayersOnSharedEvent();
+  };
+  // * Когда пришли данные от клиента
+  _.nOnSyncedEventCommandResponse = function(index, indent, actorId) {
+    var e;
+    try {
+      if (this.nSyncWaitCommandData == null) {
+        return;
+      }
+      if (this.nPlayerPool == null) {
+        return;
+      }
+      if (this.nSyncWaitCommandData.index === index && this.nSyncWaitCommandData.indent === indent) {
+        "PLAYER ANSWER ".p(actorId);
+        return this.nPlayerPool.onAnswer(actorId);
+      }
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Ожидания пула игроков
+  _.nSetWaitPlayerPool = function() {
+    "START POOL".p();
+    if (this.nPlayerPool == null) {
+      this.nPlayerPool = new PlayersWaitPool();
+    } else {
+      // * Не пересоздаём, так как нам важно учитывать только тех игроков на карте
+      // * которые были во время запуска события, а не подключились позже
+      this.nPlayerPool.reset();
+    }
+    // * Отправляем на сервер запрос
+    this.nPlayerPool.register();
+    this._waitMode = "netPlayersPool";
+  };
+  // * Ожидание готовности пула игроков (этот метод работает только на мастере общего события)
+  _.nUpdateWaitPlayersPool = function() {
+    var waiting;
+    // * Пул надо обновлять (таймер внутри на повторную отправку запроса о готовности клиентов)
+    this.nPlayerPool.update();
+    if (this.nIsSharedEventWaitPoolCancelled()) {
+      "STOP WAITING PLAYERS : IS CANCELED!".p();
+      return true; // * Сразу выход из ожидания, если ожидание было преврано
+    }
+    waiting = !this.nPlayerPool.isReady();
+    if (!waiting) {
+      // * Теперь событие продолжается (мастер)
+      "STOP WAITING PLAYERS : IS READY".p();
+      ANInterpreterManager.sendSharedEventReadyToContinue();
+      ANInterpreterManager.hideWaitPlayersOnSharedEvent();
+      this.nClearSharedSyncEventCommandWait();
+      this._waitMode = '';
+    }
+    return waiting;
+  };
+  // * Очистить пул и данные команды на синхронизацию
+  _.nClearSharedSyncEventCommandWait = function() {
+    this.nSyncWaitCommandData = null;
+  };
+  // * Ждать разрешение от сервера (мастера общего события) на запуск следующей команды события
+  // * Этот метод работает только на клиентах (не мастере общего события)
+  _.nSetWaitStartNextCommandFromServer = function() {
+    this._canContinueSharedEvent = false;
+    ANInterpreterManager.sendSharedEventRegisteredDone();
+    "WAIT SERVER FOR NEXT COMMAND".p();
+    // * Когда клиент уже на команде, которую надо синхронизировать, он будет
+    // * каждую секунду "напоминать" о себе (снова отправлять что он готов продолжать)
+    this._nRepeatAnswerToServerTimer = 60;
+    this._waitMode = "netNextCommand";
+  };
+  // * Ожидание разрешения от сервера на запуск следующей команды
+  _.nUpdateWaitServerNextCommandPermission = function() {
+    var waiting;
+    // * Сервер закрыл общее событие (отменил ожидание старта)
+    // * В GameTemp, потому что может отменить, как тут ещё и не стартует это событие
+    if ($gameTemp._shouldForceExitSharedEvent === true) {
+      this.terminate();
+      return true;
+    }
+    waiting = !this._canContinueSharedEvent;
+    if (!waiting) {
+      // * Событие продолжается (клиент)
+      "CAN PROCESS TO NEXT COMMAND".p();
+      this._waitMode = '';
+    } else {
+      if (this._nRepeatAnswerToServerTimer >= 0) {
+        this._nRepeatAnswerToServerTimer--;
+        if (this._nRepeatAnswerToServerTimer === 0) {
+          this.nSetWaitStartNextCommandFromServer();
+        }
+      }
+    }
+    return true;
+  };
+  // * Получен ответ от сервера, что можно продолжать выполнение общего события
+  _.nAllowContinueSharedEvent = function() {
+    if (this._waitMode !== "netNextCommand") {
+      return;
+    }
+    this._canContinueSharedEvent = true;
+    // * Чтобы сброс переменной не произошёл снова
+    this._nRepeatAnswerToServerTimer = -1;
+    ANInterpreterManager.hideWaitPlayersOnSharedEvent();
+  };
+  // * Следующий выбор (команда 102) будет в режиме "только мастер события"
+  _.nRequestMasterOnlyChoicesModeForNextChoice = function() {
+    // * Если Пул игроков пустой, то не задаём флаг, чтобы сервер лишний раз не грузить
+    if ((this.nPlayerPool != null) && this.nPlayerPool.isSinglePool()) {
+      return;
+    }
+    "Shared Event Choices in Master only mode".p();
+    $gameTemp.nRequireChoiceOnlyForMaster = true;
+  };
+})();
+
+// ■ END Game_Interpreter.coffee
+//---------------------------------------------------------------------------
+
 
 // Generated by CoffeeScript 2.6.1
 //╒═════════════════════════════════════════════════════════════════════════╛
@@ -19992,117 +18586,90 @@ ANET.UI = function() {};
 //---------------------------------------------------------------------------
 
 
-function _0x2670() {
-    var _0x1feec4 = [
-        '\x5f\x67\x65\x74\x44\x65\x66\x61\x75\x6c\x74\x56\x69\x73\x75\x61\x6c\x46\x6f\x72\x5f\x6e\x65\x74\x43\x68\x61\x74\x54\x65\x78\x74\x4c\x69\x6e\x65',
-        '\x36\x36\x32\x32\x38\x73\x58\x4c\x71\x62\x4f',
-        '\x31\x34\x35\x71\x63\x73\x4c\x69\x47',
-        '\x67\x65\x74\x50\x61\x72\x61\x6d',
-        '\x5c\x7d\x5c\x7d\x5c\x43\x5b\x33\x5d\x5b\x25\x31\x5d\x5c\x7b\x5c\x7b\x20\x5c\x43\x5b\x36\x5d\x25\x33',
-        '\x31\x36\x36\x36\x39\x31\x30\x4b\x58\x6f\x4e\x68\x52',
-        '\x41\x4c\x4c',
-        '\x69\x6e\x47\x61\x6d\x65\x43\x68\x61\x74\x54\x65\x78\x74\x4c\x69\x6e\x65\x53\x65\x74\x74\x69\x6e\x67\x73',
-        '\x33\x35\x36\x35\x36\x37\x34\x78\x57\x46\x50\x71\x4b',
-        '\x31\x36\x34\x30\x38\x39\x37\x30\x6f\x51\x79\x74\x4b\x64',
-        '\x74\x6f\x43\x73\x73',
-        '\x5c\x7d\x5c\x7d\x5c\x43\x5b\x33\x5d\x5b\x25\x31\x5d\x20\x5c\x7b\x5c\x7b\x5c\x43\x5b\x32\x5d\x25\x32\x20\x5c\x43\x5b\x30\x5d\x25\x33',
-        '\x31\x34\x39\x39\x38\x38\x36\x52\x79\x4a\x53\x6c\x77',
-        '\x4d\x41\x50',
-        '\x31\x32\x34\x39\x31\x38\x30\x4e\x55\x56\x4d\x4b\x73',
-        '\x5c\x7d\x5c\x7d\x5c\x43\x5b\x33\x5d\x5b\x25\x31\x5d\x5c\x43\x5b\x31\x5d\x5b\x4d\x45\x5d\x5c\x7b\x5c\x7b\x20\x5c\x43\x5b\x30\x5d\x25\x33',
-        '\x39\x6f\x78\x72\x5a\x49\x6e',
-        '\x38\x52\x71\x71\x61\x44\x73',
-        '\x34\x35\x37\x38\x37\x34\x39\x49\x4b\x49\x44\x45\x46',
-        '\x47\x72\x61\x70\x68\x69\x63\x73\x2e\x68\x65\x69\x67\x68\x74\x20\x2d\x20\x31\x39\x33',
-        '\x23\x35\x39\x61\x33\x64\x39',
-        '\x5f\x67\x65\x74\x44\x65\x66\x61\x75\x6c\x74\x56\x69\x73\x75\x61\x6c\x46\x6f\x72\x5f\x69\x6e\x47\x61\x6d\x65\x43\x68\x61\x74\x57\x69\x6e\x64\x6f\x77'
-    ];
-    _0x2670 = function () {
-        return _0x1feec4;
-    };
-    return _0x2670();
-}
-function _0x3842(_0x4a9af4, _0x2af16f) {
-    var _0x2670a4 = _0x2670();
-    return _0x3842 = function (_0x38429b, _0x22659c) {
-        _0x38429b = _0x38429b - 0x7a;
-        var _0x3c9bc4 = _0x2670a4[_0x38429b];
-        return _0x3c9bc4;
-    }, _0x3842(_0x4a9af4, _0x2af16f);
-}
-(function (_0x2fdd12, _0x62adb0) {
-    var _0x3deb70 = _0x3842, _0x71b38f = _0x2fdd12();
-    while (!![]) {
-        try {
-            var _0x4722bb = parseInt(_0x3deb70(0x88)) / 0x1 + -parseInt(_0x3deb70(0x8f)) / 0x2 + -parseInt(_0x3deb70(0x7d)) / 0x3 * (parseInt(_0x3deb70(0x7b)) / 0x4) + -parseInt(_0x3deb70(0x85)) / 0x5 * (-parseInt(_0x3deb70(0x84)) / 0x6) + -parseInt(_0x3deb70(0x7f)) / 0x7 * (parseInt(_0x3deb70(0x7e)) / 0x8) + -parseInt(_0x3deb70(0x8b)) / 0x9 + parseInt(_0x3deb70(0x8c)) / 0xa;
-            if (_0x4722bb === _0x62adb0)
-                break;
-            else
-                _0x71b38f['push'](_0x71b38f['shift']());
-        } catch (_0x532d5b) {
-            _0x71b38f['push'](_0x71b38f['shift']());
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ Parameters Manager Extension.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+
+//$[ENCODE]
+(function() {
+  var _;
+  // * Базовые настройки элементов интерфейса
+  // * Эти настройки используется BASIC версия плагина
+
+  //? См. uiData метод в ParamsManager_0.coffee
+
+  //@[DEFINES]
+  _ = ANET.ParamsManager.prototype;
+  _._getDefaultVisualFor_inGameChatWindow = function() {
+    return this.getParam("inGameChatWindowVisualSettings", {
+      size: {
+        w: 312,
+        h: 192
+      },
+      position: {
+        x: 1,
+        y: "Graphics.height - 193"
+      },
+      notActiveOpacity: 140,
+      maxMessages: 9,
+      firstChatMessageMargin: {
+        x: 3,
+        y: 145
+      }
+    });
+  };
+  //!warning
+  //TODO: Какой-то баг, не хочет загружать textFormatForSystem и textFormatForPlayer
+  // * а также загружает textFormat не правильно!
+  _._getDefaultVisualFor_netChatTextLine = function() {
+    return this.getParam("inGameChatTextLineSettings", {
+      size: {
+        w: 306,
+        h: 18
+      },
+      backgroundA: {
+        color: "#59a3d9".toCss(),
+        opacity: 40
+      },
+      backgroundB: {
+        color: "#59a3d9".toCss(),
+        opacity: 70
+      },
+      textLine: {
+        visible: true,
+        size: {
+          w: 520,
+          h: 20
+        },
+        font: {
+          face: null,
+          size: 14,
+          italic: false
+        },
+        margins: {
+          x: 4,
+          y: -3
         }
-    }
-}(_0x2670, 0xd97a4), (function () {
-    var _0x40ace1 = _0x3842, _0x8201ba;
-    _0x8201ba = ANET['\x50\x61\x72\x61\x6d\x73\x4d\x61\x6e\x61\x67\x65\x72']['\x70\x72\x6f\x74\x6f\x74\x79\x70\x65'], _0x8201ba[_0x40ace1(0x82)] = function () {
-        var _0x480094 = _0x40ace1;
-        return this[_0x480094(0x86)]('\x69\x6e\x47\x61\x6d\x65\x43\x68\x61\x74\x57\x69\x6e\x64\x6f\x77\x56\x69\x73\x75\x61\x6c\x53\x65\x74\x74\x69\x6e\x67\x73', {
-            '\x73\x69\x7a\x65': {
-                '\x77': 0x138,
-                '\x68': 0xc0
-            },
-            '\x70\x6f\x73\x69\x74\x69\x6f\x6e': {
-                '\x78': 0x1,
-                '\x79': _0x480094(0x80)
-            },
-            '\x6e\x6f\x74\x41\x63\x74\x69\x76\x65\x4f\x70\x61\x63\x69\x74\x79': 0x8c,
-            '\x6d\x61\x78\x4d\x65\x73\x73\x61\x67\x65\x73': 0x9,
-            '\x66\x69\x72\x73\x74\x43\x68\x61\x74\x4d\x65\x73\x73\x61\x67\x65\x4d\x61\x72\x67\x69\x6e': {
-                '\x78': 0x3,
-                '\x79': 0x91
-            }
-        });
-    }, _0x8201ba[_0x40ace1(0x83)] = function () {
-        var _0x2b61ba = _0x40ace1;
-        return this[_0x2b61ba(0x86)](_0x2b61ba(0x8a), {
-            '\x73\x69\x7a\x65': {
-                '\x77': 0x132,
-                '\x68': 0x12
-            },
-            '\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x41': {
-                '\x63\x6f\x6c\x6f\x72': _0x2b61ba(0x81)[_0x2b61ba(0x8d)](),
-                '\x6f\x70\x61\x63\x69\x74\x79': 0x28
-            },
-            '\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x42': {
-                '\x63\x6f\x6c\x6f\x72': '\x23\x35\x39\x61\x33\x64\x39'['\x74\x6f\x43\x73\x73'](),
-                '\x6f\x70\x61\x63\x69\x74\x79': 0x46
-            },
-            '\x74\x65\x78\x74\x4c\x69\x6e\x65': {
-                '\x76\x69\x73\x69\x62\x6c\x65': !![],
-                '\x73\x69\x7a\x65': {
-                    '\x77': 0x208,
-                    '\x68': 0x14
-                },
-                '\x66\x6f\x6e\x74': {
-                    '\x66\x61\x63\x65': null,
-                    '\x73\x69\x7a\x65': 0xe,
-                    '\x69\x74\x61\x6c\x69\x63': ![]
-                },
-                '\x6d\x61\x72\x67\x69\x6e\x73': {
-                    '\x78': 0x4,
-                    '\x79': -0x3
-                }
-            },
-            '\x74\x65\x78\x74\x46\x6f\x72\x6d\x61\x74': _0x2b61ba(0x8e),
-            '\x74\x65\x78\x74\x46\x6f\x72\x6d\x61\x74\x46\x6f\x72\x50\x6c\x61\x79\x65\x72': _0x2b61ba(0x7c),
-            '\x74\x65\x78\x74\x46\x6f\x72\x6d\x61\x74\x46\x6f\x72\x53\x79\x73\x74\x65\x6d': _0x2b61ba(0x87),
-            '\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x53\x70\x65\x65\x64\x49\x6e\x50\x78': 0x12,
-            '\x63\x68\x61\x6e\x6e\x65\x6c\x41\x6c\x6c': _0x2b61ba(0x89),
-            '\x63\x68\x61\x6e\x6e\x65\x6c\x4d\x61\x70': _0x2b61ba(0x7a)
-        });
-    };
-}()));
+      },
+      // 1 - Channel
+      // 2 - Actor Name
+      // 3 - Message
+      // 4 - Player Name
+      textFormat: "\\}\\}\\C[3][%1] \\{\\{\\C[2]%2 \\C[0]%3",
+      textFormatForPlayer: "\\}\\}\\C[3][%1]\\C[1][ME]\\{\\{ \\C[0]%3",
+      textFormatForSystem: "\\}\\}\\C[3][%1]\\{\\{ \\C[6]%3",
+      animationSpeedInPx: 18,
+      channelAll: 'ALL',
+      channelMap: 'MAP'
+    });
+  };
+})();
+
+// ■ END Parameters Manager Extension.coffee
+//---------------------------------------------------------------------------
+
 
 // Generated by CoffeeScript 2.5.1
 //@[GLOBAL]
@@ -25927,63 +24494,22 @@ Window_NTradeItemsList = class Window_NTradeItemsList extends Window_Selectable 
 //---------------------------------------------------------------------------
 
 
-function _0x5ccb(_0x1d9232, _0x27583d) {
-    var _0x111222 = _0x1112();
-    return _0x5ccb = function (_0x5ccb59, _0x357973) {
-        _0x5ccb59 = _0x5ccb59 - 0xae;
-        var _0x2a0ffd = _0x111222[_0x5ccb59];
-        return _0x2a0ffd;
-    }, _0x5ccb(_0x1d9232, _0x27583d);
-}
-function _0x1112() {
-    var _0x30b7c5 = [
-        '\x5f\x70\x6f\x72\x74',
-        '\x37\x54\x73\x4c\x4e\x51\x57',
-        '\x39\x4e\x78\x52\x4b\x4b\x53',
-        '\x33\x50\x78\x64\x57\x71\x78',
-        '\x32\x32\x38\x30\x6f\x64\x6f\x72\x65\x55',
-        '\x33\x30\x33\x34',
-        '\x33\x30\x32\x36\x38\x37\x73\x6a\x63\x56\x51\x50',
-        '\x5f\x69\x70',
-        '\x35\x39\x34\x37\x39\x32\x38\x71\x4e\x46\x48\x42\x64',
-        '\x31\x31\x30\x37\x39\x38\x32\x32\x78\x76\x64\x54\x61\x75',
-        '\x31\x34\x39\x33\x35\x34\x68\x50\x77\x4a\x46\x66',
-        '\x33\x32\x34\x55\x75\x6e\x52\x75\x50',
-        '\x38\x31\x32\x37\x32\x34\x35\x61\x42\x64\x46\x4a\x42',
-        '\x32\x31\x36\x39\x33\x57\x45\x66\x45\x7a\x77',
-        '\x37\x35\x37\x31\x31\x37\x30\x58\x46\x56\x45\x49\x47',
-        '\x5f\x70\x72\x65\x70\x61\x72\x65\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x53\x65\x74\x74\x69\x6e\x67\x73',
-        '\x6d\x61\x78\x50\x6c\x61\x79\x65\x72\x73\x49\x6e\x52\x6f\x6f\x6d',
-        '\x67\x65\x74\x50\x61\x72\x61\x6d'
-    ];
-    _0x1112 = function () {
-        return _0x30b7c5;
-    };
-    return _0x1112();
-}
-(function (_0x4f173e, _0x5ebefa) {
-    var _0x4799f1 = _0x5ccb, _0x8d0302 = _0x4f173e();
-    while (!![]) {
-        try {
-            var _0x2a91f2 = -parseInt(_0x4799f1(0xb8)) / 0x1 * (parseInt(_0x4799f1(0xbf)) / 0x2) + -parseInt(_0x4799f1(0xb0)) / 0x3 * (parseInt(_0x4799f1(0xae)) / 0x4) + -parseInt(_0x4799f1(0xaf)) / 0x5 + parseInt(_0x4799f1(0xbe)) / 0x6 * (-parseInt(_0x4799f1(0xb6)) / 0x7) + parseInt(_0x4799f1(0xbd)) / 0x8 + -parseInt(_0x4799f1(0xb7)) / 0x9 * (parseInt(_0x4799f1(0xb1)) / 0xa) + -parseInt(_0x4799f1(0xbb)) / 0xb * (-parseInt(_0x4799f1(0xb9)) / 0xc);
-            if (_0x2a91f2 === _0x5ebefa)
-                break;
-            else
-                _0x8d0302['push'](_0x8d0302['shift']());
-        } catch (_0xb0e487) {
-            _0x8d0302['push'](_0x8d0302['shift']());
-        }
-    }
-}(_0x1112, 0xe3ba8), (function () {
-    var _0x374407 = _0x5ccb, _0x3e02a8;
-    _0x3e02a8 = ANET['\x50\x61\x72\x61\x6d\x73\x4d\x61\x6e\x61\x67\x65\x72']['\x70\x72\x6f\x74\x6f\x74\x79\x70\x65'], _0x3e02a8[_0x374407(0xb3)] = function () {
-        var _0x4113bb = _0x374407, _0xce3dd6;
-        return _0xce3dd6 = this[_0x4113bb(0xb4)]('\x6d\x61\x78\x50\x6c\x61\x79\x65\x72\x73\x49\x6e\x52\x6f\x6f\x6d', 0x2), _0xce3dd6 >= 0x2 ? 0x2 : _0xce3dd6;
-    }, _0x3e02a8[_0x374407(0xb2)] = function () {
-        var _0x192a8a = _0x374407;
-        this[_0x192a8a(0xbc)] = '\x31\x39\x35\x2e\x31\x36\x31\x2e\x34\x31\x2e\x32\x30', this[_0x192a8a(0xb5)] = _0x192a8a(0xba);
-    };
-}()));
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ Parameters Manager Extension.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+(function() {
+  var _;
+  // * Реализация загрузки настроек визуальных компонентов из параметров
+
+  //@[DEFINES]
+  _ = ANET.ParamsManager.prototype;
+})();
+
+// ■ END Parameters Manager Extension.coffee
+//---------------------------------------------------------------------------
+
 
 // Generated by CoffeeScript 2.6.1
 //╒═════════════════════════════════════════════════════════════════════════╛
@@ -26037,6 +24563,59 @@ function _0x1112() {
 
 // Generated by CoffeeScript 2.6.1
 //╒═════════════════════════════════════════════════════════════════════════╛
+// ■ Game_System.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+(function() {
+  var _;
+  //@[DEFINES]
+  _ = Game_System.prototype;
+  // * Задать стиль для персонажа
+  //?VERSION
+  _.nSetNameplateStyleForActor = function(actorId, style) {
+    var e;
+    this.nInitNameplatesStylesForActors();
+    try {
+      if ((style != null) && String.any(style)) {
+        this.nActorsNameplatesStyles[actorId] = style;
+      } else {
+        delete this.nActorsNameplatesStyles[actorId];
+      }
+      // * Синхронизируем сразу данные между всеми игроками
+      if (ANNetwork.isConnected()) {
+        ANPlayersManager.sendNameplatesStyles();
+      }
+      // * Обновляем таблички
+      KDCore.GEventsManager.call("netzRefreshNameplate");
+    } catch (error) {
+      e = error;
+      ANET.w(e);
+    }
+  };
+  // * Получить текущий стиль данного персонажа
+  //?VERSION
+  _.nGetNameplateStyleForActor = function(actorId) {
+    var e;
+    this.nInitNameplatesStylesForActors();
+    try {
+      if (this.nActorsNameplatesStyles[actorId] != null) {
+        return this.nActorsNameplatesStyles[actorId];
+      } else {
+        return null; // * default
+      }
+    } catch (error) {
+      e = error;
+      return KDCore.warning(e);
+    }
+  };
+})();
+
+// ■ END Game_System.coffee
+//---------------------------------------------------------------------------
+
+
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
 // ■ Scene_Battle.coffee
 //╒═════════════════════════════════════════════════════════════════════════╛
 //---------------------------------------------------------------------------
@@ -26065,6 +24644,30 @@ function _0x1112() {
 })();
 
 // ■ END Scene_Battle.coffee
+//---------------------------------------------------------------------------
+
+
+// Generated by CoffeeScript 2.6.1
+//╒═════════════════════════════════════════════════════════════════════════╛
+// ■ Scene_NetworkRoomsList.coffee
+//╒═════════════════════════════════════════════════════════════════════════╛
+//---------------------------------------------------------------------------
+(function() {
+  var _;
+  //@[DEFINES]
+  _ = Scene_NetworkRoomsList.prototype;
+  _.applyFilterToRooms = function() {
+    if (this.roomsList == null) {
+      return;
+    }
+    // * Применяем фильтр по gameId
+    this.roomsList = this.roomsList.filter(function(room) {
+      return room.gameId === ANET.VD.getGameVersion();
+    });
+  };
+})();
+
+// ■ END Scene_NetworkRoomsList.coffee
 //---------------------------------------------------------------------------
 
 
