@@ -8,11 +8,11 @@ Imported.YEP_StatAllocation = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.StatAlc = Yanfly.StatAlc || {};
-Yanfly.StatAlc.version = 1.01;
+Yanfly.StatAlc.version = 1.02;
 
 //=============================================================================
  /*:
- * @plugindesc v1.01 Add a menu to your game to allocate stats for party
+ * @plugindesc v1.02 Add a menu to your game to allocate stats for party
  * members. Stats can be allocated through AP, JP, or items!
  * @author Yanfly Engine Plugins
  *
@@ -191,6 +191,9 @@ Yanfly.StatAlc.version = 1.01;
  * ============================================================================
  * Changelog
  * ============================================================================
+ *
+ * Version 1.02:
+ * - Fixed an exploit that would allow actors to fully regain HP/MP.
  *
  * Version 1.01:
  * - Bugfixed for those who didn't have Allocate appear.
@@ -925,7 +928,13 @@ Game_Actor.prototype.gainParamAllocateTimes = function(paramId, times, classId) 
   classId = classId || this._classId;
   if (this._paramAllocationTimes === undefined) this.initStatAllocation();
   var value = this.getParamAllocateTimes(paramId) + times;
+  var maxHp = this.mhp;
+  var maxMp = this.mmp;
   this.setParamAllocateTimes(paramId, value);
+  var maxHpDifference = this.mhp - maxHp;
+  var maxMpDifference = this.mmp - maxMp;
+  this._hp += maxHpDifference;
+  this._mp += maxMpDifference;
 };
 
 Game_Actor.prototype.setParamAllocateTimes = function(paramId, times, classId) {
@@ -2115,13 +2124,7 @@ Scene_StatAllocation.prototype.processAllocateParam = function() {
   var param = this._allocationWindow.currentExt();
   var params = ['mhp','mmp','atk','def','mat','mdf','agi','luk'];
   var paramId = params.indexOf(param);
-  var maxHp = this._actor.mhp;
-  var maxMp = this._actor.mmp;
   this._actor.gainParamAllocateTimes(paramId, 1);
-  var hpGain = this._actor.mhp - maxHp;
-  var mpGain = this._actor.mmp - maxMp;
-  this._actor._hp += hpGain;
-  this._actor._mp += mpGain;
   this._allocationWindow.activate();
   this.refreshWindows();
 };

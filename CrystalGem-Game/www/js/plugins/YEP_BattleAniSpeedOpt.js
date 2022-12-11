@@ -8,11 +8,11 @@ Imported.YEP_BattleAniSpeedOpt = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.BASO = Yanfly.BASO || {};
-Yanfly.BASO.version = 1.01;
+Yanfly.BASO.version = 1.02;
 
 //=============================================================================
  /*:
- * @plugindesc v1.01 Add battle animation speed options for your game so your
+ * @plugindesc v1.02 Add battle animation speed options for your game so your
  * players can choose the speed setting they want.
  * @author Yanfly Engine Plugins
  *
@@ -144,6 +144,9 @@ Yanfly.BASO.version = 1.01;
  * ============================================================================
  * Changelog
  * ============================================================================
+ *
+ * Version 1.02:
+ * - Updated Float and Jump compatibility to allow for negative values.
  *
  * Version 1.01:
  * - Compatibility update with YEP_OptionsCore.js.
@@ -458,10 +461,10 @@ BattleManager.actionFloat = function(name, actionArgs) {
   var modifier = 5 - ConfigManager.battleAniSpeed;
   frames = Math.ceil(frames / modifier);
   var pixels = 0;
-  if (cmd.match(/(\d+)([%％])/i)) {
+  if (cmd.match(/(.*)([%％])/i)) {
     var floatPeak = parseFloat(RegExp.$1 * 0.01);
   } else if (cmd.match(/(\d+)/i)) {
-    pixels = parseInt(RegExp.$1);
+    pixels = parseInt(cmd) || 0;
     var floatPeak = 0.0;
   } else {
     var floatPeak = 1.0;
@@ -481,10 +484,10 @@ BattleManager.actionJump = function(name, actionArgs) {
   var modifier = 5 - ConfigManager.battleAniSpeed;
   frames = Math.ceil(frames / modifier);
   var pixels = 0;
-  if (cmd.match(/(\d+)([%％])/i)) {
+  if (cmd.match(/(.*)([%％])/i)) {
     var jumpPeak = parseFloat(RegExp.$1 * 0.01);
   } else if (cmd.match(/(\d+)/i)) {
-    pixels = parseInt(RegExp.$1);
+    pixels = parseInt(cmd) || 0;
     var jumpPeak = 0.0;
   } else {
     var jumpPeak = 1.0;

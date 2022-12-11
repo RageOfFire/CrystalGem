@@ -314,6 +314,12 @@ const update = [
                 Thêm trỏ chuột vào đối thủ và đồng minh<br>
                 Thêm nút mạng xã hội cho discord<br>
                 Thêm lại bộ cài game cho PC<br>`
+            },
+            {
+                id: 'version171',
+                version: 'v1.7.1',
+                description: 
+                `Sửa lỗi không thể tham gia chơi trực tuyến`
             }
         ],
         imageURL: "./img/CrystalGem v1.7 update.png"

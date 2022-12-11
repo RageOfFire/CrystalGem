@@ -8,7 +8,7 @@ Imported.YEP_ExternalLinks = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.LINK = Yanfly.LINK || {};
-Yanfly.LINK.version = 1.00
+Yanfly.LINK.version = 1.01
 
 //=============================================================================
  /*:
