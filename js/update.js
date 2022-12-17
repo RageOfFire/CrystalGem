@@ -320,6 +320,14 @@ const update = [
                 version: 'v1.7.1',
                 description: 
                 `Sửa lỗi không thể tham gia chơi trực tuyến`
+            },
+            {
+                id: 'version172',
+                version: 'v1.7.2',
+                description: 
+                `Sửa lỗi khi tham gia trò chơi với 4 nhân vật chính<br>
+                Sửa lỗi tải lại Cursor2<br>
+                Sửa lỗi nhiệm vụ sau trận chiến đầu với Mundo không chạy<br>`
             }
         ],
         imageURL: "./img/CrystalGem v1.7 update.png"
