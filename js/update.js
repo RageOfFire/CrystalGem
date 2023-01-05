@@ -328,6 +328,12 @@ const update = [
                 `Sửa lỗi khi tham gia trò chơi với 4 nhân vật chính<br>
                 Sửa lỗi tải lại Cursor2<br>
                 Sửa lỗi nhiệm vụ sau trận chiến đầu với Mundo không chạy<br>`
+            },
+            {
+                id: 'version173',
+                version: 'v1.7.3',
+                description: 
+                `Sửa lỗi không thể bắt đầu nhiệm vụ Gelena`
             }
         ],
         imageURL: "./img/CrystalGem v1.7 update.png"
