@@ -1,0 +1,38 @@
+Text that appears outside of the block tags
+will not display in the credits scene
+
+<block:-1,-3,10,10,offbot,center,crystalgem>
+Giới thiệu
+
+\c[11]Engine
+Degica
+RPG Maker MV
+
+\c[26]Lập trình
+Yanfly
+Galv
+KageDesu
+Hakuen Studio
+FeniXEngine
+RPG Maker Irina
+Michael Morris
+BallgameStudios
+CT_Bolt
+
+\c[30]Thiết kế
+Degica
+RPG Maker MV
+hiddenone
+KADOKAWA
+IceKun
+RavenBlackbird
+whtdragon
+Haydeos
+
+\c[14]Cảm ơn
+Tất cả mọi người có thời gian với game
+</block>
+
+<block:999,0,10,10,300,center,crystalgem>
+\c[27]Hết
+</block>

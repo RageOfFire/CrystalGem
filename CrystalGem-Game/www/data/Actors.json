@@ -36,5 +36,6 @@ null,
 {"id":34,"battlerName":"Mundo","characterIndex":0,"characterName":"Mundo","classId":2,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Mundo","traits":[],"initialLevel":1,"maxLevel":50,"name":"Mundo","nickname":"","note":"","profile":""},
 {"id":35,"battlerName":"Mundo3","characterIndex":2,"characterName":"Mundo","classId":4,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Mundo","traits":[],"initialLevel":1,"maxLevel":50,"name":"MundoSuperHuman","nickname":"","note":"","profile":""},
 {"id":36,"battlerName":"dark_lord__b_w_","characterIndex":7,"characterName":"Monster","classId":4,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":50,"name":"MundoFinal","nickname":"","note":"","profile":""},
-{"id":37,"battlerName":"actor3-4_2","characterIndex":3,"characterName":"Actor3","classId":4,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":50,"name":"Elicia","nickname":"","note":"","profile":""}
+{"id":37,"battlerName":"actor3-4_2","characterIndex":3,"characterName":"Actor3","classId":4,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":50,"name":"Elicia","nickname":"","note":"","profile":""},
+{"id":38,"battlerName":"Isle","characterIndex":0,"characterName":"Isle","classId":2,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Isle","traits":[],"initialLevel":1,"maxLevel":50,"name":"Isle","nickname":"","note":"","profile":""}
 ]

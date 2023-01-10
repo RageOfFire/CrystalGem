@@ -337,5 +337,20 @@ const update = [
             }
         ],
         imageURL: "./img/CrystalGem v1.7 update.png"
+    },
+    {
+        versionName: 'v1.8.x',
+        details: [
+            {
+                id: 'version180',
+                version: 'v1.8.0',
+                description: 
+                `Sửa lỗi không thể bắt đầu nhiệm vụ Era<br>
+                Tối ưu hóa bắt sự kiện<br>
+                Tối ưu hóa menu giờ chỉ cần 1 lần ấn<br>
+                Thêm phần hướng dẫn cho người mới chơi<br>`
+            }
+        ],
+        imageURL: "./img/CrystalGem v1.8 update.png"
     }
 ]
