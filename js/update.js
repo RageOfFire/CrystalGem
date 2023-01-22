@@ -349,6 +349,18 @@ const update = [
                 Tối ưu hóa bắt sự kiện<br>
                 Tối ưu hóa menu giờ chỉ cần 1 lần ấn<br>
                 Thêm phần hướng dẫn cho người mới chơi<br>`
+            },
+            {
+                id: 'version181',
+                version: 'v1.8.1',
+                description: 
+                `Xóa nút "Trang chủ" ở tiêu đề game<br>
+                Cải thiện tiêu đề game<br>
+                Sửa lỗi tự động lưu không hiện thông báo<br>
+                Thêm cài đặt bắt/tắt tự động lưu<br>
+                Giảm phần thưởng khi hoàn thành hướng dẫn<br>
+                Cải thiện thanh HP của người chơi và kẻ địch<br>
+                Thêm icon Gem của tiền<br>`
             }
         ],
         imageURL: "./img/CrystalGem v1.8 update.png"

@@ -3,13 +3,14 @@
 //==========================================================================
 
 /*:
-@plugindesc ♦5.0.5♦ Add responsive on screen controls to mobile games!
+@plugindesc ♦5.0.10♦ Add responsive on screen controls to mobile games!
 @author Hakuen Studio
 
 @help
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 If you like my work, please consider supporting me on Patreon!
 Patreon      → https://www.patreon.com/hakuenstudio
+Rate Plugin  → https://hakuenstudio.itch.io/eli-mobile-controls-for-rpg-maker/rate?source=game
 Terms of Use → https://www.hakuenstudio.com/terms-of-use-5-0-0
 Facebook     → https://www.facebook.com/hakuenstudio
 Instagram    → https://www.instagram.com/hakuenstudio
@@ -34,80 +35,7 @@ Features
 How to use
 ============================================================================
 
-First, create a folder called “screen_controls” inside your img folder 
-project. This is the place you will have to put your button images.
-
-♦ Types of buttons ♦
-
-Regular Button → A simple button that can simulate a keyboard key.
-Control Button → Used to hide/show all other buttons on the screen.
-Dpad Button → A directional pad to move the player.
-Joystick Button → A joystick to move the player.
-
-♦ Button Images ♦
-
-Every button needs two images:
-• Cold image(when a button is not pressed) 
-• Hot image(when a button is pressed).
-
-In the plugin parameters, you can choose the cold image for any button.
-The hot image must be another image file with the same name as the cold 
-image.
-You just need to add "_hot" at the end of the filename. (case sensitive)
-
-♦ Size and Positions ♦
-
-You will decide the size and positions of the buttons based on % values 
-according to the screen size of the device.
-
-So if you put a size of 20, it will be equal to 20% of the screen size of 
-any device that runs your game.
-The same is for positions X and Y of these buttons.
-But they will never have a size higher than its image file. So the 
-best way to go here is to use big images sizes. That way, the button will 
-be automatically scaled down to any size it needs.
-
-♦ Vibration ♦
-
-You can set Vibration in MS for Regular buttons and Control Buttons. Just 
-make sure that your Android Manifest has vibration permission.
-
-♦ Joystick ♦
-
-You can optionally use a joystick instead of the directional pad to move 
-the player.
-Unlike the other buttons, the joystick requires two images to work.
-
-• Base/background image → This one will be responsible for the visual 
-background and position of the joystick. It also defines the range/limits 
-that the stickball can go when it is being dragged by the touch/mouse 
-movement.
-
-• Stick image → This will be the stick(ball) image that will handle the 
-player’s movement direction when being pressed and moved.
-By default, it will not go outside the base image. But you can make it 
-if you set a number higher than zero on the Extra Range parameter.
-
-The idea here is that both the Base and Stick image file has the same 
-size in pixels. So it will be easier to set the % sizes for both on the 
-plugin parameter, making the stick center correctly inside the Base 
-image. Otherwise, you will have to make the calculations 
-yourself(hardcore, maybe).
-
-NOTE¹: This plugin does not implement diagonal movement. But if you have 
-a plugin that implements it, the directional pad or joystick will 
-recognize it. Currently tested with the Yami_8DirEx.js
-
-NOTE²: Optionally, you can set the Dpad type parameter to none, and create 
-your directional buttons using the Regular buttons.
-
-NOTE³: Didn’t test with pixel movement.
-
-============================================================================
-Update Log
-============================================================================
-
-https://tinyurl.com/mobileControlsLog
+https://docs.google.com/document/d/1jCGESiSowTvgLrF3EGGwuVsOcbxwlqXe_LE84idhINE/edit?usp=sharing
 
 ============================================================================
 
@@ -129,17 +57,30 @@ https://tinyurl.com/mobileControlsLog
 @desc True if you want to hide buttons on message.
 @default false
 
+@param fixButtonSize
+@text Fix Button Size
+@type boolean
+@desc See help file.
+@default false
+
+@param fixButtonInterval
+@text Fix Button Interval
+@type text
+@desc The time interval, in frames, that the buttons will fix their size.
+@default 120
+@parent fixButtonSize
+
 @param controlButton
 @text Control Buttons
 @type struct<controlButtonST>
 @desc A button that can hide/show all buttons.
-@default 
+@default {"enable":"false","img":"","width":"5","horizontalOrientation":"left","padX":"2","verticalOrientation":"top","padY":"2","vibration":"0","enableScreenMove":"true","enableDoubleTouchMenu":"true"}
 
 @param buttons
 @text Regular Buttons
 @type struct<buttonsST>[]
 @desc Configure here all buttons that will represent keyboard keys.
-@default 
+@default []
 
 @param dPadType
 @text Dpad type
@@ -154,7 +95,7 @@ https://tinyurl.com/mobileControlsLog
 @text Single Pad
 @type struct<singlePadST>
 @desc A single image that can handle the player movement/directions.
-@default
+@default {"scenes":"[]","img":"","baseWidth":"20","horizontalOrientation":"left","padX":"2","verticalOrientation":"bottom","padY":"2"}
 @parent dPadType
 
 @param joystickPad
@@ -162,7 +103,7 @@ https://tinyurl.com/mobileControlsLog
 @type struct<joystickST>
 @desc A joystick pad that moves the player along with a stick inside an area.
 The stick follows the fingers/mouse on screen.
-@default
+@default {"scenes":"[]","baseImg":"","baseWidth":"20","ballImg":"","ballWidth":"4","extraDistance":"0","horizontalOrientation":"left","padX":"2","verticalOrientation":"bottom","padY":"2"}
 @parent dPadType
 
 */
@@ -492,6 +433,32 @@ var Imported = Imported || {}
 Imported.Eli_MobileControls = true
 
 /* ========================================================================== */
+/*                                    ALERT                                   */
+/* ========================================================================== */
+{
+
+const pluginName = "Eli Mobile Controls"
+const requiredVersion = 5.09
+const messageVersion = "5.0.9"
+
+if(!Eli.Book){
+
+    const msg = `${pluginName}:\nYou are missing the core plugin: Eli Book.\nPlease, click ok to download it now.`
+    if(window.confirm(msg)){
+        nw.Shell.openExternal("https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz")
+    }
+
+}else if(Eli.Book.version < requiredVersion){
+
+    const msg = `${pluginName}:\nYou need Eli Book version ${messageVersion} or higher.\nPlease, click ok to download it now.`
+    if(window.confirm(msg)){
+        nw.Shell.openExternal("https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz")
+    }
+}
+
+}
+
+/* ========================================================================== */
 /*                                   PLUGIN                                   */
 /* ========================================================================== */
 {
@@ -793,7 +760,9 @@ class RegularButton extends BaseButton{
     }
 
     setInput(){
-        navigator.vibrate(this.parameters.vibration)
+        if(navigator.vibrate){
+            navigator.vibrate(this.parameters.vibration)
+        }
         if(this.isScriptInput()){
             eval(this.parameters.scriptIn)
         }else{
@@ -1336,12 +1305,14 @@ class JoystickController extends BaseButton{
 /* ------------------------------ PLUGIN OBJECT ----------------------------- */
 Eli.MobileControls = {
 
-    version: 5.05,
+    version: 5.09,
     url: "https://hakuenstudio.itch.io/eli-mobile-controls-for-rpg-maker",
     parameters: {
         disableDoubleTouchMenu: true,
         disableScreenMove: true,
         hideOnMessage: true,
+        fixButtonSize: false,
+        fixButtonInterval: 0,
         dPadType: "",
         controlButton: {
             enable: true,
@@ -1403,20 +1374,6 @@ Eli.MobileControls = {
     dpad: new DpadController(),
     controlButton: new ControlButton(),
     buttonList: [],
-    
-    anyButtonAreaContains(x, y){
-        const allAreas = this.buttonList.map(item => item.area)
-
-        return allAreas.some(item => item.contains(x, y))
-    },
-
-    isMovingWithButtons(){
-        return this.joystick.active || this.dpad.active
-    },
-
-    param(){
-        return this.parameters
-    },
 
     initialize(){
         this.initParameters()
@@ -1424,7 +1381,89 @@ Eli.MobileControls = {
     },
 
     initParameters(){
-        this.parameters = Eli.PluginManager.createParameters()
+        const parameters = PluginManager.parameters("Eli_MobileControls")
+        this.parameters.disableDoubleTouchMenu = parameters.disableDoubleTouchMenu === "true"
+        this.parameters.disableScreenMove = parameters.disableScreenMove === "true"
+        this.parameters.hideOnMessage = parameters.hideOnMessage === "true"
+        this.parameters.fixButtonSize = (parameters.fixButtonSize || "false") === "true"
+        this.parameters.fixButtonInterval = Math.max(Number(parameters.fixButtonInterval || "120"), 1)
+        this.parameters.dPadType = parameters.dPadType
+        this.parameters.controlButton = this.parseControlButtonParameters(parameters.controlButton)
+        this.parameters.singlePad = this.parseSinglePadParameters(parameters.singlePad)
+        this.parameters.joystickPad = this.parseJoystickParameters(parameters.joystickPad)
+        this.parameters.buttons = this.parseRegularButtonParameters(parameters.buttons)
+    },
+
+    parseControlButtonParameters(rawParam){
+        const param = JSON.parse(rawParam)
+
+        return {
+            enable: param.enable === "true",
+            horizontalOrientation: param.horizontalOrientation,
+            img: param.img,
+            padX: Number(param.padX),
+            padY: Number(param.padY),
+            verticalOrientation: "",
+            vibration: Number(param.vibration),
+            width: Number(param.width),
+            enableScreenMove: param.enableScreenMove === "true",
+            enableDoubleTouchMenu: param.enableDoubleTouchMenu === "true",
+        }
+    },
+
+    parseSinglePadParameters(rawParam){
+        const param = JSON.parse(rawParam)
+
+        return {
+            baseWidth: Number(param.baseWidth),
+            horizontalOrientation: param.horizontalOrientation,
+            img: param.img,
+            padX: Number(param.padX),
+            padY: Number(param.padY),
+            scenes: JSON.parse(param.scenes),
+            verticalOrientation: param.verticalOrientation,
+        }
+    },
+
+    parseJoystickParameters(rawParam){
+        const param = JSON.parse(rawParam)
+
+        return {
+            ballImg: param.ballImg,
+            ballWidth: Number(param.ballWidth),
+            baseImg: param.baseImg,
+            baseWidth: Number(param.baseWidth),
+            extraDistance: Number(param.extraDistance),
+            horizontalOrientation: param.horizontalOrientation,
+            padX: Number(param.padX),
+            padY: Number(param.padY),
+            scenes: JSON.parse(param.scenes),
+            verticalOrientation: param.verticalOrientation,
+        }
+    },
+
+    parseRegularButtonParameters(rawParam){
+        const buttonParams = JSON.parse(rawParam)
+        const buttons = []
+
+        for(const param of buttonParams){
+            const button = JSON.parse(param)
+            buttons.push({
+                horizontalOrientation: button.horizontalOrientation,
+                img: button.img,
+                key: button.key,
+                padX: Number(button.padX),
+                padY: Number(button.padY),
+                scenes: JSON.parse(button.scenes),
+                scriptIn: JSON.parse(button.scriptIn),
+                scriptOut: JSON.parse(button.scriptOut),
+                verticalOrientation: button.verticalOrientation,
+                vibration: Number(button.vibration),
+                width: Number(button.width),
+            })
+        }
+
+        return buttons
     },
 
     initPluginCommands(){
@@ -1507,12 +1546,8 @@ Eli.MobileControls = {
         })
     },
 
-    isActive(){
-        return Utils.isOptionValid("test") || Utils.isMobileDevice()
-    },
-
     isMenuDisabledByDoubleTouch(){
-        return this.isActive() && this.param().disableDoubleTouchMenu && !this.controlButton.isHidingButtons
+        return this.param().disableDoubleTouchMenu && !this.controlButton.isHidingButtons
     },
 
     isControlButtonDisablingMenuByDoubleTouch(){
@@ -1521,7 +1556,7 @@ Eli.MobileControls = {
     },
 
     isMovementDisabledByScreenTouch(){
-        return this.isActive() && this.param().disableScreenMove && !this.controlButton.isHidingButtons
+        return this.param().disableScreenMove && !this.controlButton.isHidingButtons
     },
 
     isControlButtonDisablingMovementByScreenTouch(){
@@ -1557,7 +1592,7 @@ Eli.MobileControls = {
 
     canRefreshButtonsForScene(){
         return  !this.controlButton.isHidingButtons &&
-                SceneManager._scene && this.isActive()
+                SceneManager._scene
     },
 
     refreshButtonsForScene(){
@@ -1601,8 +1636,26 @@ Eli.MobileControls = {
     },
 
     isLandscape(){
-        return screen.orientation.type.includes("landscape")
-    }
+        if(typeof screen.orientation === "undefined"){
+            return window.innerHeight < window.innerWidth //detect landscape old style
+        }else{
+            return screen.orientation.type.includes("landscape")    
+        }
+    },
+
+    anyButtonAreaContains(x, y){
+        const allAreas = this.buttonList.map(item => item.area)
+
+        return allAreas.some(item => item.contains(x, y))
+    },
+
+    isMovingWithButtons(){
+        return this.joystick.active || this.dpad.active
+    },
+
+    param(){
+        return this.parameters
+    },
 
 }
 
@@ -1671,9 +1724,9 @@ Game_Temp.prototype.setDestination = function(x, y) {
 /* ------------------------------- SCENE BOOT ------------------------------- */
 {
 
-Alias.Scene_Boot_start = Scene_Boot.prototype.start
-Scene_Boot.prototype.start = function() {
-    Alias.Scene_Boot_start.call(this)
+Alias.Scene_Boot_create = Scene_Boot.prototype.create
+Scene_Boot.prototype.create = function() {
+    Alias.Scene_Boot_create.call(this)
     Plugin.createHtmlElements()
 }
 
@@ -1682,13 +1735,31 @@ Scene_Boot.prototype.start = function() {
 /* ------------------------------- SCENE BASE ------------------------------- */
 {
 
-Alias.Scene_Base_start = Scene_Base.prototype.start
-Scene_Base.prototype.start = function(){
-    Alias.Scene_Base_start.call(this)
+Alias.Scene_Base_create = Scene_Base.prototype.create
+Scene_Base.prototype.create = function(){
+    Alias.Scene_Base_create.call(this)
+
     if(Plugin.canRefreshButtonsForScene()){
         Plugin.refreshButtonsForScene()
     }
-    
+}
+
+if(Plugin.param().fixButtonSize && !Utils.isNwjs()){
+
+    Alias.Scene_Base_update = Scene_Base.prototype.update
+    Scene_Base.prototype.update = function(){
+        Alias.Scene_Base_update.call(this)
+        this.keepRefreshingMobileButtonsForScene()
+    }
+
+    Scene_Base.prototype.keepRefreshingMobileButtonsForScene = function(){
+        Plugin.timeForRefresh++
+
+        if(Plugin.canRefreshButtonsForScene() && Plugin.timeForRefresh >= Plugin.param().fixButtonInterval){
+            Plugin.refreshButtonsForScene()
+            Plugin.timeForRefresh = 0
+        }
+    }
 }
 
 }
@@ -1724,14 +1795,12 @@ Window_Message.prototype.update = function() {
 }
 
 Window_Message.prototype.canUpdateMobileControls = function(){
-    return  Plugin.isActive() && Plugin.param().hideOnMessage && 
+    return  Plugin.param().hideOnMessage && 
             !Plugin.getControlButton().isHidingButtons
 }
 
 Window_Message.prototype.canHideMobileControls = function(){
-    return  this.isOpening() || this.isOpen() || 
-            this._choiceWindow.isOpening() || 
-            this._choiceWindow.isOpen()
+    return  this.isOpening() || this.isOpen() 
 }
 
 Window_Message.prototype.updateMobileControls = function() {
