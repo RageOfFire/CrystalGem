@@ -10,7 +10,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/RageOfFire/CrystalGem)
 ![GitHub followers](https://img.shields.io/github/followers/RageOfFire)
 ![GitHub Repo stars](https://img.shields.io/github/stars/RageOfFire/CrystalGem)
-![Website](https://img.shields.io/website?down_color=red&down_message=Offline&up_color=green&up_message=%C4%90ang%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&url=https%3A%2F%2Fwww.crystalgem.cf%2F)
+![Website](https://img.shields.io/website?down_color=red&down_message=Kh%C3%B4ng%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&style=plastic&up_color=green&up_message=%C4%90ang%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&url=https%3A%2F%2Frageoffire.github.io%2FCrystalGem%2F)
 
 ## Demo
 
