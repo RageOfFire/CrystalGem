@@ -361,6 +361,14 @@ const update = [
                 Giảm phần thưởng khi hoàn thành hướng dẫn<br>
                 Cải thiện thanh HP của người chơi và kẻ địch<br>
                 Thêm icon Gem của tiền<br>`
+            },
+            {
+                id: 'version182',
+                version: 'v1.8.2',
+                description: 
+                `Sửa 1 số lỗi trong cốt truyện<br>
+                Thay đổi nút di chuyển trên điện thoại<br>
+                Cập nhật cải thiện chế độ chơi nhiều người`
             }
         ],
         imageURL: "./img/CrystalGem v1.8 update.png"
