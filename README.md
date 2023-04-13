@@ -14,7 +14,7 @@
 
 ## Demo
 
-* Link website: [Demo](https://www.crystalgem.cf/)
+* Link website: [Demo](https://rageoffire.github.io/CrystalGem/)
 
 ## Tác giả
 
