@@ -369,6 +369,13 @@ const update = [
                 `Sửa 1 số lỗi trong cốt truyện<br>
                 Thay đổi nút di chuyển trên điện thoại<br>
                 Cập nhật cải thiện chế độ chơi nhiều người`
+            },
+            {
+                id: 'version183',
+                version: 'v1.8.3',
+                description: 
+                `Sửa lỗi nút trên điện thoại không hiện<br>
+                Làm 1 số sự kiện hiển thị rõ ràng hơn`
             }
         ],
         imageURL: "./img/CrystalGem v1.8 update.png"
