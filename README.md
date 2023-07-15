@@ -10,11 +10,12 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/RageOfFire/CrystalGem)
 ![GitHub followers](https://img.shields.io/github/followers/RageOfFire)
 ![GitHub Repo stars](https://img.shields.io/github/stars/RageOfFire/CrystalGem)
-![Website](https://img.shields.io/website?down_color=red&down_message=Kh%C3%B4ng%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&style=plastic&up_color=green&up_message=%C4%90ang%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&url=https%3A%2F%2Frageoffire.github.io%2FCrystalGem%2F)
+![Website](https://img.shields.io/website?up_message=%C4%90ang%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&up_color=green&down_message=Kh%C3%B4ng%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng&down_color=red&url=https%3A%2F%2Fgame.crystalgemcraft.com%2F&style=plastic)
+
 
 ## Demo
 
-* Link website: [Demo](https://rageoffire.github.io/CrystalGem/)
+* Link website: [Demo](https://game.crystalgemcraft.com)
 
 ## Tác giả
 
