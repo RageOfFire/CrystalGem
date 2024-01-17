@@ -376,6 +376,13 @@ const update = [
                 description: 
                 `Sửa lỗi nút trên điện thoại không hiện<br>
                 Làm 1 số sự kiện hiển thị rõ ràng hơn`
+            },
+            {
+                id: 'version184',
+                version: 'v1.8.4',
+                description: 
+                `1 số tối ưu trải nghiệm game<br>
+                Sửa lỗi máy chủ online không kết nối được`
             }
         ],
         imageURL: "./img/CrystalGem v1.8 update.png"
