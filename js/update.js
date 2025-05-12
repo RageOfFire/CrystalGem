@@ -386,5 +386,18 @@ const update = [
             }
         ],
         imageURL: "./img/CrystalGem v1.8 update.png"
+    },
+    {
+        versionName: 'v1.9.x',
+        details: [
+            {
+                id: 'version190',
+                version: 'v1.9.0',
+                description: 
+                `Thêm hệ thống ngôn ngữ tiếng anh<br>
+                Chỉnh sửa 1 chút máy chủ trực tuyến<br>`
+            },
+        ],
+        imageURL: "./img/CrystalGem v1.9 update.png"
     }
 ]
