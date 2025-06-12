@@ -393,9 +393,18 @@ const update = [
             {
                 id: 'version190',
                 version: 'v1.9.0',
-                description: 
+                description:
                 `Thêm hệ thống ngôn ngữ tiếng anh<br>
                 Chỉnh sửa 1 chút máy chủ trực tuyến<br>`
+            },
+            {
+                id: 'version191',
+                version: 'v1.9.1',
+                description:
+                `Sửa lỗi quái bất tử khi hoàn thành nhiệm vụ phụ<br>
+                Sửa lỗi 1 số lời nói không được dịch trong quá trình chiến đấu<br>
+                Sửa lỗi vật phẩm bị dịch sai<br>
+                Sửa 1 số lời nói không hiển thị`
             },
         ],
         imageURL: "./img/CrystalGem v1.9 update.png"
